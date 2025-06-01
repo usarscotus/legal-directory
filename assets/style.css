@@ -395,30 +395,36 @@ html {
   font-size: 0.95rem;
 }
 
-.rule-link-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  margin: 1rem auto;
-  max-width: 500px; /* ⬅️ constrain width */
+.rule-section {
+  margin-bottom: 2rem;
 }
 
-.rule-link-list a {
-  display: inline-block;
+.rule-section h2 {
+  font-size: 1rem;
+  color: #003366;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.25rem;
+}
+
+.rule-section a {
+  display: block;
+  margin-bottom: 0.4rem;
   color: #003366;
   text-decoration: none;
   font-weight: 500;
-  padding: 0.4rem 0.75rem;
+  padding: 0.3rem 0.6rem;
   border-radius: 4px;
-  transition: all 0.2s ease-in-out;
   background: #f8f9fa;
   border: 1px solid #d1d5db;
+  transition: all 0.2s ease-in-out;
 }
 
-.rule-link-list a:hover {
+.rule-section a:hover {
   background: rgba(30, 64, 175, 0.07);
   color: #1e40af;
 }
+
 
 
 
