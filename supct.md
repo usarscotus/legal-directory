@@ -6,13 +6,13 @@ show_breadcrumbs: true
 breadcrumb_parent_url: /
 ---
 
-# Supreme Court Rules
+<h1>Supreme Court Rules</h1>
 
-Below is a list of Supreme Court procedural rules:
+<p>Select a rule below to view its full text:</p>
 
-<ul>
-  <li><a href="{{ site.baseurl }}/supct/rule_1/">Rule 1. Clerk</a></li>
-  <li><a href="{{ site.baseurl }}/supct/rule_2/">Rule 2. Library</a></li>
-  <li><a href="{{ site.baseurl }}/supct/rule_3/">Rule 3. Term</a></li>
-  <li><a href="{{ site.baseurl }}/supct/rule_4/">Rule 4. Sessions and Quorum</a></li>
-</ul>
+<div class="rule-link-list">
+  <a href="{{ site.baseurl }}/supct/rule_1/">Rule 1. Clerk</a>
+  <a href="{{ site.baseurl }}/supct/rule_2/">Rule 2. Library</a>
+  <a href="{{ site.baseurl }}/supct/rule_3/">Rule 3. Term</a>
+  <a href="{{ site.baseurl }}/supct/rule_4/">Rule 4. Sessions and Quorum</a>
+</div>

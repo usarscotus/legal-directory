@@ -395,4 +395,29 @@ html {
   font-size: 0.95rem;
 }
 
+.rule-link-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.rule-link-list a {
+  display: inline-block;
+  color: #003366;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.4rem 0.75rem;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+  background: #f8f9fa;
+  border: 1px solid #d1d5db;
+}
+
+.rule-link-list a:hover {
+  background: rgba(30, 64, 175, 0.07);
+  color: #1e40af;
+}
+
+
 
