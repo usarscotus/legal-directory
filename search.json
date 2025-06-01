@@ -18,6 +18,8 @@ permalink: /search.json
         {% assign parent = "Supreme Court Rules" %}
     {% when "frcp" %}
         {% assign parent = "Federal Rules of Civil Procedure" %}
+    {% when "frcmp" %}
+        {% assign parent = "Federal Rules of Criminal Procedure" %}
     {% when "fre" %}
         {% assign parent = "Federal Rules of Evidence" %}
     {% when "frap" %}
