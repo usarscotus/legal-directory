@@ -1,7 +1,5 @@
 ---
-layout: none
 ---
-
 [
 {% assign docs = site.html_pages | where_exp: "doc", "doc.layout != 'page' and doc.search_exclude != true" %}
 {% for doc in docs %}
