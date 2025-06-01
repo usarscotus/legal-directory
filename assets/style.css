@@ -426,9 +426,11 @@ html {
 }
 
 .rule-link {
-  display: block;
-  margin-bottom: 4px; /* Optional: adds space between links */
+  display: inline-block;
+  width: auto;
+  margin-bottom: 4px;
 }
+
 
 
 
