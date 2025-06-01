@@ -182,52 +182,54 @@ html {
 
 
 #site-footer {
-  background: #f9f9f9;
-  border-top: 1px solid #ccc;
+  background: #f3f4f6;
+  border-top: 1px solid #d1d5db;
   padding: 2rem 1.5rem;
-  font-size: 0.9rem;
-  color: #444;
+  font-family: 'Georgia', serif;
+  color: #4b5563;
   margin-top: 3rem;
-  box-shadow: inset 0 1px 0 #ddd;
 }
 
 .footer-container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   text-align: center;
 }
 
-.footer-links-group {
+.footer-nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1.5rem;
-  margin-bottom: 1rem;
+  gap: 1.75rem;
+  margin-bottom: 1.25rem;
 }
 
-.footer-links-group a {
-  color: #003366;
-  text-decoration: none;
+.footer-nav a {
+  color: #374151;
   font-weight: 500;
-  transition: color 0.2s ease;
+  font-size: 0.95rem;
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
 }
 
-.footer-links-group a:hover {
-  color: #0057b7;
-  text-decoration: underline;
+.footer-nav a:hover {
+  color: #1e40af;
+  background: rgba(30, 64, 175, 0.07);
 }
 
 .footer-divider {
-  width: 60px;
-  height: 3px;
-  background: #003366;
-  margin: 1rem auto;
-  border-radius: 2px;
+  border: none;
+  height: 1px;
+  background-color: #d1d5db;
+  width: 80%;
+  margin: 0 auto 1.25rem auto;
 }
 
 .footer-credit {
-  color: #666;
-  font-size: 0.8rem;
-  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #6b7280;
 }
+
 
