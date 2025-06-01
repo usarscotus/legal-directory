@@ -12,41 +12,44 @@ breadcrumb_parent_url: /
 
 <script src="https://unpkg.com/lunr/lunr.js"></script>
 <script>
-    // Get the search query
-    const params = new URLSearchParams(window.location.search);
-    const query = params.get("q");
+  const params = new URLSearchParams(window.location.search);
+  const query = params.get("q");
 
-    if (query) {
-        document.title = `Search: ${query}`;
-        fetch("{{ site.baseurl }}/search.json")
-            .then(res => res.json())
-            .then(docs => {
-                const idx = lunr(function () {
-                    this.ref("url");
-                    this.field("title");
-                    this.field("content");
+  if (query) {
+    document.title = `Search: ${query}`;
 
-                    docs.forEach(doc => this.add(doc));
-                });
+    fetch("{{ site.baseurl }}/search.json")
+      .then(res => res.json())
+      .then(docs => {
+        const idx = lunr(function () {
+          this.ref("url");
+          this.field("title");
+          this.field("content");
 
-                const results = idx.search(query);
-                const container = document.getElementById("search-results");
-                const count = document.getElementById("search-results-count");
+          docs.forEach(doc => {
+            doc.content = doc.content.toLowerCase();
+            doc.title = (doc.title || "").toLowerCase();
+            this.add(doc);
+          });
+        });
 
-                if (results.length > 0) {
-                    count.textContent = `${results.length} result${results.length !== 1 ? "s" : ""} found for “${query}”`;
-                    results.forEach(result => {
-                        const match = docs.find(d => d.url === result.ref);
-                        const item = document.createElement("li");
-                        const breadcrumb = match.breadcrumb_parent ? `<div class="search-breadcrumb">${match.breadcrumb_parent}</div>` : "";
-                        item.innerHTML = `${breadcrumb} <a href="${match.url}">${match.title}</a>`;
-                        container.appendChild(item);
-                    });
-                } else {
-                    count.textContent = `No results found for “${query}”`;
-                }
-            });
-    } else {
-        document.getElementById("search-results-count").textContent = "No query provided.";
-    }
+        const results = idx.search(query.toLowerCase());
+        const container = document.getElementById("search-results");
+        const count = document.getElementById("search-results-count");
+
+        if (results.length > 0) {
+          count.textContent = `${results.length} result${results.length !== 1 ? "s" : ""} found for “${query}”`;
+          results.forEach(result => {
+            const match = docs.find(d => d.url === result.ref);
+            const item = document.createElement("li");
+            item.innerHTML = `<a href="${match.url}">${match.title}</a>`;
+            container.appendChild(item);
+          });
+        } else {
+          count.textContent = `No results found for “${query}”`;
+        }
+      });
+  } else {
+    document.getElementById("search-results-count").textContent = "No query provided.";
+  }
 </script>
