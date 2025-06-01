@@ -65,6 +65,20 @@ main {
   font-weight: bold;
 }
 
+#breadcrumb {
+  background: #eee;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #ccc;
+}
+#breadcrumb a {
+  color: #003366;
+  text-decoration: none;
+}
+#breadcrumb a:hover {
+  text-decoration: underline;
+}
+
 /* Rule content formatting */
 h1, h2, h3 {
   color: #003366;
@@ -87,3 +101,22 @@ footer {
   font-size: 0.9rem;
   margin-top: 2rem;
 }
+
+.up-link {
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  background: #f5f5f5;
+  border-top: 1px solid #ccc;
+  text-align: left;
+}
+
+.up-link a {
+  color: #003366;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.up-link a:hover {
+  text-decoration: underline;
+}
+
