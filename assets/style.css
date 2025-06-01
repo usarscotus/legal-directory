@@ -18,13 +18,19 @@ main {
 
 /* Header background wrappers */
 #cornell-topbar-bg {
-  background-color: #003366;
-  color: white;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
 }
 
 #cornell-nav-bg {
-  background-color: #e5e5e5;
+  position: fixed;
+  top: 56px; /* Adjust this based on the actual height of #cornell-topbar-bg */
+  left: 0;
+  width: 100%;
+  z-index: 998;
 }
 
 .header-container {
