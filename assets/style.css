@@ -399,7 +399,8 @@ html {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  margin-top: 1rem;
+  margin: 1rem auto;
+  max-width: 500px; /* ⬅️ constrain width */
 }
 
 .rule-link-list a {
