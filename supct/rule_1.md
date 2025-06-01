@@ -2,6 +2,9 @@
 layout: rule
 title: Rule 1. Clerk
 permalink: /supct/rule_1/
+notes:
+  - "This rule was amended in 2023 to reflect changes in federal filing procedure."
+  - "See also: Rule 3. Service for related provisions."
 ---
 
 1. The Clerk receives documents for filing with the Court and has authority to reject any submitted filing that does not comply with these Rules.
