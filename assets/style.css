@@ -425,6 +425,11 @@ html {
   color: #1e40af;
 }
 
+.rule-link {
+  display: block;
+  margin-bottom: 4px; /* Optional: adds space between links */
+}
+
 
 
 
