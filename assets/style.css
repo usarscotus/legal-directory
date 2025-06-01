@@ -108,7 +108,9 @@ main {
 
 
 .homepage-section {
-  padding: 2rem 1.5rem;
+  padding-top: 140px; /* Adjust if needed */
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .resource-grid {
@@ -190,7 +192,9 @@ main {
 
 
 /* Rule content formatting */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: #003366;
 }
 
@@ -244,6 +248,7 @@ html {
 }
 
 @media (max-width: 600px) {
+
   main,
   .content-container {
     padding: 1rem;
@@ -257,6 +262,11 @@ html {
   #cornell-nav ul {
     flex-direction: column;
     gap: 0.5rem;
+  }
+
+  .homepage-section {
+    padding-top: 140px;
+    /* Adjust this based on your header's height */
   }
 }
 
@@ -438,8 +448,3 @@ html {
   width: auto;
   margin-bottom: 4px;
 }
-
-
-
-
-
