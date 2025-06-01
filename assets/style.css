@@ -186,6 +186,7 @@ html {
   background: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   border: 1px solid #ddd;
+  box-sizing: border-box;
 }
 
 @media (max-width: 600px) {
@@ -209,23 +210,24 @@ html {
 
 .two-column-layout {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 2rem;
-  align-items: flex-start;
 }
 
 .main-column {
-  flex: 1 1 650px;
+  flex: 1 1 auto;
   min-width: 0;
 }
 
 .sidebar {
   flex: 0 0 250px;
-  padding: 1rem;
+  max-width: 250px;
   background: #f9f9f9;
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 0.95rem;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
 .toolbox-box h3 {
