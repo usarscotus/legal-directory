@@ -1,9 +1,89 @@
+/* Base Typography */
 body {
   font-family: Georgia, serif;
-  margin: 2rem;
+  margin: 0;
+  padding: 0;
   line-height: 1.6;
+  background: #fdfdfd;
+  color: #222;
 }
-nav a {
-  margin-right: 1rem;
+
+main {
+  padding: 2rem 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Header and Top Bar */
+#cornell-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #003366;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#cornell-topbar {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1rem;
+}
+
+.cornell-logo {
+  font-weight: bold;
+  color: white;
+  font-size: 1.5rem;
   text-decoration: none;
+  margin-right: 1rem;
+}
+
+.cornell-title a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+/* Navigation Bar */
+#cornell-nav {
+  background: #e5e5e5;
+  padding: 0.5rem 1rem;
+}
+
+#cornell-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+#cornell-nav a {
+  text-decoration: none;
+  color: #003366;
+  font-weight: bold;
+}
+
+/* Rule content formatting */
+h1, h2, h3 {
+  color: #003366;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer (optional) */
+footer {
+  border-top: 1px solid #ccc;
+  text-align: center;
+  padding: 1rem;
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 2rem;
 }
