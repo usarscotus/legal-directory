@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Supreme Court Rules
-permalink: /legal-directory/supct/
+permalink: /supct/
 ---
 
 # Supreme Court Rules
