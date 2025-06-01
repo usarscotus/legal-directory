@@ -1,0 +1,9 @@
+body {
+  font-family: Georgia, serif;
+  margin: 2rem;
+  line-height: 1.6;
+}
+nav a {
+  margin-right: 1rem;
+  text-decoration: none;
+}
