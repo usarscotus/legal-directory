@@ -11,8 +11,7 @@ permalink: /search.json
   {% endunless %}
 {% endfor %}
 {% for doc in valid_docs %}
-  {% assign parts = doc.url | split: '/' %}
-  {% assign section = parts[2] | downcase %}
+{% assign section = doc.url | downcase | split: '/' | where_exp: "p", "p == 'supct' or p == 'frcp' or p == 'fre' or p == 'frap'" | first %}
 
     {% case section %}
     {% when "supct" %}
