@@ -24,21 +24,23 @@
     </div>
     {% endif %}
 
-    <div class="two-column-layout">
-        <main class="main-column">
-            {{ content }}
-        </main>
+    <div class="content-container">
+        <div class="two-column-layout">
+            <main class="main-column">
+                {{ content }}
+            </main>
 
-        <aside class="sidebar">
-            <div class="toolbox-box">
-                <h3>Page Toolbox</h3>
-                <ul>
-                    <li><a href="{{ site.baseurl }}/search.html">Search</a></li>
-                    <li><a href="{{ site.baseurl }}/help/">Help & FAQ</a></li>
-                    <li><a href="{{ site.baseurl }}/subscribe/">Subscribe</a></li>
-                </ul>
-            </div>
-        </aside>
+            <aside class="sidebar">
+                <div class="toolbox-box">
+                    <h3>Page Toolbox</h3>
+                    <ul>
+                        <li><a href="{{ site.baseurl }}/search.html">Search</a></li>
+                        <li><a href="{{ site.baseurl }}/help/">Help & FAQ</a></li>
+                        <li><a href="{{ site.baseurl }}/subscribe/">Subscribe</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
     </div>
 
     {% include footer.html %}
