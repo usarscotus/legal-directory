@@ -32,6 +32,9 @@ main {
 #cornell-topbar {
   display: flex;
   align-items: center;
+}
+
+#cornell-topbar .header-container {
   padding: 0.75rem 1rem;
 }
 
@@ -52,6 +55,9 @@ main {
 /* Navigation Bar */
 #cornell-nav {
   background: #e5e5e5;
+}
+
+#cornell-nav .header-container {
   padding: 0.5rem 1rem;
 }
 
