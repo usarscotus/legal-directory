@@ -11,22 +11,28 @@ permalink: /search.json
   {% endunless %}
 {% endfor %}
 {% for doc in valid_docs %}
-{% assign section = doc.url | downcase | split: '/' | where_exp: "p", "p == 'supct' or p == 'frcp' or p == 'fre' or p == 'frap'" | first %}
+  {% assign parts = doc.url | downcase | split: '/' %}
+  {% assign section = "" %}
+  {% for p in parts %}
+    {% if p == "supct" or p == "frcp" or p == "frcmp" or p == "fre" or p == "frap" %}
+      {% assign section = p %}
+    {% endif %}
+  {% endfor %}
 
-    {% case section %}
+  {% case section %}
     {% when "supct" %}
-        {% assign parent = "Supreme Court Rules" %}
+      {% assign parent = "Supreme Court Rules" %}
     {% when "frcp" %}
-        {% assign parent = "Federal Rules of Civil Procedure" %}
+      {% assign parent = "Federal Rules of Civil Procedure" %}
     {% when "frcmp" %}
-        {% assign parent = "Federal Rules of Criminal Procedure" %}
+      {% assign parent = "Federal Rules of Criminal Procedure" %}
     {% when "fre" %}
-        {% assign parent = "Federal Rules of Evidence" %}
+      {% assign parent = "Federal Rules of Evidence" %}
     {% when "frap" %}
-        {% assign parent = "Federal Rules of Appellate Procedure" %}
+      {% assign parent = "Federal Rules of Appellate Procedure" %}
     {% else %}
-        {% assign parent = "Other" %}
-    {% endcase %}
+      {% assign parent = "Other" %}
+  {% endcase %}
 
   {
     "title": {{ doc.title | jsonify }},
