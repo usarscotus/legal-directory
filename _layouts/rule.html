@@ -10,10 +10,12 @@
 <body>
     {% include header.html %}
 
-    <div id="breadcrumb">
-        <a href="https://www.law.cornell.edu/">LII</a> &gt;
-        <a href="{{ site.baseurl }}/supct/">Supreme Court Rules</a> &gt;
-        <strong>{{ page.title }}</strong>
+    <div id="breadcrumb-bg">
+        <div id="breadcrumb" class="breadcrumb-container">
+            <a href="{{ site.baseurl}}">Legal Directory</a> &gt;
+            <a href="{{ site.baseurl }}/supct/">Supreme Court Rules</a> &gt;
+            <strong>{{ page.title }}</strong>
+        </div>
     </div>
 
     <main id="top" class="content-container">

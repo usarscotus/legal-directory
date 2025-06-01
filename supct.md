@@ -1,7 +1,10 @@
 ---
-layout: default
+layout: page
 title: Supreme Court Rules
 permalink: /supct/
+show_breadcrumbs: true
+breadcrumb_parent: Home
+breadcrumb_parent_url: /
 ---
 
 # Supreme Court Rules

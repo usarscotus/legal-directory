@@ -74,19 +74,27 @@ main {
 
 
 
-#breadcrumb {
+#breadcrumb-bg {
   background: #eee;
-  padding: 0.5rem 1rem;
-  font-size: 0.9rem;
   border-bottom: 1px solid #ccc;
 }
-#breadcrumb a {
+
+.breadcrumb-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.9rem;
+}
+
+.breadcrumb-container a {
   color: #003366;
   text-decoration: none;
 }
-#breadcrumb a:hover {
+
+.breadcrumb-container a:hover {
   text-decoration: underline;
 }
+
 
 /* Rule content formatting */
 h1, h2, h3 {

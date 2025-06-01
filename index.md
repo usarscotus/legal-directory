@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 title: Home
+show_breadcrumbs: false
 ---
 
 # Federal Rules Reference
