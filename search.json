@@ -2,21 +2,18 @@
 ---
 [
 {% assign docs = site.html_pages %}
-{% assign last_index = 0 %}
-{% assign count = 0 %}
+{% assign valid_docs = "" | split: "" %}
 {% for doc in docs %}
   {% unless doc.layout == "page" or doc.search_exclude == true %}
-    {% assign count = count | plus: 1 %}
+    {% assign valid_docs = valid_docs | push: doc %}
   {% endunless %}
 {% endfor %}
-{% for doc in docs %}
-  {% unless doc.layout == "page" or doc.search_exclude == true %}
-    {
-      "title": {{ doc.title | jsonify }},
-      "url": "{{ site.baseurl }}{{ doc.url }}",
-      "content": {{ doc.content | strip_html | normalize_whitespace | jsonify }},
-      "breadcrumb_parent": {{ doc.breadcrumb_parent | default: "" | jsonify }}
-    }{% assign last_index = last_index | plus: 1 %}{% unless last_index == count %},{% endunless %}
-  {% endunless %}
+{% for doc in valid_docs %}
+  {
+    "title": {{ doc.title | jsonify }},
+    "url": "{{ site.baseurl }}{{ doc.url }}",
+    "content": {{ doc.content | strip_html | normalize_whitespace | jsonify }},
+    "breadcrumb_parent": {{ doc.breadcrumb_parent | default: "" | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
 {% endfor %}
 ]
