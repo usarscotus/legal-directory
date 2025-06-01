@@ -5,8 +5,8 @@ title: Home
 
 # Federal Rules Reference
 
-- [Federal Rules of Civil Procedure](/frcp/)
-- [Federal Rules of Evidence](/fre/)
-- [Federal Rules of Appellate Procedure](/frap/)
-- [Federal Rules of Criminal Procedure](/frcrp/)
-- [U.S. Supreme Court Rules](/supct/)
+- [Federal Rules of Civil Procedure]({{ site.baseurl }}/frcp/)
+- [Federal Rules of Evidence]({{ site.baseurl }}/fre/)
+- [Federal Rules of Appellate Procedure]({{ site.baseurl }}/frap/)
+- [Federal Rules of Criminal Procedure]({{ site.baseurl }}/frcrp/)
+- [U.S. Supreme Court Rules]({{ site.baseurl }}/supct/)
