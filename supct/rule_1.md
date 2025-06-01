@@ -1,7 +1,7 @@
 ---
 layout: rule
 title: Rule 1. Clerk
-permalink: /supct/rule_1/
+permalink: /legal-directory/supct/rule_1/
 ---
 
 - 1. The Clerk receives documents for filing with the Court and has authority to reject any submitted filing that does not comply with these Rules.
