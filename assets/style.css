@@ -79,21 +79,28 @@ main {
   border-bottom: 1px solid #ccc;
 }
 
+/* The layout-controlling wrapper */
 .breadcrumb-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0.5rem 1.5rem;
+  box-sizing: border-box;
+}
+
+/* The breadcrumb content styling */
+#breadcrumb {
   font-size: 0.9rem;
 }
 
-.breadcrumb-container a {
+#breadcrumb a {
   color: #003366;
   text-decoration: none;
 }
 
-.breadcrumb-container a:hover {
+#breadcrumb a:hover {
   text-decoration: underline;
 }
+
 
 
 /* Rule content formatting */
