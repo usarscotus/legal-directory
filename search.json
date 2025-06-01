@@ -11,11 +11,27 @@ permalink: /search.json
   {% endunless %}
 {% endfor %}
 {% for doc in valid_docs %}
+  {% assign parts = doc.url | split: '/' %}
+  {% assign section = parts[1] | downcase %}
+
+  {% case section %}
+    {% when "supct" %}
+      {% assign parent = "Supreme Court Rules" %}
+    {% when "frcp" %}
+      {% assign parent = "Federal Rules of Civil Procedure" %}
+    {% when "fre" %}
+      {% assign parent = "Federal Rules of Evidence" %}
+    {% when "frap" %}
+      {% assign parent = "Federal Rules of Appellate Procedure" %}
+    {% else %}
+      {% assign parent = "Other" %}
+  {% endcase %}
+
   {
     "title": {{ doc.title | jsonify }},
     "url": "{{ site.baseurl }}{{ doc.url }}",
     "content": {{ doc.content | strip_html | normalize_whitespace | jsonify }},
-    "breadcrumb_parent": {{ doc.breadcrumb_parent | default: "" | jsonify }}
+    "breadcrumb_parent": {{ parent | jsonify }}
   }{% unless forloop.last %},{% endunless %}
 {% endfor %}
 ]
