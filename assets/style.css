@@ -18,19 +18,11 @@ main {
 
 /* Header background wrappers */
 #cornell-topbar-bg {
-  position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
-  z-index: 999;
 }
 
 #cornell-nav-bg {
-  position: fixed;
-  top: 56px; /* Adjust this based on the actual height of #cornell-topbar-bg */
-  left: 0;
   width: 100%;
-  z-index: 998;
 }
 
 .header-container {
