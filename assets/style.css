@@ -14,28 +14,28 @@ main {
   margin: 0 auto;
 }
 
-/* Header and Top Bar */
-#cornell-header {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+
+
+/* Header background wrappers */
+#cornell-topbar-bg {
   background-color: #003366;
   color: white;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+#cornell-nav-bg {
+  background-color: #e5e5e5;
+}
+
 .header-container {
   max-width: 800px;
   margin: 0 auto;
+  padding: 0.75rem 1rem;
 }
 
 #cornell-topbar {
   display: flex;
   align-items: center;
-}
-
-#cornell-topbar .header-container {
-  padding: 0.75rem 1rem;
 }
 
 .cornell-logo {
@@ -52,13 +52,8 @@ main {
   font-size: 1.1rem;
 }
 
-/* Navigation Bar */
 #cornell-nav {
-  background: #e5e5e5;
-}
-
-#cornell-nav .header-container {
-  padding: 0.5rem 1rem;
+  padding: 0;
 }
 
 #cornell-nav ul {
@@ -75,6 +70,9 @@ main {
   color: #003366;
   font-weight: bold;
 }
+
+
+
 
 #breadcrumb {
   background: #eee;
