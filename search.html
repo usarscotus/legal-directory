@@ -8,7 +8,7 @@ breadcrumb_parent_url: /
 
 <h1>Search Results</h1>
 <p id="search-results-count"></p>
-<ul id="search-results"></ul>
+<div id="search-results"></div>
 
 <script src="https://unpkg.com/lunr/lunr.js"></script>
 <script>
@@ -36,7 +36,6 @@ breadcrumb_parent_url: /
                             title: (doc.title || "").toLowerCase(),
                             content: (doc.content || "").toLowerCase()
                         };
-                        console.log("Indexing document:", loweredDoc);
                         this.add(loweredDoc);
                     });
                 });
@@ -49,15 +48,35 @@ breadcrumb_parent_url: /
 
                 if (results.length > 0) {
                     count.textContent = `${results.length} result${results.length !== 1 ? "s" : ""} found for “${query}”`;
+
+                    // Group by breadcrumb_parent
+                    const grouped = {};
                     results.forEach(result => {
                         const match = docs.find(d => d.url === result.ref);
-                        console.log("Matched document:", match);
-                        const item = document.createElement("li");
-                        item.innerHTML = `<a href="${match.url}">${match.title}</a>`;
-                        container.appendChild(item);
+                        if (!match) return;
+
+                        const parent = match.breadcrumb_parent || "Other";
+                        if (!grouped[parent]) grouped[parent] = [];
+                        grouped[parent].push(match);
                     });
+
+                    // Render each group
+                    for (const parent in grouped) {
+                        const header = document.createElement("h2");
+                        header.textContent = parent;
+                        container.appendChild(header);
+
+                        const list = document.createElement("ul");
+                        grouped[parent].forEach(match => {
+                            const item = document.createElement("li");
+                            item.innerHTML = `<a href="${match.url}">${match.title}</a>`;
+                            list.appendChild(item);
+                        });
+
+                        container.appendChild(list);
+                    }
+
                 } else {
-                    console.warn(`No results found for query: ${query}`);
                     count.textContent = `No results found for “${query}”`;
                 }
             })
@@ -65,7 +84,6 @@ breadcrumb_parent_url: /
                 console.error("Failed to load search.json or process search:", error);
             });
     } else {
-        console.warn("No query parameter provided in the URL.");
         document.getElementById("search-results-count").textContent = "No query provided.";
     }
 </script>
