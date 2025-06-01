@@ -92,6 +92,12 @@ main {
   box-sizing: border-box;
 }
 
+.search-breadcrumb {
+  font-size: 0.8rem;
+  color: #6b7280;
+  margin-bottom: 0.2rem;
+}
+
 /* The breadcrumb content styling */
 #breadcrumb {
   font-size: 0.9rem;
