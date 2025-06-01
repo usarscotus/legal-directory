@@ -27,10 +27,11 @@ main {
   background-color: #e5e5e5;
 }
 
-.header-container {
+.header-container,
+.content-container {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 0.75rem 1rem;
+  padding: 1rem 1.5rem;
 }
 
 #cornell-topbar {
@@ -134,9 +135,6 @@ html {
 }
 
 .content-container {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 2rem 1.5rem;
   background: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   border: 1px solid #ddd;
