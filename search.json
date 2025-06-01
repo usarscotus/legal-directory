@@ -5,7 +5,7 @@ layout: none
 [
   {% assign last = site.pages.size %}
   {% assign index = 0 %}
-  {% for doc in site.pages %}
+  {% for doc in site.html_pages %}
     {% unless doc.layout == "page" or doc.search_exclude == true %}
       {
         "title": {{ doc.title | jsonify }},
