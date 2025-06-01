@@ -12,44 +12,60 @@ breadcrumb_parent_url: /
 
 <script src="https://unpkg.com/lunr/lunr.js"></script>
 <script>
-  const params = new URLSearchParams(window.location.search);
-  const query = params.get("q");
+    const params = new URLSearchParams(window.location.search);
+    const query = params.get("q");
 
-  if (query) {
-    document.title = `Search: ${query}`;
+    console.log("Search query:", query);
 
-    fetch("{{ site.baseurl }}/search.json")
-      .then(res => res.json())
-      .then(docs => {
-        const idx = lunr(function () {
-          this.ref("url");
-          this.field("title");
-          this.field("content");
+    if (query) {
+        document.title = `Search: ${query}`;
 
-          docs.forEach(doc => {
-            doc.content = doc.content.toLowerCase();
-            doc.title = (doc.title || "").toLowerCase();
-            this.add(doc);
-          });
-        });
+        fetch("{{ site.baseurl }}/search.json")
+            .then(res => res.json())
+            .then(docs => {
+                console.log("Fetched documents:", docs);
 
-        const results = idx.search(query.toLowerCase());
-        const container = document.getElementById("search-results");
-        const count = document.getElementById("search-results-count");
+                const idx = lunr(function () {
+                    this.ref("url");
+                    this.field("title");
+                    this.field("content");
 
-        if (results.length > 0) {
-          count.textContent = `${results.length} result${results.length !== 1 ? "s" : ""} found for “${query}”`;
-          results.forEach(result => {
-            const match = docs.find(d => d.url === result.ref);
-            const item = document.createElement("li");
-            item.innerHTML = `<a href="${match.url}">${match.title}</a>`;
-            container.appendChild(item);
-          });
-        } else {
-          count.textContent = `No results found for “${query}”`;
-        }
-      });
-  } else {
-    document.getElementById("search-results-count").textContent = "No query provided.";
-  }
+                    docs.forEach(doc => {
+                        const loweredDoc = {
+                            url: doc.url,
+                            title: (doc.title || "").toLowerCase(),
+                            content: (doc.content || "").toLowerCase()
+                        };
+                        console.log("Indexing document:", loweredDoc);
+                        this.add(loweredDoc);
+                    });
+                });
+
+                const results = idx.search(query.toLowerCase());
+                console.log("Search results:", results);
+
+                const container = document.getElementById("search-results");
+                const count = document.getElementById("search-results-count");
+
+                if (results.length > 0) {
+                    count.textContent = `${results.length} result${results.length !== 1 ? "s" : ""} found for “${query}”`;
+                    results.forEach(result => {
+                        const match = docs.find(d => d.url === result.ref);
+                        console.log("Matched document:", match);
+                        const item = document.createElement("li");
+                        item.innerHTML = `<a href="${match.url}">${match.title}</a>`;
+                        container.appendChild(item);
+                    });
+                } else {
+                    console.warn(`No results found for query: ${query}`);
+                    count.textContent = `No results found for “${query}”`;
+                }
+            })
+            .catch(error => {
+                console.error("Failed to load search.json or process search:", error);
+            });
+    } else {
+        console.warn("No query parameter provided in the URL.");
+        document.getElementById("search-results-count").textContent = "No query provided.";
+    }
 </script>
