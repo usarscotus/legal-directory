@@ -18,11 +18,13 @@ main {
 
 /* Header background wrappers */
 #cornell-topbar-bg {
-  width: 100%;
+  background-color: #003366;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 #cornell-nav-bg {
-  width: 100%;
+  background-color: #e5e5e5;
 }
 
 .header-container {
