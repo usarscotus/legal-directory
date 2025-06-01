@@ -120,3 +120,13 @@ footer {
   text-decoration: underline;
 }
 
+.content-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem 1.5rem;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  border: 1px solid #ddd;
+}
+
+
