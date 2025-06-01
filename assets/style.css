@@ -180,7 +180,7 @@ html {
 }
 
 .content-container {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 2rem auto;
   padding: 2rem 1.5rem;
   background: #fff;
@@ -202,6 +202,69 @@ html {
   #cornell-nav ul {
     flex-direction: column;
     gap: 0.5rem;
+  }
+}
+
+
+
+.two-column-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.main-column {
+  flex: 1 1 650px;
+  min-width: 0;
+}
+
+.sidebar {
+  flex: 0 0 250px;
+  padding: 1rem;
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.toolbox-box h3 {
+  margin-top: 0;
+  font-size: 1rem;
+  color: #003366;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.25rem;
+}
+
+.toolbox-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0 0;
+}
+
+.toolbox-box li {
+  margin-bottom: 0.5rem;
+}
+
+.toolbox-box a {
+  text-decoration: none;
+  color: #003366;
+  transition: all 0.2s ease-in-out;
+}
+
+.toolbox-box a:hover {
+  text-decoration: underline;
+  color: #1e3a8a;
+}
+
+@media (max-width: 800px) {
+  .two-column-layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    margin-top: 1.5rem;
   }
 }
 

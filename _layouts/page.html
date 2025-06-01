@@ -24,9 +24,22 @@
     </div>
     {% endif %}
 
-    <main id="top" class="content-container">
-        {{ content }}
-    </main>
+    <div class="two-column-layout">
+        <main class="main-column">
+            {{ content }}
+        </main>
+
+        <aside class="sidebar">
+            <div class="toolbox-box">
+                <h3>Page Toolbox</h3>
+                <ul>
+                    <li><a href="{{ site.baseurl }}/search.html">Search</a></li>
+                    <li><a href="{{ site.baseurl }}/help/">Help & FAQ</a></li>
+                    <li><a href="{{ site.baseurl }}/subscribe/">Subscribe</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
 
     {% include footer.html %}
 </body>

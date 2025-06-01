@@ -2,6 +2,7 @@
 layout: page
 title: Home
 show_breadcrumbs: false
+show_sidebar: true
 ---
 
 # Federal Rules Reference
