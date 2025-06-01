@@ -3,13 +3,16 @@ layout: none
 ---
 
 [
-  {% assign docs = site.pages | where_exp: "p", "p.search_exclude != true and p.layout != 'page'" %}
-  {% for doc in docs %}
-    {
-      "title": {{ doc.title | jsonify }},
-      "url": "{{ site.baseurl }}{{ doc.url }}",
-      "content": {{ doc.content | strip_html | normalize_whitespace | jsonify }},
-      "breadcrumb_parent": {{ doc.breadcrumb_parent | default: "" | jsonify }}
-    }{% unless forloop.last %},{% endunless %}
+  {% assign last = site.pages.size %}
+  {% assign index = 0 %}
+  {% for doc in site.pages %}
+    {% unless doc.layout == "page" or doc.search_exclude == true %}
+      {
+        "title": {{ doc.title | jsonify }},
+        "url": "{{ site.baseurl }}{{ doc.url }}",
+        "content": {{ doc.content | strip_html | normalize_whitespace | jsonify }},
+        "breadcrumb_parent": {{ doc.breadcrumb_parent | default: "" | jsonify }}
+      }{% assign index = index | plus: 1 %}{% if index < last %},{% endif %}
+    {% endunless %}
   {% endfor %}
 ]
