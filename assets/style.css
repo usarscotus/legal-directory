@@ -181,6 +181,62 @@ html {
 
 
 
+#site-search {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#site-search input {
+  padding: 0.4rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-family: Georgia, serif;
+}
+
+#site-search button {
+  padding: 0.4rem 0.8rem;
+  background-color: #003366;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#site-search button:hover {
+  background-color: #1e3a8a;
+}
+
+#search-results {
+  padding-left: 1.5rem;
+  line-height: 1.6;
+}
+
+#search-results li {
+  margin-bottom: 0.5rem;
+}
+
+#search-results a {
+  color: #003366;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#search-results a:hover {
+  text-decoration: underline;
+}
+
+#search-results-count {
+  font-style: italic;
+  margin: 1rem 0;
+}
+
+
+
 #site-footer {
   background: #f3f4f6;
   border-top: 1px solid #d1d5db;
