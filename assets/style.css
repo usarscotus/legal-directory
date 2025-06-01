@@ -27,6 +27,14 @@ main {
   background-color: #e5e5e5;
 }
 
+#cornell-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
 .header-container {
   max-width: 1200px;
   margin: 0 auto;
