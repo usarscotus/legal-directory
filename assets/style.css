@@ -182,7 +182,7 @@ html {
 .content-container {
   max-width: 1000px;
   margin: 2rem auto;
-  padding: 2rem 1.5rem;
+  padding: 2rem;
   background: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   border: 1px solid #ddd;
@@ -210,23 +210,24 @@ html {
 
 .two-column-layout {
   display: flex;
-  flex-wrap: nowrap;
+  width: 100%; /* ✅ this ensures full layout width */
   gap: 2rem;
+  align-items: flex-start;
 }
 
 .main-column {
-  flex: 1 1 auto;
+  flex: 1;
   min-width: 0;
 }
 
 .sidebar {
   flex: 0 0 250px;
   max-width: 250px;
+  padding: 1rem;
   background: #f9f9f9;
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 0.95rem;
-  padding: 1rem;
   box-sizing: border-box;
 }
 
