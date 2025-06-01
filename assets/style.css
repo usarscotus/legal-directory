@@ -30,7 +30,7 @@ main {
 body::before {
   content: "";
   display: block;
-  height: 140px;
+  height: 105.594px;
 }
 
 #cornell-header {
