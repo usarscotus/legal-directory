@@ -10,25 +10,25 @@ Every document, whether prepared under Rule 33.1 or Rule 33.2 , shall comply wit
 1. Each document shall bear on its cover, in the order indicated, from the top of the page:
 
 
-&nbsp;&nbsp;(a) the docket number of the case or, if there is none, a space for one;
+    (a) the docket number of the case or, if there is none, a space for one;
 
 
-&nbsp;&nbsp;(b) the name of this Court;
+    (b) the name of this Court;
 
 
-&nbsp;&nbsp;(c) the caption of the case as appropriate in this Court;
+    (c) the caption of the case as appropriate in this Court;
 
 
-&nbsp;&nbsp;(d) the nature of the proceeding and the name of the court from which the action is brought (e. g., "On Petition for Writ of Certiorari to the United States Court of Appeals for the Fifth Circuit"; or, for a merits brief, "On Writ of Certiorari to the United States Court of Appeals for the Fifth Circuit");
+    (d) the nature of the proceeding and the name of the court from which the action is brought (e. g., "On Petition for Writ of Certiorari to the United States Court of Appeals for the Fifth Circuit"; or, for a merits brief, "On Writ of Certiorari to the United States Court of Appeals for the Fifth Circuit");
 
 
-&nbsp;&nbsp;(e) the title of the document ( e. g. , "Petition for Writ of Certiorari," "Brief for Respondent," "Joint Appendix");
+    (e) the title of the document ( e. g. , "Petition for Writ of Certiorari," "Brief for Respondent," "Joint Appendix");
 
 
-&nbsp;&nbsp;(f) the name of the attorney who is counsel of record for the party concerned (who must be a member of the Bar of this Court except as provided in Rule 9.1 ), and on whom service is to be made, with a notation directly thereunder identifying the attorney as counsel of record and setting out counsel's office address, e-mail address, and telephone number. Only one counsel of record may be noted on a single document, except that counsel of record for each party must be listed on the cover of a joint appendix. The names of other members of the Bar of this Court or of the bar of the highest court of a State acting as counsel, and, if desired, their addresses, may be added, but counsel of record shall be clearly identified. Names of persons other than attorneys admitted to a state bar may not be listed, unless the party is appearing pro se , in which case the party's name, address, and telephone number shall appear.
+    (f) the name of the attorney who is counsel of record for the party concerned (who must be a member of the Bar of this Court except as provided in Rule 9.1 ), and on whom service is to be made, with a notation directly thereunder identifying the attorney as counsel of record and setting out counsel's office address, e-mail address, and telephone number. Only one counsel of record may be noted on a single document, except that counsel of record for each party must be listed on the cover of a joint appendix. The names of other members of the Bar of this Court or of the bar of the highest court of a State acting as counsel, and, if desired, their addresses, may be added, but counsel of record shall be clearly identified. Names of persons other than attorneys admitted to a state bar may not be listed, unless the party is appearing pro se , in which case the party's name, address, and telephone number shall appear.
 
 
-&nbsp;&nbsp;(g) The foregoing shall be displayed in an appropriate typographic manner and, except for the identification of counsel, may not be set in type smaller than standard 11 point, if the document is prepared as required by Rule 33.1 .
+    (g) The foregoing shall be displayed in an appropriate typographic manner and, except for the identification of counsel, may not be set in type smaller than standard 11 point, if the document is prepared as required by Rule 33.1 .
 
 
 2. Every document exceeding (other than a joint appendix), that exceeds 1,500 words when prepared under Rule 33.1 or that exceeds five pages when prepared under Rule 33.2 , shall contain a table of contents and a table of cited authorities ( i. e. , cases alphabetically arranged, constitutional provisions, statutes, treatises, and other materials) with references to the pages in the document where such authorities are cited.

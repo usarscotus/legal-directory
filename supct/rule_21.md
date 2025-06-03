@@ -10,10 +10,10 @@ permalink: /supct/rule_21/
 2. (a) A motion in any action within the Court's original jurisdiction shall comply with Rule 17.3 .
 
 
-&nbsp;&nbsp;(b) A motion to dismiss as moot (or a suggestion of mootness), a motion for leave to file a brief as amicus curiae , and any motion the granting of which would dispose of the entire case or would affect the final judgment to be entered (other than a motion to docket and dismiss under Rule 18.5 or a motion for voluntary dismissal under Rule 46 ) shall be prepared as required by Rule 33.1 , and 40 copies shall be filed, except that a movant proceeding in forma pauperis under Rule 39 , including an inmate of an institution, shall file a motion prepared as required by Rule 33.2 , and shall file the number of copies required for a petition by such a person under Rule 12.2 . The motion shall be served as required by Rule 29 .
+    (b) A motion to dismiss as moot (or a suggestion of mootness), a motion for leave to file a brief as amicus curiae , and any motion the granting of which would dispose of the entire case or would affect the final judgment to be entered (other than a motion to docket and dismiss under Rule 18.5 or a motion for voluntary dismissal under Rule 46 ) shall be prepared as required by Rule 33.1 , and 40 copies shall be filed, except that a movant proceeding in forma pauperis under Rule 39 , including an inmate of an institution, shall file a motion prepared as required by Rule 33.2 , and shall file the number of copies required for a petition by such a person under Rule 12.2 . The motion shall be served as required by Rule 29 .
 
 
-&nbsp;&nbsp;(c) Any other motion to the Court shall be prepared as required by Rule 33.2 ; the moving party shall file an original and 10 copies. The Court subsequently may order the moving party to prepare the motion as required by Rule 33.1 ; in that event, the party shall file 40 copies.
+    (c) Any other motion to the Court shall be prepared as required by Rule 33.2 ; the moving party shall file an original and 10 copies. The Court subsequently may order the moving party to prepare the motion as required by Rule 33.1 ; in that event, the party shall file 40 copies.
 
 
 3. A motion to the Court shall be filed with the Clerk and shall be accompanied by proof of service as required by Rule 29 . No motion may be presented in open Court, other than a motion for admission to the Bar, except when the proceeding to which it refers is being argued. Oral argument on a motion will not be permitted unless the Court so directs.
