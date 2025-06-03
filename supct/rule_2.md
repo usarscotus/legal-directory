@@ -1,6 +1,6 @@
 ---
 layout: rule
-title: Rule 1. Clerk
+title: Rule 2. Library
 permalink: /supct/rule_2/
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: rule
-title: Rule 1. Clerk
+title: Rule 4. Sessions and Quorum
 permalink: /supct/rule_4/
 ---
 

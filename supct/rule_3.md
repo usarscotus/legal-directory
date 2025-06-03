@@ -1,6 +1,6 @@
 ---
 layout: rule
-title: Rule 1. Clerk
+title: Rule 3. Term
 permalink: /supct/rule_3/
 ---
 
