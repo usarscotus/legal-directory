@@ -1,6 +1,6 @@
 ---
 layout: rule
-title: "Rule 47. Reference to "State Court" and "State Law""
+title: 'Rule 47. Reference to "State Court" and "State Law"'
 permalink: /supct/rule_47/
 ---
 
