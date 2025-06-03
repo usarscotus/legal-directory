@@ -4,7 +4,7 @@ title: "Rule 14. Content of a Petition for a Writ of Certiorari"
 permalink: /supct/rule_14/
 ---
 
-1. A petition for a writ of certiorari shall contain, in the order indicated:
+1\. A petition for a writ of certiorari shall contain, in the order indicated:
 
 &nbsp;&nbsp;(a) The questions presented for review, expressed concisely in relation to the circumstances of the case, without unnecessary detail. The questions should be short and should not be argumentative or repetitive. If the petitioner or respondent is under a death sentence that may be affected by the disposition of the petition, the notation "capital case" shall precede the questions presented. The questions shall be set out on the first page following the cover, and no other information may appear on that page. The statement of any question presented is deemed to comprise every subsidiary question fairly included therein. Only the questions set out in the petition, or fairly included therein, will be considered by the Court.
 
@@ -57,10 +57,10 @@ permalink: /supct/rule_14/
 
 &nbsp;&nbsp;If the material required by this subparagraph is voluminous, it may be presented in a separate volume or volumes with appropriate covers.
 
-2. All contentions in support of a petition for a writ of certiorari shall be set out in the body of the petition, as provided in subparagraph 1(h) of this Rule. No separate brief in support of a petition for a writ of certiorari may be filed, and the Clerk will not file any petition for a writ of certiorari to which any supporting brief is annexed or appended.
+2\. All contentions in support of a petition for a writ of certiorari shall be set out in the body of the petition, as provided in subparagraph 1(h) of this Rule. No separate brief in support of a petition for a writ of certiorari may be filed, and the Clerk will not file any petition for a writ of certiorari to which any supporting brief is annexed or appended.
 
-3. A petition for a writ of certiorari should be stated briefly and in plain terms and may not exceed the word or page limitations specified in Rule 33.
+3\. A petition for a writ of certiorari should be stated briefly and in plain terms and may not exceed the word or page limitations specified in Rule 33.
 
-4. The failure of a petitioner to present with accuracy, brevity, and clarity whatever is essential to ready and adequate understanding of the points requiring consideration is sufficient reason for the Court to deny a petition.
+4\. The failure of a petitioner to present with accuracy, brevity, and clarity whatever is essential to ready and adequate understanding of the points requiring consideration is sufficient reason for the Court to deny a petition.
 
-5. If the Clerk determines that a petition submitted timely and in good faith is in a form that does not comply with this Rule or with Rule 33 or Rule 34, the Clerk will return it with a letter indicating the deficiency. A corrected petition submitted in accordance with Rule 29.2 no more than 60 days after the date of the Clerk's letter will be deemed timely.
+5\. If the Clerk determines that a petition submitted timely and in good faith is in a form that does not comply with this Rule or with Rule 33 or Rule 34, the Clerk will return it with a letter indicating the deficiency. A corrected petition submitted in accordance with Rule 29.2 no more than 60 days after the date of the Clerk's letter will be deemed timely.
