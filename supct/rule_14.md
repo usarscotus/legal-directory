@@ -13,10 +13,10 @@ permalink: /supct/rule_14/
     (b) (i) A list of all parties to the proceeding in the court whose judgment is sought to be reviewed (unless the caption of the case contains the names of all the parties);
 
 
-(ii) a corporate disclosure statement as required by Rule 29.6 ; and
+        (ii) a corporate disclosure statement as required by Rule 29.6 ; and
 
 
-(iii) a list of all proceedings in state and federal trial and appellate courts, including proceedings in this Court, that are directly related to the case in this Court. For each proceeding, the list should include the court in question, the docket number and case caption for the proceeding, and the date of entry of the judgment. For the purposes of this rule, a proceeding is "directly related" if it arises from the same trial court case as the case in this Court (including the proceedings directly on review in this case), or if it challenges the same criminal conviction or sentence as is challenged in this Court, whether on direct appeal or through state or federal collateral proceedings.
+        (iii) a list of all proceedings in state and federal trial and appellate courts, including proceedings in this Court, that are directly related to the case in this Court. For each proceeding, the list should include the court in question, the docket number and case caption for the proceeding, and the date of entry of the judgment. For the purposes of this rule, a proceeding is "directly related" if it arises from the same trial court case as the case in this Court (including the proceedings directly on review in this case), or if it challenges the same criminal conviction or sentence as is challenged in this Court, whether on direct appeal or through state or federal collateral proceedings.
 
 
     (c) If the petition prepared under Rule 33.1 exceeds 1,500 words or exceeds five pages if prepared under Rule 33.2 , a table of contents and a table of cited authorities. The table of contents shall include the items contained in the appendix.
@@ -31,13 +31,13 @@ permalink: /supct/rule_14/
     (i) the date the judgment or order sought to be reviewed was entered (and, if applicable, a statement that the petition is filed under this Court's Rule 11 );
 
 
-(ii) the date of any order respecting rehearing, and the date and terms of any order granting an extension of time to file the petition for a writ of certiorari;
+        (ii) the date of any order respecting rehearing, and the date and terms of any order granting an extension of time to file the petition for a writ of certiorari;
 
 
-(iii) express reliance on Rule 12.5 , when a cross petition for a writ of certiorari is filed under that Rule, and the date of docketing of the petition for a writ of certiorari in connection with which the cross petition is filed;
+        (iii) express reliance on Rule 12.5 , when a cross petition for a writ of certiorari is filed under that Rule, and the date of docketing of the petition for a writ of certiorari in connection with which the cross petition is filed;
 
 
-(iv) the statutory provision believed to confer on this Court jurisdiction to review on a writ of certiorari the judgment or order in question; and
+        (iv) the statutory provision believed to confer on this Court jurisdiction to review on a writ of certiorari the judgment or order in question; and
 
 
     (v) if applicable, a statement that the notifications required by Rule 29.4(b) or (c) have been made.
@@ -52,7 +52,7 @@ permalink: /supct/rule_14/
     (i) If review of a state-court judgment is sought, specification of the stage in the proceedings, both in the court of first instance and in the appellate courts, when the federal questions sought to be reviewed were raised; the method or manner of raising them and the way in which they were passed on by those courts; and pertinent quotations of specific portions of the record or summary thereof, with specific reference to the places in the record where the matter appears ( e. g. , court opinion, ruling on exception, portion of court's charge and exception thereto, assignment of error), so as to show that the federal question was timely and properly raised and that this Court has jurisdiction to review the judgment on a writ of certiorari. When the portions of the record relied on under this subparagraph are voluminous, they shall be included in the appendix referred to in subparagraph 1(i).
 
 
-(ii) If review of a judgment of a United States court of appeals is sought, the basis for federal jurisdiction in the court of first instance.
+        (ii) If review of a judgment of a United States court of appeals is sought, the basis for federal jurisdiction in the court of first instance.
 
 
     (h) A direct and concise argument amplifying the reasons relied on for allowance of the writ. See Rule 10 .
@@ -64,19 +64,19 @@ permalink: /supct/rule_14/
     (i) the opinions, orders, findings of fact, and conclusions of law, whether written or orally given and transcribed, entered in conjunction with the judgment sought to be reviewed;
 
 
-(ii) any other opinions, orders, findings of fact, and conclusions of law entered in the case by courts or administrative agencies, and, if reference thereto is necessary to ascertain the grounds of the judgment, of those in companion cases (each document shall include the caption showing the name of the issuing court or agency, the title and number of the case, and the date of entry);
+        (ii) any other opinions, orders, findings of fact, and conclusions of law entered in the case by courts or administrative agencies, and, if reference thereto is necessary to ascertain the grounds of the judgment, of those in companion cases (each document shall include the caption showing the name of the issuing court or agency, the title and number of the case, and the date of entry);
 
 
-(iii) any order on rehearing, including the caption showing the name of the issuing court, the title and number of the case, and the date of entry;
+        (iii) any order on rehearing, including the caption showing the name of the issuing court, the title and number of the case, and the date of entry;
 
 
-(iv) the judgment sought to be reviewed if the date of its entry is different from the date of the opinion or order required in sub subparagraph (i) of this subparagraph;
+        (iv) the judgment sought to be reviewed if the date of its entry is different from the date of the opinion or order required in sub subparagraph (i) of this subparagraph;
 
 
     (v) material required by subparagraphs 1(f) or 1(g)(i); and
 
 
-(vi) any other material the petitioner believes essential to understand the petition.
+        (vi) any other material the petitioner believes essential to understand the petition.
 
 
 If the material required by this subparagraph is voluminous, it may be presented in a separate volume or volumes with appropriate covers.

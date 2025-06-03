@@ -58,5 +58,5 @@ permalink: /fre/rule_901/
 &nbsp;&nbsp;(9) Evidence About a Process or System. Evidence describing a process or system and showing that it produces an accurate result.
 
 
-(10) Methods Provided by a Statute or Rule. Any method of authentication or identification allowed by a federal statute or a rule prescribed by the Supreme Court.
+&nbsp;&nbsp;(10) Methods Provided by a Statute or Rule. Any method of authentication or identification allowed by a federal statute or a rule prescribed by the Supreme Court.
 
