@@ -34,10 +34,10 @@ The following definitions apply under this article:
 &nbsp;&nbsp;&nbsp;&nbsp;(B) is consistent with the declarant’s testimony and is offered:
 
 
-&nbsp;&nbsp;(i) to rebut an express or implied charge that the declarant recently fabricated it or acted from a recent improper influence or motive in so testifying; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) to rebut an express or implied charge that the declarant recently fabricated it or acted from a recent improper influence or motive in so testifying; or
 
 
-&nbsp;&nbsp;(ii) to rehabilitate the declarant’s credibility as a witness when attacked on another ground; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) to rehabilitate the declarant’s credibility as a witness when attacked on another ground; or
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(C) identifies a person as someone the declarant perceived earlier.

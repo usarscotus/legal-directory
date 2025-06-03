@@ -28,7 +28,7 @@ permalink: /supct/rule_14/
     (e) A concise statement of the basis for jurisdiction in this Court, showing:
 
 
-    (i) the date the judgment or order sought to be reviewed was entered (and, if applicable, a statement that the petition is filed under this Court's Rule 11 );
+        (i) the date the judgment or order sought to be reviewed was entered (and, if applicable, a statement that the petition is filed under this Court's Rule 11 );
 
 
         (ii) the date of any order respecting rehearing, and the date and terms of any order granting an extension of time to file the petition for a writ of certiorari;
@@ -40,7 +40,7 @@ permalink: /supct/rule_14/
         (iv) the statutory provision believed to confer on this Court jurisdiction to review on a writ of certiorari the judgment or order in question; and
 
 
-    (v) if applicable, a statement that the notifications required by Rule 29.4(b) or (c) have been made.
+        (v) if applicable, a statement that the notifications required by Rule 29.4(b) or (c) have been made.
 
 
     (f) The constitutional provisions, treaties, statutes, ordinances, and regulations involved in the case, set out verbatim with appropriate citation. If the provisions involved are lengthy, their citation alone suffices at this point, and their pertinent text shall be set out in the appendix referred to in subparagraph 1(i).
@@ -49,7 +49,7 @@ permalink: /supct/rule_14/
     (g) A concise statement of the case setting out the facts material to consideration of the questions presented, and also containing the following:
 
 
-    (i) If review of a state-court judgment is sought, specification of the stage in the proceedings, both in the court of first instance and in the appellate courts, when the federal questions sought to be reviewed were raised; the method or manner of raising them and the way in which they were passed on by those courts; and pertinent quotations of specific portions of the record or summary thereof, with specific reference to the places in the record where the matter appears ( e. g. , court opinion, ruling on exception, portion of court's charge and exception thereto, assignment of error), so as to show that the federal question was timely and properly raised and that this Court has jurisdiction to review the judgment on a writ of certiorari. When the portions of the record relied on under this subparagraph are voluminous, they shall be included in the appendix referred to in subparagraph 1(i).
+        (i) If review of a state-court judgment is sought, specification of the stage in the proceedings, both in the court of first instance and in the appellate courts, when the federal questions sought to be reviewed were raised; the method or manner of raising them and the way in which they were passed on by those courts; and pertinent quotations of specific portions of the record or summary thereof, with specific reference to the places in the record where the matter appears ( e. g. , court opinion, ruling on exception, portion of court's charge and exception thereto, assignment of error), so as to show that the federal question was timely and properly raised and that this Court has jurisdiction to review the judgment on a writ of certiorari. When the portions of the record relied on under this subparagraph are voluminous, they shall be included in the appendix referred to in subparagraph 1(i).
 
 
         (ii) If review of a judgment of a United States court of appeals is sought, the basis for federal jurisdiction in the court of first instance.
@@ -61,7 +61,7 @@ permalink: /supct/rule_14/
     (i) An appendix containing, in the order indicated:
 
 
-    (i) the opinions, orders, findings of fact, and conclusions of law, whether written or orally given and transcribed, entered in conjunction with the judgment sought to be reviewed;
+        (i) the opinions, orders, findings of fact, and conclusions of law, whether written or orally given and transcribed, entered in conjunction with the judgment sought to be reviewed;
 
 
         (ii) any other opinions, orders, findings of fact, and conclusions of law entered in the case by courts or administrative agencies, and, if reference thereto is necessary to ascertain the grounds of the judgment, of those in companion cases (each document shall include the caption showing the name of the issuing court or agency, the title and number of the case, and the date of entry);
@@ -73,7 +73,7 @@ permalink: /supct/rule_14/
         (iv) the judgment sought to be reviewed if the date of its entry is different from the date of the opinion or order required in sub subparagraph (i) of this subparagraph;
 
 
-    (v) material required by subparagraphs 1(f) or 1(g)(i); and
+        (v) material required by subparagraphs 1(f) or 1(g)(i); and
 
 
         (vi) any other material the petitioner believes essential to understand the petition.

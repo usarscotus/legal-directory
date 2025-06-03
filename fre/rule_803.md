@@ -76,13 +76,13 @@ If admitted, the record may be read into evidence but may be received as an exhi
 &nbsp;&nbsp;&nbsp;&nbsp;(A) it sets out:
 
 
-&nbsp;&nbsp;(i) the office’s activities;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) the office’s activities;
 
 
-&nbsp;&nbsp;(ii) a matter observed while under a legal duty to report, but not including, in a criminal case, a matter observed by law-enforcement personnel; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) a matter observed while under a legal duty to report, but not including, in a criminal case, a matter observed by law-enforcement personnel; or
 
 
-&nbsp;&nbsp;(iii) in a civil case or against the government in a criminal case, factual findings from a legally authorized investigation; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) in a civil case or against the government in a criminal case, factual findings from a legally authorized investigation; and
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) the opponent does not show that the source of information or other circumstances indicate a lack of trustworthiness.
@@ -97,10 +97,10 @@ If admitted, the record may be read into evidence but may be received as an exhi
 &nbsp;&nbsp;&nbsp;&nbsp;(A) the testimony or certification is admitted to prove that
 
 
-&nbsp;&nbsp;(i) the record or statement does not exist; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) the record or statement does not exist; or
 
 
-&nbsp;&nbsp;(ii) a matter did not occur or exist, if a public office regularly kept a record or statement for a matter of that kind; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) a matter did not occur or exist, if a public office regularly kept a record or statement for a matter of that kind; and
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) in a criminal case, a prosecutor who intends to offer a certification provides written notice of that intent at least 14 days before trial, and the defendant does not object in writing within 7 days of receiving the notice — unless the court sets a different time for the notice or the objection.

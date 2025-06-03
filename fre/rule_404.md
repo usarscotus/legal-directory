@@ -19,10 +19,10 @@ permalink: /fre/rule_404/
 &nbsp;&nbsp;&nbsp;&nbsp;(B) subject to the limitations in Rule 412, a defendant may offer evidence of an alleged victim’s pertinent trait, and if the evidence is admitted, the prosecutor may:
 
 
-&nbsp;&nbsp;(i) offer evidence to rebut it; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) offer evidence to rebut it; and
 
 
-&nbsp;&nbsp;(ii) offer evidence of the defendant’s same trait; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) offer evidence of the defendant’s same trait; and
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(C) in a homicide case, the prosecutor may offer evidence of the alleged victim’s trait of peacefulness to rebut evidence that the victim was the first aggressor.
