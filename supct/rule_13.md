@@ -2,9 +2,11 @@
 layout: rule
 title: "Rule 13. Review on Certiorari: Time for Petitioning"
 permalink: /supct/rule_13/
+notes:
+    - "Rule 13(1) [Abrogated](https://trello.com/c/yJL8rwhD/110-striking-of-rule-13-scr-1) prior to June 1st, 2025"
 ---
 
-1. Unless otherwise provided by law, a petition for a writ of certiorari to review a judgment in any case, civil or criminal, entered by a state court of last resort or a United States court of appeals (including the United States Court of Appeals for the Armed Forces) is timely when it is filed with the Clerk of this Court within 90 days after entry of the judgment. A petition for a writ of certiorari seeking review of a judgment of a lower state court that is subject to discretionary review by the state court of last resort is timely when it is filed with the Clerk within 90 days after entry of the order denying discretionary review.
+1. *[Abrogated]*
 
 
 2. The Clerk will not file any petition for a writ of certiorari that is jurisdictionally out of time. See, e. g. , 28 U. S. C. §2101 (c).

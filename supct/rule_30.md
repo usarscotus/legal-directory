@@ -2,12 +2,14 @@
 layout: rule
 title: "Rule 30. Computation and Extension of Time"
 permalink: /supct/rule_30/
+notes:
+    - Rule 30(2) [Abrogated](https://trello.com/c/P8gv197t/114-striking-of-rule-30-scr-2) prior to June 1st, 2025.
 ---
 
 1. In the computation of any period of time prescribed or allowed by these Rules, by order of the Court, or by an applicable statute, the day of the act, event, or default from which the designated period begins to run is not included. The last day of the period shall be included, unless it is a Saturday, Sunday, federal legal holiday listed in 5 U. S. C. §6103 , or day on which the Court building is closed by order of the Court or the Chief Justice, in which event the period shall extend until the end of the next day that is not a Saturday, Sunday, federal legal holiday, or day on which the Court building is closed.
 
 
-2. Whenever a Justice or the Clerk is empowered by law or these Rules to extend the time to file any document, an application or motion seeking an extension shall be filed within the period sought to be extended. An application to extend the time to file a petition for a writ of certiorari or to file a jurisdictional statement must be filed at least 10 days before the specified final filing date as computed under these Rules; if filed less than 10 days before the final filing date, such application will not be granted except in the most extraordinary circumstances.
+2. *[Abrogated]*
 
 
 3. An application to extend the time to file a petition for a writ ofcertiorari, to file a jurisdictional statement, to file a reply brief on the merits, or to file a petition for rehearing of any judgment or decision of the Court on the merits shall be made to an individual Justice and presented and served on all other parties as provided by Rule 22 . Once denied, such an application may not be renewed.
