@@ -16,13 +16,13 @@ permalink: /frcp/rule_30/
 &nbsp;&nbsp;&nbsp;&nbsp;(A) if the parties have not stipulated to the deposition and:
 
 
-(i) the deposition would result in more than 10 depositions being taken under this rule or Rule 31 by the plaintiffs, or by the defendants, or by the third-party defendants;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) the deposition would result in more than 10 depositions being taken under this rule or Rule 31 by the plaintiffs, or by the defendants, or by the third-party defendants;
 
 
-&nbsp;&nbsp;(ii) the deponent has already been deposed in the case; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) the deponent has already been deposed in the case; or
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) the party seeks to take the deposition before the time specified in Rule 26(d) , unless the party certifies in the notice, with supporting facts, that the deponent is expected to leave the United States and be unavailable for examination in this country after that time; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) the party seeks to take the deposition before the time specified in Rule 26(d) , unless the party certifies in the notice, with supporting facts, that the deponent is expected to leave the United States and be unavailable for examination in this country after that time; or
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) if the deponent is confined in prison.
@@ -55,19 +55,19 @@ permalink: /frcp/rule_30/
 &nbsp;&nbsp;&nbsp;&nbsp;(A) Before the Deposition. Unless the parties stipulate otherwise, a deposition must be conducted before an officer appointed or designated under Rule 28 . The officer must begin the deposition with an on-the-record statement that includes:
 
 
-(i) the officer's name and business address;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) the officer's name and business address;
 
 
-&nbsp;&nbsp;(ii) the date, time, and place of the deposition;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) the date, time, and place of the deposition;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) the deponent's name;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) the deponent's name;
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) the officer's administration of the oath or affirmation to the deponent; and
 
 
-(v) the identity of all persons present.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(v) the identity of all persons present.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Conducting the Deposition; Avoiding Distortion. If the deposition is recorded nonstenographically, the officer must repeat the items in Rule 30(b)(5)(A)(i)–(iii) at the beginning of each unit of the recording medium. The deponent's and attorneys’ appearance or demeanor must not be distorted through recording techniques.
@@ -139,10 +139,10 @@ permalink: /frcp/rule_30/
 &nbsp;&nbsp;&nbsp;&nbsp;(A) Originals and Copies. Documents and tangible things produced for inspection during a deposition must, on a party's request, be marked for identification and attached to the deposition. Any party may inspect and copy them. But if the person who produced them wants to keep the originals, the person may:
 
 
-(i) offer copies to be marked, attached to the deposition, and then used as originals—after giving all parties a fair opportunity to verify the copies by comparing them with the originals; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) offer copies to be marked, attached to the deposition, and then used as originals—after giving all parties a fair opportunity to verify the copies by comparing them with the originals; or
 
 
-&nbsp;&nbsp;(ii) give all parties a fair opportunity to inspect and copy the originals after they are marked—in which event the originals may be used as if attached to the deposition.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) give all parties a fair opportunity to inspect and copy the originals after they are marked—in which event the originals may be used as if attached to the deposition.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Order Regarding the Originals. Any party may move for an order that the originals be attached to the deposition pending final disposition of the case.

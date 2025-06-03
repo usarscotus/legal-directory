@@ -73,25 +73,25 @@ permalink: /frcp/rule_23/
 &nbsp;&nbsp;&nbsp;&nbsp;(B) For (b)(3) Classes. For any class certified under Rule 23(b)(3) —or upon ordering notice under Rule 23(e)(1) to a class proposed to be certified for purposes of settlement under Rule 23(b)(3)—the court must direct to class members the best notice that is practicable under the circumstances, including individual notice to all members who can be identified through reasonable effort. The notice may be by one or more of the following: United States mail, electronic means, or other appropriate means.The notice must clearly and concisely state in plain, easily understood language:
 
 
-(i) the nature of the action;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) the nature of the action;
 
 
-&nbsp;&nbsp;(ii) the definition of the class certified;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) the definition of the class certified;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) the class claims, issues, or defenses;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) the class claims, issues, or defenses;
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) that a class member may enter an appearance through an attorney if the member so desires;
 
 
-(v) that the court will exclude from the class any member who requests exclusion;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(v) that the court will exclude from the class any member who requests exclusion;
 
 
-&nbsp;&nbsp;(vi) the time and manner for requesting exclusion; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(vi) the time and manner for requesting exclusion; and
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(vii) the binding effect of a class judgment on members under Rule 23(c)(3) .
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(vii) the binding effect of a class judgment on members under Rule 23(c)(3) .
 
 
 &nbsp;&nbsp;(3) Judgment. Whether or not favorable to the class, the judgment in a class action must:
@@ -121,13 +121,13 @@ permalink: /frcp/rule_23/
 &nbsp;&nbsp;&nbsp;&nbsp;(B) require—to protect class members and fairly conduct the action—giving appropriate notice to some or all class members of:
 
 
-(i) any step in the action;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) any step in the action;
 
 
-&nbsp;&nbsp;(ii) the proposed extent of the judgment; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) the proposed extent of the judgment; or
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) the members’ opportunity to signify whether they consider the representation fair and adequate, to intervene and present claims or defenses, or to otherwise come into the action;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) the members’ opportunity to signify whether they consider the representation fair and adequate, to intervene and present claims or defenses, or to otherwise come into the action;
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(C) impose conditions on the representative parties or on intervenors;
@@ -154,10 +154,10 @@ permalink: /frcp/rule_23/
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Grounds for a Decision to Give Notice . The court must direct notice in a reasonable manner to all class members who would be bound by the proposal if giving notice is justified by the parties' showing that the court will likely be able to:
 
 
-(i) approve the proposal under Rule 23(e)(2); and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) approve the proposal under Rule 23(e)(2); and
 
 
-&nbsp;&nbsp;(ii) certify the class for purposes of judgment on the proposal.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) certify the class for purposes of judgment on the proposal.
 
 
 &nbsp;&nbsp;(2) Approval of the Proposal . If the proposal would bind class members, the court may approve it only after a hearing and only on finding that it is fair, reasonable, and adequate after considering whether:
@@ -172,13 +172,13 @@ permalink: /frcp/rule_23/
 &nbsp;&nbsp;&nbsp;&nbsp;(C) the relief provided for the class is adequate, taking into account:
 
 
-(i) the costs, risks, and delay of trial and appeal;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) the costs, risks, and delay of trial and appeal;
 
 
-&nbsp;&nbsp;(ii) the effectiveness of any proposed method of distributing relief to the class, including the method of processing class-member claims;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) the effectiveness of any proposed method of distributing relief to the class, including the method of processing class-member claims;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) the terms of any proposed award of attorney's fees, including timing of payment; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) the terms of any proposed award of attorney's fees, including timing of payment; and
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) any agreement required to be identified under Rule 23(e)(3); and
@@ -202,10 +202,10 @@ permalink: /frcp/rule_23/
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Court Approval Required for Payment in Connection with an Objection . Unless approved by the court after a hearing, no payment or other consideration may be provided in connection with:
 
 
-(i) forgoing or withdrawing an objection, or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) forgoing or withdrawing an objection, or
 
 
-&nbsp;&nbsp;(ii) forgoing, dismissing, or abandoning an appeal from a judgment approving the proposal.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) forgoing, dismissing, or abandoning an appeal from a judgment approving the proposal.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(C) Procedure for Approval After an Appeal . If approval under Rule 23(e)(5)(B) has not been obtained before an appeal is docketed in the court of appeals, the procedure of Rule 62.1 applies while the appeal remains pending.
@@ -223,13 +223,13 @@ permalink: /frcp/rule_23/
 &nbsp;&nbsp;&nbsp;&nbsp;(A) must consider:
 
 
-(i) the work counsel has done in identifying or investigating potential claims in the action;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) the work counsel has done in identifying or investigating potential claims in the action;
 
 
-&nbsp;&nbsp;(ii) counsel's experience in handling class actions, other complex litigation, and the types of claims asserted in the action;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) counsel's experience in handling class actions, other complex litigation, and the types of claims asserted in the action;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) counsel's knowledge of the applicable law; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) counsel's knowledge of the applicable law; and
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) the resources that counsel will commit to representing the class;

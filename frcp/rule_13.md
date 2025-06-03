@@ -46,4 +46,4 @@ permalink: /frcp/rule_13/
 (h) Joining Additional Parties. Rules 19 and 20 govern the addition of a person as a party to a counterclaim or crossclaim.
 
 
-(i) Separate Trials; Separate Judgments. If the court orders separate trials under Rule 42(b) , it may enter judgment on a counterclaim or crossclaim under Rule 54(b) when it has jurisdiction to do so, even if the opposing party's claims have been dismissed or otherwise resolved.
+&nbsp;&nbsp;(i) Separate Trials; Separate Judgments. If the court orders separate trials under Rule 42(b) , it may enter judgment on a counterclaim or crossclaim under Rule 54(b) when it has jurisdiction to do so, even if the opposing party's claims have been dismissed or otherwise resolved.

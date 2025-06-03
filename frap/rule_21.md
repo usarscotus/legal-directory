@@ -16,13 +16,13 @@ permalink: /frap/rule_21/
 &nbsp;&nbsp;&nbsp;&nbsp;(B) The petition must state:
 
 
-(i) the relief sought;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) the relief sought;
 
 
-&nbsp;&nbsp;(ii) the issues presented;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) the issues presented;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) the facts necessary to understand the issue presented by the petition; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) the facts necessary to understand the issue presented by the petition; and
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) the reasons why the writ should issue.

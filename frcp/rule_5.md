@@ -46,10 +46,10 @@ permalink: /frcp/rule_5/
 &nbsp;&nbsp;&nbsp;&nbsp;(B) leaving it:
 
 
-(i) at the person's office with a clerk or other person in charge or, if no one is in charge, in a conspicuous place in the office; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) at the person's office with a clerk or other person in charge or, if no one is in charge, in a conspicuous place in the office; or
 
 
-&nbsp;&nbsp;(ii) if the person has no office or the office is closed, at the person's dwelling or usual place of abode with someone of suitable age and discretion who resides there;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) if the person has no office or the office is closed, at the person's dwelling or usual place of abode with someone of suitable age and discretion who resides there;
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(C) mailing it to the person's last known address—in which event service is complete upon mailing;
@@ -97,10 +97,10 @@ permalink: /frcp/rule_5/
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Certificate of Service . No certificate of service is required when a paper is served by filing it with the court's electronic-filing system. When a paper that is required to be served is served by other means:
 
 
-(i) if the paper is filed, a certificate of service must be filed with it or within a reasonable time after service; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) if the paper is filed, a certificate of service must be filed with it or within a reasonable time after service; and
 
 
-&nbsp;&nbsp;(ii) if the paper is not filed, a certificate of service need not be filed unless filing is required by court order or by local rule.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) if the paper is not filed, a certificate of service need not be filed unless filing is required by court order or by local rule.
 
 
 &nbsp;&nbsp;(2) Nonelectronic Filing . A paper not filed electronically is filed by delivering it:
@@ -121,10 +121,10 @@ permalink: /frcp/rule_5/
 &nbsp;&nbsp;&nbsp;&nbsp;(B) By an Unrepresented Person —When Allowed or Required. A person not represented by an attorney:
 
 
-(i) may file electronically only if allowed by court order or by local rule; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) may file electronically only if allowed by court order or by local rule; and
 
 
-&nbsp;&nbsp;(ii) may be required to file electronically only by court order, or by a local rule that includes reasonable exceptions.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) may be required to file electronically only by court order, or by a local rule that includes reasonable exceptions.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(C) Signing. A filing made through a person's electronic-filing account and authorized by that person, together with that person's name on a signature block, constitutes the person's signature.

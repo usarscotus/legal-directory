@@ -16,10 +16,10 @@ permalink: /frap/rule_25/
 &nbsp;&nbsp;&nbsp;&nbsp;(A) Nonelectronic Filing.
 
 
-(i) In General. For a paper not filed electronically, filing may be accomplished by mail addressed to the clerk, but filing is not timely unless the clerk receives the papers within the time fixed for filing.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) In General. For a paper not filed electronically, filing may be accomplished by mail addressed to the clerk, but filing is not timely unless the clerk receives the papers within the time fixed for filing.
 
 
-&nbsp;&nbsp;(ii) A Brief or Appendix. A brief or appendix not filed electronically is timely filed, however, if on or before the last day for filing, it is:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) A Brief or Appendix. A brief or appendix not filed electronically is timely filed, however, if on or before the last day for filing, it is:
 
 
 mailed to the clerk by first-class mail, or other class of mail that is at least as expeditious, postage prepaid; or
@@ -46,10 +46,10 @@ the court of appeals exercises its discretion to permit the later filing of a de
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Electronic Filing and Signing.
 
 
-(i) By a Represented — Person Generally Required; Exceptions. A person represented by an attorney must file electronically, unless nonelectronic filing is allowed by the court for good cause or is allowed or required by a local rule.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) By a Represented — Person Generally Required; Exceptions. A person represented by an attorney must file electronically, unless nonelectronic filing is allowed by the court for good cause or is allowed or required by a local rule.
 
 
-&nbsp;&nbsp;(ii) By an Unrepresented Person—When Allowed or Required. A person not represented by an attorney:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) By an Unrepresented Person—When Allowed or Required. A person not represented by an attorney:
 
 
 may file electronically only if allowed by court order or by local rule; and
@@ -61,7 +61,7 @@ may be required to file electronically only by court order, or by a local rule t
 &nbsp;&nbsp;(iii) Signing. A filing made through a person's electronic-filing account and authorized by that person, together with that person's name on a signature block, constitutes the person's signature.
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iv) Same as a Written Paper. A paper filed electronically is a written paper for purposes of these rules.
+&nbsp;&nbsp;(iv) Same as a Written Paper. A paper filed electronically is a written paper for purposes of these rules.
 
 
 &nbsp;&nbsp;(3) Filing a Motion with a Judge. If a motion requests relief that may be granted by a single judge, the judge may permit the motion to be filed with the judge; the judge must note the filing date on the motion and give it to the clerk.
@@ -112,13 +112,13 @@ may be required to file electronically only by court order, or by a local rule t
 &nbsp;&nbsp;&nbsp;&nbsp;(B) proof of service consisting of a statement by the person who made service certifying:
 
 
-(i) the date and manner of service;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) the date and manner of service;
 
 
-&nbsp;&nbsp;(ii) the names of the persons served; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) the names of the persons served; and
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) their mail or electronic addresses, facsimile numbers, or the addresses of the places of delivery, as appropriate for the manner of service.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) their mail or electronic addresses, facsimile numbers, or the addresses of the places of delivery, as appropriate for the manner of service.
 
 
 &nbsp;&nbsp;(2) When a brief or appendix is filed by mailing or dispatch in accordance with Rule 25(a)(2)(A)(ii), the proof of service must also state the date and manner by which the document was mailed or dispatched to the clerk.

@@ -25,13 +25,13 @@ permalink: /frap/rule_10/
 &nbsp;&nbsp;&nbsp;&nbsp;(A) order from the reporter a transcript of such parts of the proceedings not already on file as the appellant considers necessary, subject to a local rule of the court of appeals and with the following qualifications:
 
 
-(i) the order must be in writing;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) the order must be in writing;
 
 
-&nbsp;&nbsp;(ii) if the cost of the transcript is to be paid by the United States under the Criminal Justice Act, the order must so state; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) if the cost of the transcript is to be paid by the United States under the Criminal Justice Act, the order must so state; and
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) the appellant must, within the same period, file a copy of the order with the district clerk; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) the appellant must, within the same period, file a copy of the order with the district clerk; or
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) file a certificate stating that no transcript will be ordered.

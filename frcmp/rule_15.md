@@ -52,13 +52,13 @@ permalink: /frcmp/rule_15/
 &nbsp;&nbsp;&nbsp;&nbsp;(D) the defendant cannot be present because:
 
 
-(i) the country where the witness is located will not permit the defendant to attend the deposition;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) the country where the witness is located will not permit the defendant to attend the deposition;
 
 
-&nbsp;&nbsp;(ii) for an in-custody defendant, secure transportation and continuing custody cannot be assured at the witness’s location; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) for an in-custody defendant, secure transportation and continuing custody cannot be assured at the witness’s location; or
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) for an out-of-custody defendant, no reasonable conditions will assure an appearance at the deposition or at trial or sentencing; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) for an out-of-custody defendant, no reasonable conditions will assure an appearance at the deposition or at trial or sentencing; and
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(E) the defendant can meaningfully participate in the deposition through reasonable means.

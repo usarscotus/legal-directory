@@ -31,25 +31,25 @@ permalink: /frap/rule_6/
 &nbsp;&nbsp;&nbsp;&nbsp;(A) Motion for Rehearing.
 
 
-(i) If a timely motion for rehearing under Bankruptcy Rule 8022 is filed, the time to appeal for all parties runs from the entry of the order disposing of the motion. A notice of appeal filed after the district court or bankruptcy appellate panel announces or enters a judgment, order, or decree—but before disposition of the motion for rehearing—becomes effective when the order disposing of the motion for rehearing is entered.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) If a timely motion for rehearing under Bankruptcy Rule 8022 is filed, the time to appeal for all parties runs from the entry of the order disposing of the motion. A notice of appeal filed after the district court or bankruptcy appellate panel announces or enters a judgment, order, or decree—but before disposition of the motion for rehearing—becomes effective when the order disposing of the motion for rehearing is entered.
 
 
-&nbsp;&nbsp;(ii) If a party intends to challenge the order disposing of the motion—or the alteration or amendment of a judgment, order, or decree upon the motion—then the party, in compliance with Rules 3(c) and 6(b)(1)(B) , must file a notice of appeal or amended notice of appeal. The notice or amended notice must be filed within the time prescribed by Rule 4 —excluding Rules 4(a)(4) and 4(b) —measured from the entry of the order disposing of the motion.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) If a party intends to challenge the order disposing of the motion—or the alteration or amendment of a judgment, order, or decree upon the motion—then the party, in compliance with Rules 3(c) and 6(b)(1)(B) , must file a notice of appeal or amended notice of appeal. The notice or amended notice must be filed within the time prescribed by Rule 4 —excluding Rules 4(a)(4) and 4(b) —measured from the entry of the order disposing of the motion.
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) No additional fee is required to file an amended notice.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) No additional fee is required to file an amended notice.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) The record on appeal.
 
 
-(i) Within 14 days after filing the notice of appeal, the appellant must file with the clerk possessing the record assembled in accordance with Bankruptcy Rule 8009 —and serve on the appellee—a statement of the issues to be presented on appeal and a designation of the record to be certified and made available to the circuit clerk.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) Within 14 days after filing the notice of appeal, the appellant must file with the clerk possessing the record assembled in accordance with Bankruptcy Rule 8009 —and serve on the appellee—a statement of the issues to be presented on appeal and a designation of the record to be certified and made available to the circuit clerk.
 
 
-&nbsp;&nbsp;(ii) An appellee who believes that other parts of the record are necessary must, within 14 days after being served with the appellant's designation, file with the clerk and serve on the appellant a designation of additional parts to be included.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) An appellee who believes that other parts of the record are necessary must, within 14 days after being served with the appellant's designation, file with the clerk and serve on the appellant a designation of additional parts to be included.
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) The record on appeal consists of:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) The record on appeal consists of:
 
 
 • the redesignated record as provided above;
@@ -64,10 +64,10 @@ permalink: /frap/rule_6/
 &nbsp;&nbsp;&nbsp;&nbsp;(C) Making the Record Available.
 
 
-(i) When the record is complete, the district clerk or bankruptcy-appellate-panel clerk must number the documents constituting the record and promptly make it available to the circuit clerk. If the clerk makes the record available in paper form, the clerk will not send documents of unusual bulk or weight, physical exhibits other than documents, or other parts of the record designated for omission by local rule of the court of appeals, unless directed to do so by a party or the circuit clerk. If unusually bulky or heavy exhibits are to be made available in paper form, a party must arrange with the clerks in advance for their transportation and receipt.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) When the record is complete, the district clerk or bankruptcy-appellate-panel clerk must number the documents constituting the record and promptly make it available to the circuit clerk. If the clerk makes the record available in paper form, the clerk will not send documents of unusual bulk or weight, physical exhibits other than documents, or other parts of the record designated for omission by local rule of the court of appeals, unless directed to do so by a party or the circuit clerk. If unusually bulky or heavy exhibits are to be made available in paper form, a party must arrange with the clerks in advance for their transportation and receipt.
 
 
-&nbsp;&nbsp;(ii) All parties must do whatever else is necessary to enable the clerk to assemble and forward the record. The court of appeals may provide by rule or order that a certified copy of the docket entries be sent in place of the redesignated record, but any party may request at any time during the pendency of the appeal that the redesignated record be sent.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) All parties must do whatever else is necessary to enable the clerk to assemble and forward the record. The court of appeals may provide by rule or order that a certified copy of the docket entries be sent in place of the redesignated record, but any party may request at any time during the pendency of the appeal that the redesignated record be sent.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(D) Filing the record

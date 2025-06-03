@@ -112,13 +112,13 @@ permalink: /frcmp/rule_41/
 &nbsp;&nbsp;&nbsp;&nbsp;(A) Warrant to Search for and Seize a Person or Property. Except for a tracking-device warrant, the warrant must identify the person or property to be searched, identify any person or property to be seized, and designate the magistrate judge to whom it must be returned. The warrant must command the officer to:
 
 
-(i) execute the warrant within a specified time no longer than 14 days;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) execute the warrant within a specified time no longer than 14 days;
 
 
-&nbsp;&nbsp;(ii) execute the warrant during the daytime, unless the judge for good cause expressly authorizes execution at another time; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) execute the warrant during the daytime, unless the judge for good cause expressly authorizes execution at another time; and
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) return the warrant to the magistrate judge designated in the warrant.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) return the warrant to the magistrate judge designated in the warrant.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Warrant Seeking Electronically Stored Information. A warrant under Rule 41(e)(2)(A) may authorize the seizure of electronic storage media or the seizure or copying of electronically stored information. Unless otherwise specified, the warrant authorizes a later review of the media or information consistent with the warrant. The time for executing the warrant in Rule 41(e)(2)(A) and (f)(1)(A) refers to the seizure or on-site copying of the media or information, and not to any later off-site copying or review.
@@ -127,13 +127,13 @@ permalink: /frcmp/rule_41/
 &nbsp;&nbsp;&nbsp;&nbsp;(C) Warrant for a Tracking Device. A tracking-device warrant must identify the person or property to be tracked, designate the magistrate judge to whom it must be returned, and specify a reasonable length of time that the device may be used. The time must not exceed 45 days from the date the warrant was issued. The court may, for good cause, grant one or more extensions for a reasonable period not to exceed 45 days each. The warrant must command the officer to:
 
 
-(i) complete any installation authorized by the warrant within a specified time no longer than 10 days;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) complete any installation authorized by the warrant within a specified time no longer than 10 days;
 
 
-&nbsp;&nbsp;(ii) perform any installation authorized by the warrant during the daytime, unless the judge for good cause expressly authorizes installation at another time; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) perform any installation authorized by the warrant during the daytime, unless the judge for good cause expressly authorizes installation at another time; and
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) return the warrant to the judge designated in the warrant.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) return the warrant to the judge designated in the warrant.
 
 
 (f) Executing and Returning the Warrant.
@@ -175,4 +175,4 @@ permalink: /frcmp/rule_41/
 (h) Motion to Suppress. A defendant may move to suppress evidence in the court where the trial will occur, as Rule 12 provides.
 
 
-(i) Forwarding Papers to the Clerk. The magistrate judge to whom the warrant is returned must attach to the warrant a copy of the return, of the inventory, and of all other related papers and must deliver them to the clerk in the district where the property was seized.
+&nbsp;&nbsp;(i) Forwarding Papers to the Clerk. The magistrate judge to whom the warrant is returned must attach to the warrant a copy of the return, of the inventory, and of all other related papers and must deliver them to the clerk in the district where the property was seized.

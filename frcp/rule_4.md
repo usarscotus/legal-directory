@@ -58,10 +58,10 @@ permalink: /frcp/rule_4/
 &nbsp;&nbsp;&nbsp;&nbsp;(A) be in writing and be addressed:
 
 
-(i) to the individual defendant; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) to the individual defendant; or
 
 
-&nbsp;&nbsp;(ii) for a defendant subject to service under Rule 4(h) , to an officer, a managing or general agent, or any other agent authorized by appointment or by law to receive service of process;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) for a defendant subject to service under Rule 4(h) , to an officer, a managing or general agent, or any other agent authorized by appointment or by law to receive service of process;
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) name the court where the complaint was filed;
@@ -136,10 +136,10 @@ permalink: /frcp/rule_4/
 &nbsp;&nbsp;&nbsp;&nbsp;(C) unless prohibited by the foreign country's law, by:
 
 
-(i) delivering a copy of the summons and of the complaint to the individual personally; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) delivering a copy of the summons and of the complaint to the individual personally; or
 
 
-&nbsp;&nbsp;(ii) using any form of mail that the clerk addresses and sends to the individual and that requires a signed receipt; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) using any form of mail that the clerk addresses and sends to the individual and that requires a signed receipt; or
 
 
 &nbsp;&nbsp;(3) by other means not prohibited by international agreement, as the court orders.
@@ -163,7 +163,7 @@ permalink: /frcp/rule_4/
 &nbsp;&nbsp;(2) at a place not within any judicial district of the United States, in any manner prescribed by Rule 4(f) for serving an individual, except personal delivery under (f)(2)(C)(i) .
 
 
-(i) Serving the United States and Its Agencies, Corporations, Officers, or Employees.
+&nbsp;&nbsp;&nbsp;&nbsp;(i) Serving the United States and Its Agencies, Corporations, Officers, or Employees.
 
 
 &nbsp;&nbsp;(1) United States. To serve the United States, a party must:
@@ -253,7 +253,7 @@ permalink: /frcp/rule_4/
 &nbsp;&nbsp;(3) Validity of Service; Amending Proof. Failure to prove service does not affect the validity of service. The court may permit proof of service to be amended.
 
 
-(m) Time Limit for Service. If a defendant is not served within 90 days after the complaint is filed, the court—on motion or on its own after notice to the plaintiff—must dismiss the action without prejudice against that defendant or order that service be made within a specified time. But if the plaintiff shows good cause for the failure, the court must extend the time for service for an appropriate period. This subdivision (m) does not apply to service in a foreign country under Rule 4(f) , 4(h)(2) , or 4(j)(1) , or to service of a notice under Rule 71.1(d)(3)(A).
+&nbsp;&nbsp;&nbsp;&nbsp;(m) Time Limit for Service. If a defendant is not served within 90 days after the complaint is filed, the court—on motion or on its own after notice to the plaintiff—must dismiss the action without prejudice against that defendant or order that service be made within a specified time. But if the plaintiff shows good cause for the failure, the court must extend the time for service for an appropriate period. This subdivision (m) does not apply to service in a foreign country under Rule 4(f) , 4(h)(2) , or 4(j)(1) , or to service of a notice under Rule 71.1(d)(3)(A).
 
 
 (n) Asserting Jurisdiction over Property or Assets.

@@ -16,13 +16,13 @@ permalink: /frcp/rule_31/
 &nbsp;&nbsp;&nbsp;&nbsp;(A) if the parties have not stipulated to the deposition and:
 
 
-(i) the deposition would result in more than 10 depositions being taken under this rule or Rule 30 by the plaintiffs, or by the defendants, or by the third-party defendants;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) the deposition would result in more than 10 depositions being taken under this rule or Rule 30 by the plaintiffs, or by the defendants, or by the third-party defendants;
 
 
-&nbsp;&nbsp;(ii) the deponent has already been deposed in the case; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) the deponent has already been deposed in the case; or
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) the party seeks to take a deposition before the time specified in Rule 26(d) ; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) the party seeks to take a deposition before the time specified in Rule 26(d) ; or
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) if the deponent is confined in prison.

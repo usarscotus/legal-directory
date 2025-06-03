@@ -43,13 +43,13 @@ permalink: /frcp/rule_87/
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Effect on Time to Appeal . Unless the time to appeal would otherwise be longer:
 
 
-(i) if the court denies an extension, the time to file an appeal runs for all parties from the date the order denying the motion to extend is entered;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) if the court denies an extension, the time to file an appeal runs for all parties from the date the order denying the motion to extend is entered;
 
 
-&nbsp;&nbsp;(ii) if the court grants an extension, a motion authorized by the court and filed within the extended period is, for purposes of Appellate Rule 4(a)(4)(A), filed "within the time allowed by" the Federal Rules of Civil Procedre; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) if the court grants an extension, a motion authorized by the court and filed within the extended period is, for purposes of Appellate Rule 4(a)(4)(A), filed "within the time allowed by" the Federal Rules of Civil Procedre; and
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) if the court grants an extension and no motion authorized by the court is made within the extended period, the time to file an appeal runs for all parties from the expiration of the extended period.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) if the court grants an extension and no motion authorized by the court is made within the extended period, the time to file an appeal runs for all parties from the expiration of the extended period.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(C) Declaration Ends . An act authorized by an order under this emergency rule may be completed under the order after the emergency declaration ends.
@@ -64,13 +64,13 @@ Rule A. Scope of Rules
 &nbsp;&nbsp;&nbsp;&nbsp;(A) the procedure in admiralty and maritime claims within the meaning of Rule 9(h) with respect to the following remedies:
 
 
-(i) maritime attachment and garnishment,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) maritime attachment and garnishment,
 
 
-&nbsp;&nbsp;(ii) actions in rem,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) actions in rem,
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) possessory, petitory, and partition actions, and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) possessory, petitory, and partition actions, and
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) actions for exoneration from or limitation of liability;
@@ -166,7 +166,7 @@ Statutory provisions exempting vessels or other property owned or possessed by o
 (a) Arrest Warrant.
 
 
-(i) The court must review the complaint and any supporting papers. If the conditions for an in rem action appear to exist, the court must issue an order directing the clerk to issue a warrant for the arrest of the vessel or other property that is the subject of the action.
+&nbsp;&nbsp;(i) The court must review the complaint and any supporting papers. If the conditions for an in rem action appear to exist, the court must issue an order directing the clerk to issue a warrant for the arrest of the vessel or other property that is the subject of the action.
 
 
 &nbsp;&nbsp;(ii) If the plaintiff or the plaintiff's attorney certifies that exigent circumstances make court review impracticable, the clerk must promptly issue a summons and a warrant for the arrest of the vessel or other property that is the subject of the action. The plaintiff has the burden in any post-arrest hearing under Rule E(4)(f) to show that exigent circumstances existed.
@@ -175,7 +175,7 @@ Statutory provisions exempting vessels or other property owned or possessed by o
 (b) Service.
 
 
-(i) If the property that is the subject of the action is a vessel or tangible property on board a vessel, the warrant and any supplemental process must be delivered to the marshal for service.
+&nbsp;&nbsp;(i) If the property that is the subject of the action is a vessel or tangible property on board a vessel, the warrant and any supplemental process must be delivered to the marshal for service.
 
 
 &nbsp;&nbsp;(ii) If the property that is the subject of the action is other property, tangible or intangible, the warrant and any supplemental process must be delivered to a person or organization authorized to enforce it, who may be: (A) a marshal; (B) someone under contract with the United States; (C) someone specially appointed by the court for that purpose; or, (D) in an action brought by the United States, any officer or employee of the United States.
@@ -199,7 +199,7 @@ Statutory provisions exempting vessels or other property owned or possessed by o
 (a) Statement of Interest; Answer. In an action in rem:
 
 
-(i) a person who asserts a right of possession or any ownership interest in the property that is the subject of the action must file a verified statement of right or interest:
+&nbsp;&nbsp;(i) a person who asserts a right of possession or any ownership interest in the property that is the subject of the action must file a verified statement of right or interest:
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(A) within 14 days after the execution of process, or
@@ -211,10 +211,10 @@ Statutory provisions exempting vessels or other property owned or possessed by o
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) the statement of right or interest must describe the interest in the property that supports the person's demand for its restitution or right to defend the action;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) an agent, bailee, or attorney must state the authority to file a statement of right or interest on behalf of another; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) an agent, bailee, or attorney must state the authority to file a statement of right or interest on behalf of another; and
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) a person who asserts a right of possession or any ownership interest must serve an answer within 21 days after filing the statement of interest or right.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) a person who asserts a right of possession or any ownership interest must serve an answer within 21 days after filing the statement of interest or right.
 
 
 (b) Interrogatories . Interrogatories may be served with the complaint in an in rem action without leave of court. Answers to the interrogatories must be served with the answer to the complaint.
@@ -310,7 +310,7 @@ If a special bond or stipulation is given in a particular case, the liability on
 (a) Interlocutory Sales; Delivery.
 
 
-(i) On application of a party, the marshal, or other person having custody of the property, the court may order all or part of the property sold—with the sales proceeds, or as much of them as will satisfy the judgment, paid into court to await further orders of the court—if:
+&nbsp;&nbsp;(i) On application of a party, the marshal, or other person having custody of the property, the court may order all or part of the property sold—with the sales proceeds, or as much of them as will satisfy the judgment, paid into court to await further orders of the court—if:
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(A) the attached or arrested property is perishable, or liable to deterioration, decay, or injury by being detained in custody pending the action;
@@ -397,19 +397,19 @@ Rule G. Forfeiture Actions in Rem
 (b) Other Property; Arrest Warrant . If the defendant is not real property:
 
 
-(i) the clerk must issue a warrant to arrest the property if it is in the government's possession, custody, or control;
+&nbsp;&nbsp;(i) the clerk must issue a warrant to arrest the property if it is in the government's possession, custody, or control;
 
 
 &nbsp;&nbsp;(ii) the court—on finding probable cause—must issue a warrant to arrest the property if it is not in the government's possession, custody, or control and is not subject to a judicial restraining order; and
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) a warrant is not necessary if the property is subject to a judicial restraining order.
+&nbsp;&nbsp;(iii) a warrant is not necessary if the property is subject to a judicial restraining order.
 
 
 (c) Execution of Process.
 
 
-(i) The warrant and any supplemental process must be delivered to a person or organization authorized to execute it, who may be: (A) a marshal or any other United States officer or employee; (B) someone under contract with the United States; or (C) someone specially appointed by the court for that purpose.
+&nbsp;&nbsp;(i) The warrant and any supplemental process must be delivered to a person or organization authorized to execute it, who may be: (A) a marshal or any other United States officer or employee; (B) someone under contract with the United States; or (C) someone specially appointed by the court for that purpose.
 
 
 &nbsp;&nbsp;(ii) The authorized person or organization must execute the warrant and any supplemental process on property in the United States as soon as practicable unless:
@@ -424,7 +424,7 @@ Rule G. Forfeiture Actions in Rem
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) The warrant and any supplemental process may be executed within the district or, when authorized by statute, outside the district.
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) If executing a warrant on property outside the United States is required, the warrant may be transmitted to an appropriate authority for serving process where the property is located.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) If executing a warrant on property outside the United States is required, the warrant may be transmitted to an appropriate authority for serving process where the property is located.
 
 
 &nbsp;&nbsp;(4) Notice.
@@ -433,7 +433,7 @@ Rule G. Forfeiture Actions in Rem
 (a) Notice by Publication.
 
 
-(i) When Publication Is Required . A judgment of forfeiture may be entered only if the government has published notice of the action within a reasonable time after filing the complaint or at a time the court orders. But notice need not be published if:
+&nbsp;&nbsp;(i) When Publication Is Required . A judgment of forfeiture may be entered only if the government has published notice of the action within a reasonable time after filing the complaint or at a time the court orders. But notice need not be published if:
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(A) the defendant property is worth less than $1,000 and direct notice is sent under Rule G(4)(b) to every person the government can reasonably identify as a potential claimant; or
@@ -478,7 +478,7 @@ Rule G. Forfeiture Actions in Rem
 (b) Notice to Known Potential Claimants.
 
 
-(i) Direct Notice Required . The government must send notice of the action and a copy of the complaint to any person who reasonably appears to be a potential claimant on the facts known to the government before the end of the time for filing a claim under Rule G(5)(a)(ii)(B).
+&nbsp;&nbsp;(i) Direct Notice Required . The government must send notice of the action and a copy of the complaint to any person who reasonably appears to be a potential claimant on the facts known to the government before the end of the time for filing a claim under Rule G(5)(a)(ii)(B).
 
 
 &nbsp;&nbsp;(ii) Content of the Notice . The notice must state:
@@ -517,7 +517,7 @@ Rule G. Forfeiture Actions in Rem
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) When Notice Is Sent . Notice by the following means is sent on the date when it is placed in the mail, delivered to a commercial carrier, or sent by electronic mail.
 
 
-(v) Actual Notice . A potential claimant who had actual notice of a forfeiture action may not oppose or seek relief from forfeiture because of the government's failure to send the required notice.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(v) Actual Notice . A potential claimant who had actual notice of a forfeiture action may not oppose or seek relief from forfeiture because of the government's failure to send the required notice.
 
 
 &nbsp;&nbsp;(5) Responsive Pleadings.
@@ -526,7 +526,7 @@ Rule G. Forfeiture Actions in Rem
 (a) Filing a Claim.
 
 
-(i) A person who asserts an interest in the defendant property may contest the forfeiture by filing a claim in the court where the action is pending. The claim must:
+&nbsp;&nbsp;(i) A person who asserts an interest in the defendant property may contest the forfeiture by filing a claim in the court where the action is pending. The claim must:
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(A) identify the specific property claimed;
@@ -586,7 +586,7 @@ Rule G. Forfeiture Actions in Rem
 (b) Interlocutory Sale or Delivery.
 
 
-(i) Order to Sell . On motion by a party or a person having custody of the property, the court may order all or part of the property sold if:
+&nbsp;&nbsp;(i) Order to Sell . On motion by a party or a person having custody of the property, the court may order all or part of the property sold if:
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(A) the property is perishable or at risk of deterioration, decay, or injury by being detained in custody pending the action;
@@ -604,13 +604,13 @@ Rule G. Forfeiture Actions in Rem
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) Who Makes the Sale . A sale must be made by a United States agency that has authority to sell the property, by the agency's contractor, or by any person the court designates.
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) Sale Procedures . The sale is governed by 28 U.S.C. §§ 2001 , 2002 , and 2004 , unless all parties, with the court's approval, agree to the sale, aspects of the sale, or different procedures.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) Sale Procedures . The sale is governed by 28 U.S.C. §§ 2001 , 2002 , and 2004 , unless all parties, with the court's approval, agree to the sale, aspects of the sale, or different procedures.
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) Sale Proceeds . Sale proceeds are a substitute res subject to forfeiture in place of the property that was sold. The proceeds must be held in an interest-bearing account maintained by the United States pending the conclusion of the forfeiture action.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) Sale Proceeds . Sale proceeds are a substitute res subject to forfeiture in place of the property that was sold. The proceeds must be held in an interest-bearing account maintained by the United States pending the conclusion of the forfeiture action.
 
 
-(v) Delivery on a Claimant's Motion . The court may order that the property be delivered to the claimant pending the conclusion of the action if the claimant shows circumstances that would permit sale under Rule G(7)(b)(i) and gives security under these rules.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(v) Delivery on a Claimant's Motion . The court may order that the property be delivered to the claimant pending the conclusion of the action if the claimant shows circumstances that would permit sale under Rule G(7)(b)(i) and gives security under these rules.
 
 
 (c) Disposing of Forfeited Property . Upon entry of a forfeiture judgment, the property or proceeds from selling the property must be disposed of as provided by law.
@@ -625,7 +625,7 @@ Rule G. Forfeiture Actions in Rem
 (b) Motion To Dismiss the Action.
 
 
-(i) A claimant who establishes standing to contest forfeiture may move to dismiss the action under Rule 12(b) .
+&nbsp;&nbsp;(i) A claimant who establishes standing to contest forfeiture may move to dismiss the action under Rule 12(b) .
 
 
 &nbsp;&nbsp;(ii) In an action governed by 18 U.S.C. §983(a)(3)(D) the complaint may not be dismissed on the ground that the government did not have adequate evidence at the time the complaint was filed to establish the forfeitability of the property. The sufficiency of the complaint is governed by Rule G(2).
@@ -634,7 +634,7 @@ Rule G. Forfeiture Actions in Rem
 (c) Motion To Strike a Claim or Answer.
 
 
-(i) At any time before trial, the government may move to strike a claim or answer:
+&nbsp;&nbsp;(i) At any time before trial, the government may move to strike a claim or answer:
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(A) for failing to comply with Rule G(5) or (6), or
@@ -655,7 +655,7 @@ Rule G. Forfeiture Actions in Rem
 (d) Petition To Release Property.
 
 
-(i) If a United States agency or an agency's contractor holds property for judicial or nonjudicial forfeiture under a statute governed by 18 U.S.C. §983(f) , a person who has filed a claim to the property may petition for its release under §983(f).
+&nbsp;&nbsp;(i) If a United States agency or an agency's contractor holds property for judicial or nonjudicial forfeiture under a statute governed by 18 U.S.C. §983(f) , a person who has filed a claim to the property may petition for its release under §983(f).
 
 
 &nbsp;&nbsp;(ii) If a petition for release is filed before a judicial forfeiture action is filed against the property, the petition may be filed either in the district where the property was seized or in the district where a warrant to seize the property issued. If a judicial forfeiture action against the property is later filed in another district—or if the government shows that the action will be filed in another district—the petition may be transferred to that district under 28 U.S.C. §1404 .
@@ -664,7 +664,7 @@ Rule G. Forfeiture Actions in Rem
 (e) Excessive Fines . A claimant may seek to mitigate a forfeiture under the Excessive Fines Clause of the Eighth Amendment by motion for summary judgment or by motion made after entry of a forfeiture judgment if:
 
 
-(i) the claimant has pleaded the defense under Rule 8 ; and
+&nbsp;&nbsp;(i) the claimant has pleaded the defense under Rule 8 ; and
 
 
 &nbsp;&nbsp;(ii) the parties have had the opportunity to conduct civil discovery on the defense.

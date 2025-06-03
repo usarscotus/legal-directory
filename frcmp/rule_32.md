@@ -25,10 +25,10 @@ permalink: /frcmp/rule_32/
 &nbsp;&nbsp;&nbsp;&nbsp;(A) In General . The probation officer must conduct a presentence investigation and submit a report to the court before it imposes sentence unless:
 
 
-(i) 18 U.S.C. §3593 (c) or another statute requires otherwise; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) 18 U.S.C. §3593 (c) or another statute requires otherwise; or
 
 
-&nbsp;&nbsp;(ii) the court finds that the information in the record enables it to meaningfully exercise its sentencing authority under 18 U.S.C. §3553, and the court explains its finding on the record.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) the court finds that the information in the record enables it to meaningfully exercise its sentencing authority under 18 U.S.C. §3553, and the court explains its finding on the record.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Restitution. If the law permits restitution, the probation officer must conduct an investigation and submit a report that contains sufficient information for the court to order restitution.
@@ -55,10 +55,10 @@ permalink: /frcmp/rule_32/
 &nbsp;&nbsp;&nbsp;&nbsp;(D) identify any factor relevant to:
 
 
-(i) the appropriate kind of sentence, or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) the appropriate kind of sentence, or
 
 
-&nbsp;&nbsp;(ii) the appropriate sentence within the applicable sentencing range; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) the appropriate sentence within the applicable sentencing range; and
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(E) identify any basis for departing from the applicable sentencing range.
@@ -70,13 +70,13 @@ permalink: /frcmp/rule_32/
 &nbsp;&nbsp;&nbsp;&nbsp;(A) the defendant's history and characteristics, including:
 
 
-(i) any prior criminal record;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) any prior criminal record;
 
 
-&nbsp;&nbsp;(ii) the defendant's financial condition; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) the defendant's financial condition; and
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) any circumstances affecting the defendant's behavior that may be helpful in imposing sentence or in correctional treatment;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) any circumstances affecting the defendant's behavior that may be helpful in imposing sentence or in correctional treatment;
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) information that assesses any financial, social, psychological, and medical impact on any victim;
@@ -139,7 +139,7 @@ permalink: /frcmp/rule_32/
 (h) Notice of Possible Departure from Sentencing Guidelines. Before the court may depart from the applicable sentencing range on a ground not identified for departure either in the presentence report or in a party's prehearing submission, the court must give the parties reasonable notice that it is contemplating such a departure. The notice must specify any ground on which the court is contemplating a departure.
 
 
-(i) Sentencing.
+&nbsp;&nbsp;(i) Sentencing.
 
 
 &nbsp;&nbsp;(1) In General. At sentencing, the court:
@@ -178,13 +178,13 @@ permalink: /frcmp/rule_32/
 &nbsp;&nbsp;&nbsp;&nbsp;(A) By a Party. Before imposing sentence, the court must:
 
 
-(i) provide the defendant's attorney an opportunity to speak on the defendant's behalf;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) provide the defendant's attorney an opportunity to speak on the defendant's behalf;
 
 
-&nbsp;&nbsp;(ii) address the defendant personally in order to permit the defendant to speak or present any information to mitigate the sentence; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) address the defendant personally in order to permit the defendant to speak or present any information to mitigate the sentence; and
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) provide an attorney for the government an opportunity to speak equivalent to that of the defendant's attorney.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) provide an attorney for the government an opportunity to speak equivalent to that of the defendant's attorney.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) By a Victim. Before imposing sentence, the court must address any victim of the crime who is present at sentencing and must permit the victim to be reasonably heard.

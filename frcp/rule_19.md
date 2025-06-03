@@ -16,10 +16,10 @@ permalink: /frcp/rule_19/
 &nbsp;&nbsp;&nbsp;&nbsp;(B) that person claims an interest relating to the subject of the action and is so situated that disposing of the action in the person's absence may:
 
 
-(i) as a practical matter impair or impede the person's ability to protect the interest; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) as a practical matter impair or impede the person's ability to protect the interest; or
 
 
-&nbsp;&nbsp;(ii) leave an existing party subject to a substantial risk of incurring double, multiple, or otherwise inconsistent obligations because of the interest.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) leave an existing party subject to a substantial risk of incurring double, multiple, or otherwise inconsistent obligations because of the interest.
 
 
 &nbsp;&nbsp;(2) Joinder by Court Order. If a person has not been joined as required, the court must order that the person be made a party. A person who refuses to join as a plaintiff may be made either a defendant or, in a proper case, an involuntary plaintiff.

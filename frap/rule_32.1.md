@@ -7,7 +7,7 @@ permalink: /frap/rule_32.1/
 (a) Citation Permitted. A court may not prohibit or restrict the citation of federal judicial opinions, orders, judgments, or other written dispositions that have been:
 
 
-(i) designated as “unpublished,” “not for publication,” “non-precedential,” “not precedent,” or the like; and
+&nbsp;&nbsp;(i) designated as “unpublished,” “not for publication,” “non-precedential,” “not precedent,” or the like; and
 
 
 &nbsp;&nbsp;(ii) issued on or after January 1, 2007.

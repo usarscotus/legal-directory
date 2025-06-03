@@ -31,10 +31,10 @@ permalink: /frcmp/rule_49/
 &nbsp;&nbsp;&nbsp;&nbsp;(B) leaving it:
 
 
-(i) at the person's office with a clerk or other person in charge or, if no one is in charge, in a conspicuous place in the office or;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) at the person's office with a clerk or other person in charge or, if no one is in charge, in a conspicuous place in the office or;
 
 
-&nbsp;&nbsp;(ii) if the person has no office or the office is closed, at the person's dwelling or usual place of abode with someone of suitable age and discretion who resides there;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) if the person has no office or the office is closed, at the person's dwelling or usual place of abode with someone of suitable age and discretion who resides there;
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(C) mailing it to the person's last known address —in which event service is complete upon mailing ;
@@ -61,10 +61,10 @@ permalink: /frcmp/rule_49/
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Nonelectronically . A paper not filed electronically is filed by delivering it:
 
 
-(i) to the clerk; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) to the clerk; or
 
 
-&nbsp;&nbsp;(ii) to a judge who agrees to accept it for filing, and who must then note the filing date on the paper and promptly send it to the clerk.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) to a judge who agrees to accept it for filing, and who must then note the filing date on the paper and promptly send it to the clerk.
 
 
 &nbsp;&nbsp;(3) Means Used by Represented and Unrepresented Parties .

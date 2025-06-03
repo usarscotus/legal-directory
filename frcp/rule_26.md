@@ -13,13 +13,13 @@ permalink: /frcp/rule_26/
 &nbsp;&nbsp;&nbsp;&nbsp;(A) In General. Except as exempted by Rule 26(a)(1)(B) or as otherwise stipulated or ordered by the court, a party must, without awaiting a discovery request, provide to the other parties:
 
 
-(i) the name and, if known, the address and telephone number of each individual likely to have discoverable information—along with the subjects of that information—that the disclosing party may use to support its claims or defenses, unless the use would be solely for impeachment;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) the name and, if known, the address and telephone number of each individual likely to have discoverable information—along with the subjects of that information—that the disclosing party may use to support its claims or defenses, unless the use would be solely for impeachment;
 
 
-&nbsp;&nbsp;(ii) a copy—or a description by category and location—of all documents, electronically stored information, and tangible things that the disclosing party has in its possession, custody, or control and may use to support its claims or defenses, unless the use would be solely for impeachment;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) a copy—or a description by category and location—of all documents, electronically stored information, and tangible things that the disclosing party has in its possession, custody, or control and may use to support its claims or defenses, unless the use would be solely for impeachment;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) a computation of each category of damages claimed by the disclosing party—who must also make available for inspection and copying as under Rule 34 the documents or other evidentiary material, unless privileged or protected from disclosure, on which each computation is based, including materials bearing on the nature and extent of injuries suffered; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) a computation of each category of damages claimed by the disclosing party—who must also make available for inspection and copying as under Rule 34 the documents or other evidentiary material, unless privileged or protected from disclosure, on which each computation is based, including materials bearing on the nature and extent of injuries suffered; and
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) for inspection and copying as under Rule 34 , any insurance agreement under which an insurance business may be liable to satisfy all or part of a possible judgment in the action or to indemnify or reimburse for payments made to satisfy the judgment.
@@ -28,25 +28,25 @@ permalink: /frcp/rule_26/
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Proceedings Exempt from Initial Disclosure. The following proceedings are exempt from initial disclosure:
 
 
-(i) an action for review on an administrative record;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) an action for review on an administrative record;
 
 
-&nbsp;&nbsp;(ii) a forfeiture action in rem arising from a federal statute;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) a forfeiture action in rem arising from a federal statute;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) a petition for habeas corpus or any other proceeding to challenge a criminal conviction or sentence;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) a petition for habeas corpus or any other proceeding to challenge a criminal conviction or sentence;
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) an action brought without an attorney by a person in the custody of the United States, a state, or a state subdivision;
 
 
-(v) an action to enforce or quash an administrative summons or subpoena;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(v) an action to enforce or quash an administrative summons or subpoena;
 
 
-&nbsp;&nbsp;(vi) an action by the United States to recover benefit payments;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(vi) an action by the United States to recover benefit payments;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(vii) an action by the United States to collect on a student loan guaranteed by the United States;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(vii) an action by the United States to collect on a student loan guaranteed by the United States;
 
 
 (viii) a proceeding ancillary to a proceeding in another court; and
@@ -73,40 +73,40 @@ permalink: /frcp/rule_26/
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Witnesses Who Must Provide a Written Report. Unless otherwise stipulated or ordered by the court, this disclosure must be accompanied by a written report—prepared and signed by the witness—if the witness is one retained or specially employed to provide expert testimony in the case or one whose duties as the party's employee regularly involve giving expert testimony. The report must contain:
 
 
-(i) a complete statement of all opinions the witness will express and the basis and reasons for them;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) a complete statement of all opinions the witness will express and the basis and reasons for them;
 
 
-&nbsp;&nbsp;(ii) the facts or data considered by the witness in forming them;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) the facts or data considered by the witness in forming them;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) any exhibits that will be used to summarize or support them;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) any exhibits that will be used to summarize or support them;
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) the witness's qualifications, including a list of all publications authored in the previous 10 years;
 
 
-(v) a list of all other cases in which, during the previous 4 years, the witness testified as an expert at trial or by deposition; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(v) a list of all other cases in which, during the previous 4 years, the witness testified as an expert at trial or by deposition; and
 
 
-&nbsp;&nbsp;(vi) a statement of the compensation to be paid for the study and testimony in the case.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(vi) a statement of the compensation to be paid for the study and testimony in the case.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(C) Witnesses Who Do Not Provide a Written Report. Unless otherwise stipulated or ordered by the court, if the witness is not required to provide a written report, this disclosure must state:
 
 
-(i) the subject matter on which the witness is expected to present evidence under Federal Rule of Evidence 702 , 703 , or 705 ; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) the subject matter on which the witness is expected to present evidence under Federal Rule of Evidence 702 , 703 , or 705 ; and
 
 
-&nbsp;&nbsp;(ii) a summary of the facts and opinions to which the witness is expected to testify.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) a summary of the facts and opinions to which the witness is expected to testify.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(D) Time to Disclose Expert Testimony. A party must make these disclosures at the times and in the sequence that the court orders. Absent a stipulation or a court order, the disclosures must be made:
 
 
-(i) at least 90 days before the date set for trial or for the case to be ready for trial; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) at least 90 days before the date set for trial or for the case to be ready for trial; or
 
 
-&nbsp;&nbsp;(ii) if the evidence is intended solely to contradict or rebut evidence on the same subject matter identified by another party under Rule 26(a)(2)(B) or (C), within 30 days after the other party's disclosure.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) if the evidence is intended solely to contradict or rebut evidence on the same subject matter identified by another party under Rule 26(a)(2)(B) or (C), within 30 days after the other party's disclosure.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(E) Supplementing the Disclosure. The parties must supplement these disclosures when required under Rule 26(e) .
@@ -118,13 +118,13 @@ permalink: /frcp/rule_26/
 &nbsp;&nbsp;&nbsp;&nbsp;(A) In General. In addition to the disclosures required by Rule 26(a)(1) and (2), a party must provide to the other parties and promptly file the following information about the evidence that it may present at trial other than solely for impeachment:
 
 
-(i) the name and, if not previously provided, the address and telephone number of each witness—separately identifying those the party expects to present and those it may call if the need arises;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) the name and, if not previously provided, the address and telephone number of each witness—separately identifying those the party expects to present and those it may call if the need arises;
 
 
-&nbsp;&nbsp;(ii) the designation of those witnesses whose testimony the party expects to present by deposition and, if not taken stenographically, a transcript of the pertinent parts of the deposition; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) the designation of those witnesses whose testimony the party expects to present by deposition and, if not taken stenographically, a transcript of the pertinent parts of the deposition; and
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) an identification of each document or other exhibit, including summaries of other evidence—separately identifying those items the party expects to offer and those it may offer if the need arises.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) an identification of each document or other exhibit, including summaries of other evidence—separately identifying those items the party expects to offer and those it may offer if the need arises.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Time for Pretrial Disclosures; Objections. Unless the court orders otherwise, these disclosures must be made at least 30 days before trial. Within 14 days after they are made, unless the court sets a different time, a party may serve and promptly file a list of the following objections: any objections to the use under Rule 32(a) of a deposition designated by another party under Rule 26(a)(3)(A)(ii) ; and any objection, together with the grounds for it, that may be made to the admissibility of materials identified under Rule 26(a)(3)(A)(iii) . An objection not so made—except for one under Federal Rule of Evidence 402 or 403 —is waived unless excused by the court for good cause.
@@ -151,13 +151,13 @@ permalink: /frcp/rule_26/
 &nbsp;&nbsp;&nbsp;&nbsp;(C) When Required. On motion or on its own, the court must limit the frequency or extent of discovery otherwise allowed by these rules or by local rule if it determines that:
 
 
-(i) the discovery sought is unreasonably cumulative or duplicative, or can be obtained from some other source that is more convenient, less burdensome, or less expensive;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) the discovery sought is unreasonably cumulative or duplicative, or can be obtained from some other source that is more convenient, less burdensome, or less expensive;
 
 
-&nbsp;&nbsp;(ii) the party seeking discovery has had ample opportunity to obtain the information by discovery in the action; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) the party seeking discovery has had ample opportunity to obtain the information by discovery in the action; or
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) the proposed discovery is outside the scope permitted by Rule 26(b)(1).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) the proposed discovery is outside the scope permitted by Rule 26(b)(1).
 
 
 &nbsp;&nbsp;(3) Trial Preparation: Materials.
@@ -166,10 +166,10 @@ permalink: /frcp/rule_26/
 &nbsp;&nbsp;&nbsp;&nbsp;(A) Documents and Tangible Things. Ordinarily, a party may not discover documents and tangible things that are prepared in anticipation of litigation or for trial by or for another party or its representative (including the other party's attorney, consultant, surety, indemnitor, insurer, or agent). But, subject to Rule 26(b)(4) , those materials may be discovered if:
 
 
-(i) they are otherwise discoverable under Rule 26(b)(1) ; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) they are otherwise discoverable under Rule 26(b)(1) ; and
 
 
-&nbsp;&nbsp;(ii) the party shows that it has substantial need for the materials to prepare its case and cannot, without undue hardship, obtain their substantial equivalent by other means.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) the party shows that it has substantial need for the materials to prepare its case and cannot, without undue hardship, obtain their substantial equivalent by other means.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Protection Against Disclosure. If the court orders discovery of those materials, it must protect against disclosure of the mental impressions, conclusions, opinions, or legal theories of a party's attorney or other representative concerning the litigation.
@@ -178,10 +178,10 @@ permalink: /frcp/rule_26/
 &nbsp;&nbsp;&nbsp;&nbsp;(C) Previous Statement. Any party or other person may, on request and without the required showing, obtain the person's own previous statement about the action or its subject matter. If the request is refused, the person may move for a court order, and Rule 37(a)(5) applies to the award of expenses. A previous statement is either:
 
 
-(i) a written statement that the person has signed or otherwise adopted or approved; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) a written statement that the person has signed or otherwise adopted or approved; or
 
 
-&nbsp;&nbsp;(ii) a contemporaneous stenographic, mechanical, electrical, or other recording—or a transcription of it—that recites substantially verbatim the person's oral statement.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) a contemporaneous stenographic, mechanical, electrical, or other recording—or a transcription of it—that recites substantially verbatim the person's oral statement.
 
 
 &nbsp;&nbsp;(4) Trial Preparation: Experts.
@@ -196,31 +196,31 @@ permalink: /frcp/rule_26/
 &nbsp;&nbsp;&nbsp;&nbsp;(C) Trial-Preparation Protection for Communications Between a Party's Attorney and Expert Witnesses. Rules 26(b)(3)(A) and (B) protect communications between the party's attorney and any witness required to provide a report under Rule 26(a)(2)(B) , regardless of the form of the communications, except to the extent that the communications:
 
 
-(i) relate to compensation for the expert's study or testimony;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) relate to compensation for the expert's study or testimony;
 
 
-&nbsp;&nbsp;(ii) identify facts or data that the party's attorney provided and that the expert considered in forming the opinions to be expressed; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) identify facts or data that the party's attorney provided and that the expert considered in forming the opinions to be expressed; or
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) identify assumptions that the party's attorney provided and that the expert relied on in forming the opinions to be expressed.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) identify assumptions that the party's attorney provided and that the expert relied on in forming the opinions to be expressed.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(D) Expert Employed Only for Trial Preparation. Ordinarily, a party may not, by interrogatories or deposition, discover facts known or opinions held by an expert who has been retained or specially employed by another party in anticipation of litigation or to prepare for trial and who is not expected to be called as a witness at trial. But a party may do so only:
 
 
-(i) as provided in Rule 35(b) ; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) as provided in Rule 35(b) ; or
 
 
-&nbsp;&nbsp;(ii) on showing exceptional circumstances under which it is impracticable for the party to obtain facts or opinions on the same subject by other means.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) on showing exceptional circumstances under which it is impracticable for the party to obtain facts or opinions on the same subject by other means.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(E) Payment. Unless manifest injustice would result, the court must require that the party seeking discovery:
 
 
-(i) pay the expert a reasonable fee for time spent in responding to discovery under Rule 26(b)(4)(A) or (D); and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) pay the expert a reasonable fee for time spent in responding to discovery under Rule 26(b)(4)(A) or (D); and
 
 
-&nbsp;&nbsp;(ii) for discovery under (D), also pay the other party a fair portion of the fees and expenses it reasonably incurred in obtaining the expert's facts and opinions.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) for discovery under (D), also pay the other party a fair portion of the fees and expenses it reasonably incurred in obtaining the expert's facts and opinions.
 
 
 &nbsp;&nbsp;(5) Claiming Privilege or Protecting Trial-Preparation Materials.
@@ -229,10 +229,10 @@ permalink: /frcp/rule_26/
 &nbsp;&nbsp;&nbsp;&nbsp;(A) Information Withheld. When a party withholds information otherwise discoverable by claiming that the information is privileged or subject to protection as trial-preparation material, the party must:
 
 
-(i) expressly make the claim; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) expressly make the claim; and
 
 
-&nbsp;&nbsp;(ii) describe the nature of the documents, communications, or tangible things not produced or disclosed—and do so in a manner that, without revealing information itself privileged or protected, will enable other parties to assess the claim.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) describe the nature of the documents, communications, or tangible things not produced or disclosed—and do so in a manner that, without revealing information itself privileged or protected, will enable other parties to assess the claim.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Information Produced. If information produced in discovery is subject to a claim of privilege or of protection as trial-preparation material, the party making the claim may notify any party that received the information of the claim and the basis for it. After being notified, a party must promptly return, sequester, or destroy the specified information and any copies it has; must not use or disclose the information until the claim is resolved; must take reasonable steps to retrieve the information if the party disclosed it before being notified; and may promptly present the information to the court under seal for a determination of the claim. The producing party must preserve the information until the claim is resolved.
@@ -286,10 +286,10 @@ permalink: /frcp/rule_26/
 &nbsp;&nbsp;&nbsp;&nbsp;(A) Time to Deliver. More than 21 days after the summons and complaint are served on a party, a request under Rule 34 may be delivered:
 
 
-(i) to that party by any other party, and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) to that party by any other party, and
 
 
-&nbsp;&nbsp;(ii) by that party to any plaintiff or to any other party that has been served.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) by that party to any plaintiff or to any other party that has been served.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) When Considered Served. The request is considered to have been served at the first Rule 26(f) conference.
@@ -370,13 +370,13 @@ permalink: /frcp/rule_26/
 &nbsp;&nbsp;&nbsp;&nbsp;(B) with respect to a discovery request, response, or objection, it is:
 
 
-(i) consistent with these rules and warranted by existing law or by a nonfrivolous argument for extending, modifying, or reversing existing law, or for establishing new law;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) consistent with these rules and warranted by existing law or by a nonfrivolous argument for extending, modifying, or reversing existing law, or for establishing new law;
 
 
-&nbsp;&nbsp;(ii) not interposed for any improper purpose, such as to harass, cause unnecessary delay, or needlessly increase the cost of litigation; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) not interposed for any improper purpose, such as to harass, cause unnecessary delay, or needlessly increase the cost of litigation; and
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) neither unreasonable nor unduly burdensome or expensive, considering the needs of the case, prior discovery in the case, the amount in controversy, and the importance of the issues at stake in the action.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) neither unreasonable nor unduly burdensome or expensive, considering the needs of the case, prior discovery in the case, the amount in controversy, and the importance of the issues at stake in the action.
 
 
 &nbsp;&nbsp;(2) Failure to Sign. Other parties have no duty to act on an unsigned disclosure, request, response, or objection until it is signed, and the court must strike it unless a signature is promptly supplied after the omission is called to the attorney's or party's attention.

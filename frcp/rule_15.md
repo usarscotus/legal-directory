@@ -46,10 +46,10 @@ permalink: /frcp/rule_15/
 &nbsp;&nbsp;&nbsp;&nbsp;(C) the amendment changes the party or the naming of the party against whom a claim is asserted, if Rule 15(c)(1)(B) is satisfied and if, within the period provided by Rule 4(m) for serving the summons and complaint, the party to be brought in by amendment:
 
 
-(i) received such notice of the action that it will not be prejudiced in defending on the merits; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) received such notice of the action that it will not be prejudiced in defending on the merits; and
 
 
-&nbsp;&nbsp;(ii) knew or should have known that the action would have been brought against it, but for a mistake concerning the proper party's identity.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) knew or should have known that the action would have been brought against it, but for a mistake concerning the proper party's identity.
 
 
 &nbsp;&nbsp;(2) Notice to the United States. When the United States or a United States officer or agency is added as a defendant by amendment, the notice requirements of Rule 15(c)(1)(C)(i) and (ii) are satisfied if, during the stated period, process was delivered or mailed to the United States attorney or the United States attorney's designee, to the Attorney General of the United States, or to the officer or agency.

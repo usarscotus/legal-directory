@@ -13,13 +13,13 @@ permalink: /frcp/rule_45/
 &nbsp;&nbsp;&nbsp;&nbsp;(A) Requirements—In General. Every subpoena must:
 
 
-(i) state the court from which it issued;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) state the court from which it issued;
 
 
-&nbsp;&nbsp;(ii) state the title of the action and its civil-action number;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) state the title of the action and its civil-action number;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) command each person to whom it is directed to do the following at a specified time and place: attend and testify; produce designated documents, electronically stored information, or tangible things in that person's possession, custody, or control; or permit the inspection of premises; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) command each person to whom it is directed to do the following at a specified time and place: attend and testify; produce designated documents, electronically stored information, or tangible things in that person's possession, custody, or control; or permit the inspection of premises; and
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) set out the text of Rule 45(d) and (e).
@@ -70,10 +70,10 @@ permalink: /frcp/rule_45/
 &nbsp;&nbsp;&nbsp;&nbsp;(B) within the state where the person resides, is employed, or regularly transacts business in person, if the person
 
 
-(i) is a party or a party's officer; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) is a party or a party's officer; or
 
 
-&nbsp;&nbsp;(ii) is commanded to attend a trial and would not incur substantial expense.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) is commanded to attend a trial and would not incur substantial expense.
 
 
 &nbsp;&nbsp;(2) For Other Discovery. A subpoena may command:
@@ -100,10 +100,10 @@ permalink: /frcp/rule_45/
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Objections. A person commanded to produce documents or tangible things or to permit inspection may serve on the party or attorney designated in the subpoena a written objection to inspecting, copying, testing or sampling any or all of the materials or to inspecting the premises—or to producing electronically stored information in the form or forms requested. The objection must be served before the earlier of the time specified for compliance or 14 days after the subpoena is served. If an objection is made, the following rules apply:
 
 
-(i) At any time, on notice to the commanded person, the serving party may move the court for the district where compliance is required for an order compelling production or inspection.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) At any time, on notice to the commanded person, the serving party may move the court for the district where compliance is required for an order compelling production or inspection.
 
 
-&nbsp;&nbsp;(ii) These acts may be required only as directed in the order, and the order must protect a person who is neither a party nor a party's officer from significant expense resulting from compliance.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) These acts may be required only as directed in the order, and the order must protect a person who is neither a party nor a party's officer from significant expense resulting from compliance.
 
 
 &nbsp;&nbsp;(3) Quashing or Modifying a Subpoena.
@@ -112,13 +112,13 @@ permalink: /frcp/rule_45/
 &nbsp;&nbsp;&nbsp;&nbsp;(A) When Required. On timely motion, the court for the district where compliance is required must quash or modify a subpoena that:
 
 
-(i) fails to allow a reasonable time to comply;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) fails to allow a reasonable time to comply;
 
 
-&nbsp;&nbsp;(ii) requires a person to comply beyond the geographical limits specified in Rule 45(c) ;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) requires a person to comply beyond the geographical limits specified in Rule 45(c) ;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) requires disclosure of privileged or other protected matter, if no exception or waiver applies; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) requires disclosure of privileged or other protected matter, if no exception or waiver applies; or
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) subjects a person to undue burden.
@@ -127,19 +127,19 @@ permalink: /frcp/rule_45/
 &nbsp;&nbsp;&nbsp;&nbsp;(B) When Permitted. To protect a person subject to or affected by a subpoena, the court for the district where compliance is required may, on motion, quash or modify the subpoena if it requires:
 
 
-(i) disclosing a trade secret or other confidential research, development, or commercial information; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) disclosing a trade secret or other confidential research, development, or commercial information; or
 
 
-&nbsp;&nbsp;(ii) disclosing an unretained expert's opinion or information that does not describe specific occurrences in dispute and results from the expert's study that was not requested by a party.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) disclosing an unretained expert's opinion or information that does not describe specific occurrences in dispute and results from the expert's study that was not requested by a party.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(C) Specifying Conditions as an Alternative. In the circumstances described in Rule 45(d)(3)(B) , the court may, instead of quashing or modifying a subpoena, order appearance or production under specified conditions if the serving party:
 
 
-(i) shows a substantial need for the testimony or material that cannot be otherwise met without undue hardship; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) shows a substantial need for the testimony or material that cannot be otherwise met without undue hardship; and
 
 
-&nbsp;&nbsp;(ii) ensures that the subpoenaed person will be reasonably compensated.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) ensures that the subpoenaed person will be reasonably compensated.
 
 
 (e) Duties in Responding to a Subpoena.
@@ -166,10 +166,10 @@ permalink: /frcp/rule_45/
 &nbsp;&nbsp;&nbsp;&nbsp;(A) Information Withheld. A person withholding subpoenaed information under a claim that it is privileged or subject to protection as trial-preparation material must:
 
 
-(i) expressly make the claim; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) expressly make the claim; and
 
 
-&nbsp;&nbsp;(ii) describe the nature of the withheld documents, communications, or tangible things in a manner that, without revealing information itself privileged or protected, will enable the parties to assess the claim.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) describe the nature of the withheld documents, communications, or tangible things in a manner that, without revealing information itself privileged or protected, will enable the parties to assess the claim.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Information Produced. If information produced in response to a subpoena is subject to a claim of privilege or of protection as trial-preparation material, the person making the claim may notify any party that received the information of the claim and the basis for it. After being notified, a party must promptly return, sequester, or destroy the specified information and any copies it has; must not use or disclose the information until the claim is resolved; must take reasonable steps to retrieve the information if the party disclosed it before being notified; and may promptly present the information under seal to the court for the district where compliance is required for a determination of the claim. The person who produced the information must preserve the information until the claim is resolved.

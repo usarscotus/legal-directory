@@ -82,10 +82,10 @@ permalink: /frcp/rule_81/
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Under Rule 38 . If all necessary pleadings have been served at the time of removal, a party entitled to a jury trial under Rule 38 must be given one if the party serves a demand within 14 days after:
 
 
-(i) it files a notice of removal; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) it files a notice of removal; or
 
 
-&nbsp;&nbsp;(ii) it is served with a notice of removal filed by another party.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) it is served with a notice of removal filed by another party.
 
 
 (d) Law Applicable.

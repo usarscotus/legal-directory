@@ -40,19 +40,19 @@ permalink: /frcmp/rule_32.1/
 &nbsp;&nbsp;&nbsp;&nbsp;(A) if the alleged violation occurred in the district of arrest, conduct a preliminary hearing under Rule 32.1(b) and either:
 
 
-(i) transfer the person to the district that has jurisdiction, if the judge finds probable cause to believe that a violation occurred; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) transfer the person to the district that has jurisdiction, if the judge finds probable cause to believe that a violation occurred; or
 
 
-&nbsp;&nbsp;(ii) dismiss the proceedings and so notify the court that has jurisdiction, if the judge finds no probable cause to believe that a violation occurred; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) dismiss the proceedings and so notify the court that has jurisdiction, if the judge finds no probable cause to believe that a violation occurred; or
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) if the alleged violation did not occur in the district of arrest, transfer the person to the district that has jurisdiction if:
 
 
-(i) the government produces certified copies of the judgment, warrant, and warrant application, or produces copies of those certified documents by reliable electronic means; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) the government produces certified copies of the judgment, warrant, and warrant application, or produces copies of those certified documents by reliable electronic means; and
 
 
-&nbsp;&nbsp;(ii) the judge finds that the person is the same person named in the warrant.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) the judge finds that the person is the same person named in the warrant.
 
 
 &nbsp;&nbsp;(6) Release or Detention. The magistrate judge may release or detain the person under 18 U.S.C. §3143(a)(1) pending further proceedings. The burden of establishing by clear and convincing evidence that the person will not flee or pose a danger to any other person or to the community rests with the person.
@@ -70,13 +70,13 @@ permalink: /frcmp/rule_32.1/
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Requirements . The hearing must be recorded by a court reporter or by a suitable recording device. The judge must give the person:
 
 
-(i) notice of the hearing and its purpose, the alleged violation, and the person's right to retain counsel or to request that counsel be appointed if the person cannot obtain counsel;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) notice of the hearing and its purpose, the alleged violation, and the person's right to retain counsel or to request that counsel be appointed if the person cannot obtain counsel;
 
 
-&nbsp;&nbsp;(ii) an opportunity to appear at the hearing and present evidence; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) an opportunity to appear at the hearing and present evidence; and
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) upon request, an opportunity to question any adverse witness, unless the judge determines that the interest of justice does not require the witness to appear.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) upon request, an opportunity to question any adverse witness, unless the judge determines that the interest of justice does not require the witness to appear.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(C) Referral. If the judge finds probable cause, the judge must conduct a revocation hearing. If the judge does not find probable cause, the judge must dismiss the proceeding.

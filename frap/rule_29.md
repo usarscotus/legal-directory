@@ -40,13 +40,13 @@ permalink: /frap/rule_29/
 &nbsp;&nbsp;&nbsp;&nbsp;(E) unless the amicus curiae is one listed in the first sentence of Rule 29(a)(2) , a statement that indicates whether:
 
 
-(i) a party's counsel authored the brief in whole or in part;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) a party's counsel authored the brief in whole or in part;
 
 
-&nbsp;&nbsp;(ii) a party or a party's counsel contributed money that was intended to fund preparing or submitting the brief; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) a party or a party's counsel contributed money that was intended to fund preparing or submitting the brief; and
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) a person—other than the amicus curiae, its members, or its counsel—contributed money that was intended to fund preparing or submitting the brief and, if so, identifies each such person;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) a person—other than the amicus curiae, its members, or its counsel—contributed money that was intended to fund preparing or submitting the brief and, if so, identifies each such person;
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(F) an argument, which may be preceded by a summary and which need not include a statement of the applicable standard of review; and

@@ -22,13 +22,13 @@ permalink: /frcmp/rule_4.1/
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Additional Testimony or Exhibits. If the judge considers additional testimony or exhibits, the judge must:
 
 
-(i) have the testimony recorded verbatim by an electronic recording device, by a court reporter, or in writing;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) have the testimony recorded verbatim by an electronic recording device, by a court reporter, or in writing;
 
 
-&nbsp;&nbsp;(ii) have any recording or reporter’s notes transcribed, have the transcription certified as accurate, and file it;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) have any recording or reporter’s notes transcribed, have the transcription certified as accurate, and file it;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) sign any other written record, certify its accuracy, and file it; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) sign any other written record, certify its accuracy, and file it; and
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) make sure that the exhibits are filed.

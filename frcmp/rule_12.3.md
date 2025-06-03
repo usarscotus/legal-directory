@@ -40,10 +40,10 @@ permalink: /frcmp/rule_12.3/
 &nbsp;&nbsp;&nbsp;&nbsp;(D) Victim's Address and Telephone Number. If the government intends to rely on a victim's testimony to oppose the defendant's public-authority defense and the defendant establishes a need for the victim's address and telephone number, the court may:
 
 
-(i) order the government to provide the information in writing to the defendant or the defendant's attorney; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) order the government to provide the information in writing to the defendant or the defendant's attorney; or
 
 
-&nbsp;&nbsp;(ii) fashion a reasonable procedure that allows for preparing the defense and also protects the victim's interests.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) fashion a reasonable procedure that allows for preparing the defense and also protects the victim's interests.
 
 
 &nbsp;&nbsp;(5) Additional Time. The court may, for good cause, allow a party additional time to comply with this rule.

@@ -100,7 +100,7 @@ Only clear abbreviations may be used. A party referring to evidence whose admiss
 (h) [Reserved]
 
 
-(i) Briefs in a Case Involving Multiple Appellants or Appellees. In a case involving more than one appellant or appellee, including consolidated cases, any number of appellants or appellees may join in a brief, and any party may adopt by reference a part of another's brief. Parties may also join in reply briefs.
+&nbsp;&nbsp;(i) Briefs in a Case Involving Multiple Appellants or Appellees. In a case involving more than one appellant or appellee, including consolidated cases, any number of appellants or appellees may join in a brief, and any party may adopt by reference a part of another's brief. Parties may also join in reply briefs.
 
 
 (j) Citation of Supplemental Authorities. If pertinent and significant authorities come to a party's attention after the party's brief has been filed—or after oral argument but before decision—a party may promptly advise the circuit clerk by letter, with a copy to all other parties, setting forth the citations. The letter must state the reasons for the supplemental citations, referring either to the page of the brief or to a point argued orally. The body of the letter must not exceed 350 words. Any response must be made promptly and must be similarly limited.

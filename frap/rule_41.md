@@ -28,10 +28,10 @@ permalink: /frap/rule_41/
 &nbsp;&nbsp;&nbsp;&nbsp;(B) the party who obtained the stay notifies the circuit clerk in writing within the period of the stay:
 
 
-(i) that the time for filing a petition has been extended, in which case the stay continues for the extended period; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) that the time for filing a petition has been extended, in which case the stay continues for the extended period; or
 
 
-&nbsp;&nbsp;(ii) that the petition has been filed, in which case the stay continues until the Supreme Court's final disposition.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) that the petition has been filed, in which case the stay continues until the Supreme Court's final disposition.
 
 
 &nbsp;&nbsp;(3) Security. The court may require a bond or other security as a condition to granting or continuing a stay of the mandate.

@@ -13,10 +13,10 @@ permalink: /frcp/rule_41/
 &nbsp;&nbsp;&nbsp;&nbsp;(A) Without a Court Order. Subject to Rules 23(e) , 23.1(c) , 23.2 , and 66 and any applicable federal statute, the plaintiff may dismiss an action without a court order by filing:
 
 
-(i) a notice of dismissal before the opposing party serves either an answer or a motion for summary judgment; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) a notice of dismissal before the opposing party serves either an answer or a motion for summary judgment; or
 
 
-&nbsp;&nbsp;(ii) a stipulation of dismissal signed by all parties who have appeared.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) a stipulation of dismissal signed by all parties who have appeared.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Effect. Unless the notice or stipulation states otherwise, the dismissal is without prejudice. But if the plaintiff previously dismissed any federal- or state-court action based on or including the same claim, a notice of dismissal operates as an adjudication on the merits.

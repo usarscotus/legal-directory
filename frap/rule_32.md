@@ -67,7 +67,7 @@ permalink: /frap/rule_32/
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Type-Volume Limitation.
 
 
-(i) A principal brief is acceptable if it:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) A principal brief is acceptable if it:
 
 
 • contains no more than 13,000 words; or

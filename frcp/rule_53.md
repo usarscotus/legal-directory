@@ -16,10 +16,10 @@ permalink: /frcp/rule_53/
 &nbsp;&nbsp;&nbsp;&nbsp;(B) hold trial proceedings and make or recommend findings of fact on issues to be decided without a jury if appointment is warranted by:
 
 
-(i) some exceptional condition; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) some exceptional condition; or
 
 
-&nbsp;&nbsp;(ii) the need to perform an accounting or resolve a difficult computation of damages; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) the need to perform an accounting or resolve a difficult computation of damages; or
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(C) address pretrial and posttrial matters that cannot be effectively and timely addressed by an available district judge or magistrate judge of the district.
@@ -163,13 +163,13 @@ le 54. Judgment; Costs
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Timing and Contents of the Motion. Unless a statute or a court order provides otherwise, the motion must:
 
 
-(i) be filed no later than 14 days after the entry of judgment;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) be filed no later than 14 days after the entry of judgment;
 
 
-&nbsp;&nbsp;(ii) specify the judgment and the statute, rule, or other grounds entitling the movant to the award;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) specify the judgment and the statute, rule, or other grounds entitling the movant to the award;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(iii) state the amount sought or provide a fair estimate of it; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) state the amount sought or provide a fair estimate of it; and
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) disclose, if the court so orders, the terms of any agreement about fees for the services for which the claim is made.

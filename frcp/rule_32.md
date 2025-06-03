@@ -91,10 +91,10 @@ permalink: /frcp/rule_32/
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Objection to an Error or Irregularity. An objection to an error or irregularity at an oral examination is waived if:
 
 
-(i) it relates to the manner of taking the deposition, the form of a question or answer, the oath or affirmation, a party's conduct, or other matters that might have been corrected at that time; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) it relates to the manner of taking the deposition, the form of a question or answer, the oath or affirmation, a party's conduct, or other matters that might have been corrected at that time; and
 
 
-&nbsp;&nbsp;(ii) it is not timely made during the deposition.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) it is not timely made during the deposition.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(C) Objection to a Written Question. An objection to the form of a written question under Rule 31 is waived if not served in writing on the party submitting the question within the time for serving responsive questions or, if the question is a recross-question, within 7 days after being served with it.
