@@ -115,10 +115,10 @@ permalink: /frcmp/rule_41/
 (i) execute the warrant within a specified time no longer than 14 days;
 
 
-(ii) execute the warrant during the daytime, unless the judge for good cause expressly authorizes execution at another time; and
+&nbsp;&nbsp;(ii) execute the warrant during the daytime, unless the judge for good cause expressly authorizes execution at another time; and
 
 
-(iii) return the warrant to the magistrate judge designated in the warrant.
+&nbsp;&nbsp;&nbsp;&nbsp;(iii) return the warrant to the magistrate judge designated in the warrant.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Warrant Seeking Electronically Stored Information. A warrant under Rule 41(e)(2)(A) may authorize the seizure of electronic storage media or the seizure or copying of electronically stored information. Unless otherwise specified, the warrant authorizes a later review of the media or information consistent with the warrant. The time for executing the warrant in Rule 41(e)(2)(A) and (f)(1)(A) refers to the seizure or on-site copying of the media or information, and not to any later off-site copying or review.
@@ -130,10 +130,10 @@ permalink: /frcmp/rule_41/
 (i) complete any installation authorized by the warrant within a specified time no longer than 10 days;
 
 
-(ii) perform any installation authorized by the warrant during the daytime, unless the judge for good cause expressly authorizes installation at another time; and
+&nbsp;&nbsp;(ii) perform any installation authorized by the warrant during the daytime, unless the judge for good cause expressly authorizes installation at another time; and
 
 
-(iii) return the warrant to the judge designated in the warrant.
+&nbsp;&nbsp;&nbsp;&nbsp;(iii) return the warrant to the judge designated in the warrant.
 
 
 (f) Executing and Returning the Warrant.

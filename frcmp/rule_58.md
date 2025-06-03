@@ -43,7 +43,7 @@ permalink: /frcmp/rule_58/
 (i) the charge is a petty offense; or
 
 
-(ii) the defendant consents to trial, judgment, and sentencing before a magistrate judge;
+&nbsp;&nbsp;(ii) the defendant consents to trial, judgment, and sentencing before a magistrate judge;
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(F) the right to a jury trial before either a magistrate judge or a district judge—unless the charge is a petty offense; and

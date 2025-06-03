@@ -22,10 +22,10 @@ permalink: /frap/rule_27/
 (i) Any affidavit or other paper necessary to support a motion must be served and filed with the motion.
 
 
-(ii) An affidavit must contain only factual information, not legal argument.
+&nbsp;&nbsp;(ii) An affidavit must contain only factual information, not legal argument.
 
 
-(iii) A motion seeking substantive relief must include a copy of the trial court's opinion or agency's decision as a separate exhibit.
+&nbsp;&nbsp;&nbsp;&nbsp;(iii) A motion seeking substantive relief must include a copy of the trial court's opinion or agency's decision as a separate exhibit.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(C) Documents Barred or Not Required.
@@ -34,10 +34,10 @@ permalink: /frap/rule_27/
 (i) A separate brief supporting or responding to a motion must not be filed.
 
 
-(ii) A notice of motion is not required.
+&nbsp;&nbsp;(ii) A notice of motion is not required.
 
 
-(iii) A proposed order is not required.
+&nbsp;&nbsp;&nbsp;&nbsp;(iii) A proposed order is not required.
 
 
 &nbsp;&nbsp;(3) Response.

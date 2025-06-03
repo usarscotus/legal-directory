@@ -10,7 +10,7 @@ permalink: /frcmp/rule_40/
 (i) failing to appear as required by the terms of that person's release under 18 U.S.C. §§3141 –3156 or by a subpoena; or
 
 
-(ii) violating conditions of release set in another district.
+&nbsp;&nbsp;(ii) violating conditions of release set in another district.
 
 
 (b) Proceedings. The judge must proceed under Rule 5(c)(3) as applicable.

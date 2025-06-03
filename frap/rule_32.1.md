@@ -10,7 +10,7 @@ permalink: /frap/rule_32.1/
 (i) designated as “unpublished,” “not for publication,” “non-precedential,” “not precedent,” or the like; and
 
 
-(ii) issued on or after January 1, 2007.
+&nbsp;&nbsp;(ii) issued on or after January 1, 2007.
 
 
 (b) Copies Required. If a party cites a federal judicial opinion, order, judgment, or other written disposition that is not available in a publicly accessible electronic database, the party must file and serve a copy of that opinion, order, judgment, or disposition with the brief or other paper in which it is cited.

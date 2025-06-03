@@ -49,22 +49,22 @@ permalink: /frcp/rule_16/
 (i) modify the timing of disclosures under Rules 26(a) and 26(e)(1) ;
 
 
-(ii) modify the extent of discovery;
+&nbsp;&nbsp;(ii) modify the extent of discovery;
 
 
-(iii) provide for disclosure, discovery, or preservation of electronically stored information;
+&nbsp;&nbsp;&nbsp;&nbsp;(iii) provide for disclosure, discovery, or preservation of electronically stored information;
 
 
-(iv) include any agreements the parties reach for asserting claims of privilege or of protection as trial-preparation material after information is produced, including agreements reached under Federal Rule of Evidence 502 ;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) include any agreements the parties reach for asserting claims of privilege or of protection as trial-preparation material after information is produced, including agreements reached under Federal Rule of Evidence 502 ;
 
 
 (v) direct that before moving for an order relating to discovery, the movant must request a conference with the court;
 
 
-(vi) set dates for pretrial conferences and for trial; and
+&nbsp;&nbsp;(vi) set dates for pretrial conferences and for trial; and
 
 
-(vii) include other appropriate matters.
+&nbsp;&nbsp;&nbsp;&nbsp;(vii) include other appropriate matters.
 
 
 &nbsp;&nbsp;(4) Modifying a Schedule. A schedule may be modified only for good cause and with the judge's consent.

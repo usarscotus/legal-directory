@@ -91,7 +91,7 @@ permalink: /frcmp/rule_62/
 (i) videoconferencing is not reasonably available for any person who would participate by teleconference; and
 
 
-(ii) the defendant will have an adequate opportunity to consult confidentially with counsel before and during the proceeding if held by teleconference; and
+&nbsp;&nbsp;(ii) the defendant will have an adequate opportunity to consult confidentially with counsel before and during the proceeding if held by teleconference; and
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(C) the defendant consents.

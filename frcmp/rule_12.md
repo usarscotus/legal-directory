@@ -25,13 +25,13 @@ permalink: /frcmp/rule_12/
 (i) improper venue;
 
 
-(ii) preindictment delay;
+&nbsp;&nbsp;(ii) preindictment delay;
 
 
-(iii) a violation of the constitutional right to a speedy trial;
+&nbsp;&nbsp;&nbsp;&nbsp;(iii) a violation of the constitutional right to a speedy trial;
 
 
-(iv) selective or vindictive prosecution; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) selective or vindictive prosecution; and
 
 
 (v) an error in the grand-jury proceeding or preliminary hearing;
@@ -43,13 +43,13 @@ permalink: /frcmp/rule_12/
 (i) joining two or more offenses in the same count (duplicity);
 
 
-(ii) charging the same offense in more than one count (multiplicity);
+&nbsp;&nbsp;(ii) charging the same offense in more than one count (multiplicity);
 
 
-(iii) lack of specificity;
+&nbsp;&nbsp;&nbsp;&nbsp;(iii) lack of specificity;
 
 
-(iv) improper joinder; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) improper joinder; and
 
 
 (v) failure to state an offense;

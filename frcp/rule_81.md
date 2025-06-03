@@ -85,7 +85,7 @@ permalink: /frcp/rule_81/
 (i) it files a notice of removal; or
 
 
-(ii) it is served with a notice of removal filed by another party.
+&nbsp;&nbsp;(ii) it is served with a notice of removal filed by another party.
 
 
 (d) Law Applicable.

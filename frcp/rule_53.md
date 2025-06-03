@@ -19,7 +19,7 @@ permalink: /frcp/rule_53/
 (i) some exceptional condition; or
 
 
-(ii) the need to perform an accounting or resolve a difficult computation of damages; or
+&nbsp;&nbsp;(ii) the need to perform an accounting or resolve a difficult computation of damages; or
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(C) address pretrial and posttrial matters that cannot be effectively and timely addressed by an available district judge or magistrate judge of the district.
@@ -166,13 +166,13 @@ le 54. Judgment; Costs
 (i) be filed no later than 14 days after the entry of judgment;
 
 
-(ii) specify the judgment and the statute, rule, or other grounds entitling the movant to the award;
+&nbsp;&nbsp;(ii) specify the judgment and the statute, rule, or other grounds entitling the movant to the award;
 
 
-(iii) state the amount sought or provide a fair estimate of it; and
+&nbsp;&nbsp;&nbsp;&nbsp;(iii) state the amount sought or provide a fair estimate of it; and
 
 
-(iv) disclose, if the court so orders, the terms of any agreement about fees for the services for which the claim is made.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) disclose, if the court so orders, the terms of any agreement about fees for the services for which the claim is made.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(C) Proceedings. Subject to Rule 23(h) , the court must, on a party's request, give an opportunity for adversary submissions on the motion in accordance with Rule 43(c) or 78 . The court may decide issues of liability for fees before receiving submissions on the value of services. The court must find the facts and state its conclusions of law as provided in Rule 52(a) .

@@ -43,10 +43,10 @@ permalink: /frap/rule_29/
 (i) a party's counsel authored the brief in whole or in part;
 
 
-(ii) a party or a party's counsel contributed money that was intended to fund preparing or submitting the brief; and
+&nbsp;&nbsp;(ii) a party or a party's counsel contributed money that was intended to fund preparing or submitting the brief; and
 
 
-(iii) a person—other than the amicus curiae, its members, or its counsel—contributed money that was intended to fund preparing or submitting the brief and, if so, identifies each such person;
+&nbsp;&nbsp;&nbsp;&nbsp;(iii) a person—other than the amicus curiae, its members, or its counsel—contributed money that was intended to fund preparing or submitting the brief and, if so, identifies each such person;
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(F) an argument, which may be preceded by a summary and which need not include a statement of the applicable standard of review; and

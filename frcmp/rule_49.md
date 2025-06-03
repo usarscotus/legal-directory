@@ -34,7 +34,7 @@ permalink: /frcmp/rule_49/
 (i) at the person's office with a clerk or other person in charge or, if no one is in charge, in a conspicuous place in the office or;
 
 
-(ii) if the person has no office or the office is closed, at the person's dwelling or usual place of abode with someone of suitable age and discretion who resides there;
+&nbsp;&nbsp;(ii) if the person has no office or the office is closed, at the person's dwelling or usual place of abode with someone of suitable age and discretion who resides there;
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(C) mailing it to the person's last known address —in which event service is complete upon mailing ;
@@ -64,7 +64,7 @@ permalink: /frcmp/rule_49/
 (i) to the clerk; or
 
 
-(ii) to a judge who agrees to accept it for filing, and who must then note the filing date on the paper and promptly send it to the clerk.
+&nbsp;&nbsp;(ii) to a judge who agrees to accept it for filing, and who must then note the filing date on the paper and promptly send it to the clerk.
 
 
 &nbsp;&nbsp;(3) Means Used by Represented and Unrepresented Parties .

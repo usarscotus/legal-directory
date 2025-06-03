@@ -31,7 +31,7 @@ permalink: /frap/rule_41/
 (i) that the time for filing a petition has been extended, in which case the stay continues for the extended period; or
 
 
-(ii) that the petition has been filed, in which case the stay continues until the Supreme Court's final disposition.
+&nbsp;&nbsp;(ii) that the petition has been filed, in which case the stay continues until the Supreme Court's final disposition.
 
 
 &nbsp;&nbsp;(3) Security. The court may require a bond or other security as a condition to granting or continuing a stay of the mandate.

@@ -40,7 +40,7 @@ permalink: /frap/rule_5/
 (i) the order, decree, or judgment complained of and any related opinion or memorandum, and
 
 
-(ii) any order stating the district court's permission to appeal or finding that the necessary conditions are met.
+&nbsp;&nbsp;(ii) any order stating the district court's permission to appeal or finding that the necessary conditions are met.
 
 
 &nbsp;&nbsp;(2) A party may file an answer in opposition or a cross-petition within 10 days after the petition is served.

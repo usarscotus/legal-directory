@@ -34,10 +34,10 @@ permalink: /frcmp/rule_32.2/
 (i) lists any identified property;
 
 
-(ii) describes other property in general terms; and
+&nbsp;&nbsp;(ii) describes other property in general terms; and
 
 
-(iii) states that the order will be amended under Rule 32.2(e)(1) when additional specific property is identified or the amount of the money judgment has been calculated.
+&nbsp;&nbsp;&nbsp;&nbsp;(iii) states that the order will be amended under Rule 32.2(e)(1) when additional specific property is identified or the amount of the money judgment has been calculated.
 
 
 &nbsp;&nbsp;(3) Seizing Property. The entry of a preliminary order of forfeiture authorizes the Attorney General (or a designee) to seize the specific property subject to forfeiture; to conduct any discovery the court considers proper in identifying, locating, or disposing of the property; and to commence proceedings that comply with any statutes governing third-party rights. The court may include in the order of forfeiture conditions reasonably necessary to preserve the property's value pending any appeal.

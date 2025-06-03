@@ -49,7 +49,7 @@ permalink: /frcmp/rule_4/
 (i) by delivering a copy to the defendant personally; or
 
 
-(ii) by leaving a copy at the defendant's residence or usual place of abode with a person of suitable age and discretion residing at that location and by mailing a copy to the defendant's last known address.
+&nbsp;&nbsp;(ii) by leaving a copy at the defendant's residence or usual place of abode with a person of suitable age and discretion residing at that location and by mailing a copy to the defendant's last known address.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(C) A summons is served on an organization in a judicial district of the United States by delivering a copy to an officer, to a managing or general agent, or to another agent appointed or legally authorized to receive service of process. If the agent is one authorized by statute and the statute so requires, a copy must also be mailed to the organization.
@@ -61,7 +61,7 @@ permalink: /frcmp/rule_4/
 (i) by delivering a copy, in a manner authorized by the foreign jurisdiction’s law, to an officer, to a managing or general agent, or to an agent appointed or legally authorized to receive service of process; or
 
 
-(ii) by any other means that gives notice, including one that is:
+&nbsp;&nbsp;(ii) by any other means that gives notice, including one that is:
 
 
 (a) stipulated by the parties;

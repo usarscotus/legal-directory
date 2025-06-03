@@ -58,7 +58,7 @@ permalink: /frap/rule_28.1/
 (i) contains no more than 13,000 words; or
 
 
-(ii) uses a monospaced face and contains no more than 1,300 lines of text.
+&nbsp;&nbsp;(ii) uses a monospaced face and contains no more than 1,300 lines of text.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) The appellee’s principal and response brief is acceptable if it:
@@ -67,7 +67,7 @@ permalink: /frap/rule_28.1/
 (i) contains no more than 15,300 words; or
 
 
-(ii) uses a monospaced face and contains no more than 1,500 lines of text.
+&nbsp;&nbsp;(ii) uses a monospaced face and contains no more than 1,500 lines of text.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(C) The appellee’s reply brief is acceptable if it contains no more than half of the type volume specified in Rule 28.1(e)(2)(A).

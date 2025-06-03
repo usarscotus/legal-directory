@@ -25,13 +25,13 @@ permalink: /frcmp/rule_4.1/
 (i) have the testimony recorded verbatim by an electronic recording device, by a court reporter, or in writing;
 
 
-(ii) have any recording or reporter’s notes transcribed, have the transcription certified as accurate, and file it;
+&nbsp;&nbsp;(ii) have any recording or reporter’s notes transcribed, have the transcription certified as accurate, and file it;
 
 
-(iii) sign any other written record, certify its accuracy, and file it; and
+&nbsp;&nbsp;&nbsp;&nbsp;(iii) sign any other written record, certify its accuracy, and file it; and
 
 
-(iv) make sure that the exhibits are filed.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) make sure that the exhibits are filed.
 
 
 &nbsp;&nbsp;(3) Preparing a Proposed Duplicate Original of a Complaint, Warrant, or Summons. The applicant must prepare a proposed duplicate original of a complaint, warrant, or summons, and must read or otherwise transmit its contents verbatim to the judge.

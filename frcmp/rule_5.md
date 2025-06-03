@@ -25,7 +25,7 @@ permalink: /frcmp/rule_5/
 (i) the person arrested is transferred without unnecessary delay to the custody of appropriate state or local authorities in the district of arrest; and
 
 
-(ii) an attorney for the government moves promptly, in the district where the warrant was issued, to dismiss the complaint.
+&nbsp;&nbsp;(ii) an attorney for the government moves promptly, in the district where the warrant was issued, to dismiss the complaint.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) If a defendant is arrested for violating probation or supervised release, Rule 32.1 applies.
@@ -64,7 +64,7 @@ permalink: /frcmp/rule_5/
 (i) the appearance can occur more promptly there; or
 
 
-(ii) the offense was allegedly committed there and the initial appearance will occur on the day of arrest.
+&nbsp;&nbsp;(ii) the offense was allegedly committed there and the initial appearance will occur on the day of arrest.
 
 
 &nbsp;&nbsp;(3) Procedures in a District Other Than Where the Offense Was Allegedly Committed. If the initial appearance occurs in a district other than where the offense was allegedly committed, the following procedures apply:
@@ -85,7 +85,7 @@ permalink: /frcmp/rule_5/
 (i) the government produces the warrant, a certified copy of the warrant, or a reliable electronic form of either; and
 
 
-(ii) the judge finds that the defendant is the same person named in the indictment, information, or warrant; and
+&nbsp;&nbsp;(ii) the judge finds that the defendant is the same person named in the indictment, information, or warrant; and
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(E) when a defendant is transferred and discharged, the clerk must promptly transmit the papers and any bail to the clerk in the district where the offense was allegedly committed.

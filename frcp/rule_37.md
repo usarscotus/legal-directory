@@ -25,13 +25,13 @@ permalink: /frcp/rule_37/
 (i) a deponent fails to answer a question asked under Rule 30 or 31 ;
 
 
-(ii) a corporation or other entity fails to make a designation under Rule 30(b)(6) or 31(a)(4) ;
+&nbsp;&nbsp;(ii) a corporation or other entity fails to make a designation under Rule 30(b)(6) or 31(a)(4) ;
 
 
-(iii) a party fails to answer an interrogatory submitted under Rule 33 ; or
+&nbsp;&nbsp;&nbsp;&nbsp;(iii) a party fails to answer an interrogatory submitted under Rule 33 ; or
 
 
-(iv) a party fails to produce documents or fails to respond that inspection will be permitted—or fails to permit inspection—as requested under Rule 34 .
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) a party fails to produce documents or fails to respond that inspection will be permitted—or fails to permit inspection—as requested under Rule 34 .
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(C) Related to a Deposition. When taking an oral deposition, the party asking a question may complete or adjourn the examination before moving for an order.
@@ -49,10 +49,10 @@ permalink: /frcp/rule_37/
 (i) the movant filed the motion before attempting in good faith to obtain the disclosure or discovery without court action;
 
 
-(ii) the opposing party's nondisclosure, response, or objection was substantially justified; or
+&nbsp;&nbsp;(ii) the opposing party's nondisclosure, response, or objection was substantially justified; or
 
 
-(iii) other circumstances make an award of expenses unjust.
+&nbsp;&nbsp;&nbsp;&nbsp;(iii) other circumstances make an award of expenses unjust.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) If the Motion Is Denied. If the motion is denied, the court may issue any protective order authorized under Rule 26(c) and must, after giving an opportunity to be heard, require the movant, the attorney filing the motion, or both to pay the party or deponent who opposed the motion its reasonable expenses incurred in opposing the motion, including attorney's fees. But the court must not order this payment if the motion was substantially justified or other circumstances make an award of expenses unjust.
@@ -76,22 +76,22 @@ permalink: /frcp/rule_37/
 (i) directing that the matters embraced in the order or other designated facts be taken as established for purposes of the action, as the prevailing party claims;
 
 
-(ii) prohibiting the disobedient party from supporting or opposing designated claims or defenses, or from introducing designated matters in evidence;
+&nbsp;&nbsp;(ii) prohibiting the disobedient party from supporting or opposing designated claims or defenses, or from introducing designated matters in evidence;
 
 
-(iii) striking pleadings in whole or in part;
+&nbsp;&nbsp;&nbsp;&nbsp;(iii) striking pleadings in whole or in part;
 
 
-(iv) staying further proceedings until the order is obeyed;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) staying further proceedings until the order is obeyed;
 
 
 (v) dismissing the action or proceeding in whole or in part;
 
 
-(vi) rendering a default judgment against the disobedient party; or
+&nbsp;&nbsp;(vi) rendering a default judgment against the disobedient party; or
 
 
-(vii) treating as contempt of court the failure to obey any order except an order to submit to a physical or mental examination.
+&nbsp;&nbsp;&nbsp;&nbsp;(vii) treating as contempt of court the failure to obey any order except an order to submit to a physical or mental examination.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) For Not Producing a Person for Examination. If a party fails to comply with an order under Rule 35(a) requiring it to produce another person for examination, the court may issue any of the orders listed in Rule 37(b)(2)(A)(i) —(vi), unless the disobedient party shows that it cannot produce the other person.
@@ -142,7 +142,7 @@ permalink: /frcp/rule_37/
 (i) a party or a party's officer, director, or managing agent—or a person designated under Rule 30(b)(6) or 31(a)(4)— fails, after being served with proper notice, to appear for that person's deposition; or
 
 
-(ii) a party, after being properly served with interrogatories under Rule 33 or a request for inspection under Rule 34 , fails to serve its answers, objections, or written response.
+&nbsp;&nbsp;(ii) a party, after being properly served with interrogatories under Rule 33 or a request for inspection under Rule 34 , fails to serve its answers, objections, or written response.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Certification. A motion for sanctions for failing to answer or respond must include a certification that the movant has in good faith conferred or attempted to confer with the party failing to act in an effort to obtain the answer or response without court action.

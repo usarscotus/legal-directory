@@ -19,10 +19,10 @@ permalink: /frcp/rule_30/
 (i) the deposition would result in more than 10 depositions being taken under this rule or Rule 31 by the plaintiffs, or by the defendants, or by the third-party defendants;
 
 
-(ii) the deponent has already been deposed in the case; or
+&nbsp;&nbsp;(ii) the deponent has already been deposed in the case; or
 
 
-(iii) the party seeks to take the deposition before the time specified in Rule 26(d) , unless the party certifies in the notice, with supporting facts, that the deponent is expected to leave the United States and be unavailable for examination in this country after that time; or
+&nbsp;&nbsp;&nbsp;&nbsp;(iii) the party seeks to take the deposition before the time specified in Rule 26(d) , unless the party certifies in the notice, with supporting facts, that the deponent is expected to leave the United States and be unavailable for examination in this country after that time; or
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) if the deponent is confined in prison.
@@ -58,13 +58,13 @@ permalink: /frcp/rule_30/
 (i) the officer's name and business address;
 
 
-(ii) the date, time, and place of the deposition;
+&nbsp;&nbsp;(ii) the date, time, and place of the deposition;
 
 
-(iii) the deponent's name;
+&nbsp;&nbsp;&nbsp;&nbsp;(iii) the deponent's name;
 
 
-(iv) the officer's administration of the oath or affirmation to the deponent; and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) the officer's administration of the oath or affirmation to the deponent; and
 
 
 (v) the identity of all persons present.
@@ -142,7 +142,7 @@ permalink: /frcp/rule_30/
 (i) offer copies to be marked, attached to the deposition, and then used as originals—after giving all parties a fair opportunity to verify the copies by comparing them with the originals; or
 
 
-(ii) give all parties a fair opportunity to inspect and copy the originals after they are marked—in which event the originals may be used as if attached to the deposition.
+&nbsp;&nbsp;(ii) give all parties a fair opportunity to inspect and copy the originals after they are marked—in which event the originals may be used as if attached to the deposition.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Order Regarding the Originals. Any party may move for an order that the originals be attached to the deposition pending final disposition of the case.

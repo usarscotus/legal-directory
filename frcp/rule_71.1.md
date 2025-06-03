@@ -58,22 +58,22 @@ permalink: /frcp/rule_71.1/
 (i) that the action is to condemn property;
 
 
-(ii) the interest to be taken;
+&nbsp;&nbsp;(ii) the interest to be taken;
 
 
-(iii) the authority for the taking;
+&nbsp;&nbsp;&nbsp;&nbsp;(iii) the authority for the taking;
 
 
-(iv) the uses for which the property is to be taken;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) the uses for which the property is to be taken;
 
 
 (v) that the defendant may serve an answer on the plaintiff's attorney within 21 days after being served with the notice;
 
 
-(vi) that the failure to so serve an answer constitutes consent to the taking and to the court's authority to proceed with the action and fix the compensation; and
+&nbsp;&nbsp;(vi) that the failure to so serve an answer constitutes consent to the taking and to the court's authority to proceed with the action and fix the compensation; and
 
 
-(vii) that a defendant who does not serve an answer may file a notice of appearance.
+&nbsp;&nbsp;&nbsp;&nbsp;(vii) that a defendant who does not serve an answer may file a notice of appearance.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Conclusion. The notice must conclude with the name, telephone number, and e-mail address of the plaintiff's attorney and an address within the district in which the action is brought where the attorney may be served.
@@ -91,7 +91,7 @@ permalink: /frcp/rule_71.1/
 (i) A defendant may be served by publication only when the plaintiff's attorney files a certificate stating that the attorney believes the defendant cannot be personally served, because after diligent inquiry within the state where the complaint is filed, the defendant's place of residence is still unknown or, if known, that it is beyond the territorial limits of personal service. Service is then made by publishing the notice—once a week for at least 3 successive weeks—in a newspaper published in the county where the property is located or, if there is no such newspaper, in a newspaper with general circulation where the property is located. Before the last publication, a copy of the notice must also be mailed to every defendant who cannot be personally served but whose place of residence is then known. Unknown owners may be served by publication in the same manner by a notice addressed to “Unknown Owners.”
 
 
-(ii) Service by publication is complete on the date of the last publication. The plaintiff's attorney must prove publication and mailing by a certificate, attach a printed copy of the published notice, and mark on the copy the newspaper's name and the dates of publication.
+&nbsp;&nbsp;(ii) Service by publication is complete on the date of the last publication. The plaintiff's attorney must prove publication and mailing by a certificate, attach a printed copy of the published notice, and mark on the copy the newspaper's name and the dates of publication.
 
 
 &nbsp;&nbsp;(4) Effect of Delivery and Service. Delivering the notice to the clerk and serving it have the same effect as serving a summons under Rule 4 .

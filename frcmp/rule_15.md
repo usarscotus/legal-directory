@@ -55,10 +55,10 @@ permalink: /frcmp/rule_15/
 (i) the country where the witness is located will not permit the defendant to attend the deposition;
 
 
-(ii) for an in-custody defendant, secure transportation and continuing custody cannot be assured at the witness’s location; or
+&nbsp;&nbsp;(ii) for an in-custody defendant, secure transportation and continuing custody cannot be assured at the witness’s location; or
 
 
-(iii) for an out-of-custody defendant, no reasonable conditions will assure an appearance at the deposition or at trial or sentencing; and
+&nbsp;&nbsp;&nbsp;&nbsp;(iii) for an out-of-custody defendant, no reasonable conditions will assure an appearance at the deposition or at trial or sentencing; and
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(E) the defendant can meaningfully participate in the deposition through reasonable means.

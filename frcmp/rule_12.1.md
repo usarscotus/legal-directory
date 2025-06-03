@@ -31,7 +31,7 @@ permalink: /frcmp/rule_12.1/
 (i) the name of each witness—and the address and telephone number of each witness other than a victim—that the government intends to rely on to establish that the defendant was present at the scene of the alleged offense; and
 
 
-(ii) each government rebuttal witness to the defendant's alibi defense.
+&nbsp;&nbsp;(ii) each government rebuttal witness to the defendant's alibi defense.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Victim's Address and Telephone Number. If the government intends to rely on a victim's testimony to establish that the defendant was present at the scene of the alleged offense and the defendant establishes a need for the victim's address and telephone number, the court may:
@@ -40,7 +40,7 @@ permalink: /frcmp/rule_12.1/
 (i) order the government to provide the information in writing to the defendant or the defendant's attorney; or
 
 
-(ii) fashion a reasonable procedure that allows preparation of the defense and also protects the victim's interests.
+&nbsp;&nbsp;(ii) fashion a reasonable procedure that allows preparation of the defense and also protects the victim's interests.
 
 
 &nbsp;&nbsp;(2) Time to Disclose. Unless the court directs otherwise, an attorney for the government must give its Rule 12.1(b)(1) disclosure within 14 days after the defendant serves notice of an intended alibi defense under Rule 12.1(a)(2) , but no later than 14 days before trial.

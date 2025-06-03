@@ -16,13 +16,13 @@ permalink: /frcp/rule_45/
 (i) state the court from which it issued;
 
 
-(ii) state the title of the action and its civil-action number;
+&nbsp;&nbsp;(ii) state the title of the action and its civil-action number;
 
 
-(iii) command each person to whom it is directed to do the following at a specified time and place: attend and testify; produce designated documents, electronically stored information, or tangible things in that person's possession, custody, or control; or permit the inspection of premises; and
+&nbsp;&nbsp;&nbsp;&nbsp;(iii) command each person to whom it is directed to do the following at a specified time and place: attend and testify; produce designated documents, electronically stored information, or tangible things in that person's possession, custody, or control; or permit the inspection of premises; and
 
 
-(iv) set out the text of Rule 45(d) and (e).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) set out the text of Rule 45(d) and (e).
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Command to Attend a Deposition—Notice of the Recording Method. A subpoena commanding attendance at a deposition must state the method for recording the testimony.
@@ -73,7 +73,7 @@ permalink: /frcp/rule_45/
 (i) is a party or a party's officer; or
 
 
-(ii) is commanded to attend a trial and would not incur substantial expense.
+&nbsp;&nbsp;(ii) is commanded to attend a trial and would not incur substantial expense.
 
 
 &nbsp;&nbsp;(2) For Other Discovery. A subpoena may command:
@@ -103,7 +103,7 @@ permalink: /frcp/rule_45/
 (i) At any time, on notice to the commanded person, the serving party may move the court for the district where compliance is required for an order compelling production or inspection.
 
 
-(ii) These acts may be required only as directed in the order, and the order must protect a person who is neither a party nor a party's officer from significant expense resulting from compliance.
+&nbsp;&nbsp;(ii) These acts may be required only as directed in the order, and the order must protect a person who is neither a party nor a party's officer from significant expense resulting from compliance.
 
 
 &nbsp;&nbsp;(3) Quashing or Modifying a Subpoena.
@@ -115,13 +115,13 @@ permalink: /frcp/rule_45/
 (i) fails to allow a reasonable time to comply;
 
 
-(ii) requires a person to comply beyond the geographical limits specified in Rule 45(c) ;
+&nbsp;&nbsp;(ii) requires a person to comply beyond the geographical limits specified in Rule 45(c) ;
 
 
-(iii) requires disclosure of privileged or other protected matter, if no exception or waiver applies; or
+&nbsp;&nbsp;&nbsp;&nbsp;(iii) requires disclosure of privileged or other protected matter, if no exception or waiver applies; or
 
 
-(iv) subjects a person to undue burden.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) subjects a person to undue burden.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) When Permitted. To protect a person subject to or affected by a subpoena, the court for the district where compliance is required may, on motion, quash or modify the subpoena if it requires:
@@ -130,7 +130,7 @@ permalink: /frcp/rule_45/
 (i) disclosing a trade secret or other confidential research, development, or commercial information; or
 
 
-(ii) disclosing an unretained expert's opinion or information that does not describe specific occurrences in dispute and results from the expert's study that was not requested by a party.
+&nbsp;&nbsp;(ii) disclosing an unretained expert's opinion or information that does not describe specific occurrences in dispute and results from the expert's study that was not requested by a party.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(C) Specifying Conditions as an Alternative. In the circumstances described in Rule 45(d)(3)(B) , the court may, instead of quashing or modifying a subpoena, order appearance or production under specified conditions if the serving party:
@@ -139,7 +139,7 @@ permalink: /frcp/rule_45/
 (i) shows a substantial need for the testimony or material that cannot be otherwise met without undue hardship; and
 
 
-(ii) ensures that the subpoenaed person will be reasonably compensated.
+&nbsp;&nbsp;(ii) ensures that the subpoenaed person will be reasonably compensated.
 
 
 (e) Duties in Responding to a Subpoena.
@@ -169,7 +169,7 @@ permalink: /frcp/rule_45/
 (i) expressly make the claim; and
 
 
-(ii) describe the nature of the withheld documents, communications, or tangible things in a manner that, without revealing information itself privileged or protected, will enable the parties to assess the claim.
+&nbsp;&nbsp;(ii) describe the nature of the withheld documents, communications, or tangible things in a manner that, without revealing information itself privileged or protected, will enable the parties to assess the claim.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Information Produced. If information produced in response to a subpoena is subject to a claim of privilege or of protection as trial-preparation material, the person making the claim may notify any party that received the information of the claim and the basis for it. After being notified, a party must promptly return, sequester, or destroy the specified information and any copies it has; must not use or disclose the information until the claim is resolved; must take reasonable steps to retrieve the information if the party disclosed it before being notified; and may promptly present the information under seal to the court for the district where compliance is required for a determination of the claim. The person who produced the information must preserve the information until the claim is resolved.

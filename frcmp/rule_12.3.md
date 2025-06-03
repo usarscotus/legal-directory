@@ -43,7 +43,7 @@ permalink: /frcmp/rule_12.3/
 (i) order the government to provide the information in writing to the defendant or the defendant's attorney; or
 
 
-(ii) fashion a reasonable procedure that allows for preparing the defense and also protects the victim's interests.
+&nbsp;&nbsp;(ii) fashion a reasonable procedure that allows for preparing the defense and also protects the victim's interests.
 
 
 &nbsp;&nbsp;(5) Additional Time. The court may, for good cause, allow a party additional time to comply with this rule.

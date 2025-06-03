@@ -55,10 +55,10 @@ permalink: /frcp/rule_34/
 (i) A party must produce documents as they are kept in the usual course of business or must organize and label them to correspond to the categories in the request;
 
 
-(ii) If a request does not specify a form for producing electronically stored information, a party must produce it in a form or forms in which it is ordinarily maintained or in a reasonably usable form or forms; and
+&nbsp;&nbsp;(ii) If a request does not specify a form for producing electronically stored information, a party must produce it in a form or forms in which it is ordinarily maintained or in a reasonably usable form or forms; and
 
 
-(iii) A party need not produce the same electronically stored information in more than one form.
+&nbsp;&nbsp;&nbsp;&nbsp;(iii) A party need not produce the same electronically stored information in more than one form.
 
 
 (c) Nonparties. As provided in Rule 45 , a nonparty may be compelled to produce documents and tangible things or to permit an inspection.

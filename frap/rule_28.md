@@ -52,7 +52,7 @@ permalink: /frap/rule_28/
 &nbsp;&nbsp;(9) a short conclusion stating the precise relief sought; and
 
 
-(10) the certificate of compliance, if required by Rule 32(g)(1).
+&nbsp;&nbsp;(10) the certificate of compliance, if required by Rule 32(g)(1).
 
 
 (b) Appellee's Brief. The appellee's brief must conform to the requirements of Rule 28(a)(1)–(8) and (10), except that none of the following need appear unless the appellee is dissatisfied with the appellant's statement:

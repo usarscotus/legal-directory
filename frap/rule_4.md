@@ -19,13 +19,13 @@ permalink: /frap/rule_4/
 (i) the United States;
 
 
-(ii) a United States agency;
+&nbsp;&nbsp;(ii) a United States agency;
 
 
-(iii) a United States officer or employee sued in an official capacity; or
+&nbsp;&nbsp;&nbsp;&nbsp;(iii) a United States officer or employee sued in an official capacity; or
 
 
-(iv) a current or former United States officer or employee sued in an individual capacity for an act or omission occurring in connection with duties performed on the United States' behalf — including all instances in which the United States represents that person when the judgment or order is entered or files the appeal for that person.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) a current or former United States officer or employee sued in an individual capacity for an act or omission occurring in connection with duties performed on the United States' behalf — including all instances in which the United States represents that person when the judgment or order is entered or files the appeal for that person.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(C) An appeal from an order granting or denying an application for a writ of error coram nobis is an appeal in a civil case for purposes of Rule 4(a).
@@ -46,28 +46,28 @@ permalink: /frap/rule_4/
 (i) for judgment under Rule 50(b) ;
 
 
-(ii) to amend or make additional factual findings under Rule 52(b) , whether or not granting the motion would alter the judgment;
+&nbsp;&nbsp;(ii) to amend or make additional factual findings under Rule 52(b) , whether or not granting the motion would alter the judgment;
 
 
-(iii) for attorney's fees under Rule 54 if the district court extends the time to appeal under Rule 58;
+&nbsp;&nbsp;&nbsp;&nbsp;(iii) for attorney's fees under Rule 54 if the district court extends the time to appeal under Rule 58;
 
 
-(iv) to alter or amend the judgment under Rule 59 ;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) to alter or amend the judgment under Rule 59 ;
 
 
 (v) for a new trial under Rule 59 ; or
 
 
-(vi) for relief under Rule 60 if the motion is filed within the time allowed for filing a motion under Rule 59.
+&nbsp;&nbsp;(vi) for relief under Rule 60 if the motion is filed within the time allowed for filing a motion under Rule 59.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B)(i) If a party files a notice of appeal after the court announces or enters a judgment—but before it disposes of any motion listed in Rule 4(a)(4)(A)—the notice becomes effective to appeal a judgment or order, in whole or in part, when the order disposing of the last such remaining motion is entered.
 
 
-(ii) A party intending to challenge an order disposing of any motion listed in Rule 4(a)(4)(A), or a judgment's alteration or amendment upon such a motion, must file a notice of appeal, or an amended notice of appeal—in compliance with Rule 3(c)—within the time prescribed by this Rule measured from the entry of the order disposing of the last such remaining motion.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) A party intending to challenge an order disposing of any motion listed in Rule 4(a)(4)(A), or a judgment's alteration or amendment upon such a motion, must file a notice of appeal, or an amended notice of appeal—in compliance with Rule 3(c)—within the time prescribed by this Rule measured from the entry of the order disposing of the last such remaining motion.
 
 
-(iii) No additional fee is required to file an amended notice.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) No additional fee is required to file an amended notice.
 
 
 &nbsp;&nbsp;(5) Motion for Extension of Time.
@@ -79,7 +79,7 @@ permalink: /frap/rule_4/
 (i) a party so moves no later than 30 days after the time prescribed by this Rule 4(a) expires; and
 
 
-(ii) regardless of whether its motion is filed before or during the 30 days after the time prescribed by this Rule 4(a) expires, that party shows excusable neglect or good cause.
+&nbsp;&nbsp;(ii) regardless of whether its motion is filed before or during the 30 days after the time prescribed by this Rule 4(a) expires, that party shows excusable neglect or good cause.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) A motion filed before the expiration of the time prescribed in Rule 4(a)(1) or (3) may be ex parte unless the court requires otherwise. If the motion is filed after the expiration of the prescribed time, notice must be given to the other parties in accordance with local rules.
@@ -109,7 +109,7 @@ permalink: /frap/rule_4/
 (i) if Federal Rule of Civil Procedure 58 (a) does not require a separate document, when the judgment or order is entered in the civil docket under Federal Rule of Civil Procedure 79 (a) ; or
 
 
-(ii) if Federal Rule of Civil Procedure 58 (a) requires a separate document, when the judgment or order is entered in the civil docket under Federal Rule of Civil Procedure 79(a) and when the earlier of these events occurs:
+&nbsp;&nbsp;(ii) if Federal Rule of Civil Procedure 58 (a) requires a separate document, when the judgment or order is entered in the civil docket under Federal Rule of Civil Procedure 79(a) and when the earlier of these events occurs:
 
 
 • the judgment or order is set forth on a separate document, or
@@ -133,7 +133,7 @@ permalink: /frap/rule_4/
 (i) the entry of either the judgment or the order being appealed; or
 
 
-(ii) the filing of the government's notice of appeal.
+&nbsp;&nbsp;(ii) the filing of the government's notice of appeal.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) When the government is entitled to appeal, its notice of appeal must be filed in the district court within 30 days after the later of:
@@ -142,7 +142,7 @@ permalink: /frap/rule_4/
 (i) the entry of the judgment or order being appealed; or
 
 
-(ii) the filing of a notice of appeal by any defendant.
+&nbsp;&nbsp;(ii) the filing of a notice of appeal by any defendant.
 
 
 &nbsp;&nbsp;(2) Filing Before Entry of Judgment. A notice of appeal filed after the court announces a decision, sentence, or order—but before the entry of the judgment or order—is treated as filed on the date of and after the entry.
@@ -157,10 +157,10 @@ permalink: /frap/rule_4/
 (i) for judgment of acquittal under Rule 29 ;
 
 
-(ii) for a new trial under Rule 33 , but if based on newly discovered evidence, only if the motion is made no later than 14 days after the entry of the judgment; or
+&nbsp;&nbsp;(ii) for a new trial under Rule 33 , but if based on newly discovered evidence, only if the motion is made no later than 14 days after the entry of the judgment; or
 
 
-(iii) for arrest of judgment under Rule 34 .
+&nbsp;&nbsp;&nbsp;&nbsp;(iii) for arrest of judgment under Rule 34 .
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) A notice of appeal filed after the court announces a decision, sentence, or order—but before it disposes of any of the motions referred to in Rule 4(b)(3)(A)—becomes effective upon the later of the following:
@@ -169,7 +169,7 @@ permalink: /frap/rule_4/
 (i) the entry of the order disposing of the last such remaining motion; or
 
 
-(ii) the entry of the judgment of conviction.
+&nbsp;&nbsp;(ii) the entry of the judgment of conviction.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(C) A valid notice of appeal is effective—without amendment—to appeal from an order disposing of any of the motions referred to in Rule 4(b)(3)(A).
@@ -196,7 +196,7 @@ permalink: /frap/rule_4/
 (i) a declaration in compliance with 28 U.S.C. § 1746 —or a notarized statement—setting out the date of deposit and stating that first-class postage is being prepaid; or
 
 
-(ii) evidence (such as a postmark or date stamp) showing that the notice was so deposited and that postage was prepaid; or
+&nbsp;&nbsp;(ii) evidence (such as a postmark or date stamp) showing that the notice was so deposited and that postage was prepaid; or
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) the court of appeals exercises its discretion to permit the later filing of a declaration or notarized statement that satisfies Rule 4(c)(1)(A)(i).

@@ -61,7 +61,7 @@ permalink: /frcp/rule_4/
 (i) to the individual defendant; or
 
 
-(ii) for a defendant subject to service under Rule 4(h) , to an officer, a managing or general agent, or any other agent authorized by appointment or by law to receive service of process;
+&nbsp;&nbsp;(ii) for a defendant subject to service under Rule 4(h) , to an officer, a managing or general agent, or any other agent authorized by appointment or by law to receive service of process;
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) name the court where the complaint was filed;
@@ -139,7 +139,7 @@ permalink: /frcp/rule_4/
 (i) delivering a copy of the summons and of the complaint to the individual personally; or
 
 
-(ii) using any form of mail that the clerk addresses and sends to the individual and that requires a signed receipt; or
+&nbsp;&nbsp;(ii) using any form of mail that the clerk addresses and sends to the individual and that requires a signed receipt; or
 
 
 &nbsp;&nbsp;(3) by other means not prohibited by international agreement, as the court orders.
@@ -172,7 +172,7 @@ permalink: /frcp/rule_4/
 &nbsp;&nbsp;&nbsp;&nbsp;(A)(i) deliver a copy of the summons and of the complaint to the United States attorney for the district where the action is brought—or to an assistant United States attorney or clerical employee whom the United States attorney designates in a writing filed with the court clerk—or
 
 
-(ii) send a copy of each by registered or certified mail to the civil-process clerk at the United States attorney's office;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) send a copy of each by registered or certified mail to the civil-process clerk at the United States attorney's office;
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) send a copy of each by registered or certified mail to the Attorney General of the United States at Washington, D.C.; and

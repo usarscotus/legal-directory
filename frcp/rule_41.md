@@ -16,7 +16,7 @@ permalink: /frcp/rule_41/
 (i) a notice of dismissal before the opposing party serves either an answer or a motion for summary judgment; or
 
 
-(ii) a stipulation of dismissal signed by all parties who have appeared.
+&nbsp;&nbsp;(ii) a stipulation of dismissal signed by all parties who have appeared.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) Effect. Unless the notice or stipulation states otherwise, the dismissal is without prejudice. But if the plaintiff previously dismissed any federal- or state-court action based on or including the same claim, a notice of dismissal operates as an adjudication on the merits.

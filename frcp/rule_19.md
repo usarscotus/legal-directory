@@ -19,7 +19,7 @@ permalink: /frcp/rule_19/
 (i) as a practical matter impair or impede the person's ability to protect the interest; or
 
 
-(ii) leave an existing party subject to a substantial risk of incurring double, multiple, or otherwise inconsistent obligations because of the interest.
+&nbsp;&nbsp;(ii) leave an existing party subject to a substantial risk of incurring double, multiple, or otherwise inconsistent obligations because of the interest.
 
 
 &nbsp;&nbsp;(2) Joinder by Court Order. If a person has not been joined as required, the court must order that the person be made a party. A person who refuses to join as a plaintiff may be made either a defendant or, in a proper case, an involuntary plaintiff.

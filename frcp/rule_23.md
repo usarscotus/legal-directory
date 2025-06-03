@@ -76,22 +76,22 @@ permalink: /frcp/rule_23/
 (i) the nature of the action;
 
 
-(ii) the definition of the class certified;
+&nbsp;&nbsp;(ii) the definition of the class certified;
 
 
-(iii) the class claims, issues, or defenses;
+&nbsp;&nbsp;&nbsp;&nbsp;(iii) the class claims, issues, or defenses;
 
 
-(iv) that a class member may enter an appearance through an attorney if the member so desires;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) that a class member may enter an appearance through an attorney if the member so desires;
 
 
 (v) that the court will exclude from the class any member who requests exclusion;
 
 
-(vi) the time and manner for requesting exclusion; and
+&nbsp;&nbsp;(vi) the time and manner for requesting exclusion; and
 
 
-(vii) the binding effect of a class judgment on members under Rule 23(c)(3) .
+&nbsp;&nbsp;&nbsp;&nbsp;(vii) the binding effect of a class judgment on members under Rule 23(c)(3) .
 
 
 &nbsp;&nbsp;(3) Judgment. Whether or not favorable to the class, the judgment in a class action must:
@@ -124,10 +124,10 @@ permalink: /frcp/rule_23/
 (i) any step in the action;
 
 
-(ii) the proposed extent of the judgment; or
+&nbsp;&nbsp;(ii) the proposed extent of the judgment; or
 
 
-(iii) the members’ opportunity to signify whether they consider the representation fair and adequate, to intervene and present claims or defenses, or to otherwise come into the action;
+&nbsp;&nbsp;&nbsp;&nbsp;(iii) the members’ opportunity to signify whether they consider the representation fair and adequate, to intervene and present claims or defenses, or to otherwise come into the action;
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(C) impose conditions on the representative parties or on intervenors;
@@ -157,7 +157,7 @@ permalink: /frcp/rule_23/
 (i) approve the proposal under Rule 23(e)(2); and
 
 
-(ii) certify the class for purposes of judgment on the proposal.
+&nbsp;&nbsp;(ii) certify the class for purposes of judgment on the proposal.
 
 
 &nbsp;&nbsp;(2) Approval of the Proposal . If the proposal would bind class members, the court may approve it only after a hearing and only on finding that it is fair, reasonable, and adequate after considering whether:
@@ -175,13 +175,13 @@ permalink: /frcp/rule_23/
 (i) the costs, risks, and delay of trial and appeal;
 
 
-(ii) the effectiveness of any proposed method of distributing relief to the class, including the method of processing class-member claims;
+&nbsp;&nbsp;(ii) the effectiveness of any proposed method of distributing relief to the class, including the method of processing class-member claims;
 
 
-(iii) the terms of any proposed award of attorney's fees, including timing of payment; and
+&nbsp;&nbsp;&nbsp;&nbsp;(iii) the terms of any proposed award of attorney's fees, including timing of payment; and
 
 
-(iv) any agreement required to be identified under Rule 23(e)(3); and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) any agreement required to be identified under Rule 23(e)(3); and
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(D) the proposal treats class members equitably relative to each other.
@@ -205,7 +205,7 @@ permalink: /frcp/rule_23/
 (i) forgoing or withdrawing an objection, or
 
 
-(ii) forgoing, dismissing, or abandoning an appeal from a judgment approving the proposal.
+&nbsp;&nbsp;(ii) forgoing, dismissing, or abandoning an appeal from a judgment approving the proposal.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(C) Procedure for Approval After an Appeal . If approval under Rule 23(e)(5)(B) has not been obtained before an appeal is docketed in the court of appeals, the procedure of Rule 62.1 applies while the appeal remains pending.
@@ -226,13 +226,13 @@ permalink: /frcp/rule_23/
 (i) the work counsel has done in identifying or investigating potential claims in the action;
 
 
-(ii) counsel's experience in handling class actions, other complex litigation, and the types of claims asserted in the action;
+&nbsp;&nbsp;(ii) counsel's experience in handling class actions, other complex litigation, and the types of claims asserted in the action;
 
 
-(iii) counsel's knowledge of the applicable law; and
+&nbsp;&nbsp;&nbsp;&nbsp;(iii) counsel's knowledge of the applicable law; and
 
 
-(iv) the resources that counsel will commit to representing the class;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) the resources that counsel will commit to representing the class;
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) may consider any other matter pertinent to counsel's ability to fairly and adequately represent the interests of the class;

@@ -76,7 +76,7 @@ permalink: /frap/rule_32/
 • uses a monospaced face and contains no more than 1,300 lines of text.
 
 
-(ii) A reply brief is acceptable if it contains no more than half of the type volume specified in Rule 32(a)(7)(B)(i).
+&nbsp;&nbsp;(ii) A reply brief is acceptable if it contains no more than half of the type volume specified in Rule 32(a)(7)(B)(i).
 
 
 (b) Form of an Appendix. An appendix must comply with Rule 32(a)(1), (2), (3), and (4), with the following exceptions:

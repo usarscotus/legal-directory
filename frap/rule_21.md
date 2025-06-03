@@ -19,13 +19,13 @@ permalink: /frap/rule_21/
 (i) the relief sought;
 
 
-(ii) the issues presented;
+&nbsp;&nbsp;(ii) the issues presented;
 
 
-(iii) the facts necessary to understand the issue presented by the petition; and
+&nbsp;&nbsp;&nbsp;&nbsp;(iii) the facts necessary to understand the issue presented by the petition; and
 
 
-(iv) the reasons why the writ should issue.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) the reasons why the writ should issue.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(C) The petition must include a copy of any order or opinion or parts of the record that may be essential to understand the matters set forth in the petition.

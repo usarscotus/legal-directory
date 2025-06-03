@@ -28,10 +28,10 @@ permalink: /frap/rule_10/
 (i) the order must be in writing;
 
 
-(ii) if the cost of the transcript is to be paid by the United States under the Criminal Justice Act, the order must so state; and
+&nbsp;&nbsp;(ii) if the cost of the transcript is to be paid by the United States under the Criminal Justice Act, the order must so state; and
 
 
-(iii) the appellant must, within the same period, file a copy of the order with the district clerk; or
+&nbsp;&nbsp;&nbsp;&nbsp;(iii) the appellant must, within the same period, file a copy of the order with the district clerk; or
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;(B) file a certificate stating that no transcript will be ordered.
