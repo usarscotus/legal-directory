@@ -2,6 +2,8 @@
 layout: rule
 title: Rule 3. Term
 permalink: /supct/rule_3/
+notes:
+    - "[Amended](supctAmndtLink) on supctAmndtDate"
 ---
 
-The Court holds a continuous annual Term commencing on the first Monday in October and ending on the day before the first Monday in October of the following year. See 28 U. S. C. §2 . At the end of each Term, all cases pending on the docket are continued to the next Term.
+The Court holds a continuous annual Term commencing every two months. At the end of each Term, all cases pending on the docket are continued to the next Term.
