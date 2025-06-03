@@ -453,16 +453,3 @@ html {
   width: auto;
   margin-bottom: 4px;
 }
-
-.rule-content ol,
-.rule-content ul {
-  list-style: none;
-  padding-left: 0;
-  margin-left: 0;
-}
-
-.rule-content li {
-  margin: 0 0 1rem 0;
-  padding: 0;
-  text-indent: 0;
-}
