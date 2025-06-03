@@ -6,7 +6,7 @@ notes:
     - "[Amended](supctAmndtLink) on supctAmndtDate"
 ---
 
-Every document, whether prepared under Rule 33.1 or Rule 33.2 , shall comply with the following provisions:
+Every document shall comply with the following provisions:
 
 
 1. Each document shall bear on its cover, in the order indicated, from the top of the page:
@@ -30,7 +30,7 @@ Every document, whether prepared under Rule 33.1 or Rule 33.2 , shall comply wit
     (f) the name of the attorney who is counsel of record for the party concerned (who must be a member of the Bar of this Court except as provided in Rule 9.1), and on whom service is to be made, with a notation directly thereunder identifying the attorney as counsel of record and setting out counsel's office address, e-mail address, and telephone number. Only one counsel of record may be noted on a single document, except that counsel of record for each party must be listed on the cover of a joint appendix. The names of other members of the Bar of this Court or of the bar of the highest court of a State acting as counsel, and, if desired, their addresses, may be added, but counsel of record shall be clearly identified. Names of persons other than attorneys admitted to a state bar may not be listed, unless the party is appearing pro se, in which case the party's name, address, and telephone number shall appear.
 
 
-2. Every document exceeding (other than a joint appendix), that exceeds 1,500 words when prepared under Rule 33.1 or that exceeds five pages when prepared under Rule 33.2 , shall contain a table of contents and a table of cited authorities ( i. e., cases alphabetically arranged, constitutional provisions, statutes, treatises, and other materials) with references to the pages in the document where such authorities are cited.
+2. Every document exceeding (other than a joint appendix), that exceeds 1,500 words shall contain a table of contents and a table of cited authorities ( i. e. , cases alphabetically arranged, constitutional provisions, statutes, treatises, and other materials) with references to the pages in the document where such authorities are cited.
 
 
 3. The body of every document shall bear at its close the name of counsel of record and such other counsel, identified on the cover of the document.
