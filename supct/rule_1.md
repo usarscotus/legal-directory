@@ -3,7 +3,7 @@ layout: rule
 title: Rule 1. Clerk
 permalink: /supct/rule_1/
 notes:
-    - "[Amended](TBA) prior to June 1st, 2025"
+    - "[Amended](supctAmndtLink) on supctAmndtDate"
 ---
 
 1. The Clerk receives documents for filing with the Court and has authority to reject any submitted filing that does not comply with these Rules.
