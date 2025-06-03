@@ -16,13 +16,13 @@
     
             {% if page.url contains '/fre/' or page.permalink contains '/fre/' %}
                 <a href="{{ site.baseurl }}/fre/">Federal Rules of Evidence</a> &gt;
-            {% else %}
+            {% else if page.url contains '/supct/' or page.permalink contains '/supct/' %}
                 <a href="{{ site.baseurl }}/supct/">Supreme Court Rules</a> &gt;
-            {% else %}
+            {% else if page.url contains '/frap/' or page.permalink contains '/frap/' %}
                 <a href="{{ site.baseurl }}/frap/">Federal Appellate Procedure</a> &gt;
-            {% else %}
+            {% else if page.url contains '/frcmp/' or page.permalink contains '/frcmp/' %}
                 <a href="{{ site.baseurl }}/frcmp/">Federal Rules of Criminal Procedure</a> &gt;
-            {% else %}
+            {% else if page.url contains '/frcp/' or page.permalink contains '/frcp/' %}
                 <a href="{{ site.baseurl }}/frcp/">Federal Rules of Civil Procedure</a> &gt;
             {% endif %}
     
