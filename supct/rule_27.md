@@ -2,9 +2,11 @@
 layout: rule
 title: "Rule 27. The Calendar"
 permalink: /supct/rule_27/
+notes:
+    - "[Amended](supctAmndtLink) on supctAmndtDate"
 ---
 
-1. From time to time, the Clerk will prepare a calendar of cases ready for argument. A case ordinarily will not be called for argument less than two weeks after the brief on the merits for the respondent or appellee is due.
+1. From time to time, the Clerk will prepare a calendar of cases ready for argument. A case ordinarily will not be called for argument less than two days after the brief on the merits for the respondent or appellee is due or delivered.
 
 
 2. The Clerk will advise counsel when they are required to appear for oral argument and will publish a hearing list in advance of each argument session for the convenience of counsel and the information of the public.
