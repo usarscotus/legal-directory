@@ -27,10 +27,10 @@ notes:
     (a) an acknowledgment of service, signed by counsel of record for the party served;
 
 
-    (b) a certificate of service, reciting the facts and circumstances of service in compliance with the appropriate paragraph or paragraphs of this Rule, and signed by a member of the Bar of this Court representing the party on whose behalf service is made or by an attorney appointed to represent that party under the Criminal Justice Act of 1964, see 18 U. S. C. §3006A(d)(6) , or under any other applicable federal statute; or
+    (b) a certificate of service, reciting the facts and circumstances of service in compliance with the appropriate paragraph or paragraphs of this Rule, and signed by a member of the Bar of this Court representing the party on whose behalf service is made or by an attorney appointed to represent that party under any other applicable federal statute; or
 
 
-    (c) a notarized affidavit or declaration in compliance with 28 U. S. C. §1746 , reciting the facts and circumstances of service in accordance with the appropriate paragraph or paragraphs of this Rule, whenever service is made by any person not a member of the Bar of this Court and not an attorney appointed to represent a party under the Criminal Justice Act of 1964, see 18 U. S. C. §3006A(d)(6) , or under any other applicable federal statute.
+    (c) a notarized affidavit or declaration in compliance with 28 U. S. C. §1746 , reciting the facts and circumstances of service in accordance with the appropriate paragraph or paragraphs of this Rule, whenever service is made by any person not a member of the Bar of this Court and not an attorney appointed to represent a party under any other applicable federal statute.
 
 
 6. Every document, except a joint appendix or amicus curiae brief, filed by or on behalf of a nongovernmental corporation shall contain a corporate disclosure statement identifying the parent corporations. If a statement has been included in a document filed earlier in the case, reference may be made to the earlier document (except when the earlier statement appeared in a document prepared under Rule 33.2 ), and only amendments to the statement to make it current need be included in the document being filed. In addition, whenever there is a material change in the identity of the parent corporation, counsel shall promptly inform the Clerk by letter and include, within that letter, any amendment needed to make the statement current.

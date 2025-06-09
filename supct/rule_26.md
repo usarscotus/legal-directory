@@ -13,10 +13,12 @@ permalink: /supct/rule_26/
 3.
 
 
-    (a) On the parties' request, the Clerk may allow preparation of the joint appendix to be deferred until after the briefs have been filed. In that event, the petitioner or appellant shall file the joint appendix no more than 3 days after receiving the brief for the respondent or appellee. The provisions of this Rule shall be followed, except that the designations referred to therein shall be made by each party when that party's brief is served. Deferral of the joint appendix is not favored
+    (a) On the parties' request, the Clerk may allow preparation of the joint appendix to be deferred until after the briefs have been filed. In that event, the petitioner or appellant shall file the joint appendix no more than 3 days after receiving the brief for the respondent or appellee. The provisions of this Rule shall be followed, except that the designations referred to therein shall be made by each party when that party's brief is served. Deferral of the joint appendix is not favored.
 
 
     (b) If the deferred method is used, the briefs on the merits may refer to the pages of the record. In that event, the joint appendix shall include in brackets on each page thereof the page number of the record where that material may be found. A party wishing to refer directly to the pages of the joint appendix may serve and file copies of its brief. No other change may be made in the brief as initially served and filed, except that typographical errors may be corrected.
+
+4. The joint appendix shall be prefaced by a table of contents showing the parts of the record that it contains, in the order in which the parts are set out, with references to the pages of the joint appendix at which each part begins. The relevant docket entries shall be set out after the table of contents, followed by the other parts of the record in chronological order. When testimony contained in the reporter’s transcript of proceedings is set out in the joint appendix, the page of the transcript at which the testimony appears shall be indicated in brackets immediately before the statement that is set out. Omissions in the transcript or in any other document printed in the joint appendix shall be indicated by asterisks. Immaterial formal matters ( e. g. , captions, subscriptions, acknowledgments) shall be omitted. A question and its answer may be contained in a single paragraph.
 
 
 5. Two lines must appear at the bottom of the cover of the joint appendix: (1) The first line must indicate the date the petition for the writ of certiorari was filed or the date the appeal was docketed; (2) the second line must indicate the date certiorari was granted or the date jurisdiction of the appeal was noted or postponed.

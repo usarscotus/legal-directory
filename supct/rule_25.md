@@ -4,10 +4,10 @@ title: "Rule 25. Briefs on the Merits: Time to File"
 permalink: /supct/rule_25/
 ---
 
-1. The petitioner or appellant shall file a brief on the merits within 7 days of the order granting the writ of certiorari, noting probable jurisdiction, or postponing consideration of jurisdiction. Any respondent or appellee who supports the petitioner or appellant shall meet the petitioner’s or appellant’s time schedule for filing documents.
+1. The petitioner or appellant shall file a brief on the merits within 5 days of the order granting the writ of certiorari, noting probable jurisdiction, or postponing consideration of jurisdiction. Any respondent or appellee who supports the petitioner or appellant shall meet the petitioner’s or appellant’s time schedule for filing documents.
 
 
-2. The respondent or appellee shall file a brief on the merits within 7 days after the brief for the petitioner or appellant is filed.
+2. The respondent or appellee shall file a brief on the merits within 5 days after the brief for the petitioner or appellant is filed.
 
 
 3. The petitioner or appellant shall file a reply brief, if there shall be one, within 3 days after the brief for the respondent or appellee is filed, but any reply brief must actually be received by the Clerk not later than 2pm 2 days before the date of oral argument. Any respondent or appellee supporting the petitioner or appellant may file a reply brief.
