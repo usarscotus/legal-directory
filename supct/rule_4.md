@@ -3,7 +3,7 @@ layout: rule
 title: Rule 4. Sessions and Quorum
 permalink: /supct/rule_4/
 notes:
-    - "[Amended](https://trello.com/c/cFPxDTlX/13-amended-rules-1-3-4-5-6-7-15-25-26-27-29-32-33-34-35-38-39-43) on June 13th, 2025"
+    - "[Amended](https://trello.com/c/cFPxDTlX/13-amended-rules-1-3-4-5-6-7-15-25-26-27-29-32-33-34-35-38-39-43) on June 13th, 2025, to take effect on June 28th, 2025."
 ---
 
 1. Open sessions of the Court are held pursuant to the call of the Court, and shall sit to hear arguments at designated times of its choosing.

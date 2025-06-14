@@ -3,7 +3,7 @@ layout: rule
 title: "Rule 39. Proceedings In Forma Pauperis"
 permalink: /supct/rule_39/
 notes:
-    - "[Amended](https://trello.com/c/cFPxDTlX/13-amended-rules-1-3-4-5-6-7-15-25-26-27-29-32-33-34-35-38-39-43) on June 13th, 2025"
+    - "[Amended](https://trello.com/c/cFPxDTlX/13-amended-rules-1-3-4-5-6-7-15-25-26-27-29-32-33-34-35-38-39-43) on June 13th, 2025, to take effect on June 28th, 2025."
 ---
 
 1. Proceedings in forma pauperis shall be considered the default for all filings before the Supreme Court of the United States, and no motion for leave to proceed in forma pauperis shall be necessary.
