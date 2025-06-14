@@ -1,7 +1,7 @@
 ---
 layout: rule
 title: "Rule 1. Scope of Rules; Definition; Title"
-permalink: /frap/rule_2/
+permalink: /frap/rule_1/
 ---
 
 (a) Scope of Rules.
