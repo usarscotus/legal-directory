@@ -3,7 +3,7 @@ layout: rule
 title: "Rule 34. Document Preparation: General Requirements"
 permalink: /supct/rule_34/
 notes:
-    - "[Amended](supctAmndtLink) on supctAmndtDate"
+    - "[Amended](https://trello.com/c/cFPxDTlX/13-amended-rules-1-3-4-5-6-7-15-25-26-27-29-32-33-34-35-38-39-43) on June 13th, 2025"
 ---
 
 Every document shall comply with the following provisions:
