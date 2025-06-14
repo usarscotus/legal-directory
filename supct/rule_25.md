@@ -2,6 +2,8 @@
 layout: rule
 title: "Rule 25. Briefs on the Merits: Time to File"
 permalink: /supct/rule_25/
+notes:
+    - "[Amended](https://trello.com/c/cFPxDTlX/13-amended-rules-1-3-4-5-6-7-15-25-26-27-29-32-33-34-35-38-39-43) on June 13th, 2025, to take effect on June 28th, 2025."
 ---
 
 1. The petitioner or appellant shall file a brief on the merits within 5 days of the order granting the writ of certiorari, noting probable jurisdiction, or postponing consideration of jurisdiction. Any respondent or appellee who supports the petitioner or appellant shall meet the petitioner’s or appellant’s time schedule for filing documents.

@@ -2,6 +2,8 @@
 layout: rule
 title: "Rule 26. Joint Appendix"
 permalink: /supct/rule_26/
+notes:
+    - "[Amended](https://trello.com/c/cFPxDTlX/13-amended-rules-1-3-4-5-6-7-15-25-26-27-29-32-33-34-35-38-39-43) on June 13th, 2025, to take effect on June 28th, 2025."
 ---
 
 1. Unless the Clerk has allowed the parties to use the deferred method described in paragraph 4 of this Rule, the petitioner or appellant shall file a joint appendix. The joint appendix shall contain: (1) the relevant docket entries in all the courts below; (2) any relevant pleadings, jury instructions, findings, conclusions, or opinions; (3) the judgment, order, or decision under review; and (4) any other parts of the record that the parties particularly wish to bring to the Court’s attention. Any of the foregoing items already reproduced in a petition for a writ of certiorari, jurisdictional statement, brief in opposition to a petition for a writ of certiorari, motion to dismiss or affirm, or any appendix to the foregoing, need not be reproduced again in the joint appendix. The petitioner or appellant shall serve copies of the joint appendix on each of the other parties to the proceeding as required by Rule 29.

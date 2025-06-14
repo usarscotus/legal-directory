@@ -2,6 +2,8 @@
 layout: rule
 title: "Rule 15. Briefs in Opposition; Reply Briefs; Supplemental Briefs"
 permalink: /supct/rule_15/
+notes:
+    - "[Amended](https://trello.com/c/cFPxDTlX/13-amended-rules-1-3-4-5-6-7-15-25-26-27-29-32-33-34-35-38-39-43) on June 13th, 2025, to take effect on June 28th, 2025."
 ---
 
 1. A brief in opposition to the petition for a writ of certiorari may be filed by the respondent in any case, but is not mandatory except in a capital case, see Rule 14.1(a) or when ordered by the Court.
