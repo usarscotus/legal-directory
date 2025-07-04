@@ -5,47 +5,92 @@ permalink: /docs/
 show_breadcrumbs: false
 ---
 
-<section class="homepage-section">
-  <h1>SCOTUS Document Library</h1>
-  <p>This library provides access to core Supreme Court templates, including petitions, briefs, and appendix formats. All documents are hosted on Google Docs and open in a new tab.</p>
-  <p>These templates are maintained by the USAR Supreme Court to ensure consistency in filings across all proceedings. Check back periodically for updated or additional materials.</p>
-  <p>You are not required to use these templates if you have your own — these are provided for your convenience and to assist with the filing process for those who may need them.</p>
+<!-- Include Tailwind CSS (only if not already globally included) -->
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 
-  <div class="resource-grid">
-    <div class="resource-column">
-      <h2>Available Templates</h2>
-      <ul>
-        <li>
-          <a href="https://docs.google.com/document/d/REPLACE_WITH_DOC_ID1/edit?usp=sharing" target="_blank">
-            Petition for Writ of Certiorari
-          </a>
-        </li>
-        <li>
-          <a href="https://docs.google.com/document/d/REPLACE_WITH_DOC_ID2/edit?usp=sharing" target="_blank">
-            Brief for Petitioners
-          </a>
-        </li>
-        <li>
-          <a href="https://docs.google.com/document/d/REPLACE_WITH_DOC_ID3/edit?usp=sharing" target="_blank">
-            Brief in Opposition
-          </a>
-        </li>
-        <li>
-          <a href="https://docs.google.com/document/d/REPLACE_WITH_DOC_ID4/edit?usp=sharing" target="_blank">
-            Reply Brief
-          </a>
-        </li>
-        <li>
-          <a href="https://docs.google.com/document/d/REPLACE_WITH_DOC_ID5/edit?usp=sharing" target="_blank">
-            Amicus Brief
-          </a>
-        </li>
-        <li>
-          <a href="https://docs.google.com/document/d/REPLACE_WITH_DOC_ID6/edit?usp=sharing" target="_blank">
-            Appendix
-          </a>
-        </li>
-      </ul>
-    </div>
+<section class="homepage-section">
+  <h1 class="text-3xl font-bold mb-4">📄 SCOTUS Document Library</h1>
+  <p class="mb-2">Browse official templates for petitions, briefs, and appendices used in the USAR Supreme Court. Click a card to open the document in a new tab. Use the search bar to filter instantly.</p>
+
+  <input
+    type="text"
+    id="docSearch"
+    placeholder="Search templates..."
+    class="w-full max-w-md border border-gray-300 rounded-lg px-4 py-2 mt-4 mb-8"
+  />
+
+  <div id="docGrid" class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+    <!-- Cards injected by JavaScript -->
   </div>
 </section>
+
+<script>
+  const documents = [
+    {
+      title: "Petition for Writ of Certiorari",
+      description: "Use this to initiate review by the Supreme Court.",
+      url: "https://docs.google.com/document/d/REPLACE_WITH_DOC_ID1/edit?usp=sharing",
+    },
+    {
+      title: "Brief for Petitioners",
+      description: "Primary merits brief supporting the petition.",
+      url: "https://docs.google.com/document/d/REPLACE_WITH_DOC_ID2/edit?usp=sharing",
+    },
+    {
+      title: "Brief in Opposition",
+      description: "Respondent’s argument against granting cert.",
+      url: "https://docs.google.com/document/d/REPLACE_WITH_DOC_ID3/edit?usp=sharing",
+    },
+    {
+      title: "Reply Brief",
+      description: "Petitioner's final reply in support of cert.",
+      url: "https://docs.google.com/document/d/REPLACE_WITH_DOC_ID4/edit?usp=sharing",
+    },
+    {
+      title: "Amicus Brief",
+      description: "Template for briefs submitted by amici curiae.",
+      url: "https://docs.google.com/document/d/REPLACE_WITH_DOC_ID5/edit?usp=sharing",
+    },
+    {
+      title: "Appendix",
+      description: "Format for required supporting appendix materials.",
+      url: "https://docs.google.com/document/d/REPLACE_WITH_DOC_ID6/edit?usp=sharing",
+    },
+  ];
+
+  const container = document.getElementById("docGrid");
+  const search = document.getElementById("docSearch");
+
+  function renderDocs(filter = "") {
+    const query = filter.toLowerCase();
+    container.innerHTML = "";
+
+    documents
+      .filter(doc =>
+        doc.title.toLowerCase().includes(query) ||
+        doc.description.toLowerCase().includes(query)
+      )
+      .forEach(doc => {
+        const card = document.createElement("div");
+        card.className = "bg-white rounded-xl shadow p-6 flex flex-col justify-between transition hover:shadow-lg";
+
+        card.innerHTML = `
+          <div>
+            <h2 class="text-xl font-semibold mb-2">${doc.title}</h2>
+            <p class="text-sm text-gray-600 mb-4">${doc.description}</p>
+          </div>
+          <a href="${doc.url}" target="_blank" class="mt-auto inline-block bg-blue-600 text-white text-sm font-medium px-4 py-2 rounded hover:bg-blue-700 transition">
+            View Document
+          </a>
+        `;
+
+        container.appendChild(card);
+      });
+  }
+
+  renderDocs();
+
+  search.addEventListener("input", e => {
+    renderDocs(e.target.value);
+  });
+</script>
