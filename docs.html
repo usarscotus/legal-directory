@@ -5,22 +5,22 @@ permalink: /docs/
 show_breadcrumbs: false
 ---
 
-<!-- Include Tailwind CSS (only if not already globally included) -->
+<!-- Tailwind CSS -->
 <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 
-<section class="homepage-section">
+<section class="homepage-section font-sans text-gray-800">
   <h1 class="text-3xl font-bold mb-4">📄 SCOTUS Document Library</h1>
-  <p class="mb-2">Browse official templates for petitions, briefs, and appendices used in the USAR Supreme Court. Click a card to open the document in a new tab. Use the search bar to filter instantly.</p>
+  <p class="mb-2">Browse official templates for petitions, briefs, and appendices used in the USAR Supreme Court. All documents open in a new tab. Use the search bar to narrow your results instantly.</p>
 
   <input
     type="text"
     id="docSearch"
     placeholder="Search templates..."
-    class="w-full max-w-md border border-gray-300 rounded-lg px-4 py-2 mt-4 mb-8"
+    class="w-full max-w-md border border-gray-300 rounded-xl px-4 py-2 mt-4 mb-8 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-300"
   />
 
   <div id="docGrid" class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-    <!-- Cards injected by JavaScript -->
+    <!-- Cards injected by JS -->
   </div>
 </section>
 
@@ -72,16 +72,19 @@ show_breadcrumbs: false
       )
       .forEach(doc => {
         const card = document.createElement("div");
-        card.className = "bg-white rounded-xl shadow p-6 flex flex-col justify-between transition hover:shadow-lg";
+        card.className =
+          "bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-lg transition flex flex-col justify-between";
 
         card.innerHTML = `
-          <div>
-            <h2 class="text-xl font-semibold mb-2">${doc.title}</h2>
-            <p class="text-sm text-gray-600 mb-4">${doc.description}</p>
+          <div class="mb-4">
+            <h2 class="text-lg font-semibold text-gray-900 mb-1">${doc.title}</h2>
+            <p class="text-sm text-gray-600">${doc.description}</p>
           </div>
-          <a href="${doc.url}" target="_blank" class="mt-auto inline-block bg-blue-600 text-white text-sm font-medium px-4 py-2 rounded hover:bg-blue-700 transition">
-            View Document
-          </a>
+          <div>
+            <a href="${doc.url}" target="_blank" class="inline-block w-full text-center bg-gray-800 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-gray-700 transition">
+              View Document
+            </a>
+          </div>
         `;
 
         container.appendChild(card);
