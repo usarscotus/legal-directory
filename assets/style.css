@@ -95,12 +95,6 @@ main {
   color: #2c3e50;
 }
 
-.docket-card a {
-  color: #1e40af;
-  font-weight: 500;
-  font-size: 0.75rem;
-}
-
 .toggle-desc {
   background: none;
   border: none;
@@ -157,13 +151,22 @@ main {
   box-shadow: 0 1px 4px rgba(0,0,0,0.1);
 }
 
-.docket-card a {
-  color: #1a56db;
+.docket-card a,
+.resource-link {
+  color: #003366;
   text-decoration: none;
+  font-weight: 500;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+  display: inline-block; /* important */
 }
 
-.docket-card a:hover {
-  text-decoration: underline;
+.docket-card a:hover,
+.resource-link:hover {
+  color: #1e40af;
+  background: rgba(30, 64, 175, 0.07);
+  text-decoration: none;
 }
 
 .docket-card h4 {
@@ -187,15 +190,6 @@ main {
   text-decoration: none;
 }
 
-.docket-card a {
-  color: #0044cc;
-  text-decoration: none;
-}
-
-.docket-card a:hover {
-  text-decoration: underline;
-}
-
 .resource-link {
   color: #003366;
   text-decoration: none;
@@ -210,6 +204,13 @@ main {
   background: rgba(30, 64, 175, 0.07);
   text-decoration: none;
 }
+
+.docket-card-entry {
+  margin-bottom: 0.5rem;
+  font-size: 1rem; /* match base size */
+  font-family: Georgia, serif;
+}
+
 
 
 
