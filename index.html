@@ -5,35 +5,33 @@ show_breadcrumbs: false
 ---
 
 <section class="homepage-section">
-    <h1>Welcome to USAR's Legal Directory</h1>
-    <p>This directory provides access to essential legal resources, including federal rules, court procedures, and educational materials. We also provide learning resources for those seeking to learn more about specific topics of law in USAR and real life.</p>
-    <p>USAR primarily uses real life Federal Rules and other legal materials, but we have some caveats. So, we host a fully modified version of the Federal Rules here on this website.</p>
-    <p>This website is created and maintained by the USAR Supreme Court.</p>
+  <div class="top-flex-wrapper">
+    <!-- LEFT: Introductory Text -->
+    <div class="intro-column">
+      <h1>Welcome to USAR's Legal Directory</h1>
+      <p>This directory provides access to essential legal resources, including federal rules, court procedures, and educational materials. We also provide learning resources for those seeking to learn more about specific topics of law in USAR and real life.</p>
+      <p>USAR primarily uses real life Federal Rules and other legal materials, but we have some caveats. So, we host a fully modified version of the Federal Rules here on this website.</p>
+      <p>This website is created and maintained by the USAR Supreme Court.</p>
+    </div>
 
-
-    <section class="homepage-section docket-section">
-      <h2 class="section-title">Current Court Dockets</h2>
-      <p class="section-subtitle">Live dockets of pending cases before the USAR Courts.</p>
-
-      <div class="docket-columns">
-        <!-- Supreme Court Column -->
-        <div class="docket-column">
-          <h3 class="docket-header">Supreme Court</h3>
-          <div id="docket-cards" class="docket-scroll">
-            <!-- Cards load here -->
-          </div>
-          <p id="docket-error" class="docket-error">Unable to load the docket. Please try again later.</p>
+    <!-- RIGHT: Court Dockets -->
+    <div class="docket-columns">
+      <div class="docket-column">
+        <h3 class="docket-header">Supreme Court</h3>
+        <div id="docket-cards" class="docket-scroll">
+          <!-- Cards load here -->
         </div>
+        <p id="docket-error" class="docket-error">Unable to load the docket. Please try again later.</p>
+      </div>
 
-        <!-- District Court Column -->
-        <div class="docket-column">
-          <h3 class="docket-header">District Court</h3>
-          <div class="docket-scroll">
-            <p>Coming soon.</p>
-          </div>
+      <div class="docket-column">
+        <h3 class="docket-header">District Court</h3>
+        <div class="docket-scroll">
+          <p>Coming soon.</p>
         </div>
       </div>
-    </section>
+    </div>
+  </div>
 
 
     <div class="resource-grid">
@@ -122,12 +120,11 @@ show_breadcrumbs: false
           const fullDesc = formatDescription(card.desc);
 
           el.innerHTML = `
-            <h4 class="text-md font-semibold text-indigo-900 mb-1">${card.name}</h4>
+            <h4><a href="${card.url}" target="_blank">${card.name}</a></h4>
             <div id="${contentId}" class="mb-2">${showShort}</div>
-            <button class="text-xs text-blue-500 hover:underline toggle-desc" data-id="${contentId}" data-full='${encodeURIComponent(fullDesc)}' data-short='${encodeURIComponent(showShort)}'>
+            <button class="toggle-desc" data-id="${contentId}" data-full='${encodeURIComponent(fullDesc)}' data-short='${encodeURIComponent(showShort)}'>
               Show More
             </button>
-            <a href="${card.url}" target="_blank" class="block mt-2 text-xs text-indigo-600 font-medium hover:underline">View on Trello ↗</a>
           `;
           container.appendChild(el);
         });
