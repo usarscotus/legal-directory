@@ -13,28 +13,28 @@ show_breadcrumbs: false
 
 
     <section class="homepage-section mt-12">
-      <h2 class="text-xl font-bold mb-2">Current Court Dockets</h2>
-      <p class="mb-6 text-sm text-gray-600">Live dockets of pending cases before the USAR Courts.</p>
+  <h2 class="text-2xl font-bold mb-4 text-gray-800">Current Court Dockets</h2>
+  <p class="mb-6 text-sm text-gray-600">Live dockets of pending cases before the USAR Courts.</p>
 
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-        <!-- Supreme Court Docket -->
-        <div class="bg-white rounded-xl border border-gray-200 shadow-sm p-4">
-          <h3 class="text-lg font-semibold mb-3 text-indigo-900">Supreme Court</h3>
-          <div id="docket-cards" class="space-y-4 max-h-[480px] overflow-y-auto pr-2 custom-scroll">
-            <!-- Cards load here -->
-          </div>
-          <p id="docket-error" class="text-red-600 mt-4 hidden">Unable to load the docket. Please try again later.</p>
-        </div>
-
-        <!-- District Court Placeholder -->
-        <div class="bg-white rounded-xl border border-gray-200 shadow-sm p-4">
-          <h3 class="text-lg font-semibold mb-3 text-indigo-900">District Court</h3>
-          <div class="text-gray-500 text-sm bg-gray-50 p-4 rounded-md border border-dashed border-gray-300">
-            Coming soon.
-          </div>
-        </div>
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+    <!-- Supreme Court Docket -->
+    <div class="flex flex-col">
+      <h3 class="text-xl font-semibold mb-2">Supreme Court</h3>
+      <div id="docket-cards" class="overflow-y-auto max-h-[500px] space-y-4 pr-2">
+        <!-- Cards will load here -->
       </div>
-    </section>
+      <p id="docket-error" class="text-red-600 mt-4 hidden">Unable to load the docket. Please try again later.</p>
+    </div>
+
+    <!-- District Court Placeholder -->
+    <div class="flex flex-col">
+      <h3 class="text-xl font-semibold mb-2">District Court</h3>
+      <div class="bg-gray-100 text-gray-500 text-sm p-4 rounded-xl max-h-[500px] overflow-y-auto">
+        Coming soon.
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
@@ -85,43 +85,47 @@ show_breadcrumbs: false
   document.addEventListener("DOMContentLoaded", () => {
     fetch("https://usar-docket.netlify.app/.netlify/functions/getDocket")
       .then((res) => {
-        if (!res.ok) {
-          throw new Error(`Fetch failed with status ${res.status}`);
-        }
+        if (!res.ok) throw new Error(`Fetch failed with status ${res.status}`);
         return res.json();
       })
       .then((cards) => {
         const container = document.getElementById("docket-cards");
         container.innerHTML = "";
 
-        if (!Array.isArray(cards) || cards.length === 0) {
-          container.innerHTML = `<p class="text-gray-500">No active Supreme Court cases at this time.</p>`;
-          return;
-        }
-
-        const filtered = cards.filter((card) =>
+        const filtered = cards.filter(card =>
           card.name.trim().toLowerCase() !== "create template" &&
           !/^[-_—]+$/.test(card.name.trim())
         );
 
         if (filtered.length === 0) {
-          container.innerHTML = `<p class="text-gray-500">No active Supreme Court cases at this time.</p>`;
+          container.innerHTML = `<p class="text-gray-500">No active cases at this time.</p>`;
           return;
         }
 
-        filtered.forEach((card) => {
+        // Convert [TEXT](URL) to anchor tags
+        function convertMarkdownLinks(text) {
+          return text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="text-blue-600 underline" target="_blank">$1</a>');
+        }
+
+        // Format descriptions
+        function formatDescription(text) {
+          const cleaned = convertMarkdownLinks(text || "");
+          return cleaned
+            .split(/\n|\\n/)
+            .filter(line => line.trim())
+            .map(line => `<p class="text-sm text-gray-700">${line.trim()}</p>`)
+            .join("");
+        }
+
+        // Create cards
+        filtered.forEach(card => {
           const el = document.createElement("div");
-          el.className =
-            "bg-white border border-gray-300 rounded-xl p-4 shadow-sm hover:shadow-md transition";
+          el.className = "bg-white border border-gray-300 rounded-xl p-4 shadow-sm hover:shadow-md transition";
 
           el.innerHTML = `
-            <div class="mb-2">
-              <h4 class="text-md font-bold text-indigo-900">${card.name}</h4>
-              ${card.desc ? `<p class="text-sm text-gray-700 whitespace-pre-line mt-1">${card.desc}</p>` : ""}
-            </div>
-            <a href="${card.url}" target="_blank" class="inline-block mt-2 text-sm font-medium text-indigo-600 hover:underline">
-              View on Trello ↗
-            </a>
+            <h4 class="text-md font-bold text-indigo-900 mb-1">${card.name}</h4>
+            <div class="mb-2">${formatDescription(card.desc)}</div>
+            <a href="${card.url}" target="_blank" class="text-sm text-indigo-600 font-medium hover:underline">View on Trello ↗</a>
           `;
           container.appendChild(el);
         });
@@ -132,6 +136,7 @@ show_breadcrumbs: false
       });
   });
 </script>
+
 
 <style>
   .custom-scroll::-webkit-scrollbar {
