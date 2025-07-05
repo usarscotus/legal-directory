@@ -766,19 +766,31 @@ html {
   display: inline-block;
   font-size: 0.75rem;
   font-weight: 600;
-  background: #e2e8f0;
-  color: #003366;
-  padding: 0.25rem 0.65rem;
+  padding: 0.25rem 0.6rem;
   border-radius: 999px;
   margin-bottom: 0.5rem;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+  color: white;
+}
+
+/* Thematic coloring */
+.tag-supreme {
+  background-color: #003366; /* matches header/nav */
+}
+
+.tag-district {
+  background-color: #800000; /* dark red/maroon */
+}
+
+.tag-default {
+  background-color: #6b7280;
 }
 
 .doc-link {
   display: inline-block;
   text-align: center;
-  background: #003366;
+  background: #003366; /* header/nav color */
   color: white;
   font-weight: 500;
   padding: 0.4rem 0.75rem;
@@ -788,5 +800,8 @@ html {
 }
 
 .doc-link:hover {
-  background: #1e40af;
+  background: #1e3a8a; /* subtle blue tone */
+  color: white;
+  text-decoration: none;
 }
+

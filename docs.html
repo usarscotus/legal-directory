@@ -102,6 +102,19 @@ show_breadcrumbs: false
           `<span class="docket-label label-gray">${tag}</span>`
         ).join(" ");
 
+        function getTagClass(tag) {
+          const tagMap = {
+            "Supreme Court": "tag-supreme",
+            "District Court": "tag-district"
+          };
+          return tagMap[tag] || "tag-default";
+        }
+
+        const tagHtml = doc.tags.map(tag => {
+          const cls = getTagClass(tag);
+          return `<span class="doc-tag ${cls}">${tag}</span>`;
+        }).join("");
+
         card.className = "doc-card";
         card.innerHTML = `
           <div>
@@ -109,15 +122,13 @@ show_breadcrumbs: false
             <div class="doc-desc">${doc.description}</div>
           </div>
           <div>
-            <div class="doc-tags">
-              ${doc.tags.map(tag => `<span class="doc-tag">${tag}</span>`).join("")}
-            </div>
+            <div class="doc-tags">${tagHtml}</div>
             <a href="${doc.url}" target="_blank" class="doc-link">View Document</a>
           </div>
         `;
 
-        container.appendChild(card);
-      });
+    container.appendChild(card);
+  });
   }
 
   function updateDisplay() {
