@@ -211,6 +211,42 @@ main {
   font-family: Georgia, serif;
 }
 
+.toggle-desc {
+  background: none;
+  border: none;
+  color: #003366;
+  font-weight: 500;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 0.95rem;
+  display: inline-block;
+}
+
+.toggle-desc:hover {
+  color: #1e40af;
+  background: rgba(30, 64, 175, 0.07);
+}
+
+.desc-container {
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  max-height: 3.5em; /* enough for one <p> */
+}
+
+.desc-container.expanded {
+  max-height: 500px; /* enough room for full content */
+}
+
+.docket-scroll {
+  max-height: 175px;  /* or 1 card’s height + margin */
+  overflow-y: auto;
+  padding-right: 6px;
+}
+
 
 
 

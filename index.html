@@ -15,16 +15,15 @@ show_breadcrumbs: false
       <div class="docket-columns">
         <!-- Supreme Court Column -->
         <div class="docket-column">
-          <h3 class="docket-header">Supreme Court</h3>
+          <h3 class="docket-header">Supreme Court Docket</h3>
           <div id="docket-cards" class="docket-scroll">
             <!-- Cards load here -->
           </div>
-          <p id="docket-error" class="docket-error">Unable to load the docket. Please try again later.</p>
         </div>
 
         <!-- District Court Column -->
         <div class="docket-column">
-          <h3 class="docket-header">District Court</h3>
+          <h3 class="docket-header">District Court Docket</h3>
           <div class="docket-scroll">
             <p>Coming soon.</p>
           </div>
@@ -119,22 +118,32 @@ show_breadcrumbs: false
           const fullDesc = formatDescription(card.desc);
 
           el.innerHTML = `
-            <li>
+            <div class="docket-card-entry">
               <a href="${card.url}" class="resource-link">${card.name}</a>
-            </li>
-            <div id="${contentId}" class="mb-2">${showShort}</div>
-            <button class="toggle-desc" data-id="${contentId}" data-full='${encodeURIComponent(fullDesc)}' data-short='${encodeURIComponent(showShort)}'>
-              Show More
-            </button>
+              <div>Docket No. ${card.docket}</div>
+              <div id="${contentId}" class="desc-container">${showShort}</div>
+              <button class="toggle-desc" data-id="${contentId}" data-full='${encodeURIComponent(fullDesc)}' data-short='${encodeURIComponent(showShort)}'>
+                Show More
+              </button>
+            </div>
           `;
+
           container.appendChild(el);
         });
 
         document.querySelectorAll(".toggle-desc").forEach(btn => {
           btn.addEventListener("click", () => {
             const target = document.getElementById(btn.dataset.id);
-            const isExpanded = btn.textContent.includes("Less");
-            target.innerHTML = isExpanded ? decodeURIComponent(btn.dataset.short) : decodeURIComponent(btn.dataset.full);
+            const isExpanded = target.classList.contains("expanded");
+
+            target.innerHTML = isExpanded
+              ? decodeURIComponent(btn.dataset.short)
+              : decodeURIComponent(btn.dataset.full);
+
+            requestAnimationFrame(() => {
+              target.classList.toggle("expanded", !isExpanded);
+            });
+
             btn.textContent = isExpanded ? "Show More" : "Show Less";
           });
         });
