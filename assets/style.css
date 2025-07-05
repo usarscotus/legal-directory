@@ -196,6 +196,22 @@ main {
   text-decoration: underline;
 }
 
+.resource-link {
+  color: #003366;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+
+.resource-link:hover {
+  color: #1e40af;
+  background: rgba(30, 64, 175, 0.07);
+  text-decoration: none;
+}
+
+
 
 /* Header background wrappers */
 #cornell-topbar-bg {
