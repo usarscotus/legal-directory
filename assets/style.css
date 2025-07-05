@@ -781,9 +781,9 @@ html {
 
 /* Thematic coloring */
 .tag-supreme {
-  background-color: #e6edf4;
-  color: #003366;
-  border-color: #cbd5e0;
+  background-color: #f0f4f8;
+  color: #324b6b;
+  border: 1px solid #d4dbe4;
 }
 
 .tag-district {
