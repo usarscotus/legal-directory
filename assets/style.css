@@ -391,8 +391,9 @@ body::before {
 
 .resource-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 1.5rem;
+  margin-top: 2rem;
   align-items: stretch;
 }
 
@@ -737,7 +738,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%; /* ensures equal height within grid */
+  height: 100%;
 }
 
 
@@ -764,23 +765,31 @@ html {
 
 .doc-tag {
   display: inline-block;
-  font-size: 0.75rem;
-  font-weight: 600;
-  padding: 0.25rem 0.6rem;
+  font-size: 0.65rem;
+  font-weight: 500;
+  padding: 0.15rem 0.5rem;
   border-radius: 999px;
   margin-bottom: 0.5rem;
+  margin-right: 0.4rem;
+  background-color: #e6edf4;
+  color: #003366;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  color: white;
+  line-height: 1.2;
+  border: 1px solid #cbd5e0;
 }
 
 /* Thematic coloring */
 .tag-supreme {
-  background-color: #003366; /* matches header/nav */
+  background-color: #e6edf4;
+  color: #003366;
+  border-color: #cbd5e0;
 }
 
 .tag-district {
-  background-color: #800000; /* dark red/maroon */
+  background-color: #fae8e8;
+  color: #800000;
+  border-color: #e2bcbc;
 }
 
 .tag-default {
