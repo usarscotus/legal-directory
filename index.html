@@ -77,7 +77,18 @@ show_breadcrumbs: false
           return;
         }
 
-        cards.forEach((card) => {
+        // ✅ FILTER OUT template cards and dividers
+        const filtered = cards.filter((card) =>
+          card.name.trim().toLowerCase() !== "create template" &&
+          !/^[-_—]+$/.test(card.name.trim()) // lines of dashes or underscores
+        );
+
+        if (filtered.length === 0) {
+          container.innerHTML = `<p class="text-gray-500 col-span-full">No active cases at this time.</p>`;
+          return;
+        }
+
+        filtered.forEach((card) => {
           const el = document.createElement("div");
           el.className =
             "bg-white border border-gray-200 rounded-xl p-4 shadow hover:shadow-md transition";
