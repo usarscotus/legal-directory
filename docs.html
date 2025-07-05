@@ -107,11 +107,13 @@ show_breadcrumbs: false
           <div>
             <div class="doc-title">${doc.title}</div>
             <div class="doc-desc">${doc.description}</div>
+          </div>
+          <div>
             <div class="doc-tags">
               ${doc.tags.map(tag => `<span class="doc-tag">${tag}</span>`).join("")}
             </div>
+            <a href="${doc.url}" target="_blank" class="doc-link">View Document</a>
           </div>
-          <a href="${doc.url}" target="_blank" class="doc-link">View Document</a>
         `;
 
         container.appendChild(card);
