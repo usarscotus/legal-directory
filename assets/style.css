@@ -207,7 +207,7 @@ main {
 
 .docket-card-entry {
   margin-bottom: 0.5rem;
-  font-size: 1rem; /* match base size */
+  font-size: 0.85rem; /* match base size */
   font-family: Georgia, serif;
 }
 
@@ -245,6 +245,12 @@ main {
   max-height: 175px;  /* or 1 card’s height + margin */
   overflow-y: auto;
   padding-right: 6px;
+}
+
+.docket-card .resource-link,
+.docket-card .toggle-desc,
+.docket-card .desc-container {
+  font-size: 0.85rem; /* match the card's base */
 }
 
 
