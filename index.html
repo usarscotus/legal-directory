@@ -80,7 +80,12 @@ show_breadcrumbs: false
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     fetch("https://usar-docket.netlify.app/.netlify/functions/getDocket")
-      .then((res) => res.json())
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error(`Fetch failed with status ${res.status}`);
+        }
+        return res.json();
+      })
       .then((cards) => {
         const container = document.getElementById("docket-cards");
         container.innerHTML = "";
