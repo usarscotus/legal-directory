@@ -390,11 +390,11 @@ body::before {
 }
 
 .resource-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 1.5rem;
   margin-top: 2rem;
-  align-items: stretch;
+  justify-content: flex-start;
 }
 
 .resource-column h2 {
@@ -729,6 +729,8 @@ html {
 }
 
 .doc-card {
+  flex: 1 1 280px;         /* each card takes up 280px min, wraps nicely */
+  max-width: 300px;
   background: white;
   border: 1px solid #ccc;
   border-radius: 12px;
@@ -738,7 +740,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%;
+  height: auto;
 }
 
 
