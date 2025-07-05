@@ -69,13 +69,7 @@ show_breadcrumbs: false
 
   async function loadDocketCards() {
     try {
-      const listRes = await fetch('/.netlify/functions/getDocket');
-      const lists = await listRes.json();
-
-      const docketList = lists.find(list => list.name.toLowerCase() === 'docket');
-      if (!docketList) throw new Error("Docket list not found");
-
-      const cardsRes = await fetch(`https://api.trello.com/1/lists/${docketList.id}/cards?key=${lists.key}&token=${lists.token}`);
+      const cardsRes = await fetch("/.netlify/functions/getDocket");
       const cards = await cardsRes.json();
 
       const container = document.getElementById("docket-cards");
@@ -106,6 +100,7 @@ show_breadcrumbs: false
 
         container.appendChild(el);
       });
+
     } catch (err) {
       console.error("Docket load failed:", err);
       document.getElementById("docket-error").classList.remove("hidden");
