@@ -15,6 +15,14 @@ main {
 }
 
 
+#docket-cards::-webkit-scrollbar {
+  width: 6px;
+}
+#docket-cards::-webkit-scrollbar-thumb {
+  background: #cbd5e0;
+  border-radius: 3px;
+}
+
 
 /* Header background wrappers */
 #cornell-topbar-bg {

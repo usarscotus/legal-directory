@@ -11,14 +11,27 @@ show_breadcrumbs: false
     <p>This website is created and maintained by the USAR Supreme Court.</p>
 
     <section class="homepage-section mt-12">
-        <h2 class="text-2xl font-bold mb-4">📋 Current Supreme Court Docket</h2>
-        <p class="mb-4 text-sm text-gray-600">Live docket of pending cases before the USAR Supreme Court.</p>
+      <h2 class="text-xl font-bold mb-2">Current Court Dockets</h2>
+      <p class="mb-6 text-sm text-gray-600">Live dockets of pending cases before the USAR Courts.</p>
 
-        <div id="docket-cards" class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            <!-- Cards will load here -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <!-- Supreme Court Docket -->
+        <div>
+          <h3 class="text-lg font-semibold mb-3">Supreme Court</h3>
+          <div id="docket-cards" class="max-h-[400px] overflow-y-auto pr-1 space-y-4">
+            <!-- Cards load here -->
+          </div>
+          <p id="docket-error" class="text-red-600 mt-4 hidden">Unable to load the docket. Please try again later.</p>
         </div>
 
-        <p id="docket-error" class="text-red-600 mt-4 hidden">Unable to load the docket. Please try again later.</p>
+        <!-- District Court Placeholder -->
+        <div>
+          <h3 class="text-lg font-semibold mb-3">District Court</h3>
+          <div class="bg-gray-100 text-gray-500 text-sm p-4 rounded-xl">
+            Coming soon.
+          </div>
+        </div>
+      </div>
     </section>
 
     <div class="resource-grid">
@@ -73,30 +86,31 @@ show_breadcrumbs: false
         container.innerHTML = "";
 
         if (!Array.isArray(cards) || cards.length === 0) {
-          container.innerHTML = `<p class="text-gray-500 col-span-full">No active cases at this time.</p>`;
+          container.innerHTML = `<p class="text-gray-500">No active Supreme Court cases at this time.</p>`;
           return;
         }
 
-        // ✅ FILTER OUT template cards and dividers
         const filtered = cards.filter((card) =>
           card.name.trim().toLowerCase() !== "create template" &&
-          !/^[-_—]+$/.test(card.name.trim()) // lines of dashes or underscores
+          !/^[-_—]+$/.test(card.name.trim())
         );
 
         if (filtered.length === 0) {
-          container.innerHTML = `<p class="text-gray-500 col-span-full">No active cases at this time.</p>`;
+          container.innerHTML = `<p class="text-gray-500">No active Supreme Court cases at this time.</p>`;
           return;
         }
 
         filtered.forEach((card) => {
           const el = document.createElement("div");
           el.className =
-            "bg-white border border-gray-200 rounded-xl p-4 shadow hover:shadow-md transition";
+            "bg-white border border-gray-300 rounded-xl p-4 shadow-sm hover:shadow-md transition";
 
           el.innerHTML = `
-            <h3 class="text-lg font-semibold mb-1">${card.name}</h3>
-            ${card.desc ? `<p class="text-sm text-gray-600 mb-2">${card.desc}</p>` : ""}
-            <a href="${card.url}" target="_blank" class="text-indigo-600 text-sm font-medium hover:underline">
+            <div class="mb-2">
+              <h4 class="text-md font-bold text-indigo-900">${card.name}</h4>
+              ${card.desc ? `<p class="text-sm text-gray-700 whitespace-pre-line mt-1">${card.desc}</p>` : ""}
+            </div>
+            <a href="${card.url}" target="_blank" class="inline-block mt-2 text-sm font-medium text-indigo-600 hover:underline">
               View on Trello ↗
             </a>
           `;
