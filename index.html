@@ -5,35 +5,32 @@ show_breadcrumbs: false
 ---
 
 <section class="homepage-section">
-  <div class="top-flex-wrapper">
-    <!-- LEFT: Introductory Text -->
-    <div class="intro-column">
-      <h1>Welcome to USAR's Legal Directory</h1>
-      <p>This directory provides access to essential legal resources, including federal rules, court procedures, and educational materials. We also provide learning resources for those seeking to learn more about specific topics of law in USAR and real life.</p>
-      <p>USAR primarily uses real life Federal Rules and other legal materials, but we have some caveats. So, we host a fully modified version of the Federal Rules here on this website.</p>
-      <p>This website is created and maintained by the USAR Supreme Court.</p>
-    </div>
+    <h1>Welcome to USAR's Legal Directory</h1>
+    <p>This directory provides access to essential legal resources, including federal rules, court procedures, and educational materials. We also provide learning resources for those seeking to learn more about specific topics of law in USAR and real life.</p>
+    <p>USAR primarily uses real life Federal Rules and other legal materials, but we have some caveats. So, we host a fully modified version of the Federal Rules here on this website.</p>
+    <p>This website is created and maintained by the USAR Supreme Court.</p>
 
-    <!-- RIGHT: Court Dockets -->
-    <div class="docket-columns">
-      <!-- Supreme Court Column -->
-      <div class="docket-column">
-        <h3 class="docket-header">Supreme Court</h3>
-        <div id="docket-cards" class="docket-scroll">
-          <!-- Cards load here -->
+
+    <section class="homepage-section docket-section">
+      <div class="docket-columns">
+        <!-- Supreme Court Column -->
+        <div class="docket-column">
+          <h3 class="docket-header">Supreme Court</h3>
+          <div id="docket-cards" class="docket-scroll">
+            <!-- Cards load here -->
+          </div>
+          <p id="docket-error" class="docket-error">Unable to load the docket. Please try again later.</p>
         </div>
-        <p id="docket-error" class="docket-error">Unable to load the docket. Please try again later.</p>
-      </div>
 
-      <!-- District Court Column -->
-      <div class="docket-column">
-        <h3 class="docket-header">District Court</h3>
-        <div class="docket-scroll">
-          <p>Coming soon.</p>
+        <!-- District Court Column -->
+        <div class="docket-column">
+          <h3 class="docket-header">District Court</h3>
+          <div class="docket-scroll">
+            <p>Coming soon.</p>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
+    </section>
 
 
     <div class="resource-grid">
@@ -101,7 +98,7 @@ show_breadcrumbs: false
         }
 
         function convertMarkdownLinks(text) {
-          return text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="text-blue-600 underline" target="_blank">$1</a>');
+          return text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>');
         }
 
         function formatDescription(text) {
@@ -146,20 +143,3 @@ show_breadcrumbs: false
       });
   });
 </script>
-
-
-
-
-<style>
-  .custom-scroll::-webkit-scrollbar {
-    width: 6px;
-  }
-  .custom-scroll::-webkit-scrollbar-thumb {
-    background-color: rgba(100, 116, 139, 0.5);
-    border-radius: 4px;
-  }
-  .custom-scroll {
-    scrollbar-width: thin;
-    scrollbar-color: rgba(100, 116, 139, 0.5) transparent;
-  }
-</style>
