@@ -242,7 +242,7 @@ main {
 }
 
 .docket-scroll {
-  max-height: 175px;  /* or 1 card’s height + margin */
+  max-height: 360px; /* room for two full cards */
   overflow-y: auto;
   padding-right: 6px;
 }

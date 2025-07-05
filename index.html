@@ -120,7 +120,6 @@ show_breadcrumbs: false
           el.innerHTML = `
             <div class="docket-card-entry">
               <a href="${card.url}" class="resource-link">${card.name}</a>
-              <div>Docket No. ${card.docket}</div>
               <div id="${contentId}" class="desc-container">${showShort}</div>
               <button class="toggle-desc" data-id="${contentId}" data-full='${encodeURIComponent(fullDesc)}' data-short='${encodeURIComponent(showShort)}'>
                 Show More
