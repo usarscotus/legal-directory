@@ -11,31 +11,33 @@ show_breadcrumbs: false
     <p>This website is created and maintained by the USAR Supreme Court.</p>
 
 
-
     <section class="homepage-section mt-12">
-  <h2 class="text-2xl font-bold mb-4 text-gray-800">Current Court Dockets</h2>
-  <p class="mb-6 text-sm text-gray-600">Live dockets of pending cases before the USAR Courts.</p>
+      <h2 class="text-2xl font-bold mb-4 text-gray-800">Current Court Dockets</h2>
+      <p class="mb-6 text-sm text-gray-600">Live dockets of pending cases before the USAR Courts.</p>
 
-  <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-    <!-- Supreme Court Docket -->
-    <div class="flex flex-col">
-      <h3 class="text-xl font-semibold mb-2">Supreme Court</h3>
-      <div id="docket-cards" class="overflow-y-auto max-h-[500px] space-y-4 pr-2">
-        <!-- Cards will load here -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <!-- Supreme Court Docket -->
+        <div class="flex flex-col bg-white border border-gray-300 rounded-xl shadow-sm">
+          <div class="px-4 py-3 border-b border-gray-200">
+            <h3 class="text-lg font-semibold text-gray-800">Supreme Court</h3>
+          </div>
+          <div id="docket-cards" class="custom-scroll px-4 py-3 space-y-4 overflow-y-auto max-h-[500px]">
+            <!-- Cards load here -->
+          </div>
+          <p id="docket-error" class="text-red-600 px-4 pb-4 hidden">Unable to load the docket. Please try again later.</p>
+        </div>
+
+        <!-- District Court Placeholder -->
+        <div class="flex flex-col bg-white border border-gray-300 rounded-xl shadow-sm">
+          <div class="px-4 py-3 border-b border-gray-200">
+            <h3 class="text-lg font-semibold text-gray-800">District Court</h3>
+          </div>
+          <div class="px-4 py-3 text-sm text-gray-500 max-h-[500px] overflow-y-auto custom-scroll">
+            <p>Coming soon.</p>
+          </div>
+        </div>
       </div>
-      <p id="docket-error" class="text-red-600 mt-4 hidden">Unable to load the docket. Please try again later.</p>
-    </div>
-
-    <!-- District Court Placeholder -->
-    <div class="flex flex-col">
-      <h3 class="text-xl font-semibold mb-2">District Court</h3>
-      <div class="bg-gray-100 text-gray-500 text-sm p-4 rounded-xl max-h-[500px] overflow-y-auto">
-        Coming soon.
-      </div>
-    </div>
-  </div>
-</section>
-
+    </section>
 
 
     <div class="resource-grid">
@@ -138,6 +140,8 @@ show_breadcrumbs: false
 </script>
 
 
+
+
 <style>
   .custom-scroll::-webkit-scrollbar {
     width: 8px;
@@ -151,4 +155,10 @@ show_breadcrumbs: false
   .custom-scroll::-webkit-scrollbar-thumb:hover {
     background-color: rgba(71, 85, 105, 0.7);
   }
+
+  .custom-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(100, 116, 139, 0.5) transparent;
+  }
 </style>
+
