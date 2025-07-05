@@ -10,6 +10,16 @@ show_breadcrumbs: false
     <p>USAR primarily uses real life Federal Rules and other legal materials, but we have some caveats. So, we host a fully modified version of the Federal Rules here on this website.</p>
     <p>This website is created and maintained by the USAR Supreme Court.</p>
 
+    <section class="homepage-section mt-12">
+        <h2 class="text-2xl font-bold mb-4">📋 Current Supreme Court Docket</h2>
+        <p class="mb-4 text-sm text-gray-600">Live docket of pending cases before the USAR Supreme Court.</p>
+
+        <div id="docket-cards" class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            <!-- Cards will load here -->
+        </div>
+
+        <p id="docket-error" class="text-red-600 mt-4 hidden">Unable to load the docket. Please try again later.</p>
+    </section>
 
     <div class="resource-grid">
         <div class="resource-column">
@@ -51,3 +61,53 @@ show_breadcrumbs: false
 
     </div>
 </section>
+
+
+
+<script>
+  const apiKey = 'ab42d5e1f0035fcc8c65fc269feba12d';
+  const token = 'ATTA6586bcbaad27ff36a2c1d54ca8b172a7ce4b349f7458dcbe94af0e90e49cc4289EDFBD38'; // Replace this after authorizing
+
+  const boardId = 'MMA90mFH';
+
+  async function loadDocketCards() {
+    try {
+      // Step 1: Get all lists on the board
+      const listRes = await fetch(`https://api.trello.com/1/boards/${boardId}/lists?key=${apiKey}&token=${token}`);
+      const lists = await listRes.json();
+
+      const docketList = lists.find(list => list.name.toLowerCase() === "docket");
+      if (!docketList) throw new Error("Docket list not found");
+
+      // Step 2: Get cards from the Docket list
+      const cardsRes = await fetch(`https://api.trello.com/1/lists/${docketList.id}/cards?key=${apiKey}&token=${token}`);
+      const cards = await cardsRes.json();
+
+      const container = document.getElementById("docket-cards");
+      container.innerHTML = "";
+
+      if (cards.length === 0) {
+        container.innerHTML = `<p class="text-gray-500 col-span-full">No active cases at this time.</p>`;
+        return;
+      }
+
+      cards.forEach(card => {
+        const el = document.createElement("div");
+        el.className = "bg-white border border-gray-200 rounded-xl p-4 shadow hover:shadow-md transition";
+
+        el.innerHTML = `
+          <h3 class="text-lg font-semibold mb-1">${card.name}</h3>
+          ${card.desc ? `<p class="text-sm text-gray-600 mb-2">${card.desc}</p>` : ""}
+          <a href="${card.url}" target="_blank" class="text-blue-600 text-sm font-medium hover:underline">View on Trello ↗</a>
+        `;
+
+        container.appendChild(el);
+      });
+    } catch (err) {
+      console.error("Docket load failed:", err);
+      document.getElementById("docket-error").classList.remove("hidden");
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", loadDocketCards);
+</script>
