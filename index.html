@@ -15,20 +15,20 @@ show_breadcrumbs: false
       <h2 class="text-2xl font-bold mb-4 text-gray-800">Current Court Dockets</h2>
       <p class="mb-6 text-sm text-gray-600">Live dockets of pending cases before the USAR Courts.</p>
 
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <!-- Supreme Court Docket -->
-        <div class="flex flex-col bg-white border border-gray-300 rounded-xl shadow-sm">
+      <div class="flex flex-wrap gap-6 overflow-x-auto">
+        <!-- Supreme Court Column -->
+        <div class="flex-shrink-0 w-full md:w-[48%] bg-white border border-gray-300 rounded-xl shadow-sm">
           <div class="px-4 py-3 border-b border-gray-200">
             <h3 class="text-lg font-semibold text-gray-800">Supreme Court</h3>
           </div>
           <div id="docket-cards" class="custom-scroll px-4 py-3 space-y-4 overflow-y-auto max-h-[500px]">
-            <!-- Cards load here -->
+            <!-- Cards will load here -->
           </div>
           <p id="docket-error" class="text-red-600 px-4 pb-4 hidden">Unable to load the docket. Please try again later.</p>
         </div>
 
-        <!-- District Court Placeholder -->
-        <div class="flex flex-col bg-white border border-gray-300 rounded-xl shadow-sm">
+        <!-- District Court Column -->
+        <div class="flex-shrink-0 w-full md:w-[48%] bg-white border border-gray-300 rounded-xl shadow-sm">
           <div class="px-4 py-3 border-b border-gray-200">
             <h3 class="text-lg font-semibold text-gray-800">District Court</h3>
           </div>
@@ -161,4 +161,3 @@ show_breadcrumbs: false
     scrollbar-color: rgba(100, 116, 139, 0.5) transparent;
   }
 </style>
-
