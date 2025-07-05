@@ -726,3 +726,63 @@ html {
   width: auto;
   margin-bottom: 4px;
 }
+
+.doc-card {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  transition: box-shadow 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.doc-card:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.doc-title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #003366;
+  margin-bottom: 0.5rem;
+}
+
+.doc-desc {
+  font-size: 0.9rem;
+  color: #444;
+  margin-bottom: 0.75rem;
+}
+
+.doc-tags {
+  margin-bottom: 0.75rem;
+}
+
+.doc-tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  background: #b3bac5;
+  color: white;
+  padding: 0.15rem 0.5rem;
+  border-radius: 12px;
+  margin-right: 0.4rem;
+}
+
+.doc-link {
+  display: inline-block;
+  text-align: center;
+  background: #003366;
+  color: white;
+  font-weight: 500;
+  padding: 0.4rem 0.75rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.doc-link:hover {
+  background: #1e40af;
+}

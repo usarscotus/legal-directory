@@ -7,13 +7,16 @@ show_breadcrumbs: false
 
 <section class="homepage-section">
   <h1 class="section-title">Court Document Library</h1>
-  <p>Browse official templates for petitions, briefs, and appendices used in the USAR Judiciary. All documents open in a new tab. Use the search bar to narrow your results instantly.</p>
-  <p>You are not required to use these templates — they are merely provided for the convenience of those who need them.</p>
+  <p>Browse official templates for petitions, briefs, and appendices used in the USAR Judiciary. All documents open in a
+    new tab. Use the search bar to narrow your results instantly.</p>
+  <p>You are not required to use these templates — they are merely provided for the convenience of those who need them.
+  </p>
 
   <div class="top-flex-wrapper" style="margin-top: 1rem;">
     <div class="intro-column">
       <label for="courtFilter"><strong>Filter by Court:</strong></label><br>
-      <select id="courtFilter" style="margin-top: 0.25rem; padding: 0.4rem 0.6rem; border: 1px solid #ccc; border-radius: 6px;">
+      <select id="courtFilter"
+        style="margin-top: 0.25rem; padding: 0.4rem 0.6rem; border: 1px solid #ccc; border-radius: 6px;">
         <option value="All">All Courts</option>
         <option value="Supreme Court">Supreme Court</option>
         <option value="District Court">District Court</option>
@@ -21,7 +24,8 @@ show_breadcrumbs: false
     </div>
     <div class="intro-column">
       <label for="docSearch"><strong>Search templates:</strong></label><br>
-      <input type="text" id="docSearch" placeholder="Search templates..." style="margin-top: 0.25rem; padding: 0.4rem 0.8rem; border: 1px solid #ccc; border-radius: 6px; width: 100%;" />
+      <input type="text" id="docSearch" placeholder="Search templates..."
+        style="margin-top: 0.25rem; padding: 0.4rem 0.8rem; border: 1px solid #ccc; border-radius: 6px; width: 100%;" />
     </div>
   </div>
 
@@ -98,13 +102,16 @@ show_breadcrumbs: false
           `<span class="docket-label label-gray">${tag}</span>`
         ).join(" ");
 
+        card.className = "doc-card";
         card.innerHTML = `
-          <div class="docket-card-entry small-text">
-            <h3 class="section-subtitle">${doc.title}</h3>
-            <p>${doc.description}</p>
-            <div class="docket-labels">${tagSpans}</div>
-            <a href="${doc.url}" target="_blank" class="resource-link">View Document</a>
+          <div>
+            <div class="doc-title">${doc.title}</div>
+            <div class="doc-desc">${doc.description}</div>
+            <div class="doc-tags">
+              ${doc.tags.map(tag => `<span class="doc-tag">${tag}</span>`).join("")}
+            </div>
           </div>
+          <a href="${doc.url}" target="_blank" class="doc-link">View Document</a>
         `;
 
         container.appendChild(card);
@@ -120,4 +127,3 @@ show_breadcrumbs: false
 
   renderDocs();
 </script>
-
