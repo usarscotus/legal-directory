@@ -390,11 +390,10 @@ body::before {
 }
 
 .resource-grid {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
   margin-top: 2rem;
-  justify-content: flex-start;
 }
 
 .resource-column h2 {
@@ -816,3 +815,14 @@ html {
   text-decoration: none;
 }
 
+@media (max-width: 1024px) {
+  .resource-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .resource-grid {
+    grid-template-columns: 1fr;
+  }
+}
