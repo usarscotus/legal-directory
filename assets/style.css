@@ -253,6 +253,37 @@ main {
   font-size: 0.85rem; /* match the card's base */
 }
 
+.docket-labels {
+  margin: 0.4rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.docket-label {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.15rem 0.5rem;
+  border-radius: 12px;
+  color: white;
+  line-height: 1;
+}
+
+/* Color mappings from Trello */
+.label-blue { background-color: #0079bf; }
+.label-green { background-color: #61bd4f; }
+.label-orange { background-color: #f2d600; color: #000; }
+.label-red { background-color: #eb5a46; }
+.label-purple { background-color: #c377e0; }
+.label-yellow { background-color: #ffab4a; color: #000; }
+.label-black { background-color: #4d4d4d; }
+.label-pink { background-color: #ff80ce; }
+.label-sky { background-color: #00c2e0; }
+.label-lime { background-color: #51e898; }
+.label-gray { background-color: #b3bac5; }
+
+
 
 
 
