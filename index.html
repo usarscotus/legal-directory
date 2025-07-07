@@ -100,27 +100,33 @@ show_breadcrumbs: false
 
       let cleaned = desc;
 
-      // 1. Remove backslash-escaped Markdown characters
+      // Remove escaped markdown characters like \* or \>
       cleaned = cleaned.replace(/\\([*_`>])/g, "$1");
 
-      // 2. Remove leading > quote symbols
+      // Remove leading > symbols
       cleaned = cleaned.replace(/^\s*>+\s?/gm, "");
 
-      // 3. Remove separator lines with mostly dashes, stars, or spaces (even mixed)
-      cleaned = cleaned.replace(/^[\s\*\-–—_]{5,}$/gm, "");
+      // 🚫 Remove fully decorative lines or lines wrapped in decorations like:
+      // ----- No. CR-xxx -----
+      cleaned = cleaned.replace(/^[\s\-_*~`=]{0,5}[-_*~`=]{5,}.*[-_*~`=]{5,}[\s\-_*~`=]{0,5}$/gm, "");
 
-      // 4. Convert [Text](URL) to links
+      // Convert markdown links
       cleaned = cleaned.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>');
 
-      // 5. Convert bold and italic markdown
+      // Bold: **text**
       cleaned = cleaned.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+
+      // Italics: *text* or _text_
       cleaned = cleaned.replace(/(^|[^\*])\*([^*]+)\*/g, '$1<em>$2</em>');
       cleaned = cleaned.replace(/(^|[^_])_([^_]+)_/g, '$1<em>$2</em>');
 
-      // 6. Convert simple bullets to •
-      cleaned = cleaned.replace(/^\s*[-•]\s+/gm, "• ");
+      // Remove markdown backticks
+      cleaned = cleaned.replace(/`([^`]+)`/g, "$1");
 
-      // 7. Wrap clean lines in <p>, skipping blanks
+      // Convert - or * bullets to •
+      cleaned = cleaned.replace(/^\s*[-*•]\s+/gm, "• ");
+
+      // Final cleanup: remove extra lines
       return cleaned
         .split(/\n|\\n/)
         .map(line => line.trim())
