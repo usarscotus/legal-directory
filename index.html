@@ -85,42 +85,41 @@ show_breadcrumbs: false
 
 <script>
   document.addEventListener("DOMContentLoaded", () => {
-    fetch("https://usar-docket.netlify.app/.netlify/functions/getDocket")
-      .then((res) => {
-        if (!res.ok) throw new Error(`Fetch failed with status ${res.status}`);
-        return res.json();
-      })
-      .then((data) => {
-        const supremeContainer = document.getElementById("docket-cards-supreme");
-        const districtContainer = document.getElementById("docket-cards-district");
+    const supremeContainer = document.getElementById("docket-cards-supreme");
+    const districtContainer = document.getElementById("docket-cards-district");
 
-        const renderList = (container, items) => {
-          if (!items || items.length === 0) {
-            container.innerHTML = `<p class="text-gray-500">No active cases at this time.</p>`;
-            return;
-          }
+    const renderList = (container, items) => {
+      if (!items || items.length === 0) {
+        container.innerHTML = `<p class="text-gray-500">No active cases at this time.</p>`;
+        return;
+      }
 
-          items
-            .filter(item => item.name.trim() && item.name.trim().toLowerCase() !== "create template" && item.name.trim() !== "____" && !/^[-_—]+$/.test(item.name.trim()))
-            .forEach((item) => {
-              const div = document.createElement("div");
-              div.className = "docket-card";
-              div.innerHTML = `<div class="docket-card-entry small-text"><span>${item.name}</span></div>`;
-              container.appendChild(div);
-            });
-        };
+      items
+        .filter(item => item.name.trim() && item.name.trim().toLowerCase() !== "create template" && item.name.trim() !== "____" && !/^[-_—]+$/.test(item.name.trim()))
+        .forEach((item) => {
+          const div = document.createElement("div");
+          div.className = "docket-card";
+          div.innerHTML = `<div class="docket-card-entry small-text">
+            ${item.url 
+              ? `<a href="${item.url}" class="resource-link" target="_blank">${item.name}</a>` 
+              : `<span>${item.name}</span>`}
+          </div>`;
+          container.appendChild(div);
+        });
+    };
 
-        if (data.supreme) {
-          renderList(supremeContainer, data.supreme);
+    fetch("https://api.trello.com/1/boards/MMA90mFH/lists?cards=open&card_fields=name,url&fields=name")
+      .then(res => res.json())
+      .then(lists => {
+        const docketList = lists.find(list => list.name.toLowerCase() === "docket");
+        if (docketList && docketList.cards) {
+          renderList(supremeContainer, docketList.cards);
         } else {
           document.getElementById("docket-error-supreme")?.classList.remove("hidden");
         }
 
-        if (data.district) {
-          renderList(districtContainer, data.district);
-        } else {
-          document.getElementById("docket-error-district")?.classList.remove("hidden");
-        }
+        // Since we are not rendering the district docket anymore, show error
+        document.getElementById("docket-error-district")?.classList.remove("hidden");
       })
       .catch((err) => {
         console.error("Docket load failed:", err);
@@ -129,3 +128,4 @@ show_breadcrumbs: false
       });
   });
 </script>
+
