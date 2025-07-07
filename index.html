@@ -91,96 +91,36 @@ show_breadcrumbs: false
         return res.json();
       })
       .then((data) => {
-        const containers = {
-          supreme: document.getElementById("docket-cards-supreme"),
-          district: document.getElementById("docket-cards-district"),
-        };
+        const supremeContainer = document.getElementById("docket-cards-supreme");
+        const districtContainer = document.getElementById("docket-cards-district");
 
-        function convertMarkdownLinks(text) {
-          return text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>');
-        }
-
-        function formatDescription(text) {
-          const cleaned = convertMarkdownLinks(text || "");
-          return cleaned
-            .split(/\n|\\n/)
-            .filter(line => line.trim())
-            .map(line => `<p class="text-sm text-gray-700">${line.trim()}</p>`)
-            .join("");
-        }
-
-        function renderLabels(labels) {
-          return (labels || []).map(label => {
-            const color = label.color || "gray";
-            return `<span class="docket-label label-${color}">${label.name}</span>`;
-          }).join(" ");
-        }
-
-        function renderCard(card, i, containerId) {
-          const container = containers[containerId];
-          if (!container) return;
-
-          const el = document.createElement("div");
-          el.className = "docket-card";
-
-          const contentId = `${containerId}-desc-${i}`;
-          const fullDesc = formatDescription(card.desc);
-          const showShort = fullDesc.split('</p>')[0] + '</p>';
-          const labelHTML = renderLabels(card.labels);
-
-          el.innerHTML = `
-            <div class="docket-card-entry small-text">
-              <a href="${card.url}" class="resource-link" target="_blank">${card.name}</a>
-              <div class="docket-labels">${labelHTML}</div>
-              <div id="${contentId}" class="desc-container">${showShort}</div>
-              <button class="toggle-desc" data-id="${contentId}" data-full='${encodeURIComponent(fullDesc)}' data-short='${encodeURIComponent(showShort)}'>
-                Show More
-              </button>
-            </div>
-          `;
-
-          container.appendChild(el);
-        }
-
-        function processColumn(columnKey) {
-          const cards = (data[columnKey] || []);
-          const container = containers[columnKey];
-          const errorElem = document.getElementById(`docket-error-${columnKey}`);
-
-          if (!cards || cards.length === 0) {
-            if (container) {
-              container.innerHTML = `<p class="text-gray-500">No active cases at this time.</p>`;
-            }
+        const renderList = (container, items) => {
+          if (!items || items.length === 0) {
+            container.innerHTML = `<p class="text-gray-500">No active cases at this time.</p>`;
             return;
           }
 
-          cards
-            .filter(card =>
-              card.name.trim().toLowerCase() !== "create template" &&
-              !/^[-_—]+$/.test(card.name.trim())
-            )
-            .forEach((card, i) => renderCard(card, i, columnKey));
+          items
+            .filter(item => item.name.trim() && item.name.trim().toLowerCase() !== "create template" && item.name.trim() !== "____" && !/^[-_—]+$/.test(item.name.trim()))
+            .forEach((item) => {
+              const div = document.createElement("div");
+              div.className = "docket-card";
+              div.innerHTML = `<div class="docket-card-entry small-text"><span>${item.name}</span></div>`;
+              container.appendChild(div);
+            });
+        };
+
+        if (data.supreme) {
+          renderList(supremeContainer, data.supreme);
+        } else {
+          document.getElementById("docket-error-supreme")?.classList.remove("hidden");
         }
 
-        processColumn("supreme");
-        processColumn("district");
-
-        document.querySelectorAll(".toggle-desc").forEach(btn => {
-          btn.addEventListener("click", () => {
-            const target = document.getElementById(btn.dataset.id);
-            const isExpanded = target.classList.contains("expanded");
-
-            target.innerHTML = isExpanded
-              ? decodeURIComponent(btn.dataset.short)
-              : decodeURIComponent(btn.dataset.full);
-
-            requestAnimationFrame(() => {
-              target.classList.toggle("expanded", !isExpanded);
-            });
-
-            btn.textContent = isExpanded ? "Show More" : "Show Less";
-          });
-        });
+        if (data.district) {
+          renderList(districtContainer, data.district);
+        } else {
+          document.getElementById("docket-error-district")?.classList.remove("hidden");
+        }
       })
       .catch((err) => {
         console.error("Docket load failed:", err);
