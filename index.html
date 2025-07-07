@@ -97,11 +97,17 @@ show_breadcrumbs: false
 
     const formatDescription = (desc) => {
       if (!desc || desc.trim() === "") return "";
-      const paragraphs = desc.split(/\n|\\n/).filter(line => line.trim());
-      return paragraphs.map(p => `<p>${p.trim()}</p>`).join("");
+      return desc
+        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>') // markdown links
+        .split(/\n|\\n/)
+        .filter(line => line.trim())
+        .map(p => `<p>${p.trim()}</p>`)
+        .join("");
     };
 
     const renderCard = (card, container) => {
+      if (!card.labels || card.labels.length === 0) return; // skip cards with no labels
+
       const labelHTML = renderLabels(card.labels);
       const fullDesc = formatDescription(card.desc || "");
       const showShort = fullDesc.split("</p>")[0] + "</p>";
@@ -126,14 +132,19 @@ show_breadcrumbs: false
     };
 
     const renderList = (container, cards) => {
-      if (!cards || cards.length === 0) {
+      const eligibleCards = cards.filter(c =>
+        c.labels && c.labels.length > 0 &&
+        c.name.trim() &&
+        !["____", "create template"].includes(c.name.trim().toLowerCase()) &&
+        !/^[-_—]+$/.test(c.name.trim())
+      );
+
+      if (eligibleCards.length === 0) {
         container.innerHTML = `<p class="text-gray-500">No active cases at this time.</p>`;
         return;
       }
 
-      cards
-        .filter(c => c.name.trim() && !["____", "create template"].includes(c.name.trim().toLowerCase()) && !/^[-_—]+$/.test(c.name.trim()))
-        .forEach(card => renderCard(card, container));
+      eligibleCards.forEach(card => renderCard(card, container));
     };
 
     const fetchAndRenderBoard = (boardId, container, errorId) => {
@@ -154,11 +165,11 @@ show_breadcrumbs: false
         });
     };
 
-    // Supreme Court (MMA90mFH), District Court (rbISqlOt)
+    // Load both boards
     fetchAndRenderBoard("MMA90mFH", supremeContainer, "docket-error-supreme");
     fetchAndRenderBoard("rbISqlOt", districtContainer, "docket-error-district");
 
-    // Expand/collapse toggle
+    // Toggle expandable description
     document.addEventListener("click", (e) => {
       if (!e.target.classList.contains("toggle-desc")) return;
       const btn = e.target;
