@@ -16,21 +16,25 @@ show_breadcrumbs: false
 
   <section class="homepage-section docket-section">
     <div class="docket-columns">
+
       <!-- Supreme Court Column -->
       <div class="docket-column">
         <h3 class="docket-header">Supreme Court Docket</h3>
-        <div id="docket-cards" class="docket-scroll">
-          <!-- Cards load here -->
+        <div id="docket-cards-supreme" class="docket-scroll">
+          <!-- Supreme Court cards will load here -->
         </div>
+        <p id="docket-error-supreme" class="docket-error hidden">Unable to load the docket. Please try again later.</p>
       </div>
 
       <!-- District Court Column -->
       <div class="docket-column">
         <h3 class="docket-header">District Court Docket</h3>
-        <div class="docket-scroll">
-          <p>Coming soon.</p>
+        <div id="docket-cards-district" class="docket-scroll">
+          <!-- District Court cards will load here -->
         </div>
+        <p id="docket-error-district" class="docket-error hidden">Unable to load the docket. Please try again later.</p>
       </div>
+
     </div>
   </section>
 
@@ -86,19 +90,11 @@ show_breadcrumbs: false
         if (!res.ok) throw new Error(`Fetch failed with status ${res.status}`);
         return res.json();
       })
-      .then((cards) => {
-        const container = document.getElementById("docket-cards");
-        container.innerHTML = "";
-
-        const filtered = cards.filter(card =>
-          card.name.trim().toLowerCase() !== "create template" &&
-          !/^[-_—]+$/.test(card.name.trim())
-        );
-
-        if (filtered.length === 0) {
-          container.innerHTML = `<p class="text-gray-500">No active cases at this time.</p>`;
-          return;
-        }
+      .then((data) => {
+        const containers = {
+          supreme: document.getElementById("docket-cards-supreme"),
+          district: document.getElementById("docket-cards-district"),
+        };
 
         function convertMarkdownLinks(text) {
           return text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>');
@@ -113,25 +109,28 @@ show_breadcrumbs: false
             .join("");
         }
 
-        filtered.forEach((card, i) => {
+        function renderLabels(labels) {
+          return (labels || []).map(label => {
+            const color = label.color || "gray";
+            return `<span class="docket-label label-${color}">${label.name}</span>`;
+          }).join(" ");
+        }
+
+        function renderCard(card, i, containerId) {
+          const container = containers[containerId];
+          if (!container) return;
+
           const el = document.createElement("div");
           el.className = "docket-card";
 
-          function renderLabels(labels) {
-            return labels.map(label => {
-              const color = label.color || "gray"; // fallback
-              return `<span class="docket-label label-${color}">${label.name}</span>`;
-            }).join(" ");
-          }
-
-          const labelHTML = renderLabels(card.labels || []);
-          const contentId = `desc-${i}`;
-          const showShort = formatDescription(card.desc).split('</p>')[0] + '</p>'; // first line only
+          const contentId = `${containerId}-desc-${i}`;
           const fullDesc = formatDescription(card.desc);
+          const showShort = fullDesc.split('</p>')[0] + '</p>';
+          const labelHTML = renderLabels(card.labels);
 
           el.innerHTML = `
             <div class="docket-card-entry small-text">
-              <a href="${card.url}" class="resource-link">${card.name}</a>
+              <a href="${card.url}" class="resource-link" target="_blank">${card.name}</a>
               <div class="docket-labels">${labelHTML}</div>
               <div id="${contentId}" class="desc-container">${showShort}</div>
               <button class="toggle-desc" data-id="${contentId}" data-full='${encodeURIComponent(fullDesc)}' data-short='${encodeURIComponent(showShort)}'>
@@ -141,7 +140,30 @@ show_breadcrumbs: false
           `;
 
           container.appendChild(el);
-        });
+        }
+
+        function processColumn(columnKey) {
+          const cards = (data[columnKey] || []);
+          const container = containers[columnKey];
+          const errorElem = document.getElementById(`docket-error-${columnKey}`);
+
+          if (!cards || cards.length === 0) {
+            if (container) {
+              container.innerHTML = `<p class="text-gray-500">No active cases at this time.</p>`;
+            }
+            return;
+          }
+
+          cards
+            .filter(card =>
+              card.name.trim().toLowerCase() !== "create template" &&
+              !/^[-_—]+$/.test(card.name.trim())
+            )
+            .forEach((card, i) => renderCard(card, i, columnKey));
+        }
+
+        processColumn("supreme");
+        processColumn("district");
 
         document.querySelectorAll(".toggle-desc").forEach(btn => {
           btn.addEventListener("click", () => {
@@ -162,7 +184,8 @@ show_breadcrumbs: false
       })
       .catch((err) => {
         console.error("Docket load failed:", err);
-        document.getElementById("docket-error").classList.remove("hidden");
+        document.getElementById("docket-error-supreme")?.classList.remove("hidden");
+        document.getElementById("docket-error-district")?.classList.remove("hidden");
       });
   });
 </script>
