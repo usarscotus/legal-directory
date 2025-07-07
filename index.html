@@ -88,7 +88,6 @@ show_breadcrumbs: false
     const supremeContainer = document.getElementById("docket-cards-supreme");
     const districtContainer = document.getElementById("docket-cards-district");
 
-    // Renders label tags
     const renderLabels = (labels = []) => {
       return labels.map(label => {
         const color = label.color || "gray";
@@ -96,19 +95,16 @@ show_breadcrumbs: false
       }).join(" ");
     };
 
-    // Renders description with expand/collapse
     const formatDescription = (desc) => {
       if (!desc || desc.trim() === "") return "";
       const paragraphs = desc.split(/\n|\\n/).filter(line => line.trim());
       return paragraphs.map(p => `<p>${p.trim()}</p>`).join("");
     };
 
-    // Renders one card
     const renderCard = (card, container) => {
       const labelHTML = renderLabels(card.labels);
       const fullDesc = formatDescription(card.desc || "");
-      const showShort = fullDesc.split("</p>")[0] + "</p>"; // just first paragraph
-
+      const showShort = fullDesc.split("</p>")[0] + "</p>";
       const descId = `desc-${card.id}`;
 
       const div = document.createElement("div");
@@ -129,7 +125,6 @@ show_breadcrumbs: false
       container.appendChild(div);
     };
 
-    // Renders a full list
     const renderList = (container, cards) => {
       if (!cards || cards.length === 0) {
         container.innerHTML = `<p class="text-gray-500">No active cases at this time.</p>`;
@@ -141,27 +136,29 @@ show_breadcrumbs: false
         .forEach(card => renderCard(card, container));
     };
 
-    // Fetch from Trello (public board)
-    fetch("https://api.trello.com/1/boards/MMA90mFH/lists?cards=open&card_fields=name,desc,url,labels&fields=name")
-      .then(res => res.json())
-      .then(lists => {
-        const docketList = lists.find(list => list.name.toLowerCase() === "docket");
-        if (docketList && docketList.cards) {
-          renderList(supremeContainer, docketList.cards);
-        } else {
-          document.getElementById("docket-error-supreme")?.classList.remove("hidden");
-        }
+    const fetchAndRenderBoard = (boardId, container, errorId) => {
+      fetch(`https://api.trello.com/1/boards/${boardId}/lists?cards=open&card_fields=name,desc,url,labels&fields=name`)
+        .then(res => res.json())
+        .then(lists => {
+          const matchingLists = lists.filter(list => list.name.toLowerCase().includes("docket"));
+          const cards = matchingLists.flatMap(list => list.cards || []);
+          if (cards.length > 0) {
+            renderList(container, cards);
+          } else {
+            document.getElementById(errorId)?.classList.remove("hidden");
+          }
+        })
+        .catch((err) => {
+          console.error(`Failed to load ${errorId}:`, err);
+          document.getElementById(errorId)?.classList.remove("hidden");
+        });
+    };
 
-        // still nothing for district
-        document.getElementById("docket-error-district")?.classList.remove("hidden");
-      })
-      .catch((err) => {
-        console.error("Docket load failed:", err);
-        document.getElementById("docket-error-supreme")?.classList.remove("hidden");
-        document.getElementById("docket-error-district")?.classList.remove("hidden");
-      });
+    // Supreme Court (MMA90mFH), District Court (rbISqlOt)
+    fetchAndRenderBoard("MMA90mFH", supremeContainer, "docket-error-supreme");
+    fetchAndRenderBoard("rbISqlOt", districtContainer, "docket-error-district");
 
-    // Description toggle logic
+    // Expand/collapse toggle
     document.addEventListener("click", (e) => {
       if (!e.target.classList.contains("toggle-desc")) return;
       const btn = e.target;
