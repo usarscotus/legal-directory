@@ -126,6 +126,8 @@ show_breadcrumbs: false
       // Convert - or * bullets to •
       cleaned = cleaned.replace(/^\s*[-*•]\s+/gm, "• ");
 
+      cleaned = cleaned.replace(/-/g, "");
+
       // Final cleanup: remove extra lines
       return cleaned
         .split(/\n|\\n/)
