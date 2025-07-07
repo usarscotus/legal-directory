@@ -97,11 +97,27 @@ show_breadcrumbs: false
 
     const formatDescription = (desc) => {
       if (!desc || desc.trim() === "") return "";
-      return desc
-        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>') // markdown links
+
+      // Sanitize quote markers and excessive symbols
+      const cleaned = desc
+        .replace(/^> ?/gm, "") // remove leading "> "
+        .replace(/`/g, "")     // remove backticks
+        .replace(/-{2,}/g, "—") // replace long dashes
+        .replace(/\*\*/g, "**") // normalize bold markers
+        .replace(/__([^_]+)__/g, "<u>$1</u>") // optional underline
+        .replace(/\*([^\*]+)\*/g, "<em>$1</em>") // italics
+        .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>") // bold
+        .replace(/_(.+?)_/g, "<em>$1</em>") // underscore italics
+        .replace(/\n{2,}/g, "\n"); // limit blank lines
+
+      // Convert Markdown-style links
+      const linkified = cleaned.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>');
+
+      // Split by newline into clean <p> blocks
+      return linkified
         .split(/\n|\\n/)
         .filter(line => line.trim())
-        .map(p => `<p>${p.trim()}</p>`)
+        .map(line => `<p>${line.trim()}</p>`)
         .join("");
     };
 
@@ -117,14 +133,14 @@ show_breadcrumbs: false
       div.className = "docket-card";
       div.innerHTML = `
         <div class="docket-card-entry">
-          ${card.url 
-            ? `<a href="${card.url}" class="resource-link" target="_blank">${card.name}</a>` 
-            : `<span>${card.name}</span>`}
+          ${card.url
+          ? `<a href="${card.url}" class="resource-link" target="_blank">${card.name}</a>`
+          : `<span>${card.name}</span>`}
         </div>
         <div class="docket-labels">${labelHTML}</div>
         <div id="${descId}" class="desc-container">${showShort}</div>
-        ${fullDesc !== showShort 
-          ? `<button class="toggle-desc" data-id="${descId}" data-full='${encodeURIComponent(fullDesc)}' data-short='${encodeURIComponent(showShort)}'>Show More</button>` 
+        ${fullDesc !== showShort
+          ? `<button class="toggle-desc" data-id="${descId}" data-full='${encodeURIComponent(fullDesc)}' data-short='${encodeURIComponent(showShort)}'>Show More</button>`
           : ""}
       `;
 
