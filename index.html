@@ -98,26 +98,36 @@ show_breadcrumbs: false
     const formatDescription = (desc) => {
       if (!desc || desc.trim() === "") return "";
 
-      // Sanitize quote markers and excessive symbols
-      const cleaned = desc
-        .replace(/^> ?/gm, "") // remove leading "> "
-        .replace(/`/g, "")     // remove backticks
-        .replace(/-{2,}/g, "—") // replace long dashes
-        .replace(/\*\*/g, "**") // normalize bold markers
-        .replace(/__([^_]+)__/g, "<u>$1</u>") // optional underline
-        .replace(/\*([^\*]+)\*/g, "<em>$1</em>") // italics
-        .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>") // bold
-        .replace(/_(.+?)_/g, "<em>$1</em>") // underscore italics
-        .replace(/\n{2,}/g, "\n"); // limit blank lines
+      let cleaned = desc;
 
-      // Convert Markdown-style links
-      const linkified = cleaned.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>');
+      // 1. Remove backslash-escaped characters like \- or \*
+      cleaned = cleaned.replace(/\\([*_\-`>])/g, "$1");
 
-      // Split by newline into clean <p> blocks
-      return linkified
+      // 2. Replace triple dashes with em dash or spacing
+      cleaned = cleaned.replace(/-{3,}/g, "—");
+
+      // 3. Convert markdown-style links: [Text](URL)
+      cleaned = cleaned.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>');
+
+      // 4. Bold: **text**
+      cleaned = cleaned.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+
+      // 5. Italics: *text* or _text_
+      cleaned = cleaned.replace(/(^|[^\*])\*([^*]+)\*/g, '$1<em>$2</em>');
+      cleaned = cleaned.replace(/(^|[^_])_([^_]+)_/g, '$1<em>$2</em>');
+
+      // 6. Headings: treat lines in ALL CAPS or with 'No.' as emphasized
+      cleaned = cleaned.replace(/^([A-Z0-9 .\-]{6,})$/gm, "<strong>$1</strong>");
+
+      // 7. Bullets or dash-based lines → line breaks
+      cleaned = cleaned.replace(/^\s*[-•]\s*/gm, "• ");
+
+      // 8. Wrap each logical paragraph
+      return cleaned
         .split(/\n|\\n/)
-        .filter(line => line.trim())
-        .map(line => `<p>${line.trim()}</p>`)
+        .map(line => line.trim())
+        .filter(line => line.length > 0)
+        .map(line => `<p>${line}</p>`)
         .join("");
     };
 
