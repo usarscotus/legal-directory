@@ -3,10 +3,11 @@ layout: rule
 title: "Rule 13. Review on Certiorari: Time for Petitioning"
 permalink: /supct/rule_13/
 notes:
+    - "Rule 13(1) [Reinstated and Amended](https://trello.com/c/dJRx4Sll/21-time-limit-for-petition-for-writ-of-certiorari) on July 12th, 2025.
     - "Rule 13(1) [Abrogated](https://trello.com/c/yJL8rwhD/110-striking-of-rule-13-scr-1) prior to June 1st, 2025"
 ---
 
-1. *[Abrogated]*
+1. Unless otherwise provided by law, a petition for a write of certiorari to review a judgement in any case is considered timely when it is filed with the Clerk of this Court within 14 days after entry of the judgement unless an extension is granted by petition and a majority vote of the court.
 
 
 2. The Clerk will not file any petition for a writ of certiorari that is jurisdictionally out of time. See, e. g. , 28 U. S. C. §2101 (c).
