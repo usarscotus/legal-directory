@@ -3,7 +3,7 @@ layout: rule
 title: "Rule 25. Briefs on the Merits: Time to File"
 permalink: /supct/rule_25/
 notes:
-    - "Rule 25(1) and (2) [Amended](https://trello.com/c/YKWP05iL/20-filing-deadlines-for-briefs) on July 12th, 2025.
+    - "Rule 25(1) and (2) [Amended](https://trello.com/c/YKWP05iL/20-filing-deadlines-for-briefs) on July 12th, 2025."
     - "[Amended](https://trello.com/c/cFPxDTlX/13-amended-rules-1-3-4-5-6-7-15-25-26-27-29-32-33-34-35-38-39-43) on June 13th, 2025, to take effect on June 28th, 2025."
 ---
 

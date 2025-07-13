@@ -3,7 +3,7 @@ layout: rule
 title: "Rule 13. Review on Certiorari: Time for Petitioning"
 permalink: /supct/rule_13/
 notes:
-    - "Rule 13(1) [Reinstated and Amended](https://trello.com/c/dJRx4Sll/21-time-limit-for-petition-for-writ-of-certiorari) on July 12th, 2025.
+    - "Rule 13(1) [Reinstated and Amended](https://trello.com/c/dJRx4Sll/21-time-limit-for-petition-for-writ-of-certiorari) on July 12th, 2025."
     - "Rule 13(1) [Abrogated](https://trello.com/c/yJL8rwhD/110-striking-of-rule-13-scr-1) prior to June 1st, 2025"
 ---
 

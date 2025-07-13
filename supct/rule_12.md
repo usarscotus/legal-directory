@@ -3,7 +3,7 @@ layout: rule
 title: "Rule 12. Review on Certiorari: How Sought; Parties"
 permalink: /supct/rule_12/
 notes:
-    - "Rule 12(4) and (5) [Amended](https://trello.com/c/YKWP05iL/20-filing-deadlines-for-briefs) on July 12th, 2025.
+    - "Rule 12(4) and (5) [Amended](https://trello.com/c/YKWP05iL/20-filing-deadlines-for-briefs) on July 12th, 2025."
 ---
 
 1. The petitioner shall file a writ of certiorari in accordance with these rules.
