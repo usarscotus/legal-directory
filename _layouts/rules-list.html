@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
+</head>
+<body>
+  {% include header.html %}
+
+  {% if page.show_breadcrumbs %}
+  <div id="breadcrumb-bg">
+    <div class="breadcrumb-container">
+      <div id="breadcrumb">
+        <a href="{{ site.baseurl }}">Legal Directory</a>
+        {% if page.breadcrumb_parent %}
+          &gt; <a href="{{ site.baseurl }}{{ page.breadcrumb_parent_url }}">{{ page.breadcrumb_parent }}</a>
+        {% endif %}
+        &gt; <strong>{{ page.title }}</strong>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+
+  <main id="top" class="rules-list-container">
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+  </main>
+
+  {% include footer.html %}
+</body>
+</html>
