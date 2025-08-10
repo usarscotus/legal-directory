@@ -867,3 +867,13 @@ html {
   color: #1e40af;
   background: rgba(30, 64, 175, 0.07);
 }
+
+.rules-list-container .resource-grid { grid-template-columns: 1fr; }
+.rules-list-container .resource-column { grid-column: 1 / -1; max-width: none; }
+.rules-list-container ul { padding-left: 0; }
+.rules-list-container li a { display: inline-block; white-space: nowrap; }
+@media (max-width: 700px) { .rules-list-container li a { white-space: normal; } }
+.rules-list-container .resource-grid { display: block; }  /* add this */
+.rules-list-container .resource-column { max-width: none; }  /* keep full width */
+
+
