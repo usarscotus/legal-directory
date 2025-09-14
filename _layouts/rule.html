@@ -51,25 +51,51 @@
 
     <script>
     document.addEventListener('DOMContentLoaded', function() {
-        const toc = document.getElementById('toc');
         const content = document.querySelector('main');
-        if (!toc || !content) return;
+        if (!content) return;
+
         const headings = Array.from(content.querySelectorAll('h2, h3')).filter(h => !h.closest('.rule-notes'));
         if (!headings.length) return;
-        const list = document.createElement('ul');
+
+        const toc = document.getElementById('toc');
+        const list = toc ? document.createElement('ul') : null;
+
         headings.forEach(h => {
+            const title = h.textContent.trim();
             if (!h.id) {
-                h.id = h.textContent.trim().toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9\-]/g, '');
+                h.id = title.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9\-]/g, '');
             }
-            const li = document.createElement('li');
-            if (h.tagName.toLowerCase() === 'h3') li.classList.add('toc-sub');
-            const a = document.createElement('a');
-            a.href = '#' + h.id;
-            a.textContent = h.textContent;
-            li.appendChild(a);
-            list.appendChild(li);
+
+            const anchor = document.createElement('a');
+            anchor.href = '#' + h.id;
+            anchor.className = 'heading-anchor';
+            anchor.textContent = '#';
+
+            const copyBtn = document.createElement('button');
+            copyBtn.type = 'button';
+            copyBtn.className = 'copy-anchor';
+            copyBtn.setAttribute('aria-label', 'Copy link');
+            copyBtn.textContent = 'Copy';
+            copyBtn.addEventListener('click', () => {
+                const url = `${window.location.origin}${window.location.pathname}#${h.id}`;
+                navigator.clipboard.writeText(url);
+            });
+
+            h.appendChild(anchor);
+            h.appendChild(copyBtn);
+
+            if (list) {
+                const li = document.createElement('li');
+                if (h.tagName.toLowerCase() === 'h3') li.classList.add('toc-sub');
+                const a = document.createElement('a');
+                a.href = '#' + h.id;
+                a.textContent = title;
+                li.appendChild(a);
+                list.appendChild(li);
+            }
         });
-        toc.appendChild(list);
+
+        if (list) toc.appendChild(list);
     });
     </script>
 </body>
