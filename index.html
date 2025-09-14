@@ -180,7 +180,39 @@ show_breadcrumbs: false
     };
 
     const fetchAndRenderBoard = (boardId, container, errorId) => {
-      fetch(`https://api.trello.com/1/boards/${boardId}/lists?cards=open&card_fields=name,desc,url,labels&fields=name`)
+      const errorEl = document.getElementById(errorId);
+      const placeholder = document.createElement("p");
+      placeholder.className = "docket-placeholder";
+      placeholder.textContent = "Loading docket...";
+      container.appendChild(placeholder);
+
+      const controller = new AbortController();
+
+      const slowTimer = setTimeout(() => {
+        placeholder.textContent = "Still loading..."; // delayed response notice
+      }, 3000);
+
+      const abortTimer = setTimeout(() => controller.abort(), 8000);
+
+      const handleError = (err) => {
+        console.error(`Failed to load ${errorId}:`, err);
+        if (errorEl) {
+          errorEl.classList.remove("hidden");
+          if (!errorEl.querySelector("button")) {
+            const retryBtn = document.createElement("button");
+            retryBtn.textContent = "Retry";
+            retryBtn.className = "retry-button";
+            retryBtn.addEventListener("click", () => {
+              errorEl.classList.add("hidden");
+              container.innerHTML = "";
+              fetchAndRenderBoard(boardId, container, errorId);
+            });
+            errorEl.appendChild(retryBtn);
+          }
+        }
+      };
+
+      fetch(`https://api.trello.com/1/boards/${boardId}/lists?cards=open&card_fields=name,desc,url,labels&fields=name`, { signal: controller.signal })
         .then(res => res.json())
         .then(lists => {
           const matchingLists = lists.filter(list => list.name.toLowerCase().includes("docket"));
@@ -188,12 +220,14 @@ show_breadcrumbs: false
           if (cards.length > 0) {
             renderList(container, cards);
           } else {
-            document.getElementById(errorId)?.classList.remove("hidden");
+            handleError(new Error("No cards"));
           }
         })
-        .catch((err) => {
-          console.error(`Failed to load ${errorId}:`, err);
-          document.getElementById(errorId)?.classList.remove("hidden");
+        .catch(handleError)
+        .finally(() => {
+          clearTimeout(slowTimer);
+          clearTimeout(abortTimer);
+          placeholder.remove();
         });
     };
 
