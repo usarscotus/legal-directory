@@ -10,7 +10,7 @@ breadcrumb_parent_url: /
 
 <section id="category-section">
   <h2>Browse by Topic</h2>
-  <div id="categories"></div>
+  <div id="categories" class="category-buttons"></div>
 </section>
 
 <form id="search-form">
@@ -47,6 +47,7 @@ const categoryDiv = document.getElementById('categories');
 categories.forEach((cat) => {
   const btn = document.createElement('button');
   btn.type = 'button';
+  btn.className = 'category-btn';
   btn.textContent = cat.label;
   btn.addEventListener('click', () => {
     runSearch(`scdb_issue_area=${cat.code}`);
@@ -58,7 +59,8 @@ form.addEventListener('submit', (e) => {
   e.preventDefault();
   const q = document.getElementById('query').value.trim();
   if (!q) return;
-  runSearch(`q=${encodeURIComponent(q)}`);
+  // CourtListener expects `search` for full-text queries
+  runSearch(`search=${encodeURIComponent(q)}`);
 });
 
 async function runSearch(queryString) {
@@ -67,11 +69,16 @@ async function runSearch(queryString) {
   try {
     const url = `https://www.courtlistener.com/api/rest/v3/opinions/?${queryString}&court=scotus&order_by=date_filed`;
     const res = await fetch(url);
+    if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
     const data = await res.json();
-    renderResults(data.results || []);
+    if (!data.results || !Array.isArray(data.results) || !data.results.length) {
+      resultsDiv.textContent = 'No cases found.';
+      return;
+    }
+    renderResults(data.results);
   } catch (err) {
     console.error('Search failed', err);
-    resultsDiv.textContent = 'Error fetching results.';
+    resultsDiv.textContent = `Unable to fetch results: ${err.message}`;
   }
 }
 
@@ -103,6 +110,7 @@ async function loadCase(id) {
   detailsDiv.textContent = 'Loading case...';
   try {
     const res = await fetch(`https://www.courtlistener.com/api/rest/v3/opinions/${id}/`);
+    if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
     const data = await res.json();
     detailsDiv.innerHTML = '';
     const title = data.case_name || data.citation || `Case ${id}`;
@@ -136,7 +144,7 @@ async function loadCase(id) {
     }
   } catch (err) {
     console.error('Case load failed', err);
-    detailsDiv.textContent = 'Error loading case.';
+    detailsDiv.textContent = `Unable to load case: ${err.message}`;
   }
 }
 </script>
