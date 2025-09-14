@@ -31,9 +31,17 @@ graph.citation_graph.add_case(1)
 graph.citation_graph.add_case(2)
 graph.citation_graph.add_citation(2, 1)
 
-# Stub search service
+# Stub search service with extended fields
 
-def fake_search_cases(query, topic=None, date=None):
+def fake_search_cases(
+    query=None,
+    *,
+    category=None,
+    term=None,
+    year=None,
+    litigant=None,
+    keywords=None,
+):
     return [
         {
             "id": 1,
@@ -41,6 +49,15 @@ def fake_search_cases(query, topic=None, date=None):
             "text": "Lorem ipsum",
             "topic": "civil",
             "date": datetime.date(2020, 1, 1),
+            "citation": "1 U.S. 1",
+            "vote": "5-4",
+            "opinions": ["http://example.com/opinion"],
+            "cites": [2],
+            "cited_by": [3],
+            "litigants": ["Doe", "Smith"],
+            "term": "2020",
+            "year": 2020,
+            "category": "civil",
         }
     ]
 
@@ -51,19 +68,20 @@ client = TestClient(app)
 
 
 def test_get_case():
-    response = client.get("/cases/1")
+    response = client.get("/api/cases/1")
     assert response.status_code == 200
     assert response.json()["title"] == "Test Case"
 
 
 def test_get_citations():
-    response = client.get("/cases/1/citations")
+    response = client.get("/api/cases/1/citations")
     assert response.status_code == 200
     assert response.json() == {"incoming": [2], "outgoing": []}
 
 
 def test_search():
-    response = client.get("/search", params={"q": "test"})
+    response = client.get("/api/search", params={"q": "test"})
     assert response.status_code == 200
     body = response.json()
     assert body[0]["id"] == 1
+    assert body[0]["citation"] == "1 U.S. 1"
