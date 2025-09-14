@@ -1,0 +1,12 @@
+#root {
+  font-family: sans-serif;
+  padding: 1rem;
+}
+
+form {
+  margin-bottom: 1rem;
+}
+
+svg {
+  border: 1px solid #ccc;
+}
