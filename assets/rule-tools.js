@@ -31,46 +31,11 @@ document.addEventListener('DOMContentLoaded', function() {
   const citeBtn = document.createElement('button');
   citeBtn.type = 'button';
   citeBtn.className = 'citation-btn';
-  citeBtn.textContent = 'Copy Citation';
+  citeBtn.textContent = '🔗';
   citeBtn.addEventListener('click', () => {
     navigator.clipboard.writeText(ruleCitationBase);
   });
   titleEl.appendChild(citeBtn);
-
-  // Line anchors and tools
-  const blocks = content.querySelectorAll('p, li');
-  let counter = 1;
-  blocks.forEach(block => {
-    const id = `line-${counter++}`;
-    block.id = id;
-
-    const tools = document.createElement('span');
-    tools.className = 'line-tools';
-
-    const linkBtn = document.createElement('button');
-    linkBtn.type = 'button';
-    linkBtn.className = 'line-link-btn';
-    linkBtn.textContent = '🔗';
-    linkBtn.setAttribute('aria-label', 'Copy link');
-    linkBtn.addEventListener('click', () => {
-      const url = `${window.location.origin}${window.location.pathname}#${id}`;
-      navigator.clipboard.writeText(url);
-    });
-    
-    const citeLineBtn = document.createElement('button');
-    citeLineBtn.type = 'button';
-    citeLineBtn.className = 'line-cite-btn';
-    citeLineBtn.textContent = 'Cite';
-    citeLineBtn.setAttribute('aria-label', 'Copy citation');
-    citeLineBtn.addEventListener('click', () => {
-      const part = extractCitationPart(block);
-      const citation = part ? `${ruleCitationBase}${part}` : ruleCitationBase;
-      navigator.clipboard.writeText(citation);
-    });
-
-    tools.appendChild(linkBtn);
-    tools.appendChild(citeLineBtn);
-    block.appendChild(tools);
   });
 
   function extractCitationPart(el) {
