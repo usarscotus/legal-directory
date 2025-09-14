@@ -1,0 +1,99 @@
+---
+layout: page
+title: SCOTUS Case Search
+show_breadcrumbs: true
+breadcrumb_parent: Home
+breadcrumb_parent_url: /
+---
+
+<h1>SCOTUS Case Search</h1>
+<form id="search-form">
+  <input id="query" placeholder="Search cases..." required />
+  <button type="submit">Search</button>
+</form>
+<div id="results"></div>
+<div id="case-details"></div>
+
+<script>
+const form = document.getElementById('search-form');
+const resultsDiv = document.getElementById('results');
+const detailsDiv = document.getElementById('case-details');
+
+form.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const q = document.getElementById('query').value.trim();
+  if (!q) return;
+  resultsDiv.textContent = 'Searching...';
+  detailsDiv.innerHTML = '';
+  try {
+    const url = `https://www.courtlistener.com/api/rest/v3/opinions/?search=${encodeURIComponent(q)}&court=scotus`;
+    const res = await fetch(url);
+    const data = await res.json();
+    resultsDiv.innerHTML = '';
+    if (data.results && data.results.length) {
+      const ul = document.createElement('ul');
+      data.results.forEach((op) => {
+        const li = document.createElement('li');
+        const link = document.createElement('a');
+        const name = op.caseName || op.citation || `Case ${op.id}`;
+        link.href = '#';
+        link.textContent = `${name} (${op.date_filed || 'n.d.'})`;
+        link.addEventListener('click', (evt) => {
+          evt.preventDefault();
+          loadCase(op.id);
+        });
+        li.appendChild(link);
+        ul.appendChild(li);
+      });
+      resultsDiv.appendChild(ul);
+    } else {
+      resultsDiv.textContent = 'No cases found.';
+    }
+  } catch (err) {
+    console.error('Search failed', err);
+    resultsDiv.textContent = 'Error fetching results.';
+  }
+});
+
+async function loadCase(id) {
+  resultsDiv.innerHTML = '';
+  detailsDiv.textContent = 'Loading case...';
+  try {
+    const res = await fetch(`https://www.courtlistener.com/api/rest/v3/opinions/${id}/`);
+    const data = await res.json();
+    detailsDiv.innerHTML = '';
+    const title = data.caseName || data.citation || `Case ${id}`;
+    const header = document.createElement('h2');
+    header.textContent = title;
+    detailsDiv.appendChild(header);
+    const meta = document.createElement('p');
+    meta.textContent = `Decided: ${data.date_filed || 'Unknown'} | Court: ${data.court || 'SCOTUS'}`;
+    detailsDiv.appendChild(meta);
+    if (data.cites_to && data.cites_to.length) {
+      const h3 = document.createElement('h3');
+      h3.textContent = 'Citations';
+      detailsDiv.appendChild(h3);
+      const list = document.createElement('ul');
+      data.cites_to.forEach((cite) => {
+        if (cite.opinions && cite.opinions.length) {
+          const citedId = cite.opinions[0];
+          const li = document.createElement('li');
+          const a = document.createElement('a');
+          a.href = '#';
+          a.textContent = cite.cite;
+          a.addEventListener('click', (e) => {
+            e.preventDefault();
+            loadCase(citedId);
+          });
+          li.appendChild(a);
+          list.appendChild(li);
+        }
+      });
+      detailsDiv.appendChild(list);
+    }
+  } catch (err) {
+    console.error('Case load failed', err);
+    detailsDiv.textContent = 'Error loading case.';
+  }
+}
+</script>
