@@ -29,6 +29,7 @@
 
     <main id="top" class="content-container">
         <h1>{{ page.title }}</h1>
+        <nav id="toc" class="rule-toc"></nav>
         {{ content }}
 
         {% if page.notes %}
@@ -48,6 +49,30 @@
     </main>
 
     {% include footer.html %}
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const toc = document.getElementById('toc');
+        const content = document.querySelector('main');
+        if (!toc || !content) return;
+        const headings = Array.from(content.querySelectorAll('h2, h3')).filter(h => !h.closest('.rule-notes'));
+        if (!headings.length) return;
+        const list = document.createElement('ul');
+        headings.forEach(h => {
+            if (!h.id) {
+                h.id = h.textContent.trim().toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9\-]/g, '');
+            }
+            const li = document.createElement('li');
+            if (h.tagName.toLowerCase() === 'h3') li.classList.add('toc-sub');
+            const a = document.createElement('a');
+            a.href = '#' + h.id;
+            a.textContent = h.textContent;
+            li.appendChild(a);
+            list.appendChild(li);
+        });
+        toc.appendChild(list);
+    });
+    </script>
 </body>
 
 </html>
