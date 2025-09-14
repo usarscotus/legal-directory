@@ -818,3 +818,30 @@ html {
 .rules-list-container .resource-column {
   max-width: none;
 }
+
+/* Rule page table of contents */
+.rule-toc {
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+.rule-toc ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.rule-toc li {
+  margin-bottom: 0.25rem;
+}
+.rule-toc li.toc-sub {
+  margin-left: 1rem;
+  font-size: 0.95em;
+}
+.rule-toc a {
+  text-decoration: none;
+  color: #003366;
+}
+.rule-toc a:hover {
+  text-decoration: underline;
+}
