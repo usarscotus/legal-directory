@@ -309,7 +309,8 @@ body::before {
   transition: all 0.2s ease-in-out;
 }
 
-#cornell-nav a:hover {
+#cornell-nav a:hover,
+#cornell-nav li.active > a {
   color: #1e40af;
   background: rgba(30, 64, 175, 0.07);
 }
