@@ -22,28 +22,28 @@ permalink: /frcmp/rule_26.2/
 (f) “Statement” Defined. As used in this rule, a witness's “statement” means:
 
 
-&nbsp;&nbsp;(1) a written statement that the witness makes and signs, or otherwise adopts or approves;
+1. a written statement that the witness makes and signs, or otherwise adopts or approves;
 
 
-&nbsp;&nbsp;(2) a substantially verbatim, contemporaneously recorded recital of the witness's oral statement that is contained in any recording or any transcription of a recording; or
+2. a substantially verbatim, contemporaneously recorded recital of the witness's oral statement that is contained in any recording or any transcription of a recording; or
 
 
-&nbsp;&nbsp;(3) the witness's statement to a grand jury, however taken or recorded, or a transcription of such a statement.
+3. the witness's statement to a grand jury, however taken or recorded, or a transcription of such a statement.
 
 
 (g) Scope. This rule applies at trial, at a suppression hearing under Rule 12 , and to the extent specified in the following rules:
 
 
-&nbsp;&nbsp;(1) Rule 5.1(h) (preliminary hearing);
+1. Rule 5.1(h) (preliminary hearing);
 
 
-&nbsp;&nbsp;(2) Rule 32(i)(2) (sentencing);
+2. Rule 32(i)(2) (sentencing);
 
 
-&nbsp;&nbsp;(3) Rule 32.1(e) (hearing to revoke or modify probation or supervised release);
+3. Rule 32.1(e) (hearing to revoke or modify probation or supervised release);
 
 
-&nbsp;&nbsp;(4) Rule 46(j) (detention hearing); and
+4. Rule 46(j) (detention hearing); and
 
 
-&nbsp;&nbsp;(5) Rule 8 of the Rules Governing Proceedings under 28 U.S.C. §2255 .
+5. Rule 8 of the Rules Governing Proceedings under 28 U.S.C. §2255 .

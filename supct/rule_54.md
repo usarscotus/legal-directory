@@ -8,8 +8,8 @@ notes:
 
 No court shall conduct any part of a judicial proceeding via voice chat unless the following conditions are met:
 
-&nbsp;&nbsp;(a) The voice proceeding is recorded in its entirety using a reliable and tamper-proof archival tool.
+- (a) The voice proceeding is recorded in its entirety using a reliable and tamper-proof archival tool.
 
-&nbsp;&nbsp;(b) The recording is preserved and made accessible to the parties and the appellate record upon request.
+- (b) The recording is preserved and made accessible to the parties and the appellate record upon request.
 
-&nbsp;&nbsp;(c) The identity of all speaking participants is verifiably known and logged.
+- (c) The identity of all speaking participants is verifiably known and logged.

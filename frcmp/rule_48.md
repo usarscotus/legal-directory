@@ -10,10 +10,10 @@ permalink: /frcmp/rule_48/
 (b) By the Court. The court may dismiss an indictment, information, or complaint if unnecessary delay occurs in:
 
 
-&nbsp;&nbsp;(1) presenting a charge to a grand jury;
+1. presenting a charge to a grand jury;
 
 
-&nbsp;&nbsp;(2) filing an information against a defendant; or
+2. filing an information against a defendant; or
 
 
-&nbsp;&nbsp;(3) bringing a defendant to trial.
+3. bringing a defendant to trial.

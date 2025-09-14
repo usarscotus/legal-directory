@@ -16,25 +16,25 @@ permalink: /frap/rule_41/
 (d) Staying the Mandate Pending a Petition for Certiorari.
 
 
-&nbsp;&nbsp;(1) Motion to Stay. A party may move to stay the mandate pending the filing of a petition for a writ of certiorari in the Supreme Court. The motion must be served on all parties and must show that the petition would present a substantial question and that there is good cause for a stay.
+1. Motion to Stay. A party may move to stay the mandate pending the filing of a petition for a writ of certiorari in the Supreme Court. The motion must be served on all parties and must show that the petition would present a substantial question and that there is good cause for a stay.
 
 
-&nbsp;&nbsp;(2) Duration of Stay; Extensions. The stay must not exceed 90 days, unless:
+2. Duration of Stay; Extensions. The stay must not exceed 90 days, unless:
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(A) the period is extended for good cause; or
+    - (A) the period is extended for good cause; or
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(B) the party who obtained the stay notifies the circuit clerk in writing within the period of the stay:
+    - (B) the party who obtained the stay notifies the circuit clerk in writing within the period of the stay:
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) that the time for filing a petition has been extended, in which case the stay continues for the extended period; or
+        - (i) that the time for filing a petition has been extended, in which case the stay continues for the extended period; or
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) that the petition has been filed, in which case the stay continues until the Supreme Court's final disposition.
+        - (ii) that the petition has been filed, in which case the stay continues until the Supreme Court's final disposition.
 
 
-&nbsp;&nbsp;(3) Security. The court may require a bond or other security as a condition to granting or continuing a stay of the mandate.
+3. Security. The court may require a bond or other security as a condition to granting or continuing a stay of the mandate.
 
 
-&nbsp;&nbsp;(4) Issuance of Mandate. The court of appeals must issue the mandate immediately on receiving a copy of a Supreme Court order denying the petition, unless extraordinary circumstances exist.
+4. Issuance of Mandate. The court of appeals must issue the mandate immediately on receiving a copy of a Supreme Court order denying the petition, unless extraordinary circumstances exist.

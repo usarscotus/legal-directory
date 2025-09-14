@@ -7,13 +7,13 @@ permalink: /fre/rule_611/
 (a) Control by the Court; Purposes. The court should exercise reasonable control over the mode and order of examining witnesses and presenting evidence so as to:
 
 
-&nbsp;&nbsp;(1) make those procedures effective for determining the truth;
+1. make those procedures effective for determining the truth;
 
 
-&nbsp;&nbsp;(2) avoid wasting time; and
+2. avoid wasting time; and
 
 
-&nbsp;&nbsp;(3) protect witnesses from harassment or undue embarrassment.
+3. protect witnesses from harassment or undue embarrassment.
 
 
 (b) Scope of Cross-Examination. Cross-examination should not go beyond the subject matter of the direct examination and matters affecting the witness’s credibility. The court may allow inquiry into additional matters as if on direct examination.
@@ -22,8 +22,8 @@ permalink: /fre/rule_611/
 (c) Leading Questions. Leading questions should not be used on direct examination except as necessary to develop the witness’s testimony. Ordinarily, the court should allow leading questions:
 
 
-&nbsp;&nbsp;(1) on cross-examination; and
+1. on cross-examination; and
 
 
-&nbsp;&nbsp;(2) when a party calls a hostile witness, an adverse party, or a witness identified with an adverse party.
+2. when a party calls a hostile witness, an adverse party, or a witness identified with an adverse party.
 

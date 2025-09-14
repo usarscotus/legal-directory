@@ -7,67 +7,67 @@ permalink: /frap/rule_28/
 (a) Appellant's Brief. The appellant's brief must contain, under appropriate headings and in the order indicated:
 
 
-&nbsp;&nbsp;(1) a disclosure statement if required by Rule 26.1 ;
+1. a disclosure statement if required by Rule 26.1 ;
 
 
-&nbsp;&nbsp;(2) a table of contents, with page references;
+2. a table of contents, with page references;
 
 
-&nbsp;&nbsp;(3) a table of authorities—cases (alphabetically arranged), statutes, and other authorities—with references to the pages of the brief where they are cited;
+3. a table of authorities—cases (alphabetically arranged), statutes, and other authorities—with references to the pages of the brief where they are cited;
 
 
-&nbsp;&nbsp;(4) a jurisdictional statement, including:
+4. a jurisdictional statement, including:
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(A) the basis for the district court's or agency's subject-matter jurisdiction, with citations to applicable statutory provisions and stating relevant facts establishing jurisdiction;
+    - (A) the basis for the district court's or agency's subject-matter jurisdiction, with citations to applicable statutory provisions and stating relevant facts establishing jurisdiction;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(B) the basis for the court of appeals’ jurisdiction, with citations to applicable statutory provisions and stating relevant facts establishing jurisdiction;
+    - (B) the basis for the court of appeals’ jurisdiction, with citations to applicable statutory provisions and stating relevant facts establishing jurisdiction;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(C) the filing dates establishing the timeliness of the appeal or petition for review; and
+    - (C) the filing dates establishing the timeliness of the appeal or petition for review; and
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(D) an assertion that the appeal is from a final order or judgment that disposes of all parties’ claims, or information establishing the court of appeals’ jurisdiction on some other basis;
+    - (D) an assertion that the appeal is from a final order or judgment that disposes of all parties’ claims, or information establishing the court of appeals’ jurisdiction on some other basis;
 
 
-&nbsp;&nbsp;(5) a statement of the issues presented for review;
+5. a statement of the issues presented for review;
 
 
-&nbsp;&nbsp;(6) a concise statement of the case setting out the facts relevant to the issues submitted for review, describing the relevant procedural history, and identifying the rulings presented for review, with appropriate references to the record (see Rule 28(e));
+6. a concise statement of the case setting out the facts relevant to the issues submitted for review, describing the relevant procedural history, and identifying the rulings presented for review, with appropriate references to the record (see Rule 28(e));
 
 
-&nbsp;&nbsp;(7) a summary of the argument, which must contain a succinct, clear, and accurate statement of the arguments made in the body of the brief, and which must not merely repeat the argument headings;
+7. a summary of the argument, which must contain a succinct, clear, and accurate statement of the arguments made in the body of the brief, and which must not merely repeat the argument headings;
 
 
-&nbsp;&nbsp;(8) the argument, which must contain:
+8. the argument, which must contain:
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(A) appellant's contentions and the reasons for them, with citations to the authorities and parts of the record on which the appellant relies; and
+    - (A) appellant's contentions and the reasons for them, with citations to the authorities and parts of the record on which the appellant relies; and
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(B) for each issue, a concise statement of the applicable standard of review (which may appear in the discussion of the issue or under a separate heading placed before the discussion of the issues);
+    - (B) for each issue, a concise statement of the applicable standard of review (which may appear in the discussion of the issue or under a separate heading placed before the discussion of the issues);
 
 
-&nbsp;&nbsp;(9) a short conclusion stating the precise relief sought; and
+9. a short conclusion stating the precise relief sought; and
 
 
-&nbsp;&nbsp;(10) the certificate of compliance, if required by Rule 32(g)(1).
+10. the certificate of compliance, if required by Rule 32(g)(1).
 
 
 (b) Appellee's Brief. The appellee's brief must conform to the requirements of Rule 28(a)(1)–(8) and (10), except that none of the following need appear unless the appellee is dissatisfied with the appellant's statement:
 
 
-&nbsp;&nbsp;(1) the jurisdictional statement;
+1. the jurisdictional statement;
 
 
-&nbsp;&nbsp;(2) the statement of the issues;
+2. the statement of the issues;
 
 
-&nbsp;&nbsp;(3) the statement of the case; and
+3. the statement of the case; and
 
 
-&nbsp;&nbsp;(4) the statement of the standard of review.
+4. the statement of the standard of review.
 
 
 (c) Reply Brief. The appellant may file a brief in reply to the appellee's brief. Unless the court permits, no further briefs may be filed. A reply brief must contain a table of contents, with page references, and a table of authorities—cases (alphabetically arranged), statutes, and other authorities—with references to the pages of the reply brief where they are cited.
@@ -100,7 +100,7 @@ Only clear abbreviations may be used. A party referring to evidence whose admiss
 (h) [Reserved]
 
 
-&nbsp;&nbsp;(i) Briefs in a Case Involving Multiple Appellants or Appellees. In a case involving more than one appellant or appellee, including consolidated cases, any number of appellants or appellees may join in a brief, and any party may adopt by reference a part of another's brief. Parties may also join in reply briefs.
+- (i) Briefs in a Case Involving Multiple Appellants or Appellees. In a case involving more than one appellant or appellee, including consolidated cases, any number of appellants or appellees may join in a brief, and any party may adopt by reference a part of another's brief. Parties may also join in reply briefs.
 
 
 (j) Citation of Supplemental Authorities. If pertinent and significant authorities come to a party's attention after the party's brief has been filed—or after oral argument but before decision—a party may promptly advise the circuit clerk by letter, with a copy to all other parties, setting forth the citations. The letter must state the reasons for the supplemental citations, referring either to the page of the brief or to a point argued orally. The body of the letter must not exceed 350 words. Any response must be made promptly and must be similarly limited.

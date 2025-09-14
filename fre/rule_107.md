@@ -10,10 +10,10 @@ permalink: /fre/rule_107/
 (b) Use in Jury Deliberations. An illustrative aid is not evidence and must not be provided to the jury during deliberations unless:
 
 
-&nbsp;&nbsp;(1) all parties consent; or
+1. all parties consent; or
 
 
-&nbsp;&nbsp;(2) the court, for good cause, orders otherwise.
+2. the court, for good cause, orders otherwise.
 
 
 (c) Record. When practicable, an illustrative aid used at trial must be entered into the record.

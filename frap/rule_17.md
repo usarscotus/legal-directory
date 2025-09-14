@@ -10,16 +10,16 @@ permalink: /frap/rule_17/
 (b) Filing—What Constitutes.
 
 
-&nbsp;&nbsp;(1) The agency must file:
+1. The agency must file:
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(A) the original or a certified copy of the entire record or parts designated by the parties; or
+    - (A) the original or a certified copy of the entire record or parts designated by the parties; or
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(B) a certified list adequately describing all documents, transcripts of testimony, exhibits, and other material constituting the record, or describing those parts designated by the parties.
+    - (B) a certified list adequately describing all documents, transcripts of testimony, exhibits, and other material constituting the record, or describing those parts designated by the parties.
 
 
-&nbsp;&nbsp;(2) The parties may stipulate in writing that no record or certified list be filed. The date when the stipulation is filed with the circuit clerk is treated as the date when the record is filed.
+2. The parties may stipulate in writing that no record or certified list be filed. The date when the stipulation is filed with the circuit clerk is treated as the date when the record is filed.
 
 
-&nbsp;&nbsp;(3) The agency must retain any portion of the record not filed with the clerk. All parts of the record retained by the agency are a part of the record on review for all purposes and, if the court or a party so requests, must be sent to the court regardless of any prior stipulation.
+3. The agency must retain any portion of the record not filed with the clerk. All parts of the record retained by the agency are a part of the record on review for all purposes and, if the court or a party so requests, must be sent to the court regardless of any prior stipulation.

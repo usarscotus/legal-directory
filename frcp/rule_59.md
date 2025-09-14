@@ -7,16 +7,16 @@ permalink: /frcp/rule_59/
 (a) In General.
 
 
-&nbsp;&nbsp;(1) Grounds for New Trial. The court may, on motion, grant a new trial on all or some of the issues—and to any party—as follows:
+1. Grounds for New Trial. The court may, on motion, grant a new trial on all or some of the issues—and to any party—as follows:
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(A) after a jury trial, for any reason for which a new trial has heretofore been granted in an action at law in federal court; or
+    - (A) after a jury trial, for any reason for which a new trial has heretofore been granted in an action at law in federal court; or
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(B) after a nonjury trial, for any reason for which a rehearing has heretofore been granted in a suit in equity in federal court.
+    - (B) after a nonjury trial, for any reason for which a rehearing has heretofore been granted in a suit in equity in federal court.
 
 
-&nbsp;&nbsp;(2) Further Action After a Nonjury Trial. After a nonjury trial, the court may, on motion for a new trial, open the judgment if one has been entered, take additional testimony, amend findings of fact and conclusions of law or make new ones, and direct the entry of a new judgment.
+2. Further Action After a Nonjury Trial. After a nonjury trial, the court may, on motion for a new trial, open the judgment if one has been entered, take additional testimony, amend findings of fact and conclusions of law or make new ones, and direct the entry of a new judgment.
 
 
 (b) Time to File a Motion for a New Trial. A motion for a new trial must be filed no later than 28 days after the entry of judgment.

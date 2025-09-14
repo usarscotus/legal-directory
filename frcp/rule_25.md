@@ -7,13 +7,13 @@ permalink: /frcp/rule_25/
 (a) Death.
 
 
-&nbsp;&nbsp;(1) Substitution if the Claim Is Not Extinguished. If a party dies and the claim is not extinguished, the court may order substitution of the proper party. A motion for substitution may be made by any party or by the decedent's successor or representative. If the motion is not made within 90 days after service of a statement noting the death, the action by or against the decedent must be dismissed.
+1. Substitution if the Claim Is Not Extinguished. If a party dies and the claim is not extinguished, the court may order substitution of the proper party. A motion for substitution may be made by any party or by the decedent's successor or representative. If the motion is not made within 90 days after service of a statement noting the death, the action by or against the decedent must be dismissed.
 
 
-&nbsp;&nbsp;(2) Continuation Among the Remaining Parties. After a party's death, if the right sought to be enforced survives only to or against the remaining parties, the action does not abate, but proceeds in favor of or against the remaining parties. The death should be noted on the record.
+2. Continuation Among the Remaining Parties. After a party's death, if the right sought to be enforced survives only to or against the remaining parties, the action does not abate, but proceeds in favor of or against the remaining parties. The death should be noted on the record.
 
 
-&nbsp;&nbsp;(3) Service. A motion to substitute, together with a notice of hearing, must be served on the parties as provided in Rule 5 and on nonparties as provided in Rule 4 . A statement noting death must be served in the same manner. Service may be made in any judicial district.
+3. Service. A motion to substitute, together with a notice of hearing, must be served on the parties as provided in Rule 5 and on nonparties as provided in Rule 4 . A statement noting death must be served in the same manner. Service may be made in any judicial district.
 
 
 (b) Incompetency. If a party becomes incompetent, the court may, on motion, permit the action to be continued by or against the party's representative. The motion must be served as provided in Rule 25(a)(3) .
