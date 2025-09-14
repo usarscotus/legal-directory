@@ -22,8 +22,8 @@ breadcrumb_parent_url: /
 <div id="case-details"></div>
 
 <script>
-// CourtListener API token injected at build time via COURTLISTENER_TOKEN env var
-const CL_TOKEN = '{{ site.COURTLISTENER_TOKEN | default: "" }}';
+
+const CL_TOKEN = '8671b4a853776a65c3d1393858c138e4951a246e';
 
 const categories = [
   { code: 1, label: 'Criminal Procedure' },
@@ -67,11 +67,10 @@ form.addEventListener('submit', (e) => {
 });
 
 function buildHeaders() {
-  const headers = {
-    'User-Agent': 'USARLegalDirectory/1.0 (+https://github.com/USARscotus/legal-directory)'
+  return {
+    'User-Agent': 'USARLegalDirectory/1.0 (+https://github.com/USARscotus/legal-directory)',
+    'Authorization': `Token ${CL_TOKEN}`,
   };
-  if (CL_TOKEN) headers['Authorization'] = `Token ${CL_TOKEN}`;
-  return headers;
 }
 
 async function runSearch(queryString) {
@@ -89,11 +88,7 @@ async function runSearch(queryString) {
     renderResults(data.results);
   } catch (err) {
     console.error('Search failed', err);
-    if (!CL_TOKEN) {
-      resultsDiv.textContent = 'Missing COURTLISTENER_TOKEN configuration.';
-    } else {
-      resultsDiv.textContent = `Unable to fetch results: ${err.message}`;
-    }
+    resultsDiv.textContent = `Unable to fetch results: ${err.message}`;
   }
 }
 
