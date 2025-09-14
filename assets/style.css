@@ -955,3 +955,27 @@ li:hover .line-tools {
   font-family: inherit;
   margin-left: 0.25rem;
 }
+
+/* Case search styling */
+.category-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.category-btn {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.9rem;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.category-btn:hover {
+  background: var(--link-hover-bg);
+  color: var(--link-hover-color);
+}
