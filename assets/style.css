@@ -343,6 +343,29 @@ body::before {
   background: var(--topbar-link-hover-bg);
 }
 
+.topbar-icons {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#feed-icon {
+  display: inline-flex;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+  color: var(--topbar-text);
+}
+
+#feed-icon img {
+  height: 24px;
+  width: 24px;
+}
+
+#feed-icon:hover {
+  background: var(--topbar-link-hover-bg);
+}
+
 #cornell-nav {
   padding: 0;
 }
