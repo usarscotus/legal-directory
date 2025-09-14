@@ -20,3 +20,5 @@ permalink: pretty
 plugins:
   - jekyll-feed # Generate an Atom feed of site posts
   - jekyll-seo-tag # Add SEO tags for better search engine visibility
+
+# Exclude files and directories from the site build
