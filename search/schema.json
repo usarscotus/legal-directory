@@ -1,0 +1,23 @@
+{
+  "settings": {
+    "analysis": {
+      "analyzer": {
+        "legal_text": {
+          "type": "custom",
+          "tokenizer": "standard",
+          "filter": ["lowercase", "stop", "porter_stem"]
+        }
+      }
+    }
+  },
+  "mappings": {
+    "properties": {
+      "citation_id": {"type": "keyword"},
+      "title": {"type": "text", "analyzer": "legal_text"},
+      "text": {"type": "text", "analyzer": "legal_text"},
+      "topic_codes": {"type": "keyword"},
+      "court": {"type": "keyword"},
+      "date": {"type": "date"}
+    }
+  }
+}
