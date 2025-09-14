@@ -1,24 +1,16 @@
-# Site title shown in the browser and templates
 title: USAR Legal Directory
-
-# Path the site is served from
 baseurl: "/legal-directory"
-
-# Base URL for generating absolute links
 url: "https://usarscotus.github.io"
-
-# Short description used in meta tags and feeds
 description: A directory of legal resources for the USAR Community on ROBLOX.
-
-# Markdown engine
 markdown: kramdown
-
-# Use directory-style URLs for cleaner links
-permalink: pretty
-
-# Enable Jekyll plugins
-plugins:
-  - jekyll-feed # Generate an Atom feed of site posts
-  - jekyll-seo-tag # Add SEO tags for better search engine visibility
-
-# Exclude files and directories from the site build
+collections:
+  frap:
+    output: true
+  frcp:
+    output: true
+  frcmp:
+    output: true
+  fre:
+    output: true
+  supct:
+    output: true
