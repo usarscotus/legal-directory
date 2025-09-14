@@ -19,12 +19,12 @@
     <div id="cornell-nav-bg">
         <nav class="header-container" id="cornell-nav">
             <ul>
-                <li><a href="{{ site.baseurl }}/frap/">Appellate Procedure</a></li>
-                <li><a href="{{ site.baseurl }}/frcp/">Civil Procedure</a></li>
-                <li><a href="{{ site.baseurl }}/frcmp/">Criminal Procedure</a></li>
-                <li><a href="{{ site.baseurl }}/fre/">Rules of Evidence</a></li>
-                <li><a href="{{ site.baseurl }}/supct/">Supreme Court Rules</a></li>
-                <li><a href="{{ site.baseurl }}/docs/">Document Library</a></li>
+                <li{% if page.url contains '/frap/' %} class="active"{% endif %}><a href="{{ site.baseurl }}/frap/">Appellate Procedure</a></li>
+                <li{% if page.url contains '/frcp/' %} class="active"{% endif %}><a href="{{ site.baseurl }}/frcp/">Civil Procedure</a></li>
+                <li{% if page.url contains '/frcmp/' %} class="active"{% endif %}><a href="{{ site.baseurl }}/frcmp/">Criminal Procedure</a></li>
+                <li{% if page.url contains '/fre/' %} class="active"{% endif %}><a href="{{ site.baseurl }}/fre/">Rules of Evidence</a></li>
+                <li{% if page.url contains '/supct/' %} class="active"{% endif %}><a href="{{ site.baseurl }}/supct/">Supreme Court Rules</a></li>
+                <li{% if page.url contains '/docs/' %} class="active"{% endif %}><a href="{{ site.baseurl }}/docs/">Document Library</a></li>
             </ul>
         </nav>
     </div>
