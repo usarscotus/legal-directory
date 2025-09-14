@@ -898,3 +898,33 @@ html {
 .rule-toc a:hover {
   text-decoration: underline;
 }
+
+/* Heading anchors and copy buttons */
+h2 .heading-anchor,
+h2 .copy-anchor,
+h3 .heading-anchor,
+h3 .copy-anchor {
+  opacity: 0;
+  margin-left: 0.25rem;
+  font-size: 0.85rem;
+}
+
+.heading-anchor {
+  text-decoration: none;
+}
+
+.copy-anchor {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+h2:hover .heading-anchor,
+h2:hover .copy-anchor,
+h3:hover .heading-anchor,
+h3:hover .copy-anchor,
+.heading-anchor:focus,
+.copy-anchor:focus {
+  opacity: 1;
+}
