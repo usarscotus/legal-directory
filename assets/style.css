@@ -14,7 +14,6 @@ main {
   margin: 0 auto;
 }
 
-
 #docket-cards::-webkit-scrollbar {
   width: 6px;
 }
@@ -39,23 +38,6 @@ main {
   margin-bottom: 1.5rem;
 }
 
-.docket-columns {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.docket-column {
-  background: #f5f5f5;
-  padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  width: 100%;
-  max-width: 400px;
-  flex-shrink: 0;
-}
-
 .docket-header {
   font-size: 1.1rem;
   font-weight: bold;
@@ -63,48 +45,11 @@ main {
   margin-bottom: 0.75rem;
 }
 
-.docket-scroll {
-  max-height: 70vh;
-  overflow-y: auto;
-  padding-right: 6px;
-}
-
 .docket-error {
   color: #c0392b;
   margin-top: 0.5rem;
   display: none;
 }
-
-.docket-card {
-  background: white;
-  padding: 0.75rem;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 0.85rem;
-  margin-bottom: 0.75rem;
-  transition: box-shadow 0.2s ease;
-}
-
-.docket-card:hover {
-  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
-}
-
-.docket-card h4 {
-  margin: 0 0 0.5rem 0;
-  font-size: 1rem;
-  color: #2c3e50;
-}
-
-.toggle-desc {
-  background: none;
-  border: none;
-  color: #1e40af;
-  cursor: pointer;
-  font-size: 0.75rem;
-  margin-top: 0.25rem;
-  padding: 0;
-}
-
 
 .top-flex-wrapper {
   display: flex;
@@ -131,7 +76,7 @@ main {
   background: #f5f5f5;
   padding: 1rem;
   border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 360px;
   flex-shrink: 0;
@@ -148,7 +93,7 @@ main {
 }
 
 .docket-card:hover {
-  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
 }
 
 .docket-card a,
@@ -159,7 +104,7 @@ main {
   padding: 0.25rem 0.5rem;
   border-radius: 4px;
   transition: all 0.2s ease-in-out;
-  display: inline-block; /* important */
+  display: inline-block;
 }
 
 .docket-card a:hover,
@@ -173,41 +118,12 @@ main {
   margin: 0 0 0.5rem 0;
   font-size: 1rem;
   font-weight: 600;
-}
-
-.toggle-desc {
-  background: none;
-  border: none;
-  color: #1a56db;
-  cursor: pointer;
-  font-size: 0.75rem;
-  margin-top: 0.25rem;
-  padding: 0;
-  text-decoration: underline;
-}
-
-.toggle-desc:hover {
-  text-decoration: none;
-}
-
-.resource-link {
-  color: #003366;
-  text-decoration: none;
-  font-weight: 500;
-  padding: 0.25rem 0.5rem;
-  border-radius: 4px;
-  transition: all 0.2s ease-in-out;
-}
-
-.resource-link:hover {
-  color: #1e40af;
-  background: rgba(30, 64, 175, 0.07);
-  text-decoration: none;
+  color: #2c3e50;
 }
 
 .docket-card-entry {
   margin-bottom: 0.5rem;
-  font-size: 0.85rem; /* match base size */
+  font-size: 0.85rem;
   font-family: Georgia, serif;
 }
 
@@ -224,25 +140,27 @@ main {
   font-family: inherit;
   font-size: 0.95rem;
   display: inline-block;
+  margin-top: 0.25rem;
 }
 
 .toggle-desc:hover {
   color: #1e40af;
   background: rgba(30, 64, 175, 0.07);
+  text-decoration: none;
 }
 
 .desc-container {
   overflow: hidden;
   transition: max-height 0.3s ease;
-  max-height: 3.5em; /* enough for one <p> */
+  max-height: 3.5em;
 }
 
 .desc-container.expanded {
-  max-height: 500px; /* enough room for full content */
+  max-height: 500px;
 }
 
 .docket-scroll {
-  max-height: 360px; /* room for two full cards */
+  max-height: 360px;
   overflow-y: auto;
   padding-right: 6px;
 }
@@ -250,7 +168,7 @@ main {
 .docket-card .resource-link,
 .docket-card .toggle-desc,
 .docket-card .desc-container {
-  font-size: 0.85rem; /* match the card's base */
+  font-size: 0.85rem;
 }
 
 .docket-labels {
@@ -271,21 +189,41 @@ main {
 }
 
 /* Color mappings from Trello */
-.label-blue { background-color: #0079bf; }
-.label-green { background-color: #61bd4f; }
-.label-orange { background-color: #f2d600; color: #000; }
-.label-red { background-color: #eb5a46; }
-.label-purple { background-color: #c377e0; }
-.label-yellow { background-color: #ffab4a; color: #000; }
-.label-black { background-color: #4d4d4d; }
-.label-pink { background-color: #ff80ce; }
-.label-sky { background-color: #00c2e0; }
-.label-lime { background-color: #51e898; }
-.label-gray { background-color: #b3bac5; }
-
-
-
-
+.label-blue {
+  background-color: #0079bf;
+}
+.label-green {
+  background-color: #61bd4f;
+}
+.label-orange {
+  background-color: #f2d600;
+  color: #000;
+}
+.label-red {
+  background-color: #eb5a46;
+}
+.label-purple {
+  background-color: #c377e0;
+}
+.label-yellow {
+  background-color: #ffab4a;
+  color: #000;
+}
+.label-black {
+  background-color: #4d4d4d;
+}
+.label-pink {
+  background-color: #ff80ce;
+}
+.label-sky {
+  background-color: #00c2e0;
+}
+.label-lime {
+  background-color: #51e898;
+}
+.label-gray {
+  background-color: #b3bac5;
+}
 
 /* Header background wrappers */
 #cornell-topbar-bg {
@@ -382,8 +320,6 @@ body::before {
   vertical-align: middle;
 }
 
-
-
 .homepage-section {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -429,9 +365,6 @@ body::before {
   text-decoration: none;
 }
 
-
-
-
 #breadcrumb-bg {
   background: #eee;
   border-bottom: 1px solid #ccc;
@@ -464,8 +397,6 @@ body::before {
 #breadcrumb a:hover {
   text-decoration: underline;
 }
-
-
 
 /* Rule content formatting */
 h1,
@@ -524,7 +455,6 @@ html {
 }
 
 @media (max-width: 600px) {
-
   main,
   .content-container {
     padding: 1rem;
@@ -545,8 +475,6 @@ html {
     /* Adjust this based on your header's height */
   }
 }
-
-
 
 #site-search {
   display: flex;
@@ -575,7 +503,9 @@ html {
   font-size: 0.85rem;
   font-weight: bold;
   cursor: pointer;
-  transition: background-color 0.2s ease, color 0.2s ease;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
 }
 
 #site-search button:hover {
@@ -611,13 +541,11 @@ html {
   margin: 1rem 0;
 }
 
-
-
 #site-footer {
   background: #f3f4f6;
   border-top: 1px solid #d1d5db;
   padding: 2rem 1.5rem;
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
   color: #4b5563;
   margin-top: 3rem;
 }
@@ -663,8 +591,6 @@ html {
   font-size: 0.85rem;
   color: #6b7280;
 }
-
-
 
 .rule-notes {
   margin-top: 2rem;
@@ -728,7 +654,7 @@ html {
 }
 
 .doc-card {
-  flex: 1 1 280px;         /* each card takes up 280px min, wraps nicely */
+  flex: 1 1 280px; /* each card takes up 280px min, wraps nicely */
   max-width: 300px;
   background: white;
   border: 1px solid #ccc;
@@ -741,7 +667,6 @@ html {
   justify-content: space-between;
   height: auto;
 }
-
 
 .doc-card:hover {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
@@ -800,7 +725,7 @@ html {
 .doc-link {
   display: inline-block;
   text-align: center;
-  background: #003366; /* header/nav color */
+  background: #003366;
   color: white;
   font-weight: 500;
   padding: 0.4rem 0.75rem;
@@ -810,7 +735,7 @@ html {
 }
 
 .doc-link:hover {
-  background: #1e3a8a; /* subtle blue tone */
+  background: #1e3a8a;
   color: white;
   text-decoration: none;
 }
@@ -829,11 +754,11 @@ html {
 
 /* Wide format for rules lists */
 .rules-list-container {
-  max-width: 1200px;      /* much wider than the article layout */
+  max-width: 1200px;
   margin: 2rem auto;
   padding: 2rem 1.5rem;
   background: #fff;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   border: 1px solid #ddd;
 }
 
@@ -868,12 +793,28 @@ html {
   background: rgba(30, 64, 175, 0.07);
 }
 
-.rules-list-container .resource-grid { grid-template-columns: 1fr; }
-.rules-list-container .resource-column { grid-column: 1 / -1; max-width: none; }
-.rules-list-container ul { padding-left: 0; }
-.rules-list-container li a { display: inline-block; white-space: nowrap; }
-@media (max-width: 700px) { .rules-list-container li a { white-space: normal; } }
-.rules-list-container .resource-grid { display: block; }  /* add this */
-.rules-list-container .resource-column { max-width: none; }  /* keep full width */
-
-
+.rules-list-container .resource-grid {
+  grid-template-columns: 1fr;
+}
+.rules-list-container .resource-column {
+  grid-column: 1 / -1;
+  max-width: none;
+}
+.rules-list-container ul {
+  padding-left: 0;
+}
+.rules-list-container li a {
+  display: inline-block;
+  white-space: nowrap;
+}
+@media (max-width: 700px) {
+  .rules-list-container li a {
+    white-space: normal;
+  }
+}
+.rules-list-container .resource-grid {
+  display: block;
+}
+.rules-list-container .resource-column {
+  max-width: none;
+}
