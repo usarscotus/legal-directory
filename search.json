@@ -38,7 +38,8 @@ permalink: /search.json
     "title": {{ doc.title | jsonify }},
     "url": "{{ site.baseurl }}{{ doc.url }}",
     "content": {{ doc.content | strip_html | normalize_whitespace | jsonify }},
-    "breadcrumb_parent": {{ parent | jsonify }}
+    "breadcrumb_parent": {{ parent | jsonify }},
+    "collection": {{ section | jsonify }}
   }{% unless forloop.last %},{% endunless %}
 {% endfor %}
 ]

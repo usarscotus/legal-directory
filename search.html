@@ -7,14 +7,98 @@ breadcrumb_parent_url: /
 ---
 
 <h1>Search Results</h1>
+<form id="filter-form">
+  <fieldset id="search-filters">
+    <legend>Filter by rule set</legend>
+    <label><input type="checkbox" value="supct" checked> Sup. Ct.</label>
+    <label><input type="checkbox" value="frcp" checked> FRCP</label>
+    <label><input type="checkbox" value="frcmp" checked> FRCrP</label>
+    <label><input type="checkbox" value="fre" checked> FRE</label>
+    <label><input type="checkbox" value="frap" checked> FRAP</label>
+  </fieldset>
+</form>
 <p id="search-results-count"></p>
 <div id="search-results"></div>
+
+<style>
+  #search-filters {
+    border: 0;
+    margin: 1rem 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  #search-filters label {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+  @media (max-width: 600px) {
+    #search-filters {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+</style>
 
 <script src="https://unpkg.com/lunr/lunr.js"></script>
 <script>
     const params = new URLSearchParams(window.location.search);
     const query = params.get("q");
     const DEBUG = false;
+
+    const filterInputs = Array.from(document.querySelectorAll('#search-filters input[type="checkbox"]'));
+    let docs = [];
+    let docMap = {};
+    let idx;
+
+    function performSearch() {
+        if (!idx) return;
+        const selected = filterInputs.filter(cb => cb.checked).map(cb => cb.value);
+
+        const results = idx.search(query.toLowerCase());
+        if (DEBUG) console.log("Search results:", results);
+
+        const container = document.getElementById("search-results");
+        const count = document.getElementById("search-results-count");
+        container.innerHTML = "";
+
+        const filtered = results.filter(r => {
+            const match = docMap[r.ref];
+            return match && selected.includes(match.collection);
+        });
+
+        if (filtered.length > 0) {
+            count.textContent = `${filtered.length} result${filtered.length !== 1 ? "s" : ""} found for “${query}”`;
+
+            const grouped = {};
+            filtered.forEach(result => {
+                const match = docMap[result.ref];
+                const parent = match.breadcrumb_parent || "Other";
+                if (!grouped[parent]) grouped[parent] = [];
+                grouped[parent].push(match);
+            });
+
+            for (const parent in grouped) {
+                const header = document.createElement("h2");
+                header.textContent = parent;
+                container.appendChild(header);
+
+                const list = document.createElement("ul");
+                grouped[parent].forEach(match => {
+                    const item = document.createElement("li");
+                    item.innerHTML = `<a href="${match.url}">${match.title}</a>`;
+                    list.appendChild(item);
+                });
+
+                container.appendChild(list);
+            }
+
+        } else {
+            count.textContent = `No results found for “${query}”`;
+        }
+    }
 
     if (DEBUG) console.log("Search query:", query);
 
@@ -23,61 +107,29 @@ breadcrumb_parent_url: /
 
         fetch("{{ site.baseurl }}/search.json")
             .then(res => res.json())
-            .then(docs => {
-                if (DEBUG) console.log("Fetched documents:", docs);
+            .then(data => {
+                if (DEBUG) console.log("Fetched documents:", data);
+                docs = data;
+                docs.forEach(doc => {
+                    docMap[doc.url] = doc;
+                });
 
-                const idx = lunr(function () {
+                idx = lunr(function () {
                     this.ref("url");
                     this.field("title");
                     this.field("content");
 
                     docs.forEach(doc => {
-                        const loweredDoc = {
+                        this.add({
                             url: doc.url,
                             title: (doc.title || "").toLowerCase(),
                             content: (doc.content || "").toLowerCase()
-                        };
-                        this.add(loweredDoc);
+                        });
                     });
                 });
 
-                const results = idx.search(query.toLowerCase());
-                if (DEBUG) console.log("Search results:", results);
-
-                const container = document.getElementById("search-results");
-                const count = document.getElementById("search-results-count");
-
-                if (results.length > 0) {
-                    count.textContent = `${results.length} result${results.length !== 1 ? "s" : ""} found for “${query}”`;
-
-                    const grouped = {};
-                    results.forEach(result => {
-                        const match = docs.find(d => d.url === result.ref);
-                        if (!match) return;
-
-                        const parent = match.breadcrumb_parent || "Other";
-                        if (!grouped[parent]) grouped[parent] = [];
-                        grouped[parent].push(match);
-                    });
-
-                    for (const parent in grouped) {
-                        const header = document.createElement("h2");
-                        header.textContent = parent;
-                        container.appendChild(header);
-
-                        const list = document.createElement("ul");
-                        grouped[parent].forEach(match => {
-                            const item = document.createElement("li");
-                            item.innerHTML = `<a href="${match.url}">${match.title}</a>`;
-                            list.appendChild(item);
-                        });
-
-                        container.appendChild(list);
-                    }
-
-                } else {
-                    count.textContent = `No results found for “${query}”`;
-                }
+                performSearch();
+                filterInputs.forEach(cb => cb.addEventListener('change', performSearch));
             })
             .catch(error => {
                 console.error("Failed to load search.json or process search:", error);
