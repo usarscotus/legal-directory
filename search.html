@@ -14,8 +14,9 @@ breadcrumb_parent_url: /
 <script>
     const params = new URLSearchParams(window.location.search);
     const query = params.get("q");
+    const DEBUG = false;
 
-    console.log("Search query:", query);
+    if (DEBUG) console.log("Search query:", query);
 
     if (query) {
         document.title = `Search: ${query}`;
@@ -23,7 +24,7 @@ breadcrumb_parent_url: /
         fetch("{{ site.baseurl }}/search.json")
             .then(res => res.json())
             .then(docs => {
-                console.log("Fetched documents:", docs);
+                if (DEBUG) console.log("Fetched documents:", docs);
 
                 const idx = lunr(function () {
                     this.ref("url");
@@ -41,7 +42,7 @@ breadcrumb_parent_url: /
                 });
 
                 const results = idx.search(query.toLowerCase());
-                console.log("Search results:", results);
+                if (DEBUG) console.log("Search results:", results);
 
                 const container = document.getElementById("search-results");
                 const count = document.getElementById("search-results-count");
@@ -49,7 +50,6 @@ breadcrumb_parent_url: /
                 if (results.length > 0) {
                     count.textContent = `${results.length} result${results.length !== 1 ? "s" : ""} found for “${query}”`;
 
-                    // Group by breadcrumb_parent
                     const grouped = {};
                     results.forEach(result => {
                         const match = docs.find(d => d.url === result.ref);
@@ -60,7 +60,6 @@ breadcrumb_parent_url: /
                         grouped[parent].push(match);
                     });
 
-                    // Render each group
                     for (const parent in grouped) {
                         const header = document.createElement("h2");
                         header.textContent = parent;
