@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (!node.textContent.match(/\b(FRCP|FRAP|FRE|FRCMP|FRCrP|SUPCT|SCR|SCT|Rule)\b/)) {
         return NodeFilter.FILTER_SKIP;
       }
-      if (node.parentElement && node.parentElement.closest('a, script, style')) {
+      if (node.parentElement && node.parentElement.closest('a, script, style, h1')) {
         return NodeFilter.FILTER_REJECT;
       }
       return NodeFilter.FILTER_ACCEPT;
