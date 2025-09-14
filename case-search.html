@@ -7,53 +7,96 @@ breadcrumb_parent_url: /
 ---
 
 <h1>SCOTUS Case Search</h1>
+
+<section id="category-section">
+  <h2>Browse by Topic</h2>
+  <div id="categories"></div>
+</section>
+
 <form id="search-form">
-  <input id="query" placeholder="Search cases..." required />
+  <input id="query" placeholder="Search case names or text…" required />
   <button type="submit">Search</button>
 </form>
+
 <div id="results"></div>
 <div id="case-details"></div>
 
 <script>
+const categories = [
+  { code: 1, label: 'Criminal Procedure' },
+  { code: 2, label: 'Civil Rights' },
+  { code: 3, label: 'First Amendment' },
+  { code: 4, label: 'Due Process' },
+  { code: 5, label: 'Privacy' },
+  { code: 6, label: 'Attorneys' },
+  { code: 7, label: 'Unions' },
+  { code: 8, label: 'Economic Activity' },
+  { code: 9, label: 'Judicial Power' },
+  { code: 10, label: 'Federalism' },
+  { code: 11, label: 'Interstate Relations' },
+  { code: 12, label: 'Federal Taxation' },
+  { code: 13, label: 'Miscellaneous' },
+  { code: 14, label: 'Private Action' }
+];
+
 const form = document.getElementById('search-form');
 const resultsDiv = document.getElementById('results');
 const detailsDiv = document.getElementById('case-details');
+const categoryDiv = document.getElementById('categories');
 
-form.addEventListener('submit', async (e) => {
+categories.forEach((cat) => {
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.textContent = cat.label;
+  btn.addEventListener('click', () => {
+    runSearch(`scdb_issue_area=${cat.code}`);
+  });
+  categoryDiv.appendChild(btn);
+});
+
+form.addEventListener('submit', (e) => {
   e.preventDefault();
   const q = document.getElementById('query').value.trim();
   if (!q) return;
+  runSearch(`q=${encodeURIComponent(q)}`);
+});
+
+async function runSearch(queryString) {
   resultsDiv.textContent = 'Searching...';
   detailsDiv.innerHTML = '';
   try {
-    const url = `https://www.courtlistener.com/api/rest/v3/opinions/?search=${encodeURIComponent(q)}&court=scotus`;
+    const url = `https://www.courtlistener.com/api/rest/v3/opinions/?${queryString}&court=scotus&order_by=date_filed`;
     const res = await fetch(url);
     const data = await res.json();
-    resultsDiv.innerHTML = '';
-    if (data.results && data.results.length) {
-      const ul = document.createElement('ul');
-      data.results.forEach((op) => {
-        const li = document.createElement('li');
-        const link = document.createElement('a');
-        const name = op.caseName || op.citation || `Case ${op.id}`;
-        link.href = '#';
-        link.textContent = `${name} (${op.date_filed || 'n.d.'})`;
-        link.addEventListener('click', (evt) => {
-          evt.preventDefault();
-          loadCase(op.id);
-        });
-        li.appendChild(link);
-        ul.appendChild(li);
-      });
-      resultsDiv.appendChild(ul);
-    } else {
-      resultsDiv.textContent = 'No cases found.';
-    }
+    renderResults(data.results || []);
   } catch (err) {
     console.error('Search failed', err);
     resultsDiv.textContent = 'Error fetching results.';
   }
-});
+}
+
+function renderResults(cases) {
+  resultsDiv.innerHTML = '';
+  if (!cases.length) {
+    resultsDiv.textContent = 'No cases found.';
+    return;
+  }
+  const ul = document.createElement('ul');
+  cases.forEach((op) => {
+    const li = document.createElement('li');
+    const link = document.createElement('a');
+    const name = op.case_name || op.citation || `Case ${op.id}`;
+    link.href = '#';
+    link.textContent = `${name} (${op.date_filed || 'n.d.'})`;
+    link.addEventListener('click', (evt) => {
+      evt.preventDefault();
+      loadCase(op.id);
+    });
+    li.appendChild(link);
+    ul.appendChild(li);
+  });
+  resultsDiv.appendChild(ul);
+}
 
 async function loadCase(id) {
   resultsDiv.innerHTML = '';
@@ -62,12 +105,12 @@ async function loadCase(id) {
     const res = await fetch(`https://www.courtlistener.com/api/rest/v3/opinions/${id}/`);
     const data = await res.json();
     detailsDiv.innerHTML = '';
-    const title = data.caseName || data.citation || `Case ${id}`;
+    const title = data.case_name || data.citation || `Case ${id}`;
     const header = document.createElement('h2');
     header.textContent = title;
     detailsDiv.appendChild(header);
     const meta = document.createElement('p');
-    meta.textContent = `Decided: ${data.date_filed || 'Unknown'} | Court: ${data.court || 'SCOTUS'}`;
+    meta.textContent = `Decided: ${data.date_filed || 'Unknown'}`;
     detailsDiv.appendChild(meta);
     if (data.cites_to && data.cites_to.length) {
       const h3 = document.createElement('h3');
