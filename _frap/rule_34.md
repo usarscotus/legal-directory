@@ -8,19 +8,19 @@ order: 34
 (a) In General.
 
 
-&nbsp;&nbsp;(1) Party's Statement. Any party may file, or a court may require by local rule, a statement explaining why oral argument should, or need not, be permitted.
+1. Party's Statement. Any party may file, or a court may require by local rule, a statement explaining why oral argument should, or need not, be permitted.
 
 
-&nbsp;&nbsp;(2) Standards. Oral argument must be allowed in every case unless a panel of three judges who have examined the briefs and record unanimously agrees that oral argument is unnecessary for any of the following reasons:
+2. Standards. Oral argument must be allowed in every case unless a panel of three judges who have examined the briefs and record unanimously agrees that oral argument is unnecessary for any of the following reasons:
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(A) the appeal is frivolous;
+    - (A) the appeal is frivolous;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(B) the dispositive issue or issues have been authoritatively decided; or
+    - (B) the dispositive issue or issues have been authoritatively decided; or
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(C) the facts and legal arguments are adequately presented in the briefs and record, and the decisional process would not be significantly aided by oral argument.
+    - (C) the facts and legal arguments are adequately presented in the briefs and record, and the decisional process would not be significantly aided by oral argument.
 
 
 (b) Notice of Argument; Postponement. The clerk must advise all parties whether oral argument will be scheduled, and, if so, the date, time, and place for it, and the time allowed for each side. A motion to postpone the argument or to allow longer argument must be filed reasonably in advance of the hearing date.

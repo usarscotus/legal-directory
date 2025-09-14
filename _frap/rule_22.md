@@ -11,10 +11,10 @@ order: 22
 (b) Certificate of Appealability.
 
 
-&nbsp;&nbsp;(1) In a habeas corpus proceeding in which the detention complained of arises from process issued by a state court, or in a 28 U.S.C. §2255 proceeding, the applicant cannot take an appeal unless a circuit justice or a circuit or district judge issues a certificate of appealability under 28 U.S.C. §2253(c) . If an applicant files a notice of appeal, the district clerk must send to the court of appeals the certificate (if any) and the statement described in Rule 11(a) of the Rules Governing Proceedings Under 28 U.S.C. §2254 or §2255 (if any), along with the notice of appeal and the file of the district-court proceedings. If the district judge has denied the certificate, the applicant may request a circuit judge to issue it.
+1. In a habeas corpus proceeding in which the detention complained of arises from process issued by a state court, or in a 28 U.S.C. §2255 proceeding, the applicant cannot take an appeal unless a circuit justice or a circuit or district judge issues a certificate of appealability under 28 U.S.C. §2253(c) . If an applicant files a notice of appeal, the district clerk must send to the court of appeals the certificate (if any) and the statement described in Rule 11(a) of the Rules Governing Proceedings Under 28 U.S.C. §2254 or §2255 (if any), along with the notice of appeal and the file of the district-court proceedings. If the district judge has denied the certificate, the applicant may request a circuit judge to issue it.
 
 
-&nbsp;&nbsp;(2) A request addressed to the court of appeals may be considered by a circuit judge or judges, as the court prescribes. If no express request for a certificate is filed, the notice of appeal constitutes a request addressed to the judges of the court of appeals.
+2. A request addressed to the court of appeals may be considered by a circuit judge or judges, as the court prescribes. If no express request for a certificate is filed, the notice of appeal constitutes a request addressed to the judges of the court of appeals.
 
 
-&nbsp;&nbsp;(3) A certificate of appealability is not required when a state or its representative or the United States or its representative appeals.
+3. A certificate of appealability is not required when a state or its representative or the United States or its representative appeals.

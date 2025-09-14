@@ -14,19 +14,19 @@ order: 62
 (c) Stay of an Injunction, Receivership, or Patent Accounting Order. Unless the court orders otherwise, the following are not stayed after being entered, even if an appeal is taken:
 
 
-&nbsp;&nbsp;(1) an interlocutory or final judgment in an action for an injunction or receivership; or
+1. an interlocutory or final judgment in an action for an injunction or receivership; or
 
 
-&nbsp;&nbsp;(2) a judgment or order that directs an accounting in an action for patent infringement.
+2. a judgment or order that directs an accounting in an action for patent infringement.
 
 
 (d) Injunction Pending an Appeal. While an appeal is pending from an interlocutory order or final judgment that grants, continues, modifies, refuses, dissolves, or refuses to dissolve or modify an injunction, the court may suspend, modify, restore, or grant an injunction on terms for bond or other terms that secure the opposing party's rights. If the judgment appealed from is rendered by a statutory three-judge district court, the order must be made either:
 
 
-&nbsp;&nbsp;(1) by that court sitting in open session; or
+1. by that court sitting in open session; or
 
 
-&nbsp;&nbsp;(2) by the assent of all its judges, as evidenced by their signatures.
+2. by the assent of all its judges, as evidenced by their signatures.
 
 
 (e) Stay Without Bond on an Appeal by the United States, Its Officers, or Its Agencies. The court must not require a bond, obligation, or other security from the appellant when granting a stay on an appeal by the United States, its officers, or its agencies or on an appeal directed by a department of the federal government.
@@ -38,10 +38,10 @@ order: 62
 (g) Appellate Court's Power Not Limited. This rule does not limit the power of the appellate court or one of its judges or justices:
 
 
-&nbsp;&nbsp;(1) to stay proceedings—or suspend, modify, restore, or grant an injunction—while an appeal is pending; or
+1. to stay proceedings—or suspend, modify, restore, or grant an injunction—while an appeal is pending; or
 
 
-&nbsp;&nbsp;(2) to issue an order to preserve the status quo or the effectiveness of the judgment to be entered.
+2. to issue an order to preserve the status quo or the effectiveness of the judgment to be entered.
 
 
 (h) Stay with Multiple Claims or Parties. A court may stay the enforcement of a final judgment entered under Rule 54(b) until it enters a later judgment or judgments, and may prescribe terms necessary to secure the benefit of the stayed judgment for the party in whose favor it was entered.

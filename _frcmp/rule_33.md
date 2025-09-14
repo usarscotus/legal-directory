@@ -11,7 +11,7 @@ order: 33
 (b) Time to File.
 
 
-&nbsp;&nbsp;(1) Newly Discovered Evidence. Any motion for a new trial grounded on newly discovered evidence must be filed within 3 years after the verdict or finding of guilty. If an appeal is pending, the court may not grant a motion for a new trial until the appellate court remands the case.
+1. Newly Discovered Evidence. Any motion for a new trial grounded on newly discovered evidence must be filed within 3 years after the verdict or finding of guilty. If an appeal is pending, the court may not grant a motion for a new trial until the appellate court remands the case.
 
 
-&nbsp;&nbsp;(2) Other Grounds. Any motion for a new trial grounded on any reason other than newly discovered evidence must be filed within 14 days after the verdict or finding of guilty.
+2. Other Grounds. Any motion for a new trial grounded on any reason other than newly discovered evidence must be filed within 14 days after the verdict or finding of guilty.

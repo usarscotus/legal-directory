@@ -8,19 +8,19 @@ order: 5.1
 (a) In General. If a defendant is charged with an offense other than a petty offense, a magistrate judge must conduct a preliminary hearing unless:
 
 
-&nbsp;&nbsp;(1) the defendant waives the hearing;
+1. the defendant waives the hearing;
 
 
-&nbsp;&nbsp;(2) the defendant is indicted;
+2. the defendant is indicted;
 
 
-&nbsp;&nbsp;(3) the government files an information under Rule 7(b) charging the defendant with a felony;
+3. the government files an information under Rule 7(b) charging the defendant with a felony;
 
 
-&nbsp;&nbsp;(4) the government files an information charging the defendant with a misdemeanor; or
+4. the government files an information charging the defendant with a misdemeanor; or
 
 
-&nbsp;&nbsp;(5) the defendant is charged with a misdemeanor and consents to trial before a magistrate judge.
+5. the defendant is charged with a misdemeanor and consents to trial before a magistrate judge.
 
 
 (b) Selecting a District. A defendant arrested in a district other than where the offense was allegedly committed may elect to have the preliminary hearing conducted in the district where the prosecution is pending.
@@ -44,7 +44,7 @@ order: 5.1
 (h) Producing a Statement.
 
 
-&nbsp;&nbsp;(1) In General. Rule 26.2 (a)–(d) and (f) applies at any hearing under this rule, unless the magistrate judge for good cause rules otherwise in a particular case.
+1. In General. Rule 26.2 (a)–(d) and (f) applies at any hearing under this rule, unless the magistrate judge for good cause rules otherwise in a particular case.
 
 
-&nbsp;&nbsp;(2) Sanctions for Not Producing a Statement. If a party disobeys a Rule 26.2 order to deliver a statement to the moving party, the magistrate judge must not consider the testimony of a witness whose statement is withheld.
+2. Sanctions for Not Producing a Statement. If a party disobeys a Rule 26.2 order to deliver a statement to the moving party, the magistrate judge must not consider the testimony of a witness whose statement is withheld.

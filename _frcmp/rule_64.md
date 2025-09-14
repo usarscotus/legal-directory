@@ -13,15 +13,15 @@ order: 64
 
 (4) A defendant qualifies for a proceeding in absentia if he/she--
 
-&nbsp;&nbsp;(a) willfully refuses to attend court for any hearing, trial, or any other proceeding, be it criminal or civil, despite being given ample opportunity and flexibility to attend court at a time preferable to such defendant;
+- (a) willfully refuses to attend court for any hearing, trial, or any other proceeding, be it criminal or civil, despite being given ample opportunity and flexibility to attend court at a time preferable to such defendant;
 
-&nbsp;&nbsp;(b) physically cannot attend court for any reason but has given consent to a proceeding in absentia;
+- (b) physically cannot attend court for any reason but has given consent to a proceeding in absentia;
 
-&nbsp;&nbsp;(c) has not responded to any court summons, appears to be inactive, and/or cannot be contacted without an undue burden to the presiding judge and/or prosecutor(s);
+- (c) has not responded to any court summons, appears to be inactive, and/or cannot be contacted without an undue burden to the presiding judge and/or prosecutor(s);
 
-&nbsp;&nbsp;(d) willfully flees the country; and/or
+- (d) willfully flees the country; and/or
 
-&nbsp;&nbsp;(e) refuses to cooperate with scheduling any proceeding despite being given ample opportunity and flexibility for scheduling such proceedings.
+- (e) refuses to cooperate with scheduling any proceeding despite being given ample opportunity and flexibility for scheduling such proceedings.
 
 (5) Judges are highly encouraged to work around scheduling conflicts (such as those described in §4(b) of this Rule) instead of resorting to absentia proceedings, but no judge shall be held accountable if a defendant who had ample opportunity to attend court receives an unfavorable (but legal) decision, verdict, or injunction.
 

@@ -17,26 +17,26 @@ order: 414
 (d) Definition of “Child” and “Child Molestation.” In this rule and Rule 415:
 
 
-&nbsp;&nbsp;(1) “child” means a person below the age of 14; and
+1. “child” means a person below the age of 14; and
 
 
-&nbsp;&nbsp;(2) “child molestation” means a crime under federal law or under state law (as “state” is defined in 18 U.S.C. § 513) involving:
+2. “child molestation” means a crime under federal law or under state law (as “state” is defined in 18 U.S.C. § 513) involving:
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(A) any conduct prohibited by 18 U.S.C. chapter 109A and committed with a child;
+    - (A) any conduct prohibited by 18 U.S.C. chapter 109A and committed with a child;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(B) any conduct prohibited by 18 U.S.C. chapter 110;
+    - (B) any conduct prohibited by 18 U.S.C. chapter 110;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(C) contact between any part of the defendant’s body — or an object — and a child’s genitals or anus;
+    - (C) contact between any part of the defendant’s body — or an object — and a child’s genitals or anus;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(D) contact between the defendant’s genitals or anus and any part of a child’s body;
+    - (D) contact between the defendant’s genitals or anus and any part of a child’s body;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(E) deriving sexual pleasure or gratification from inflicting death, bodily injury, or physical pain on a child; or
+    - (E) deriving sexual pleasure or gratification from inflicting death, bodily injury, or physical pain on a child; or
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(F) an attempt or conspiracy to engage in conduct described in subparagraphs (A)–(E).
+    - (F) an attempt or conspiracy to engage in conduct described in subparagraphs (A)–(E).
 

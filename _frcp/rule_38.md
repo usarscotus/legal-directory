@@ -11,10 +11,10 @@ order: 38
 (b) Demand. On any issue triable of right by a jury, a party may demand a jury trial by:
 
 
-&nbsp;&nbsp;(1) serving the other parties with a written demand—which may be included in a pleading—no later than 14 days after the last pleading directed to the issue is served; and
+1. serving the other parties with a written demand—which may be included in a pleading—no later than 14 days after the last pleading directed to the issue is served; and
 
 
-&nbsp;&nbsp;(2) filing the demand in accordance with Rule 5(d) .
+2. filing the demand in accordance with Rule 5(d) .
 
 
 (c) Specifying Issues. In its demand, a party may specify the issues that it wishes to have tried by a jury; otherwise, it is considered to have demanded a jury trial on all the issues so triable. If the party has demanded a jury trial on only some issues, any other party may—within 14 days after being served with the demand or within a shorter time ordered by the court—serve a demand for a jury trial on any other or all factual issues triable by jury.

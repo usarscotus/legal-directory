@@ -11,43 +11,43 @@ order: 60
 (b) Grounds for Relief from a Final Judgment, Order, or Proceeding. On motion and just terms, the court may relieve a party or its legal representative from a final judgment, order, or proceeding for the following reasons:
 
 
-&nbsp;&nbsp;(1) mistake, inadvertence, surprise, or excusable neglect;
+1. mistake, inadvertence, surprise, or excusable neglect;
 
 
-&nbsp;&nbsp;(2) newly discovered evidence that, with reasonable diligence, could not have been discovered in time to move for a new trial under Rule 59(b) ;
+2. newly discovered evidence that, with reasonable diligence, could not have been discovered in time to move for a new trial under Rule 59(b) ;
 
 
-&nbsp;&nbsp;(3) fraud (whether previously called intrinsic or extrinsic), misrepresentation, or misconduct by an opposing party;
+3. fraud (whether previously called intrinsic or extrinsic), misrepresentation, or misconduct by an opposing party;
 
 
-&nbsp;&nbsp;(4) the judgment is void;
+4. the judgment is void;
 
 
-&nbsp;&nbsp;(5) the judgment has been satisfied, released, or discharged; it is based on an earlier judgment that has been reversed or vacated; or applying it prospectively is no longer equitable; or
+5. the judgment has been satisfied, released, or discharged; it is based on an earlier judgment that has been reversed or vacated; or applying it prospectively is no longer equitable; or
 
 
-&nbsp;&nbsp;(6) any other reason that justifies relief.
+6. any other reason that justifies relief.
 
 
 (c) Timing and Effect of the Motion.
 
 
-&nbsp;&nbsp;(1) Timing. A motion under Rule 60(b) must be made within a reasonable time—and for reasons (1), (2), and (3) no more than a year after the entry of the judgment or order or the date of the proceeding.
+1. Timing. A motion under Rule 60(b) must be made within a reasonable time—and for reasons (1), (2), and (3) no more than a year after the entry of the judgment or order or the date of the proceeding.
 
 
-&nbsp;&nbsp;(2) Effect on Finality. The motion does not affect the judgment's finality or suspend its operation.
+2. Effect on Finality. The motion does not affect the judgment's finality or suspend its operation.
 
 
 (d) Other Powers to Grant Relief. This rule does not limit a court's power to:
 
 
-&nbsp;&nbsp;(1) entertain an independent action to relieve a party from a judgment, order, or proceeding;
+1. entertain an independent action to relieve a party from a judgment, order, or proceeding;
 
 
-&nbsp;&nbsp;(2) grant relief under 28 U.S.C. §1655 to a defendant who was not personally notified of the action; or
+2. grant relief under 28 U.S.C. §1655 to a defendant who was not personally notified of the action; or
 
 
-&nbsp;&nbsp;(3) set aside a judgment for fraud on the court.
+3. set aside a judgment for fraud on the court.
 
 
 (e) Bills and Writs Abolished. The following are abolished: bills of review, bills in the nature of bills of review, and writs of coram nobis, coram vobis, and audita querela.

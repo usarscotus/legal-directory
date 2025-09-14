@@ -14,13 +14,13 @@ order: 104
 (c) Conducting a Hearing So That the Jury Cannot Hear It. The court must conduct any hearing on a preliminary question so that the jury cannot hear it if:
 
 
-&nbsp;&nbsp;(1) the hearing involves the admissibility of a confession;
+1. the hearing involves the admissibility of a confession;
 
 
-&nbsp;&nbsp;(2) a defendant in a criminal case is a witness and so requests; or
+2. a defendant in a criminal case is a witness and so requests; or
 
 
-&nbsp;&nbsp;(3) justice so requires.
+3. justice so requires.
 
 
 (d) Cross-Examining a Defendant in a Criminal Case. By testifying on a preliminary question, a defendant in a criminal case does not become subject to cross-examination on other issues in the case.

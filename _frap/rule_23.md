@@ -11,13 +11,13 @@ order: 23
 (b) Detention or Release Pending Review of Decision Not to Release. While a decision not to release a prisoner is under review, the court or judge rendering the decision, or the court of appeals, or the Supreme Court, or a judge or justice of either court, may order that the prisoner be:
 
 
-&nbsp;&nbsp;(1) detained in the custody from which release is sought;
+1. detained in the custody from which release is sought;
 
 
-&nbsp;&nbsp;(2) detained in other appropriate custody; or
+2. detained in other appropriate custody; or
 
 
-&nbsp;&nbsp;(3) released on personal recognizance, with or without surety.
+3. released on personal recognizance, with or without surety.
 
 
 (c) Release Pending Review of Decision Ordering Release. While a decision ordering the release of a prisoner is under review, the prisoner must—unless the court or judge rendering the decision, or the court of appeals, or the Supreme Court, or a judge or justice of either court orders otherwise—be released on personal recognizance, with or without surety.

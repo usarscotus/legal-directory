@@ -11,10 +11,10 @@ notes:
 
 
 (b) Admissible evidence shall be defined as the following:
-&nbsp;&nbsp;(1) In-Site evidence shall be defined as any evidence collected from the Roblox platform (i.e: Roblox games, Roblox forums, Roblox groups, etc.)
-&nbsp;&nbsp;(2) Off-Site evidence be defined as any evidence primarily collected outside of Roblox and exclusively in the following platforms: Discord, X (formerly Twitter) and Youtube.
-&nbsp;&nbsp;&nbsp;&nbsp;(i) This type of evidence should only be admissible if the off-site page is refreshed and the evidence is showed twice.
-&nbsp;&nbsp;&nbsp;&nbsp;(ii) Still screenshot images shall not be admissible in any court under U.S. Code § 2072.
+1. In-Site evidence shall be defined as any evidence collected from the Roblox platform (i.e: Roblox games, Roblox forums, Roblox groups, etc.)
+2. Off-Site evidence be defined as any evidence primarily collected outside of Roblox and exclusively in the following platforms: Discord, X (formerly Twitter) and Youtube.
+    - (i) This type of evidence should only be admissible if the off-site page is refreshed and the evidence is showed twice.
+    - (ii) Still screenshot images shall not be admissible in any court under U.S. Code § 2072.
 
 
 (c) New evidence may not be presented within thirty-six (36) hours of a trial, nor may it be presented within twenty-four (24) hours of a substantial hearing, such as a preliminary hearing. (For the purposes of this motion, the main hearing in a Supreme Court case will be considered a trial.)

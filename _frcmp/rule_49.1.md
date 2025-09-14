@@ -8,49 +8,49 @@ order: 49.1
 (a) Redacted Filings. Unless the court orders otherwise, in an electronic or paper filing with the court that contains an individual's social-security number, taxpayer-identification number, or birth date, the name of an individual known to be a minor, a financial-account number, or the home address of an individual, a party or nonparty making the filing may include only:
 
 
-&nbsp;&nbsp;(1) the last four digits of the social-security number and taxpayer-identification number;
+1. the last four digits of the social-security number and taxpayer-identification number;
 
 
-&nbsp;&nbsp;(2) the year of the individual's birth;
+2. the year of the individual's birth;
 
 
-&nbsp;&nbsp;(3) the minor's initials;
+3. the minor's initials;
 
 
-&nbsp;&nbsp;(4) the last four digits of the financial-account number; and
+4. the last four digits of the financial-account number; and
 
 
-&nbsp;&nbsp;(5) the city and state of the home address.
+5. the city and state of the home address.
 
 
 (b) Exemptions from the Redaction Requirement. The redaction requirement does not apply to the following:
 
 
-&nbsp;&nbsp;(1) a financial-account number or real property address that identifies the property allegedly subject to forfeiture in a forfeiture proceeding;
+1. a financial-account number or real property address that identifies the property allegedly subject to forfeiture in a forfeiture proceeding;
 
 
-&nbsp;&nbsp;(2) the record of an administrative or agency proceeding;
+2. the record of an administrative or agency proceeding;
 
 
-&nbsp;&nbsp;(3) the official record of a state-court proceeding;
+3. the official record of a state-court proceeding;
 
 
-&nbsp;&nbsp;(4) the record of a court or tribunal, if that record was not subject to the redaction requirement when originally filed;
+4. the record of a court or tribunal, if that record was not subject to the redaction requirement when originally filed;
 
 
-&nbsp;&nbsp;(5) a filing covered by Rule 49.1(d) ;
+5. a filing covered by Rule 49.1(d) ;
 
 
-&nbsp;&nbsp;(6) a pro se filing in an action brought under 28 U.S.C. §§2241, 1 2254, or 2255;
+6. a pro se filing in an action brought under 28 U.S.C. §§2241, 1 2254, or 2255;
 
 
-&nbsp;&nbsp;(7) a court filing that is related to a criminal matter or investigation and that is prepared before the filing of a criminal charge or is not filed as part of any docketed criminal case;
+7. a court filing that is related to a criminal matter or investigation and that is prepared before the filing of a criminal charge or is not filed as part of any docketed criminal case;
 
 
-&nbsp;&nbsp;(8) an arrest or search warrant; and
+8. an arrest or search warrant; and
 
 
-&nbsp;&nbsp;(9) a charging document and an affidavit filed in support of any charging document.
+9. a charging document and an affidavit filed in support of any charging document.
 
 
 (c) Immigration Cases. A filing in an action brought under 28 U.S.C. §2241 that relates to the petitioner's immigration rights is governed by Federal Rule of Civil Procedure 5.2 .
@@ -62,10 +62,10 @@ order: 49.1
 (e) Protective Orders. For good cause, the court may by order in a case:
 
 
-&nbsp;&nbsp;(1) require redaction of additional information; or
+1. require redaction of additional information; or
 
 
-&nbsp;&nbsp;(2) limit or prohibit a nonparty's remote electronic access to a document filed with the court.
+2. limit or prohibit a nonparty's remote electronic access to a document filed with the court.
 
 
 (f) Option for Additional Unredacted Filing Under Seal. A person making a redacted filing may also file an unredacted copy under seal. The court must retain the unredacted copy as part of the record.

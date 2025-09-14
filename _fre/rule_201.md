@@ -11,19 +11,19 @@ order: 201
 (b) Kinds of Facts That May Be Judicially Noticed. The court may judicially notice a fact that is not subject to reasonable dispute because it:
 
 
-&nbsp;&nbsp;(1) is generally known within the trial court’s territorial jurisdiction; or
+1. is generally known within the trial court’s territorial jurisdiction; or
 
 
-&nbsp;&nbsp;(2) can be accurately and readily determined from sources whose accuracy cannot reasonably be questioned.
+2. can be accurately and readily determined from sources whose accuracy cannot reasonably be questioned.
 
 
 (c) Taking Notice. The court:
 
 
-&nbsp;&nbsp;(1) may take judicial notice on its own; or
+1. may take judicial notice on its own; or
 
 
-&nbsp;&nbsp;(2) must take judicial notice if a party requests it and the court is supplied with the necessary information.
+2. must take judicial notice if a party requests it and the court is supplied with the necessary information.
 
 
 (d) Timing. The court may take judicial notice at any stage of the proceeding.

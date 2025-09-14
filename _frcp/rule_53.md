@@ -8,82 +8,82 @@ order: 53
 (a) Appointment.
 
 
-&nbsp;&nbsp;(1) Scope. Unless a statute provides otherwise, a court may appoint a master only to:
+1. Scope. Unless a statute provides otherwise, a court may appoint a master only to:
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(A) perform duties consented to by the parties;
+    - (A) perform duties consented to by the parties;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(B) hold trial proceedings and make or recommend findings of fact on issues to be decided without a jury if appointment is warranted by:
+    - (B) hold trial proceedings and make or recommend findings of fact on issues to be decided without a jury if appointment is warranted by:
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) some exceptional condition; or
+        - (i) some exceptional condition; or
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) the need to perform an accounting or resolve a difficult computation of damages; or
+        - (ii) the need to perform an accounting or resolve a difficult computation of damages; or
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(C) address pretrial and posttrial matters that cannot be effectively and timely addressed by an available district judge or magistrate judge of the district.
+    - (C) address pretrial and posttrial matters that cannot be effectively and timely addressed by an available district judge or magistrate judge of the district.
 
 
-&nbsp;&nbsp;(2) Disqualification. A master must not have a relationship to the parties, attorneys, action, or court that would require disqualification of a judge under 28 U.S.C. §455 , unless the parties, with the court's approval, consent to the appointment after the master discloses any potential grounds for disqualification.
+2. Disqualification. A master must not have a relationship to the parties, attorneys, action, or court that would require disqualification of a judge under 28 U.S.C. §455 , unless the parties, with the court's approval, consent to the appointment after the master discloses any potential grounds for disqualification.
 
 
-&nbsp;&nbsp;(3) Possible Expense or Delay. In appointing a master, the court must consider the fairness of imposing the likely expenses on the parties and must protect against unreasonable expense or delay.
+3. Possible Expense or Delay. In appointing a master, the court must consider the fairness of imposing the likely expenses on the parties and must protect against unreasonable expense or delay.
 
 
 (b) Order Appointing a Master.
 
 
-&nbsp;&nbsp;(1) Notice. Before appointing a master, the court must give the parties notice and an opportunity to be heard. Any party may suggest candidates for appointment.
+1. Notice. Before appointing a master, the court must give the parties notice and an opportunity to be heard. Any party may suggest candidates for appointment.
 
 
-&nbsp;&nbsp;(2) Contents. The appointing order must direct the master to proceed with all reasonable diligence and must state:
+2. Contents. The appointing order must direct the master to proceed with all reasonable diligence and must state:
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(A) the master's duties, including any investigation or enforcement duties, and any limits on the master's authority under Rule 53(c) ;
+    - (A) the master's duties, including any investigation or enforcement duties, and any limits on the master's authority under Rule 53(c) ;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(B) the circumstances, if any, in which the master may communicate ex parte with the court or a party;
+    - (B) the circumstances, if any, in which the master may communicate ex parte with the court or a party;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(C) the nature of the materials to be preserved and filed as the record of the master's activities;
+    - (C) the nature of the materials to be preserved and filed as the record of the master's activities;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(D) the time limits, method of filing the record, other procedures, and standards for reviewing the master's orders, findings, and recommendations; and
+    - (D) the time limits, method of filing the record, other procedures, and standards for reviewing the master's orders, findings, and recommendations; and
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(E) the basis, terms, and procedure for fixing the master's compensation under Rule 53(g) .
+    - (E) the basis, terms, and procedure for fixing the master's compensation under Rule 53(g) .
 
 
-&nbsp;&nbsp;(3) Issuing. The court may issue the order only after:
+3. Issuing. The court may issue the order only after:
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(A) the master files an affidavit disclosing whether there is any ground for disqualification under 28 U.S.C. §455 ; and
+    - (A) the master files an affidavit disclosing whether there is any ground for disqualification under 28 U.S.C. §455 ; and
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(B) if a ground is disclosed, the parties, with the court's approval, waive the disqualification.
+    - (B) if a ground is disclosed, the parties, with the court's approval, waive the disqualification.
 
 
-&nbsp;&nbsp;(4) Amending. The order may be amended at any time after notice to the parties and an opportunity to be heard.
+4. Amending. The order may be amended at any time after notice to the parties and an opportunity to be heard.
 
 
 (c) Master's Authority.
 
 
-&nbsp;&nbsp;(1) In General. Unless the appointing order directs otherwise, a master may:
+1. In General. Unless the appointing order directs otherwise, a master may:
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(A) regulate all proceedings;
+    - (A) regulate all proceedings;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(B) take all appropriate measures to perform the assigned duties fairly and efficiently; and
+    - (B) take all appropriate measures to perform the assigned duties fairly and efficiently; and
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(C) if conducting an evidentiary hearing, exercise the appointing court's power to compel, take, and record evidence.
+    - (C) if conducting an evidentiary hearing, exercise the appointing court's power to compel, take, and record evidence.
 
 
-&nbsp;&nbsp;(2) Sanctions. The master may by order impose on a party any noncontempt sanction provided by Rule 37 or 45 , and may recommend a contempt sanction against a party and sanctions against a nonparty.
+2. Sanctions. The master may by order impose on a party any noncontempt sanction provided by Rule 37 or 45 , and may recommend a contempt sanction against a party and sanctions against a nonparty.
 
 
 (d) Master's Orders. A master who issues an order must file it and promptly serve a copy on each party. The clerk must enter the order on the docket.
@@ -95,43 +95,43 @@ order: 53
 (f) Action on the Master's Order, Report, or Recommendations.
 
 
-&nbsp;&nbsp;(1) Opportunity for a Hearing; Action in General. In acting on a master's order, report, or recommendations, the court must give the parties notice and an opportunity to be heard; may receive evidence; and may adopt or affirm, modify, wholly or partly reject or reverse, or resubmit to the master with instructions.
+1. Opportunity for a Hearing; Action in General. In acting on a master's order, report, or recommendations, the court must give the parties notice and an opportunity to be heard; may receive evidence; and may adopt or affirm, modify, wholly or partly reject or reverse, or resubmit to the master with instructions.
 
 
-&nbsp;&nbsp;(2) Time to Object or Move to Adopt or Modify. A party may file objections to—or a motion to adopt or modify—the master's order, report, or recommendations no later than 21 days after a copy is served, unless the court sets a different time.
+2. Time to Object or Move to Adopt or Modify. A party may file objections to—or a motion to adopt or modify—the master's order, report, or recommendations no later than 21 days after a copy is served, unless the court sets a different time.
 
 
-&nbsp;&nbsp;(3) Reviewing Factual Findings. The court must decide de novo all objections to findings of fact made or recommended by a master, unless the parties, with the court's approval, stipulate that:
+3. Reviewing Factual Findings. The court must decide de novo all objections to findings of fact made or recommended by a master, unless the parties, with the court's approval, stipulate that:
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(A) the findings will be reviewed for clear error; or
+    - (A) the findings will be reviewed for clear error; or
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(B) the findings of a master appointed under Rule 53(a)(1)(A) or (C) will be final.
+    - (B) the findings of a master appointed under Rule 53(a)(1)(A) or (C) will be final.
 
 
-&nbsp;&nbsp;(4) Reviewing Legal Conclusions. The court must decide de novo all objections to conclusions of law made or recommended by a master.
+4. Reviewing Legal Conclusions. The court must decide de novo all objections to conclusions of law made or recommended by a master.
 
 
-&nbsp;&nbsp;(5) Reviewing Procedural Matters. Unless the appointing order establishes a different standard of review, the court may set aside a master's ruling on a procedural matter only for an abuse of discretion.
+5. Reviewing Procedural Matters. Unless the appointing order establishes a different standard of review, the court may set aside a master's ruling on a procedural matter only for an abuse of discretion.
 
 
 (g) Compensation.
 
 
-&nbsp;&nbsp;(1) Fixing Compensation. Before or after judgment, the court must fix the master's compensation on the basis and terms stated in the appointing order, but the court may set a new basis and terms after giving notice and an opportunity to be heard.
+1. Fixing Compensation. Before or after judgment, the court must fix the master's compensation on the basis and terms stated in the appointing order, but the court may set a new basis and terms after giving notice and an opportunity to be heard.
 
 
-&nbsp;&nbsp;(2) Payment. The compensation must be paid either:
+2. Payment. The compensation must be paid either:
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(A) by a party or parties; or
+    - (A) by a party or parties; or
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(B) from a fund or subject matter of the action within the court's control.
+    - (B) from a fund or subject matter of the action within the court's control.
 
 
-&nbsp;&nbsp;(3) Allocating Payment. The court must allocate payment among the parties after considering the nature and amount of the controversy, the parties’ means, and the extent to which any party is more responsible than other parties for the reference to a master. An interim allocation may be amended to reflect a decision on the merits.
+3. Allocating Payment. The court must allocate payment among the parties after considering the nature and amount of the controversy, the parties’ means, and the extent to which any party is more responsible than other parties for the reference to a master. An interim allocation may be amended to reflect a decision on the merits.
 
 
 (h) Appointing a Magistrate Judge. A magistrate judge is subject to this rule only when the order referring a matter to the magistrate judge states that the reference is made under this rule.
@@ -152,37 +152,37 @@ le 54. Judgment; Costs
 (d) Costs; Attorney's Fees.
 
 
-&nbsp;&nbsp;(1) Costs Other Than Attorney's Fees. Unless a federal statute, these rules, or a court order provides otherwise, costs—other than attorney's fees—should be allowed to the prevailing party. But costs against the United States, its officers, and its agencies may be imposed only to the extent allowed by law. The clerk may tax costs on 14 days’ notice. On motion served within the next 7 days, the court may review the clerk's action.
+1. Costs Other Than Attorney's Fees. Unless a federal statute, these rules, or a court order provides otherwise, costs—other than attorney's fees—should be allowed to the prevailing party. But costs against the United States, its officers, and its agencies may be imposed only to the extent allowed by law. The clerk may tax costs on 14 days’ notice. On motion served within the next 7 days, the court may review the clerk's action.
 
 
-&nbsp;&nbsp;(2) Attorney's Fees.
+2. Attorney's Fees.
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(A) Claim to Be by Motion. A claim for attorney's fees and related nontaxable expenses must be made by motion unless the substantive law requires those fees to be proved at trial as an element of damages.
+    - (A) Claim to Be by Motion. A claim for attorney's fees and related nontaxable expenses must be made by motion unless the substantive law requires those fees to be proved at trial as an element of damages.
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(B) Timing and Contents of the Motion. Unless a statute or a court order provides otherwise, the motion must:
+    - (B) Timing and Contents of the Motion. Unless a statute or a court order provides otherwise, the motion must:
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) be filed no later than 14 days after the entry of judgment;
+        - (i) be filed no later than 14 days after the entry of judgment;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) specify the judgment and the statute, rule, or other grounds entitling the movant to the award;
+        - (ii) specify the judgment and the statute, rule, or other grounds entitling the movant to the award;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iii) state the amount sought or provide a fair estimate of it; and
+        - (iii) state the amount sought or provide a fair estimate of it; and
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(iv) disclose, if the court so orders, the terms of any agreement about fees for the services for which the claim is made.
+        - (iv) disclose, if the court so orders, the terms of any agreement about fees for the services for which the claim is made.
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(C) Proceedings. Subject to Rule 23(h) , the court must, on a party's request, give an opportunity for adversary submissions on the motion in accordance with Rule 43(c) or 78 . The court may decide issues of liability for fees before receiving submissions on the value of services. The court must find the facts and state its conclusions of law as provided in Rule 52(a) .
+    - (C) Proceedings. Subject to Rule 23(h) , the court must, on a party's request, give an opportunity for adversary submissions on the motion in accordance with Rule 43(c) or 78 . The court may decide issues of liability for fees before receiving submissions on the value of services. The court must find the facts and state its conclusions of law as provided in Rule 52(a) .
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(D) Special Procedures by Local Rule; Reference to a Master or a Magistrate Judge. By local rule, the court may establish special procedures to resolve fee-related issues without extensive evidentiary hearings. Also, the court may refer issues concerning the value of services to a special master under Rule 53 without regard to the limitations of Rule 53(a)(1), and may refer a motion for attorney's fees to a magistrate judge under Rule 72(b) as if it were a dispositive pretrial matter.
+    - (D) Special Procedures by Local Rule; Reference to a Master or a Magistrate Judge. By local rule, the court may establish special procedures to resolve fee-related issues without extensive evidentiary hearings. Also, the court may refer issues concerning the value of services to a special master under Rule 53 without regard to the limitations of Rule 53(a)(1), and may refer a motion for attorney's fees to a magistrate judge under Rule 72(b) as if it were a dispositive pretrial matter.
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(E) Exceptions. Subparagraphs (A)–(D) do not apply to claims for fees and expenses as sanctions for violating these rules or as sanctions under 28 U.S.C. §1927 .Rule 55. Default; Default Judgment
+    - (E) Exceptions. Subparagraphs (A)–(D) do not apply to claims for fees and expenses as sanctions for violating these rules or as sanctions under 28 U.S.C. §1927 .Rule 55. Default; Default Judgment
 
 
 (a) Entering a Default. When a party against whom a judgment for affirmative relief is sought has failed to plead or otherwise defend, and that failure is shown by affidavit or otherwise, the clerk must enter the party's default.
@@ -191,22 +191,22 @@ le 54. Judgment; Costs
 (b) Entering a Default Judgment.
 
 
-&nbsp;&nbsp;(1) By the Clerk. If the plaintiff's claim is for a sum certain or a sum that can be made certain by computation, the clerk—on the plaintiff's request, with an affidavit showing the amount due—must enter judgment for that amount and costs against a defendant who has been defaulted for not appearing and who is neither a minor nor an incompetent person.
+1. By the Clerk. If the plaintiff's claim is for a sum certain or a sum that can be made certain by computation, the clerk—on the plaintiff's request, with an affidavit showing the amount due—must enter judgment for that amount and costs against a defendant who has been defaulted for not appearing and who is neither a minor nor an incompetent person.
 
 
-&nbsp;&nbsp;(2) By the Court. In all other cases, the party must apply to the court for a default judgment. A default judgment may be entered against a minor or incompetent person only if represented by a general guardian, conservator, or other like fiduciary who has appeared. If the party against whom a default judgment is sought has appeared personally or by a representative, that party or its representative must be served with written notice of the application at least 7 days before the hearing. The court may conduct hearings or make referrals—preserving any federal statutory right to a jury trial—when, to enter or effectuate judgment, it needs to:
+2. By the Court. In all other cases, the party must apply to the court for a default judgment. A default judgment may be entered against a minor or incompetent person only if represented by a general guardian, conservator, or other like fiduciary who has appeared. If the party against whom a default judgment is sought has appeared personally or by a representative, that party or its representative must be served with written notice of the application at least 7 days before the hearing. The court may conduct hearings or make referrals—preserving any federal statutory right to a jury trial—when, to enter or effectuate judgment, it needs to:
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(A) conduct an accounting;
+    - (A) conduct an accounting;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(B) determine the amount of damages;
+    - (B) determine the amount of damages;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(C) establish the truth of any allegation by evidence; or
+    - (C) establish the truth of any allegation by evidence; or
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(D) investigate any other matter.
+    - (D) investigate any other matter.
 
 
 (c) Setting Aside a Default or a Default Judgment. The court may set aside an entry of default for good cause, and it may set aside a final default judgment under Rule 60(b) .
@@ -224,61 +224,61 @@ le 54. Judgment; Costs
 (c) Procedures.
 
 
-&nbsp;&nbsp;(1) Supporting Factual Positions. A party asserting that a fact cannot be or is genuinely disputed must support the assertion by:
+1. Supporting Factual Positions. A party asserting that a fact cannot be or is genuinely disputed must support the assertion by:
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(A) citing to particular parts of materials in the record, including depositions, documents, electronically stored information, affidavits or declarations, stipulations (including those made for purposes of the motion only), admissions, interrogatory answers, or other materials; or
+    - (A) citing to particular parts of materials in the record, including depositions, documents, electronically stored information, affidavits or declarations, stipulations (including those made for purposes of the motion only), admissions, interrogatory answers, or other materials; or
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(B) showing that the materials cited do not establish the absence or presence of a genuine dispute, or that an adverse party cannot produce admissible evidence to support the fact.
+    - (B) showing that the materials cited do not establish the absence or presence of a genuine dispute, or that an adverse party cannot produce admissible evidence to support the fact.
 
 
-&nbsp;&nbsp;(2) Objection That a Fact Is Not Supported by Admissible Evidence. A party may object that the material cited to support or dispute a fact cannot be presented in a form that would be admissible in evidence.
+2. Objection That a Fact Is Not Supported by Admissible Evidence. A party may object that the material cited to support or dispute a fact cannot be presented in a form that would be admissible in evidence.
 
 
-&nbsp;&nbsp;(3) Materials Not Cited. The court need consider only the cited materials, but it may consider other materials in the record.
+3. Materials Not Cited. The court need consider only the cited materials, but it may consider other materials in the record.
 
 
-&nbsp;&nbsp;(4) Affidavits or Declarations. An affidavit or declaration used to support or oppose a motion must be made on personal knowledge, set out facts that would be admissible in evidence, and show that the affiant or declarant is competent to testify on the matters stated.
+4. Affidavits or Declarations. An affidavit or declaration used to support or oppose a motion must be made on personal knowledge, set out facts that would be admissible in evidence, and show that the affiant or declarant is competent to testify on the matters stated.
 
 
 (d) When Facts Are Unavailable to the Nonmovant. If a nonmovant shows by affidavit or declaration that, for specified reasons, it cannot present facts essential to justify its opposition, the court may:
 
 
-&nbsp;&nbsp;(1) defer considering the motion or deny it;
+1. defer considering the motion or deny it;
 
 
-&nbsp;&nbsp;(2) allow time to obtain affidavits or declarations or to take discovery; or
+2. allow time to obtain affidavits or declarations or to take discovery; or
 
 
-&nbsp;&nbsp;(3) issue any other appropriate order.
+3. issue any other appropriate order.
 
 
 (e) Failing to Properly Support or Address a Fact. If a party fails to properly support an assertion of fact or fails to properly address another party’s assertion of fact as required by Rule 56(c) , the court may:
 
 
-&nbsp;&nbsp;(1) give an opportunity to properly support or address the fact;
+1. give an opportunity to properly support or address the fact;
 
 
-&nbsp;&nbsp;(2) consider the fact undisputed for purposes of the motion;
+2. consider the fact undisputed for purposes of the motion;
 
 
-&nbsp;&nbsp;(3) grant summary judgment if the motion and supporting materials — including the facts considered undisputed — show that the movant is entitled to it; or
+3. grant summary judgment if the motion and supporting materials — including the facts considered undisputed — show that the movant is entitled to it; or
 
 
-&nbsp;&nbsp;(4) issue any other appropriate order.
+4. issue any other appropriate order.
 
 
 (f) Judgment Independent of the Motion. After giving notice and a reasonable time to respond, the court may:
 
 
-&nbsp;&nbsp;(1) grant summary judgment for a nonmovant;
+1. grant summary judgment for a nonmovant;
 
 
-&nbsp;&nbsp;(2) grant the motion on grounds not raised by a party;or
+2. grant the motion on grounds not raised by a party;or
 
 
-&nbsp;&nbsp;(3) consider summary judgment on its own after identifying for the parties material facts that may not be genuinely in dispute.
+3. consider summary judgment on its own after identifying for the parties material facts that may not be genuinely in dispute.
 
 
 (g) Failing to Grant All the Requested Relief. If the court does not grant all the relief requested by the motion, it may enter an order stating any material fact — including an item of damages or other relief — that is not genuinely in dispute and treating the fact as established in the case.

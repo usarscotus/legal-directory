@@ -17,17 +17,17 @@ order: 413
 (d) Definition of “Sexual Assault.” In this rule and Rule 415, “sexual assault” means a crime under federal law or under state law (as “state” is defined in 18 U.S.C. § 513) involving:
 
 
-&nbsp;&nbsp;(1) any conduct prohibited by 18 U.S.C. chapter 109A;
+1. any conduct prohibited by 18 U.S.C. chapter 109A;
 
 
-&nbsp;&nbsp;(2) contact, without consent, between any part of the defendant’s body — or an object — and another person’s genitals or anus;
+2. contact, without consent, between any part of the defendant’s body — or an object — and another person’s genitals or anus;
 
 
-&nbsp;&nbsp;(3) contact, without consent, between the defendant’s genitals or anus and any part of another person’s body;
+3. contact, without consent, between the defendant’s genitals or anus and any part of another person’s body;
 
 
-&nbsp;&nbsp;(4) deriving sexual pleasure or gratification from inflicting death, bodily injury, or physical pain on another person; or
+4. deriving sexual pleasure or gratification from inflicting death, bodily injury, or physical pain on another person; or
 
 
-&nbsp;&nbsp;(5) an attempt or conspiracy to engage in conduct described in subparagraphs (1)–(4).
+5. an attempt or conspiracy to engage in conduct described in subparagraphs (1)–(4).
 

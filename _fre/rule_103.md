@@ -8,16 +8,16 @@ order: 103
 (a) Preserving a Claim of Error. A party may claim error in a ruling to admit or exclude evidence only if the error affects a substantial right of the party and:
 
 
-&nbsp;&nbsp;(1) if the ruling admits evidence, a party, on the record:
+1. if the ruling admits evidence, a party, on the record:
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(A) timely objects or moves to strike; and
+    - (A) timely objects or moves to strike; and
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(B) states the specific ground, unless it was apparent from the context; or
+    - (B) states the specific ground, unless it was apparent from the context; or
 
 
-&nbsp;&nbsp;(2) if the ruling excludes evidence, a party informs the court of its substance by an offer of proof, unless the substance was apparent from the context.
+2. if the ruling excludes evidence, a party informs the court of its substance by an offer of proof, unless the substance was apparent from the context.
 
 
 (b) Not Needing to Renew an Objection or Offer of Proof. Once the court rules definitively on the record — either before or at trial — a party need not renew an objection or offer of proof to preserve a claim of error for appeal.

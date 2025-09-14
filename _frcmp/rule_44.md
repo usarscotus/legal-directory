@@ -14,13 +14,13 @@ order: 44
 (c) Inquiry Into Joint Representation.
 
 
-&nbsp;&nbsp;(1) Joint Representation. Joint representation occurs when:
+1. Joint Representation. Joint representation occurs when:
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(A) two or more defendants have been charged jointly under Rule 8(b) or have been joined for trial under Rule 13 ; and
+    - (A) two or more defendants have been charged jointly under Rule 8(b) or have been joined for trial under Rule 13 ; and
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(B) the defendants are represented by the same counsel, or counsel who are associated in law practice.
+    - (B) the defendants are represented by the same counsel, or counsel who are associated in law practice.
 
 
-&nbsp;&nbsp;(2) Court's Responsibilities in Cases of Joint Representation. The court must promptly inquire about the propriety of joint representation and must personally advise each defendant of the right to the effective assistance of counsel, including separate representation. Unless there is good cause to believe that no conflict of interest is likely to arise, the court must take appropriate measures to protect each defendant's right to counsel.
+2. Court's Responsibilities in Cases of Joint Representation. The court must promptly inquire about the propriety of joint representation and must personally advise each defendant of the right to the effective assistance of counsel, including separate representation. Unless there is good cause to believe that no conflict of interest is likely to arise, the court must take appropriate measures to protect each defendant's right to counsel.

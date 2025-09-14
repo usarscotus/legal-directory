@@ -11,58 +11,58 @@ order: 4
 (b) Form.
 
 
-&nbsp;&nbsp;(1) Warrant. A warrant must:
+1. Warrant. A warrant must:
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(A) contain the defendant's name or, if it is unknown, a name or description by which the defendant can be identified with reasonable certainty;
+    - (A) contain the defendant's name or, if it is unknown, a name or description by which the defendant can be identified with reasonable certainty;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(B) describe the offense charged in the complaint;
+    - (B) describe the offense charged in the complaint;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(C) command that the defendant be arrested and brought without unnecessary delay before a magistrate judge or, if none is reasonably available, before a state or local judicial officer; and
+    - (C) command that the defendant be arrested and brought without unnecessary delay before a magistrate judge or, if none is reasonably available, before a state or local judicial officer; and
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(D) be signed by a judge.
+    - (D) be signed by a judge.
 
 
-&nbsp;&nbsp;(2) Summons. A summons must be in the same form as a warrant except that it must require the defendant to appear before a magistrate judge at a stated time and place.
+2. Summons. A summons must be in the same form as a warrant except that it must require the defendant to appear before a magistrate judge at a stated time and place.
 
 
 (c) Execution or Service, and Return.
 
 
-&nbsp;&nbsp;(1) By Whom. Only a marshal or other authorized officer may execute a warrant. Any person authorized to serve a summons in a federal civil action may serve a summons.
+1. By Whom. Only a marshal or other authorized officer may execute a warrant. Any person authorized to serve a summons in a federal civil action may serve a summons.
 
 
-&nbsp;&nbsp;(2) Location. A warrant may be executed, or a summons served, within the jurisdiction of the United States or anywhere else a federal statute authorizes an arrest. A summons to an organization under Rule 4(c)(3)(D) may also be served at a place not within a judicial district of the United States.
+2. Location. A warrant may be executed, or a summons served, within the jurisdiction of the United States or anywhere else a federal statute authorizes an arrest. A summons to an organization under Rule 4(c)(3)(D) may also be served at a place not within a judicial district of the United States.
 
 
-&nbsp;&nbsp;(3) Manner.
+3. Manner.
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(A) A warrant is executed by arresting the defendant. Upon arrest, an officer possessing the original or a duplicate original warrant must show it to the defendant. If the officer does not possess the warrant, the officer must inform the defendant of the warrant's existence and of the offense charged and, at the defendant's request, must show the original or a duplicate original warrant to the defendant as soon as possible.
+    - (A) A warrant is executed by arresting the defendant. Upon arrest, an officer possessing the original or a duplicate original warrant must show it to the defendant. If the officer does not possess the warrant, the officer must inform the defendant of the warrant's existence and of the offense charged and, at the defendant's request, must show the original or a duplicate original warrant to the defendant as soon as possible.
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(B) A summons is served on an individual defendant:
+    - (B) A summons is served on an individual defendant:
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) by delivering a copy to the defendant personally; or
+        - (i) by delivering a copy to the defendant personally; or
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) by leaving a copy at the defendant's residence or usual place of abode with a person of suitable age and discretion residing at that location and by mailing a copy to the defendant's last known address.
+        - (ii) by leaving a copy at the defendant's residence or usual place of abode with a person of suitable age and discretion residing at that location and by mailing a copy to the defendant's last known address.
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(C) A summons is served on an organization in a judicial district of the United States by delivering a copy to an officer, to a managing or general agent, or to another agent appointed or legally authorized to receive service of process. If the agent is one authorized by statute and the statute so requires, a copy must also be mailed to the organization.
+    - (C) A summons is served on an organization in a judicial district of the United States by delivering a copy to an officer, to a managing or general agent, or to another agent appointed or legally authorized to receive service of process. If the agent is one authorized by statute and the statute so requires, a copy must also be mailed to the organization.
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(D) A summons is served on an organization not within a judicial district of the United States:
+    - (D) A summons is served on an organization not within a judicial district of the United States:
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(i) by delivering a copy, in a manner authorized by the foreign jurisdiction’s law, to an officer, to a managing or general agent, or to an agent appointed or legally authorized to receive service of process; or
+        - (i) by delivering a copy, in a manner authorized by the foreign jurisdiction’s law, to an officer, to a managing or general agent, or to an agent appointed or legally authorized to receive service of process; or
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ii) by any other means that gives notice, including one that is:
+        - (ii) by any other means that gives notice, including one that is:
 
 
 (a) stipulated by the parties;
@@ -74,16 +74,16 @@ order: 4
 (c) permitted by an applicable international agreement.
 
 
-&nbsp;&nbsp;(4) Return
+4. Return
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(A) After executing a warrant, the officer must return it to the judge before whom the defendant is brought in accordance with Rule 5 . The officer may do so by reliable electronic means. At the request of an attorney for the government, an unexecuted warrant must be brought back to and canceled by a magistrate judge or, if none is reasonably available, by a state or local judicial officer.
+    - (A) After executing a warrant, the officer must return it to the judge before whom the defendant is brought in accordance with Rule 5 . The officer may do so by reliable electronic means. At the request of an attorney for the government, an unexecuted warrant must be brought back to and canceled by a magistrate judge or, if none is reasonably available, by a state or local judicial officer.
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(B) The person to whom a summons was delivered for service must return it on or before the return day.
+    - (B) The person to whom a summons was delivered for service must return it on or before the return day.
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(C) At the request of an attorney for the government, a judge may deliver an unexecuted warrant, an unserved summons, or a copy of the warrant or summons to the marshal or other authorized person for execution or service.
+    - (C) At the request of an attorney for the government, a judge may deliver an unexecuted warrant, an unserved summons, or a copy of the warrant or summons to the marshal or other authorized person for execution or service.
 
 
 (d) Warrant by Telephone or Other Reliable Electronic Means. In accordance with Rule 4.1 , a magistrate judge may issue a warrant or summons based on information communicated by telephone or other reliable electronic means.

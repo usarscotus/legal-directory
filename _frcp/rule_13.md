@@ -8,22 +8,22 @@ order: 13
 (a) Compulsory Counterclaim.
 
 
-&nbsp;&nbsp;(1) In General. A pleading must state as a counterclaim any claim that—at the time of its service—the pleader has against an opposing party if the claim:
+1. In General. A pleading must state as a counterclaim any claim that—at the time of its service—the pleader has against an opposing party if the claim:
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(A) arises out of the transaction or occurrence that is the subject matter of the opposing party's claim; and
+    - (A) arises out of the transaction or occurrence that is the subject matter of the opposing party's claim; and
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(B) does not require adding another party over whom the court cannot acquire jurisdiction.
+    - (B) does not require adding another party over whom the court cannot acquire jurisdiction.
 
 
-&nbsp;&nbsp;(2) Exceptions. The pleader need not state the claim if:
+2. Exceptions. The pleader need not state the claim if:
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(A) when the action was commenced, the claim was the subject of another pending action; or
+    - (A) when the action was commenced, the claim was the subject of another pending action; or
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;(B) the opposing party sued on its claim by attachment or other process that did not establish personal jurisdiction over the pleader on that claim, and the pleader does not assert any counterclaim under this rule.
+    - (B) the opposing party sued on its claim by attachment or other process that did not establish personal jurisdiction over the pleader on that claim, and the pleader does not assert any counterclaim under this rule.
 
 
 (b) Permissive Counterclaim. A pleading may state as a counterclaim against an opposing party any claim that is not compulsory.
@@ -47,4 +47,4 @@ order: 13
 (h) Joining Additional Parties. Rules 19 and 20 govern the addition of a person as a party to a counterclaim or crossclaim.
 
 
-&nbsp;&nbsp;(i) Separate Trials; Separate Judgments. If the court orders separate trials under Rule 42(b) , it may enter judgment on a counterclaim or crossclaim under Rule 54(b) when it has jurisdiction to do so, even if the opposing party's claims have been dismissed or otherwise resolved.
+- (i) Separate Trials; Separate Judgments. If the court orders separate trials under Rule 42(b) , it may enter judgment on a counterclaim or crossclaim under Rule 54(b) when it has jurisdiction to do so, even if the opposing party's claims have been dismissed or otherwise resolved.

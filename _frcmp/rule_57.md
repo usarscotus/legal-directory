@@ -8,10 +8,10 @@ order: 57
 (a) In General.
 
 
-&nbsp;&nbsp;(1) Adopting Local Rules. Each district court acting by a majority of its district judges may, after giving appropriate public notice and an opportunity to comment, make and amend rules governing its practice. A local rule must be consistent with—but not duplicative of—federal statutes and rules adopted under 28 U.S.C. §2072 and must conform to any uniform numbering system prescribed by the Judicial Conference of the United States.
+1. Adopting Local Rules. Each district court acting by a majority of its district judges may, after giving appropriate public notice and an opportunity to comment, make and amend rules governing its practice. A local rule must be consistent with—but not duplicative of—federal statutes and rules adopted under 28 U.S.C. §2072 and must conform to any uniform numbering system prescribed by the Judicial Conference of the United States.
 
 
-&nbsp;&nbsp;(2) Limiting Enforcement. A local rule imposing a requirement of form must not be enforced in a manner that causes a party to lose rights because of an unintentional failure to comply with the requirement.
+2. Limiting Enforcement. A local rule imposing a requirement of form must not be enforced in a manner that causes a party to lose rights because of an unintentional failure to comply with the requirement.
 
 
 (b) Procedure When There Is No Controlling Law. A judge may regulate practice in any manner consistent with federal law, these rules, and the local rules of the district. No sanction or other disadvantage may be imposed for noncompliance with any requirement not in federal law, federal rules, or the local district rules unless the alleged violator was furnished with actual notice of the requirement before the noncompliance.
