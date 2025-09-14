@@ -34,45 +34,11 @@ show_breadcrumbs: false
   </div>
 </section>
 
+<script id="doc-data" type="application/json">
+  {{ site.data.documents | jsonify }}
+</script>
 <script>
-  const documents = [
-    {
-      title: "Amicus Brief",
-      description: "Template for briefs submitted by amici curiae.",
-      url: "https://docs.google.com/document/d/1PO-ic8ABxV57TMepy-rbsp2UI42DRV019CVnWpLSIdw/edit?usp=sharing",
-      tags: ["Supreme Court"]
-    },
-    {
-      title: "Appendix",
-      description: "Format for required supporting appendix materials.",
-      url: "https://docs.google.com/document/d/1edstoMXdk16lEYtgcCqm7lvcvz6nXqFJWWCiDJTYaJg/edit?usp=sharing",
-      tags: ["Supreme Court"]
-    },
-    {
-      title: "Brief for Petitioners",
-      description: "Primary merits brief supporting the petition.",
-      url: "https://docs.google.com/document/d/1ZPNyBbB9Kyzzo_bSvit_oHCSyRGg4oZv6arieuVvMz0/edit?usp=sharing",
-      tags: ["Supreme Court"]
-    },
-    {
-      title: "Brief in Opposition",
-      description: "Respondent’s argument against granting cert.",
-      url: "https://docs.google.com/document/d/1rM-P3Yk2U1b4a3694fsVUWpQJ0hVpeIOUCB872jEK2A/edit?usp=sharing",
-      tags: ["Supreme Court"]
-    },
-    {
-      title: "Petition for Writ of Certiorari",
-      description: "Use this to initiate review by the Supreme Court.",
-      url: "https://docs.google.com/document/d/1avj9A_hIuVk_3G_LOKFI2dieCVbEFGZByG-AoGksYC4/edit?usp=sharing",
-      tags: ["Supreme Court"]
-    },
-    {
-      title: "Reply Brief",
-      description: "Petitioner's final reply in support of cert.",
-      url: "https://docs.google.com/document/d/1p5s5udvoFcN4Yh4YqsJD4Igbwt7kKVZY0JwMpge7weE/edit?usp=sharing",
-      tags: ["Supreme Court"]
-    }
-  ];
+  const documents = JSON.parse(document.getElementById("doc-data").textContent);
 
   const container = document.getElementById("docGrid");
   const search = document.getElementById("docSearch");
