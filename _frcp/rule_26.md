@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 26. Duty to Disclose; General Provisions Governing Discovery"
+title: Rule 26. Duty to Disclose; General Provisions Governing Discovery
 permalink: /frcp/rule_26/
 order: 26
+chapter: Title V. Disclosures and Discovery
 ---
 
 (a) Required Disclosures.

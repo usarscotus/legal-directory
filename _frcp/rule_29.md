@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 29. Stipulations About Discovery Procedure"
+title: Rule 29. Stipulations About Discovery Procedure
 permalink: /frcp/rule_29/
 order: 29
+chapter: Title V. Disclosures and Discovery
 ---
 
 Unless the court orders otherwise, the parties may stipulate that:

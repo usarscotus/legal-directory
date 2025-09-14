@@ -1,8 +1,10 @@
 ---
 layout: rule
-title: "Rule 6. Computing and Extending Time; Time for Motion Papers"
+title: Rule 6. Computing and Extending Time; Time for Motion Papers
 permalink: /frcp/rule_6/
 order: 6
+chapter: Title II. Commencing an Action; Service of Process, Pleadings, Motions, and
+  Orders
 ---
 
 (a) Computing Time. The following rules apply in computing any time period specified in these rules, in any local rule or court order, or in any statute that does not specify a method of computing time.

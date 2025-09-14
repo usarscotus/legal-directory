@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 24. Intervention"
+title: Rule 24. Intervention
 permalink: /frcp/rule_24/
 order: 24
+chapter: Title IV. Parties
 ---
 
 (a) Intervention of Right. On timely motion, the court must permit anyone to intervene who:

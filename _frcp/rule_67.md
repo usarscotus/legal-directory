@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 67. Deposit into Court"
+title: Rule 67. Deposit into Court
 permalink: /frcp/rule_67/
 order: 67
+chapter: Title VIII. Provisional and Final Remedies
 ---
 
 (a) Depositing Property. If any part of the relief sought is a money judgment or the disposition of a sum of money or some other deliverable thing, a party—on notice to every other party and by leave of court—may deposit with the court all or part of the money or thing, whether or not that party claims any of it. The depositing party must deliver to the clerk a copy of the order permitting deposit.

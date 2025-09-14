@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 44. Proving an Official Record"
+title: Rule 44. Proving an Official Record
 permalink: /frcp/rule_44/
 order: 44
+chapter: Title VI. Trials
 ---
 
 (a) Means of Proving.

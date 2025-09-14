@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 30. Depositions by Oral Examination"
+title: Rule 30. Depositions by Oral Examination
 permalink: /frcp/rule_30/
 order: 30
+chapter: Title V. Disclosures and Discovery
 ---
 
 (a) When a Deposition May Be Taken.

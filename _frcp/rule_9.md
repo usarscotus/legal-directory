@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 9. Pleading Special Matters"
+title: Rule 9. Pleading Special Matters
 permalink: /frcp/rule_9/
 order: 9
+chapter: Title III. Pleadings and Motions
 ---
 
 (a) Capacity or Authority to Sue; Legal Existence.

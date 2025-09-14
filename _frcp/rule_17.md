@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 17. Plaintiff and Defendant; Capacity; Public Officers"
+title: Rule 17. Plaintiff and Defendant; Capacity; Public Officers
 permalink: /frcp/rule_17/
 order: 17
+chapter: Title IV. Parties
 ---
 
 (a) Real Party in Interest.

@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 39. Trial by Jury or by the Court"
+title: Rule 39. Trial by Jury or by the Court
 permalink: /frcp/rule_39/
 order: 39
+chapter: Title VI. Trials
 ---
 
 (a) When a Demand Is Made. When a jury trial has been demanded under Rule 38 , the action must be designated on the docket as a jury action. The trial on all issues so demanded must be by jury unless:

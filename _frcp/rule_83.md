@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 83. Rules by District Courts; Judge's Directives"
+title: Rule 83. Rules by District Courts; Judge's Directives
 permalink: /frcp/rule_83/
 order: 83
+chapter: Title XI. General Provisions
 ---
 
 (a) Local Rules.

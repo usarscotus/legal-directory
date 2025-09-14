@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 43. Taking Testimony"
+title: Rule 43. Taking Testimony
 permalink: /frcp/rule_43/
 order: 43
+chapter: Title VI. Trials
 ---
 
 (a) In Open Court. At trial, the witnesses’ testimony must be taken in open court unless a federal statute, the Federal Rules of Evidence , these rules, or other rules adopted by the Supreme Court provide otherwise. For good cause in compelling circumstances and with appropriate safeguards, the court may permit testimony in open court by contemporaneous transmission from a different location.

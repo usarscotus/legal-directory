@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 79. Records Kept by the Clerk"
+title: Rule 79. Records Kept by the Clerk
 permalink: /frcp/rule_79/
 order: 79
+chapter: Title X. District Courts and Clerks
 ---
 
 (a) Civil Docket.

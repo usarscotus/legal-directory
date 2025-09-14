@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 22. Interpleader"
+title: Rule 22. Interpleader
 permalink: /frcp/rule_22/
 order: 22
+chapter: Title IV. Parties
 ---
 
 (a) Grounds.

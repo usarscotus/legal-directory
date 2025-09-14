@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 32. Using Depositions in Court Proceedings"
+title: Rule 32. Using Depositions in Court Proceedings
 permalink: /frcp/rule_32/
 order: 32
+chapter: Title V. Disclosures and Discovery
 ---
 
 (a) Using Depositions.

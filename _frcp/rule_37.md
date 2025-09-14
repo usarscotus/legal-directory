@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 37. Failure to Make Disclosures or to Cooperate in Discovery; Sanctions"
+title: Rule 37. Failure to Make Disclosures or to Cooperate in Discovery; Sanctions
 permalink: /frcp/rule_37/
 order: 37
+chapter: Title V. Disclosures and Discovery
 ---
 
 (a) Motion for an Order Compelling Disclosure or Discovery.

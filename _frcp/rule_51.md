@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 51. Instructions to the Jury; Objections; Preserving a Claim of Error"
+title: Rule 51. Instructions to the Jury; Objections; Preserving a Claim of Error
 permalink: /frcp/rule_51/
 order: 51
+chapter: Title VI. Trials
 ---
 
 (a) Requests.

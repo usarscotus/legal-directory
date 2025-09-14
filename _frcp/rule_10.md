@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 10. Form of Pleadings"
+title: Rule 10. Form of Pleadings
 permalink: /frcp/rule_10/
 order: 10
+chapter: Title III. Pleadings and Motions
 ---
 
 (a) Caption; Names of Parties. Every pleading must have a caption with the court's name, a title, a file number, and a Rule 7(a) designation. The title of the complaint must name all the parties; the title of other pleadings, after naming the first party on each side, may refer generally to other parties.

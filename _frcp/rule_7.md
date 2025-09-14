@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 7. Pleadings Allowed; Form of Motions and Other Papers"
+title: Rule 7. Pleadings Allowed; Form of Motions and Other Papers
 permalink: /frcp/rule_7/
 order: 7
+chapter: Title III. Pleadings and Motions
 ---
 
 (a) Pleadings. Only these pleadings are allowed:

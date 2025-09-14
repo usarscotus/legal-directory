@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 73. Magistrate Judges: Trial by Consent; Appeal"
+title: 'Rule 73. Magistrate Judges: Trial by Consent; Appeal'
 permalink: /frcp/rule_73/
 order: 73
+chapter: Title IX. Special Proceedings
 ---
 
 (a) Trial by Consent. When authorized under 28 U.S.C. §636(c) , a magistrate judge may, if all parties consent, conduct a civil action or proceeding, including a jury or nonjury trial. A record must be made in accordance with 28 U.S.C. §636(c)(5) .

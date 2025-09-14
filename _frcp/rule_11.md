@@ -1,8 +1,10 @@
 ---
 layout: rule
-title: "Rule 11. Signing Pleadings, Motions, and Other Papers; Representations to the Court; Sanctions"
+title: Rule 11. Signing Pleadings, Motions, and Other Papers; Representations to the
+  Court; Sanctions
 permalink: /frcp/rule_11/
 order: 11
+chapter: Title III. Pleadings and Motions
 ---
 
 (a) Signature. Every pleading, written motion, and other paper must be signed by at least one attorney of record in the attorney's name—or by a party personally if the party is unrepresented. The paper must state the signer's address, e-mail address, and telephone number. Unless a rule or statute specifically states otherwise, a pleading need not be verified or accompanied by an affidavit. The court must strike an unsigned paper unless the omission is promptly corrected after being called to the attorney's or party's attention.

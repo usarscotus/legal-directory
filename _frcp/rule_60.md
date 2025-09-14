@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 60. Relief from a Judgment or Order"
+title: Rule 60. Relief from a Judgment or Order
 permalink: /frcp/rule_60/
 order: 60
+chapter: Title VII. Judgment
 ---
 
 (a) Corrections Based on Clerical Mistakes; Oversights and Omissions. The court may correct a clerical mistake or a mistake arising from oversight or omission whenever one is found in a judgment, order, or other part of the record. The court may do so on motion or on its own, with or without notice. But after an appeal has been docketed in the appellate court and while it is pending, such a mistake may be corrected only with the appellate court's leave.

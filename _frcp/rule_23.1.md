@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 23.1. Derivative Actions"
+title: Rule 23.1. Derivative Actions
 permalink: /frcp/rule_23.1/
 order: 23.1
+chapter: Title IV. Parties
 ---
 
 (a) Prerequisites. This rule applies when one or more shareholders or members of a corporation or an unincorporated association bring a derivative action to enforce a right that the corporation or association may properly assert but has failed to enforce. The derivative action may not be maintained if it appears that the plaintiff does not fairly and adequately represent the interests of shareholders or members who are similarly situated in enforcing the right of the corporation or association.

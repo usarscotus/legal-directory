@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 53. Masters"
+title: Rule 53. Masters
 permalink: /frcp/rule_53/
 order: 53
+chapter: Title VI. Trials
 ---
 
 (a) Appointment.

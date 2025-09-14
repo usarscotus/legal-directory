@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 31. Depositions by Written Questions"
+title: Rule 31. Depositions by Written Questions
 permalink: /frcp/rule_31/
 order: 31
+chapter: Title V. Disclosures and Discovery
 ---
 
 (a) When a Deposition May Be Taken.

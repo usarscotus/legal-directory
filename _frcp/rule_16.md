@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 16. Pretrial Conferences; Scheduling; Management"
+title: Rule 16. Pretrial Conferences; Scheduling; Management
 permalink: /frcp/rule_16/
 order: 16
+chapter: Title III. Pleadings and Motions
 ---
 
 (a) Purposes of a Pretrial Conference. In any action, the court may order the attorneys and any unrepresented parties to appear for one or more pretrial conferences for such purposes as:
