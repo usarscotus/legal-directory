@@ -1,15 +1,16 @@
 """FastAPI service exposing case data and search."""
 
-from fastapi import Depends, FastAPI, HTTPException, Query
+from fastapi import APIRouter, Depends, FastAPI, HTTPException, Query
 from sqlalchemy.orm import Session
 from typing import Iterable, List
 
 from . import database, graph, schemas, search
 
 app = FastAPI(title="Legal Directory API")
+router = APIRouter()
 
 
-@app.get("/cases/{case_id}", response_model=schemas.Case)
+@router.get("/cases/{case_id}", response_model=schemas.Case)
 def read_case(case_id: int, db: Session = Depends(database.get_db)):
     case = database.get_case(db, case_id)
     if case is None:
@@ -17,12 +18,12 @@ def read_case(case_id: int, db: Session = Depends(database.get_db)):
     return case
 
 
-@app.get("/cases/{case_id}/citations", response_model=schemas.CitationResponse)
+@router.get("/cases/{case_id}/citations", response_model=schemas.CitationResponse)
 def read_citations(case_id: int):
     return graph.citation_graph.citations_for(case_id)
 
 
-@app.get("/search", response_model=List[schemas.Case])
+@router.get("/search", response_model=List[schemas.Case])
 def search_endpoint(
     q: str | None = None,
     category: str | None = None,
@@ -40,3 +41,6 @@ def search_endpoint(
         keywords=keywords,
     )
     return [schemas.Case(**r) for r in results]
+
+
+app.include_router(router, prefix="/api")
