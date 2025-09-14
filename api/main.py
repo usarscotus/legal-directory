@@ -1,8 +1,8 @@
 """FastAPI service exposing case data and search."""
 
-from fastapi import Depends, FastAPI, HTTPException
+from fastapi import Depends, FastAPI, HTTPException, Query
 from sqlalchemy.orm import Session
-from typing import List
+from typing import Iterable, List
 
 from . import database, graph, schemas, search
 
@@ -23,6 +23,20 @@ def read_citations(case_id: int):
 
 
 @app.get("/search", response_model=List[schemas.Case])
-def search_endpoint(q: str, topic: str | None = None, date: str | None = None):
-    results = search.search_cases(q, topic=topic, date=date)
+def search_endpoint(
+    q: str | None = None,
+    category: str | None = None,
+    term: str | None = None,
+    year: int | None = None,
+    litigant: str | None = None,
+    keywords: Iterable[str] | None = Query(default=None),
+):
+    results = search.search_cases(
+        query=q,
+        category=category,
+        term=term,
+        year=year,
+        litigant=litigant,
+        keywords=keywords,
+    )
     return [schemas.Case(**r) for r in results]
