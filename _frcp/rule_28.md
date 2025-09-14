@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 28. Persons Before Whom Depositions May Be Taken"
+title: Rule 28. Persons Before Whom Depositions May Be Taken
 permalink: /frcp/rule_28/
 order: 28
+chapter: Title V. Disclosures and Discovery
 ---
 
 (a) Within the United States.

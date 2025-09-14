@@ -1,8 +1,10 @@
 ---
 layout: rule
-title: "Rule 34. Producing Documents, Electronically Stored Information, and Tangible Things, or Entering onto Land, for Inspection and Other Purposes"
+title: Rule 34. Producing Documents, Electronically Stored Information, and Tangible
+  Things, or Entering onto Land, for Inspection and Other Purposes
 permalink: /frcp/rule_34/
 order: 34
+chapter: Title V. Disclosures and Discovery
 ---
 
 (a) In General. A party may serve on any other party a request within the scope of Rule 26(b) :

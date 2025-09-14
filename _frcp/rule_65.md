@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 65. Injunctions and Restraining Orders"
+title: Rule 65. Injunctions and Restraining Orders
 permalink: /frcp/rule_65/
 order: 65
+chapter: Title VIII. Provisional and Final Remedies
 ---
 
 (a) Preliminary Injunction.

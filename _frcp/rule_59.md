@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 59. New Trial; Altering or Amending a Judgment"
+title: Rule 59. New Trial; Altering or Amending a Judgment
 permalink: /frcp/rule_59/
 order: 59
+chapter: Title VII. Judgment
 ---
 
 (a) In General.

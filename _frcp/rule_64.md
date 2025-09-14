@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 64. Seizing a Person or Property"
+title: Rule 64. Seizing a Person or Property
 permalink: /frcp/rule_64/
 order: 64
+chapter: Title VIII. Provisional and Final Remedies
 ---
 
 (a) Remedies Under State Law—In General. At the commencement of and throughout an action, every remedy is available that, under the law of the state where the court is located, provides for seizing a person or property to secure satisfaction of the potential judgment. But a federal statute governs to the extent it applies.

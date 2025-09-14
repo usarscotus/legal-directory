@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 15. Amended and Supplemental Pleadings"
+title: Rule 15. Amended and Supplemental Pleadings
 permalink: /frcp/rule_15/
 order: 15
+chapter: Title III. Pleadings and Motions
 ---
 
 (a) Amendments Before Trial.

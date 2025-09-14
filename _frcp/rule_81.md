@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 81. Applicability of the Rules in General; Removed Actions"
+title: Rule 81. Applicability of the Rules in General; Removed Actions
 permalink: /frcp/rule_81/
 order: 81
+chapter: Title XI. General Provisions
 ---
 
 (a) Applicability to Particular Proceedings.

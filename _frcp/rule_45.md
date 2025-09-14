@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 45. Subpoena"
+title: Rule 45. Subpoena
 permalink: /frcp/rule_45/
 order: 45
+chapter: Title VI. Trials
 ---
 
 (a) In General.

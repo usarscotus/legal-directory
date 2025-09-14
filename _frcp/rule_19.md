@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 19. Required Joinder of Parties"
+title: Rule 19. Required Joinder of Parties
 permalink: /frcp/rule_19/
 order: 19
+chapter: Title IV. Parties
 ---
 
 (a) Persons Required to Be Joined if Feasible.

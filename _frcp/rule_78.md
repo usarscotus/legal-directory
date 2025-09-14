@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 78. Hearing Motions; Submission on Briefs"
+title: Rule 78. Hearing Motions; Submission on Briefs
 permalink: /frcp/rule_78/
 order: 78
+chapter: Title X. District Courts and Clerks
 ---
 
 (a) Providing a Regular Schedule for Oral Hearings. A court may establish regular times and places for oral hearings on motions.

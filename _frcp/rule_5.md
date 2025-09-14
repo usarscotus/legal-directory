@@ -1,8 +1,10 @@
 ---
 layout: rule
-title: "Rule 5. Serving and Filing Pleadings and Other Papers"
+title: Rule 5. Serving and Filing Pleadings and Other Papers
 permalink: /frcp/rule_5/
 order: 5
+chapter: Title II. Commencing an Action; Service of Process, Pleadings, Motions, and
+  Orders
 ---
 
 (a) Service: When Required.

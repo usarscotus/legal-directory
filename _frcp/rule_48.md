@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 48. Number of Jurors; Verdict; Polling"
+title: Rule 48. Number of Jurors; Verdict; Polling
 permalink: /frcp/rule_48/
 order: 48
+chapter: Title VI. Trials
 ---
 
 (a) Number of Jurors. A jury must begin with at least 6 and no more than 12 members, and each juror must participate in the verdict unless excused under Rule 47(c) .

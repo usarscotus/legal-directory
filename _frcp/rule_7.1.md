@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 7.1. Disclosure Statement"
+title: Rule 7.1. Disclosure Statement
 permalink: /frcp/rule_7.1/
 order: 7.1
+chapter: Title III. Pleadings and Motions
 ---
 
 (a) Who Must File; Contents.

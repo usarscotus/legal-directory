@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 62. Stay of Proceedings to Enforce a Judgment"
+title: Rule 62. Stay of Proceedings to Enforce a Judgment
 permalink: /frcp/rule_62/
 order: 62
+chapter: Title VII. Judgment
 ---
 
 (a) Automatic Stay. Except as provided in Rule 62(c) and (d), execution on a judgment and proceedings to enforce it are stayed for 30 days after its entry, unless the court orders otherwise.

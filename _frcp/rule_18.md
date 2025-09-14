@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 18. Joinder of Claims"
+title: Rule 18. Joinder of Claims
 permalink: /frcp/rule_18/
 order: 18
+chapter: Title IV. Parties
 ---
 
 (a) In General. A party asserting a claim, counterclaim, crossclaim, or third-party claim may join, as independent or alternative claims, as many claims as it has against an opposing party.

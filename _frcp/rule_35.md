@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 35. Physical and Mental Examinations"
+title: Rule 35. Physical and Mental Examinations
 permalink: /frcp/rule_35/
 order: 35
+chapter: Title V. Disclosures and Discovery
 ---
 
 (a) Order for an Examination.

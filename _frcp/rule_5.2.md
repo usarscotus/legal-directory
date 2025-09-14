@@ -1,8 +1,10 @@
 ---
 layout: rule
-title: "Rule 5.2. Privacy Protection For Filings Made with the Court"
+title: Rule 5.2. Privacy Protection For Filings Made with the Court
 permalink: /frcp/rule_5.2/
 order: 5.2
+chapter: Title II. Commencing an Action; Service of Process, Pleadings, Motions, and
+  Orders
 ---
 
 (a) Redacted Filings. Unless the court orders otherwise, in an electronic or paper filing with the court that contains an individual's social-security number, taxpayer-identification number, or birth date, the name of an individual known to be a minor, or a financial-account number, a party or nonparty making the filing may include only:

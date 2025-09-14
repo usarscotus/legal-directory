@@ -1,8 +1,10 @@
 ---
 layout: rule
-title: "Rule 50. Judgment as a Matter of Law in a Jury Trial; Related Motion for a New Trial; Conditional Ruling"
+title: Rule 50. Judgment as a Matter of Law in a Jury Trial; Related Motion for a
+  New Trial; Conditional Ruling
 permalink: /frcp/rule_50/
 order: 50
+chapter: Title VI. Trials
 ---
 
 (a) Judgment as a Matter of Law.

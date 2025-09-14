@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 38. Right to a Jury Trial; Demand"
+title: Rule 38. Right to a Jury Trial; Demand
 permalink: /frcp/rule_38/
 order: 38
+chapter: Title VI. Trials
 ---
 
 (a) Right Preserved. The right of trial by jury as declared by the Seventh Amendment to the Constitution—or as provided by a federal statute—is preserved to the parties inviolate.

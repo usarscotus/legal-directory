@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 23. Class Actions"
+title: Rule 23. Class Actions
 permalink: /frcp/rule_23/
 order: 23
+chapter: Title IV. Parties
 ---
 
 (a) Prerequisites. One or more members of a class may sue or be sued as representative parties on behalf of all members only if:

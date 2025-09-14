@@ -1,8 +1,10 @@
 ---
 layout: rule
-title: "Rule 12. Defenses and Objections: When and How Presented; Motion for Judgment on the Pleadings; Consolidating Motions; Waiving Defenses; Pretrial Hearing"
+title: 'Rule 12. Defenses and Objections: When and How Presented; Motion for Judgment
+  on the Pleadings; Consolidating Motions; Waiving Defenses; Pretrial Hearing'
 permalink: /frcp/rule_12/
 order: 12
+chapter: Title III. Pleadings and Motions
 ---
 
 (a) Time to Serve a Responsive Pleading.

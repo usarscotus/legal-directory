@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 41. Dismissal of Actions"
+title: Rule 41. Dismissal of Actions
 permalink: /frcp/rule_41/
 order: 41
+chapter: Title VI. Trials
 ---
 
 (a) Voluntary Dismissal.

@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 58. Entering Judgment"
+title: Rule 58. Entering Judgment
 permalink: /frcp/rule_58/
 order: 58
+chapter: Title VII. Judgment
 ---
 
 (a) Separate Document. Every judgment and amended judgment must be set out in a separate document, but a separate document is not required for an order disposing of a motion:

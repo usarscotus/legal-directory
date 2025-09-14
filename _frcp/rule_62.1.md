@@ -1,8 +1,10 @@
 ---
 layout: rule
-title: "Rule 62.1. Indicative Ruling on a Motion for Relief That is Barred by a Pending Appeal"
+title: Rule 62.1. Indicative Ruling on a Motion for Relief That is Barred by a Pending
+  Appeal
 permalink: /frcp/rule_62.1/
 order: 62.1
+chapter: Title VII. Judgment
 ---
 
 (a) Relief Pending Appeal. If a timely motion is made for relief that the court lacks authority to grant because of an appeal that has been docketed and is pending, the court may:

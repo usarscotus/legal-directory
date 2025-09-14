@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 70. Enforcing a Judgment for a Specific Act"
+title: Rule 70. Enforcing a Judgment for a Specific Act
 permalink: /frcp/rule_70/
 order: 70
+chapter: Title VIII. Provisional and Final Remedies
 ---
 
 (a) Party's Failure to Act; Ordering Another to Act. If a judgment requires a party to convey land, to deliver a deed or other document, or to perform any other specific act and the party fails to comply within the time specified, the court may order the act to be done—at the disobedient party's expense—by another person appointed by the court. When done, the act has the same effect as if done by the party.

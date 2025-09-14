@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 13. Counterclaim and Crossclaim"
+title: Rule 13. Counterclaim and Crossclaim
 permalink: /frcp/rule_13/
 order: 13
+chapter: Title III. Pleadings and Motions
 ---
 
 (a) Compulsory Counterclaim.
