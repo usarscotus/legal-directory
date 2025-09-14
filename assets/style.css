@@ -928,3 +928,30 @@ h3:hover .copy-anchor,
 .copy-anchor:focus {
   opacity: 1;
 }
+
+/* Rule citation and line tools */
+.citation-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-family: inherit;
+  margin-left: 0.5rem;
+}
+
+.line-tools {
+  margin-left: 0.5rem;
+  visibility: hidden;
+}
+
+p:hover .line-tools,
+li:hover .line-tools {
+  visibility: visible;
+}
+
+.line-tools button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-family: inherit;
+  margin-left: 0.25rem;
+}
