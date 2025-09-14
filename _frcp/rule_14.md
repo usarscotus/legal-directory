@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 14. Third-Party Practice"
+title: Rule 14. Third-Party Practice
 permalink: /frcp/rule_14/
 order: 14
+chapter: Title III. Pleadings and Motions
 ---
 
 (a) When a Defending Party May Bring in a Third Party.

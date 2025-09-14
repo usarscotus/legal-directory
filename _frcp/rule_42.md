@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 42. Consolidation; Separate Trials"
+title: Rule 42. Consolidation; Separate Trials
 permalink: /frcp/rule_42/
 order: 42
+chapter: Title VI. Trials
 ---
 
 (a) Consolidation. If actions before the court involve a common question of law or fact, the court may:

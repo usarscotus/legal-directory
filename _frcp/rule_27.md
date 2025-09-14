@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 27. Depositions to Perpetuate Testimony"
+title: Rule 27. Depositions to Perpetuate Testimony
 permalink: /frcp/rule_27/
 order: 27
+chapter: Title V. Disclosures and Discovery
 ---
 
 (a) Before an Action Is Filed.

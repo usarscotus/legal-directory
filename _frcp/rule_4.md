@@ -1,8 +1,10 @@
 ---
 layout: rule
-title: "Rule 4. Summons"
+title: Rule 4. Summons
 permalink: /frcp/rule_4/
 order: 4
+chapter: Title II. Commencing an Action; Service of Process, Pleadings, Motions, and
+  Orders
 ---
 
 (a) Contents; Amendments.

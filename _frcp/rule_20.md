@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 20. Permissive Joinder of Parties"
+title: Rule 20. Permissive Joinder of Parties
 permalink: /frcp/rule_20/
 order: 20
+chapter: Title IV. Parties
 ---
 
 (a) Persons Who May Join or Be Joined.

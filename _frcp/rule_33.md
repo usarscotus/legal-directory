@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 33. Interrogatories to Parties"
+title: Rule 33. Interrogatories to Parties
 permalink: /frcp/rule_33/
 order: 33
+chapter: Title V. Disclosures and Discovery
 ---
 
 (a) In General.

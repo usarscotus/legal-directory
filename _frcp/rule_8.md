@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 8. General Rules of Pleading"
+title: Rule 8. General Rules of Pleading
 permalink: /frcp/rule_8/
 order: 8
+chapter: Title III. Pleadings and Motions
 ---
 
 (a) Claim for Relief. A pleading that states a claim for relief must contain:

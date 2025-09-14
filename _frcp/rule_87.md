@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 87. Civil Rules Emergency"
+title: Rule 87. Civil Rules Emergency
 permalink: /frcp/rule_87/
 order: 87
+chapter: Title XI. General Provisions
 ---
 
 (a) Conditions for an Emergency. The Judicial Conference of the United States may declare a Civil Rules emergency if it determines that extraordinary circumstances relating to public health or safety, or affecting physical or electronic access to a court, substantially impair the court's ability to perform its functions in compliance with these rules.

@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 86. Effective Dates"
+title: Rule 86. Effective Dates
 permalink: /frcp/rule_86/
 order: 86
+chapter: Title XI. General Provisions
 ---
 
 (a) In General. These rules and any amendments take effect at the time specified by the Supreme Court, subject to 28 U.S.C. §2074 . They govern:

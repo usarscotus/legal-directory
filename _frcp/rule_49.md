@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 49. Special Verdict; General Verdict and Questions"
+title: Rule 49. Special Verdict; General Verdict and Questions
 permalink: /frcp/rule_49/
 order: 49
+chapter: Title VI. Trials
 ---
 
 (a) Special Verdict.

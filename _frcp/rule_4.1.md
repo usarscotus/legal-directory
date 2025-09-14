@@ -1,8 +1,10 @@
 ---
 layout: rule
-title: "Rule 4.1. Serving Other Process"
+title: Rule 4.1. Serving Other Process
 permalink: /frcp/rule_4.1/
 order: 4.1
+chapter: Title II. Commencing an Action; Service of Process, Pleadings, Motions, and
+  Orders
 ---
 
 (a) In General. Process—other than a summons under Rule 4 or a subpoena under Rule 45 —must be served by a United States marshal or deputy marshal or by a person specially appointed for that purpose. It may be served anywhere within the territorial limits of the state where the district court is located and, if authorized by a federal statute, beyond those limits. Proof of service must be made under Rule 4( l ) .

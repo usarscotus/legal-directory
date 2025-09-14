@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 52. Findings and Conclusions by the Court; Judgment on Partial Findings"
+title: Rule 52. Findings and Conclusions by the Court; Judgment on Partial Findings
 permalink: /frcp/rule_52/
 order: 52
+chapter: Title VI. Trials
 ---
 
 (a) Findings and Conclusions.

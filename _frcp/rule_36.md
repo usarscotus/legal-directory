@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 36. Requests for Admission"
+title: Rule 36. Requests for Admission
 permalink: /frcp/rule_36/
 order: 36
+chapter: Title V. Disclosures and Discovery
 ---
 
 (a) Scope and Procedure.

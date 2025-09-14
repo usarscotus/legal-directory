@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 25. Substitution of Parties"
+title: Rule 25. Substitution of Parties
 permalink: /frcp/rule_25/
 order: 25
+chapter: Title IV. Parties
 ---
 
 (a) Death.

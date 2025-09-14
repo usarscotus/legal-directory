@@ -8,11 +8,23 @@ breadcrumb_parent_url: /
 ---
 <div class="resource-grid">
   <div class="resource-column">
-    <ul>
-      {% assign rules = site.supct | sort: 'order' %}
-      {% for rule in rules %}
-        <li><a href="{{ site.baseurl }}{{ rule.url }}">{{ rule.title }}</a></li>
+    {% assign rules = site.supct | sort: 'order' %}
+    {% if rules[0].chapter %}
+      {% assign groups = rules | group_by: 'chapter' %}
+      {% for group in groups %}
+        <h2>{{ group.name }}</h2>
+        <ul>
+          {% for rule in group.items %}
+            <li><a href="{{ site.baseurl }}{{ rule.url }}">{{ rule.title }}</a></li>
+          {% endfor %}
+        </ul>
       {% endfor %}
-    </ul>
+    {% else %}
+      <ul>
+        {% for rule in rules %}
+          <li><a href="{{ site.baseurl }}{{ rule.url }}">{{ rule.title }}</a></li>
+        {% endfor %}
+      </ul>
+    {% endif %}
   </div>
 </div>

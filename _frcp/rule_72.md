@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 72. Magistrate Judges: Pretrial Order"
+title: 'Rule 72. Magistrate Judges: Pretrial Order'
 permalink: /frcp/rule_72/
 order: 72
+chapter: Title IX. Special Proceedings
 ---
 
 (a) Nondispositive Matters. When a pretrial matter not dispositive of a party's claim or defense is referred to a magistrate judge to hear and decide, the magistrate judge must promptly conduct the required proceedings and, when appropriate, issue a written order stating the decision. A party may serve and file objections to the order within 14 days after being served with a copy. A party may not assign as error a defect in the order not timely objected to. The district judge in the case must consider timely objections and modify or set aside any part of the order that is clearly erroneous or is contrary to law.

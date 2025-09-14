@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 68. Offer of Judgment"
+title: Rule 68. Offer of Judgment
 permalink: /frcp/rule_68/
 order: 68
+chapter: Title VIII. Provisional and Final Remedies
 ---
 
 (a) Making an Offer; Judgment on an Accepted Offer. At least 14 days before the date set for trial, a party defending against a claim may serve on an opposing party an offer to allow judgment on specified terms, with the costs then accrued. If, within 14 days after being served, the opposing party serves written notice accepting the offer, either party may then file the offer and notice of acceptance, plus proof of service. The clerk must then enter judgment.

@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 88. Archival of Voice Proceedings"
+title: Rule 88. Archival of Voice Proceedings
 permalink: /frcp/rule_88/
 order: 88
+chapter: Title XI. General Provisions
 ---
 
 No court shall conduct any part of a judicial proceeding via voice chat unless the following conditions are met:

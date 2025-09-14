@@ -1,8 +1,9 @@
 ---
 layout: rule
-title: "Rule 69. Execution"
+title: Rule 69. Execution
 permalink: /frcp/rule_69/
 order: 69
+chapter: Title VIII. Provisional and Final Remedies
 ---
 
 (a) In General.

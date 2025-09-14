@@ -1,10 +1,12 @@
 ---
 layout: rule
-title: "Rule 89. Absentia Rule"
+title: Rule 89. Absentia Rule
 permalink: /frcp/rule_89/
 order: 89
 notes:
-    - "[Created](https://trello.com/c/Qu2FRCqc/56-absentia-rule-pursuant-to-28-usc-2072) prior to June 1st, 2025."
+- '[Created](https://trello.com/c/Qu2FRCqc/56-absentia-rule-pursuant-to-28-usc-2072)
+  prior to June 1st, 2025.'
+chapter: Title XI. General Provisions
 ---
 
 (1) This rule shall be effective immediately after passage, shall not expire, and shall apply to all federal courts of the United States.
