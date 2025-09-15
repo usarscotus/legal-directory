@@ -45,7 +45,7 @@ document.getElementById('case-search-form').addEventListener('submit', async (e)
   }
   try {
     const catParam = category ? `&topic=${encodeURIComponent(category)}` : '';
-    const searchURL = `https://www.courtlistener.com/api/rest/v3/search/?q=${encodeURIComponent(query)}&type=${encodeURIComponent(type)}${catParam}`;
+    const searchURL = `https://www.courtlistener.com/api/rest/v4/search/?q=${encodeURIComponent(query)}&type=${encodeURIComponent(type)}${catParam}`;
     const data = await fetchJSON(searchURL);
     if (!data.results || data.results.length === 0) {
       resultsDiv.textContent = 'No results found.';
@@ -55,23 +55,13 @@ document.getElementById('case-search-form').addEventListener('submit', async (e)
     for (const item of data.results) {
       const itemDiv = document.createElement('div');
       itemDiv.className = 'search-result';
-      const title = item.caseName || item.caption || item.short_name || item.name || 'Result';
-      itemDiv.innerHTML = `<h3><button class="case-link" data-id="${item.id}">${title}</button></h3>`;
-      try {
-        const detail = await fetchJSON(`https://www.courtlistener.com/api/rest/v3/opinions/${item.id}/`);
-        const cite = detail.citations && detail.citations.length ? detail.citations.map(c => c.cite).join(', ') : '';
-        const year = detail.date_filed ? new Date(detail.date_filed).getFullYear() : '';
-        const court = item.court && item.court.name_abbreviation ? ` - ${item.court.name_abbreviation}` : '';
-        itemDiv.innerHTML += `<p>${cite}${year ? ` (${year})` : ''}${court}</p>`;
-      } catch (err) {
-        const court = item.court && item.court.name_abbreviation ? ` - ${item.court.name_abbreviation}` : '';
-        if (item.date_filed) {
-          const year = new Date(item.date_filed).getFullYear();
-          itemDiv.innerHTML += `<p>${year}${court}</p>`;
-        } else if (court) {
-          itemDiv.innerHTML += `<p>${court.trim()}</p>`;
-        }
-      }
+      const opinionId = item.opinions && item.opinions.length ? item.opinions[0].id : '';
+      const title = item.caseName || item.caseNameFull || item.caption || 'Result';
+      itemDiv.innerHTML = `<h3><button class="case-link" data-opinion-id="${opinionId}">${title}</button></h3>`;
+      const cite = item.citation && item.citation.length ? item.citation.join(', ') : '';
+      const year = item.dateFiled ? new Date(item.dateFiled).getFullYear() : '';
+      const court = item.court_citation_string ? ` - ${item.court_citation_string}` : '';
+      itemDiv.innerHTML += `<p>${cite}${year ? ` (${year})` : ''}${court}</p>`;
       resultsDiv.appendChild(itemDiv);
     }
   } catch (err) {
@@ -81,30 +71,34 @@ document.getElementById('case-search-form').addEventListener('submit', async (e)
   }
 });
 
-async function showCaseCard(id) {
+async function showCaseCard(opinionId) {
   const card = document.createElement('div');
   card.className = 'case-card';
   card.textContent = 'Loading...';
   document.getElementById('case-cards').appendChild(card);
   try {
-    const detail = await fetchJSON(`https://www.courtlistener.com/api/rest/v3/opinions/${id}/`);
-    const cite = detail.citations && detail.citations.length ? detail.citations.map(c => c.cite).join(', ') : '';
-    const year = detail.date_filed ? new Date(detail.date_filed).getFullYear() : '';
-    card.innerHTML = `<button class="close-card">&times;</button><h3>${detail.caseName || detail.caption || 'Case'}</h3>` +
-      `<p>${cite}${year ? ` (${year})` : ''}</p>` +
-      `<pre>${detail.plain_text || 'No text available.'}</pre>`;
+    const data = await fetchJSON(`https://www.courtlistener.com/api/rest/v4/search/?opinion_id=${opinionId}`);
+    const item = data.results && data.results[0];
+    if (!item) throw new Error('Case not found.');
+    const cite = item.citation && item.citation.length ? item.citation.join(', ') : '';
+    const court = item.court_citation_string || '';
+    card.innerHTML = `<button class="close-card">&times;</button><h3>${item.caseNameFull || item.caseName || 'Case'}</h3>` +
+      `${cite ? `<p>${cite}</p>` : ''}` +
+      `${court ? `<p>${court}</p>` : ''}` +
+      `${item.docketNumber ? `<p>Docket: ${item.docketNumber}</p>` : ''}` +
+      `${item.dateFiled ? `<p>Filed: ${item.dateFiled}</p>` : ''}`;
     const lists = document.createElement('div');
     try {
       const [cites, citedBy] = await Promise.all([
-        fetchJSON(`https://www.courtlistener.com/api/rest/v3/opinions/${id}/cites/`),
-        fetchJSON(`https://www.courtlistener.com/api/rest/v3/opinions/${id}/cited_by/`)
+        fetchJSON(`https://www.courtlistener.com/api/rest/v3/opinions/${opinionId}/cites/`),
+        fetchJSON(`https://www.courtlistener.com/api/rest/v3/opinions/${opinionId}/cited_by/`)
       ]);
       if (cites.results && cites.results.length) {
         const ul = document.createElement('ul');
         ul.innerHTML = '<strong>Cites:</strong>';
         cites.results.forEach(c => {
           const li = document.createElement('li');
-          li.innerHTML = `<button class="case-link" data-id="${c.id}">${c.caseName || c.caption}</button>`;
+          li.innerHTML = `<button class="case-link" data-opinion-id="${c.id}">${c.caseName || c.caption}</button>`;
           ul.appendChild(li);
         });
         lists.appendChild(ul);
@@ -114,7 +108,7 @@ async function showCaseCard(id) {
         ul.innerHTML = '<strong>Cited by:</strong>';
         citedBy.results.forEach(c => {
           const li = document.createElement('li');
-          li.innerHTML = `<button class="case-link" data-id="${c.id}">${c.caseName || c.caption}</button>`;
+          li.innerHTML = `<button class="case-link" data-opinion-id="${c.id}">${c.caseName || c.caption}</button>`;
           ul.appendChild(li);
         });
         lists.appendChild(ul);
@@ -131,8 +125,8 @@ async function showCaseCard(id) {
 
 document.addEventListener('click', e => {
   const btn = e.target.closest('.case-link');
-  if (btn) {
-    showCaseCard(btn.dataset.id);
+  if (btn && btn.dataset.opinionId) {
+    showCaseCard(btn.dataset.opinionId);
   }
 });
 </script>
