@@ -1,2 +1,5 @@
 __pycache__/
 *.pyc
+next-app/node_modules/
+next-app/.next/
+next-app/out/
