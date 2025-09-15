@@ -111,19 +111,35 @@ async function showCaseDetail(opinionId) {
   cardsDiv.appendChild(card);
   try {
     const opinion = await fetchJSON(`https://www.courtlistener.com/api/rest/v3/opinions/${opinionId}/`);
-    const cite = opinion.citations ? opinion.citations.map(c => c.cite).join(', ') : '';
-    const year = opinion.date_filed ? new Date(opinion.date_filed).getFullYear() : '';
-    const court = opinion.court ? (opinion.court.name_abbreviation || opinion.court.name) : '';
-    const docket = opinion.docket_number || (opinion.docket && opinion.docket.docket_number);
-    const url = opinion.absolute_url ? `https://www.courtlistener.com${opinion.absolute_url}` : '';
-    card.innerHTML = `<h2>${opinion.case_name_full || opinion.case_name || 'Case'}</h2>` +
+    const [cluster, docket] = await Promise.all([
+      opinion.cluster ? fetchJSON(opinion.cluster).catch(() => null) : null,
+      opinion.docket ? fetchJSON(opinion.docket).catch(() => null) : null
+    ]);
+    const cite = opinion.citations ? opinion.citations.map(c => c.cite).join(', ') :
+      (cluster && cluster.citations ? cluster.citations.map(c => c.cite).join(', ') : '');
+    const year = opinion.date_filed ? new Date(opinion.date_filed).getFullYear() :
+      (cluster && cluster.date_filed ? new Date(cluster.date_filed).getFullYear() : '');
+    const court = opinion.court ? (opinion.court.name_abbreviation || opinion.court.name) :
+      (cluster && cluster.court ? (cluster.court.name_abbreviation || cluster.court.name) : '');
+    const docketNum = docket && docket.docket_number ? docket.docket_number :
+      (opinion.docket_number || (cluster && cluster.docket_number));
+    const judges = cluster && cluster.judges ? cluster.judges.join(', ') : '';
+    const attorneys = cluster && cluster.attorneys ? cluster.attorneys : '';
+    const parties = cluster && cluster.parties ? cluster.parties : '';
+    card.innerHTML = `<h2>${cluster && (cluster.case_name_full || cluster.case_name) ? (cluster.case_name_full || cluster.case_name) : (opinion.case_name_full || opinion.case_name || 'Case')}</h2>` +
       `${cite || year ? `<p>${cite}${year ? ' (' + year + ')' : ''}</p>` : ''}` +
       `${court ? `<p>${court}</p>` : ''}` +
-      `${docket ? `<p>Docket: ${docket}</p>` : ''}` +
-      `${url ? `<p><a href="${url}" target="_blank">View on CourtListener</a></p>` : ''}`;
+      `${docketNum ? `<p>Docket: ${docketNum}</p>` : ''}` +
+      `${judges ? `<p><strong>Judges:</strong> ${judges}</p>` : ''}` +
+      `${attorneys ? `<p><strong>Attorneys:</strong> ${attorneys}</p>` : ''}` +
+      `${parties ? `<p><strong>Parties:</strong> ${parties}</p>` : ''}`;
+
+    if (opinion.download_url) {
+      card.innerHTML += `<p><a href="${opinion.download_url}" target="_blank">Download PDF</a></p>`;
+    }
 
     if (opinion.plain_text) {
-      card.innerHTML += `<pre>${opinion.plain_text.substring(0, 1000)}</pre>`;
+      card.innerHTML += `<details><summary>Opinion Text</summary><pre>${opinion.plain_text}</pre></details>`;
     }
 
     const lists = document.createElement('div');
