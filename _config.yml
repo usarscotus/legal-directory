@@ -14,5 +14,5 @@ collections:
     output: true
   supct:
     output: true
-# CourtListener API token: set via COURTLISTENER_TOKEN environment variable when building
-COURTLISTENER_TOKEN: ""
+# CourtListener API token used by the case search page
+COURTLISTENER_TOKEN: "8671b4a853776a65c3d1393858c138e4951a246e"
