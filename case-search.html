@@ -20,9 +20,12 @@ title: SCOTUS Case Search
 </section>
 
 <script>
+const API_TOKEN = '{{ site.COURTLISTENER_TOKEN | default: "" }}';
+
 async function fetchJSON(url) {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error('Network response was not ok');
+  const headers = API_TOKEN ? { 'Authorization': `Token ${API_TOKEN}` } : {};
+  const res = await fetch(url, { headers });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
   return res.json();
 }
 
@@ -86,7 +89,9 @@ document.getElementById('case-search-form').addEventListener('submit', async (e)
       }
     });
   } catch (err) {
-    resultsDiv.textContent = 'Error fetching results.';
+    resultsDiv.textContent = err.message.includes('403')
+      ? 'CourtListener API access denied. Check API token.'
+      : 'Error fetching results.';
   }
 });
 </script>
