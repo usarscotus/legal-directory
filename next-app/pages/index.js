@@ -3,6 +3,8 @@ import Head from 'next/head';
 import SearchBar from '../components/SearchBar';
 import CaseCard from '../components/CaseCard';
 import CaseDetail from '../components/CaseDetail';
+import { searchOpinions, getOpinion, getOpinionsByUris } from '../lib/courtlistener';
+
 
 export default function Home() {
   const [cases, setCases] = useState([]);
