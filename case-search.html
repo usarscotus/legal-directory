@@ -58,6 +58,10 @@ async function fetchJSON(url) {
   return res.json();
 }
 
+function looksLikeCitation(str) {
+  return /^\d+\s+[A-Za-z][A-Za-z.\s]*\s+\d+$/.test(str.trim());
+}
+
 async function searchCases(query, type, category) {
   const resultsDiv = document.getElementById('case-results');
   resultsDiv.innerHTML = 'Searching...';
@@ -65,7 +69,6 @@ async function searchCases(query, type, category) {
 
   const catParam = category ? `&topic=${encodeURIComponent(category)}` : '';
   const searchURL = `https://www.courtlistener.com/api/rest/v4/search/?q=${encodeURIComponent(query)}&type=${encodeURIComponent(type)}${catParam}`;
-  const lookupURL = `https://www.courtlistener.com/api/rest/v4/citation-lookup/?cite=${encodeURIComponent(query)}`;
 
   let results = [];
   try {
@@ -74,11 +77,15 @@ async function searchCases(query, type, category) {
   } catch (err) {
     // ignore search errors for now
   }
-  try {
-    const lookup = await fetchJSON(lookupURL);
-    if (lookup.results) results = results.concat(lookup.results);
-  } catch (err) {
-    // ignore lookup errors
+
+  if (looksLikeCitation(query)) {
+    try {
+      const lookupURL = `https://www.courtlistener.com/api/rest/v4/citation-lookup/?cite=${encodeURIComponent(query)}`;
+      const lookup = await fetchJSON(lookupURL);
+      if (lookup.results) results = results.concat(lookup.results);
+    } catch (err) {
+      // ignore lookup errors
+    }
   }
 
   if (!results.length) {
