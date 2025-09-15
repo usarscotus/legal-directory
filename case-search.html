@@ -14,9 +14,11 @@ title: SCOTUS Case Search
       <option value="j">Judges</option>
       <option value="oa">Oral Arguments</option>
     </select>
+    <input type="text" id="case-category" placeholder="Category (optional)">
     <button type="submit">Search</button>
   </form>
   <div id="case-results"></div>
+  <div id="case-cards"></div>
 </section>
 
 <script>
@@ -33,65 +35,104 @@ document.getElementById('case-search-form').addEventListener('submit', async (e)
   e.preventDefault();
   const query = document.getElementById('case-query').value.trim();
   const type = document.getElementById('case-type').value;
+  const category = document.getElementById('case-category').value.trim();
   const resultsDiv = document.getElementById('case-results');
   resultsDiv.innerHTML = 'Searching...';
+  document.getElementById('case-cards').innerHTML = '';
   if (!query) {
     resultsDiv.textContent = 'Please enter a search term.';
     return;
   }
   try {
-    const searchURL = `https://www.courtlistener.com/api/rest/v3/search/?q=${encodeURIComponent(query)}&type=${encodeURIComponent(type)}`;
+    const catParam = category ? `&topic=${encodeURIComponent(category)}` : '';
+    const searchURL = `https://www.courtlistener.com/api/rest/v3/search/?q=${encodeURIComponent(query)}&type=${encodeURIComponent(type)}${catParam}`;
     const data = await fetchJSON(searchURL);
     if (!data.results || data.results.length === 0) {
       resultsDiv.textContent = 'No results found.';
       return;
     }
     resultsDiv.innerHTML = '';
-    data.results.forEach(async item => {
+    for (const item of data.results) {
       const itemDiv = document.createElement('div');
       itemDiv.className = 'search-result';
       const title = item.caseName || item.caption || item.short_name || item.name || 'Result';
-      const link = item.absolute_url ? `https://www.courtlistener.com${item.absolute_url}` : '#';
-      itemDiv.innerHTML = `<h3><a href="${link}" target="_blank">${title}</a></h3>`;
-      if (item.court && item.court.name_abbreviation) {
-        itemDiv.innerHTML += `<p>${item.court.name_abbreviation}${item.date_filed ? ' - ' + item.date_filed : ''}</p>`;
-      }
-      resultsDiv.appendChild(itemDiv);
-      if (type === 'o') {
-        try {
-          const [cites, citedBy] = await Promise.all([
-            fetchJSON(`https://www.courtlistener.com/api/rest/v3/opinions/${item.id}/cites/`),
-            fetchJSON(`https://www.courtlistener.com/api/rest/v3/opinions/${item.id}/cited_by/`)
-          ]);
-          if (cites.results && cites.results.length) {
-            const ul = document.createElement('ul');
-            ul.innerHTML = '<strong>Cites:</strong>';
-            cites.results.forEach(c => {
-              const li = document.createElement('li');
-              li.innerHTML = `<a href="https://www.courtlistener.com${c.absolute_url}" target="_blank">${c.caseName || c.caption}</a>`;
-              ul.appendChild(li);
-            });
-            itemDiv.appendChild(ul);
-          }
-          if (citedBy.results && citedBy.results.length) {
-            const ul = document.createElement('ul');
-            ul.innerHTML = '<strong>Cited by:</strong>';
-            citedBy.results.forEach(c => {
-              const li = document.createElement('li');
-              li.innerHTML = `<a href="https://www.courtlistener.com${c.absolute_url}" target="_blank">${c.caseName || c.caption}</a>`;
-              ul.appendChild(li);
-            });
-            itemDiv.appendChild(ul);
-          }
-        } catch (err) {
-          // ignore citation errors
+      itemDiv.innerHTML = `<h3><button class="case-link" data-id="${item.id}">${title}</button></h3>`;
+      try {
+        const detail = await fetchJSON(`https://www.courtlistener.com/api/rest/v3/opinions/${item.id}/`);
+        const cite = detail.citations && detail.citations.length ? detail.citations.map(c => c.cite).join(', ') : '';
+        const year = detail.date_filed ? new Date(detail.date_filed).getFullYear() : '';
+        const court = item.court && item.court.name_abbreviation ? ` - ${item.court.name_abbreviation}` : '';
+        itemDiv.innerHTML += `<p>${cite}${year ? ` (${year})` : ''}${court}</p>`;
+      } catch (err) {
+        const court = item.court && item.court.name_abbreviation ? ` - ${item.court.name_abbreviation}` : '';
+        if (item.date_filed) {
+          const year = new Date(item.date_filed).getFullYear();
+          itemDiv.innerHTML += `<p>${year}${court}</p>`;
+        } else if (court) {
+          itemDiv.innerHTML += `<p>${court.trim()}</p>`;
         }
       }
-    });
+      resultsDiv.appendChild(itemDiv);
+    }
   } catch (err) {
     resultsDiv.textContent = err.message.includes('403')
       ? 'CourtListener API access denied. Check API token.'
       : 'Error fetching results.';
+  }
+});
+
+async function showCaseCard(id) {
+  const card = document.createElement('div');
+  card.className = 'case-card';
+  card.textContent = 'Loading...';
+  document.getElementById('case-cards').appendChild(card);
+  try {
+    const detail = await fetchJSON(`https://www.courtlistener.com/api/rest/v3/opinions/${id}/`);
+    const cite = detail.citations && detail.citations.length ? detail.citations.map(c => c.cite).join(', ') : '';
+    const year = detail.date_filed ? new Date(detail.date_filed).getFullYear() : '';
+    card.innerHTML = `<button class="close-card">&times;</button><h3>${detail.caseName || detail.caption || 'Case'}</h3>` +
+      `<p>${cite}${year ? ` (${year})` : ''}</p>` +
+      `<pre>${detail.plain_text || 'No text available.'}</pre>`;
+    const lists = document.createElement('div');
+    try {
+      const [cites, citedBy] = await Promise.all([
+        fetchJSON(`https://www.courtlistener.com/api/rest/v3/opinions/${id}/cites/`),
+        fetchJSON(`https://www.courtlistener.com/api/rest/v3/opinions/${id}/cited_by/`)
+      ]);
+      if (cites.results && cites.results.length) {
+        const ul = document.createElement('ul');
+        ul.innerHTML = '<strong>Cites:</strong>';
+        cites.results.forEach(c => {
+          const li = document.createElement('li');
+          li.innerHTML = `<button class="case-link" data-id="${c.id}">${c.caseName || c.caption}</button>`;
+          ul.appendChild(li);
+        });
+        lists.appendChild(ul);
+      }
+      if (citedBy.results && citedBy.results.length) {
+        const ul = document.createElement('ul');
+        ul.innerHTML = '<strong>Cited by:</strong>';
+        citedBy.results.forEach(c => {
+          const li = document.createElement('li');
+          li.innerHTML = `<button class="case-link" data-id="${c.id}">${c.caseName || c.caption}</button>`;
+          ul.appendChild(li);
+        });
+        lists.appendChild(ul);
+      }
+    } catch (err) {
+      // ignore citation errors
+    }
+    card.appendChild(lists);
+    card.querySelector('.close-card').addEventListener('click', () => card.remove());
+  } catch (err) {
+    card.textContent = 'Error loading case.';
+  }
+}
+
+document.addEventListener('click', e => {
+  const btn = e.target.closest('.case-link');
+  if (btn) {
+    showCaseCard(btn.dataset.id);
   }
 });
 </script>
