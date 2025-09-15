@@ -979,3 +979,16 @@ li:hover .line-tools {
   background: var(--link-hover-bg);
   color: var(--link-hover-color);
 }
+.case-search-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: var(--link-color);
+  color: var(--card-inner-bg);
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.case-search-button:hover {
+  background: var(--link-hover-color);
+  color: var(--card-inner-bg);
+}

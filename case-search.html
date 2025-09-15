@@ -1,0 +1,93 @@
+---
+layout: page
+title: SCOTUS Case Search
+---
+
+<section class="case-search">
+  <h1>SCOTUS Case Search</h1>
+  <form id="case-search-form">
+    <input type="text" id="case-query" placeholder="Enter keywords or case name" required>
+    <select id="case-type">
+      <option value="o">Opinions</option>
+      <option value="d">Dockets</option>
+      <option value="f">Filings</option>
+      <option value="j">Judges</option>
+      <option value="oa">Oral Arguments</option>
+    </select>
+    <button type="submit">Search</button>
+  </form>
+  <div id="case-results"></div>
+</section>
+
+<script>
+async function fetchJSON(url) {
+  const res = await fetch(url);
+  if (!res.ok) throw new Error('Network response was not ok');
+  return res.json();
+}
+
+document.getElementById('case-search-form').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const query = document.getElementById('case-query').value.trim();
+  const type = document.getElementById('case-type').value;
+  const resultsDiv = document.getElementById('case-results');
+  resultsDiv.innerHTML = 'Searching...';
+  if (!query) {
+    resultsDiv.textContent = 'Please enter a search term.';
+    return;
+  }
+  try {
+    const searchURL = `https://www.courtlistener.com/api/rest/v3/search/?q=${encodeURIComponent(query)}&type=${encodeURIComponent(type)}`;
+    const data = await fetchJSON(searchURL);
+    if (!data.results || data.results.length === 0) {
+      resultsDiv.textContent = 'No results found.';
+      return;
+    }
+    resultsDiv.innerHTML = '';
+    data.results.forEach(async item => {
+      const itemDiv = document.createElement('div');
+      itemDiv.className = 'search-result';
+      const title = item.caseName || item.caption || item.short_name || item.name || 'Result';
+      const link = item.absolute_url ? `https://www.courtlistener.com${item.absolute_url}` : '#';
+      itemDiv.innerHTML = `<h3><a href="${link}" target="_blank">${title}</a></h3>`;
+      if (item.court && item.court.name_abbreviation) {
+        itemDiv.innerHTML += `<p>${item.court.name_abbreviation}${item.date_filed ? ' - ' + item.date_filed : ''}</p>`;
+      }
+      resultsDiv.appendChild(itemDiv);
+      if (type === 'o') {
+        try {
+          const [cites, citedBy] = await Promise.all([
+            fetchJSON(`https://www.courtlistener.com/api/rest/v3/opinions/${item.id}/cites/`),
+            fetchJSON(`https://www.courtlistener.com/api/rest/v3/opinions/${item.id}/cited_by/`)
+          ]);
+          if (cites.results && cites.results.length) {
+            const ul = document.createElement('ul');
+            ul.innerHTML = '<strong>Cites:</strong>';
+            cites.results.forEach(c => {
+              const li = document.createElement('li');
+              li.innerHTML = `<a href="https://www.courtlistener.com${c.absolute_url}" target="_blank">${c.caseName || c.caption}</a>`;
+              ul.appendChild(li);
+            });
+            itemDiv.appendChild(ul);
+          }
+          if (citedBy.results && citedBy.results.length) {
+            const ul = document.createElement('ul');
+            ul.innerHTML = '<strong>Cited by:</strong>';
+            citedBy.results.forEach(c => {
+              const li = document.createElement('li');
+              li.innerHTML = `<a href="https://www.courtlistener.com${c.absolute_url}" target="_blank">${c.caseName || c.caption}</a>`;
+              ul.appendChild(li);
+            });
+            itemDiv.appendChild(ul);
+          }
+        } catch (err) {
+          // ignore citation errors
+        }
+      }
+    });
+  } catch (err) {
+    resultsDiv.textContent = 'Error fetching results.';
+  }
+});
+</script>
+
