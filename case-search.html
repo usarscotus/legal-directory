@@ -77,6 +77,7 @@ async function searchCases(query, type, category) {
   } catch (err) {
     // ignore search errors for now
   }
+
   if (looksLikeCitation(query)) {
     try {
       const lookupURL = `https://www.courtlistener.com/api/rest/v4/citation-lookup/?cite=${encodeURIComponent(query)}`;
