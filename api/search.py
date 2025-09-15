@@ -2,7 +2,7 @@
 
 import os
 from typing import Any, Dict, Iterable, List
-from elasticsearch import Elasticsearch
+from elasticsearch import Elasticsearch, NotFoundError
 
 ELASTICSEARCH_URL = os.getenv("ELASTICSEARCH_URL", "http://localhost:9200")
 es_client = Elasticsearch(ELASTICSEARCH_URL)
@@ -47,4 +47,19 @@ def search_cases(
 
     body = {"query": {"bool": {"must": must, "filter": filters}}}
     response = es_client.search(index="cases", body=body)
-    return [hit["_source"] for hit in response["hits"]["hits"]]
+    return [{"id": int(hit["_id"]), **hit["_source"]} for hit in response["hits"]["hits"]]
+
+
+def get_case(case_id: int) -> Dict[str, Any] | None:
+    """Return metadata for a single case by ID.
+
+    The relational database stores core fields while Elasticsearch keeps
+    enhanced metadata like votes, opinions, and citation relationships. This
+    helper fetches the latter so API endpoints can present a unified view.
+    """
+
+    try:
+        doc = es_client.get(index="cases", id=case_id)
+    except NotFoundError:
+        return None
+    return {"id": int(doc["_id"]), **doc["_source"]}

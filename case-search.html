@@ -67,8 +67,11 @@ form.addEventListener('submit', (e) => {
   if (year) params.set('year', year);
   const litigant = document.getElementById('litigant').value.trim();
   if (litigant) params.set('litigant', litigant);
-  const keywords = document.getElementById('keywords').value.trim();
-  if (keywords) params.set('keywords', keywords);
+  const keywords = document.getElementById('keywords').value
+    .split(',')
+    .map((k) => k.trim())
+    .filter(Boolean);
+  keywords.forEach((kw) => params.append('keywords', kw));
   runSearch(params);
   history.pushState(null, '', `${window.location.pathname}?${params.toString()}`);
 });
@@ -82,7 +85,7 @@ function initFromUrl() {
     loadCase(caseId);
     return;
   }
-  ['q','category','term','year','litigant','keywords'].forEach((key) => {
+  ['q','category','term','year','litigant'].forEach((key) => {
     const val = params.get(key);
     if (val) {
       const elemId = key === 'q' ? 'query' : key;
@@ -90,6 +93,10 @@ function initFromUrl() {
       if (el) el.value = val;
     }
   });
+  const kwVals = params.getAll('keywords');
+  if (kwVals.length) {
+    document.getElementById('keywords').value = kwVals.join(', ');
+  }
   if (params.toString()) {
     runSearch(params);
   }
@@ -121,7 +128,7 @@ function renderResults(cases) {
   cases.forEach((c) => {
     const li = document.createElement('li');
     const btn = document.createElement('button');
-    btn.textContent = `${c.title} (${c.citation || c.year || 'n.d.'})`;
+    btn.textContent = `${c.title}${c.citation ? ' – ' + c.citation : ''}`;
     btn.addEventListener('click', () => {
       loadCase(c.id);
       const params = new URLSearchParams(window.location.search);
@@ -129,6 +136,10 @@ function renderResults(cases) {
       history.pushState(null, '', `${window.location.pathname}?${params.toString()}`);
     });
     li.appendChild(btn);
+    const meta = document.createElement('div');
+    const date = c.date || (c.year ? c.year.toString() : 'n.d.');
+    meta.textContent = `Decided: ${date}${c.vote ? ' | Vote: ' + c.vote : ''}`;
+    li.appendChild(meta);
     ul.appendChild(li);
   });
   resultsDiv.appendChild(ul);

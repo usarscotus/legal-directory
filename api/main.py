@@ -12,10 +12,17 @@ router = APIRouter()
 
 @router.get("/cases/{case_id}", response_model=schemas.Case)
 def read_case(case_id: int, db: Session = Depends(database.get_db)):
+    """Return case details combined with search index metadata."""
+
     case = database.get_case(db, case_id)
     if case is None:
         raise HTTPException(status_code=404, detail="Case not found")
-    return case
+
+    data = schemas.Case.model_validate(case).model_dump()
+    meta = search.get_case(case_id)
+    if meta:
+        data.update(meta)
+    return data
 
 
 @router.get("/cases/{case_id}/citations", response_model=schemas.CitationResponse)

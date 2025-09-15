@@ -14,7 +14,13 @@ from api import database, graph, search
 
 
 # Setup file-based database and populate with a sample case
-engine = create_engine("sqlite:///./test.db", connect_args={"check_same_thread": False})
+from sqlalchemy.pool import StaticPool
+
+engine = create_engine(
+    "sqlite://",
+    connect_args={"check_same_thread": False},
+    poolclass=StaticPool,
+)
 TestingSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 database.engine = engine
 database.SessionLocal = TestingSessionLocal
@@ -30,8 +36,6 @@ graph.citation_graph.graph.clear()
 graph.citation_graph.add_case(1)
 graph.citation_graph.add_case(2)
 graph.citation_graph.add_citation(2, 1)
-
-# Stub search service with extended fields
 
 def fake_search_cases(
     query=None,
@@ -62,7 +66,19 @@ def fake_search_cases(
     ]
 
 
+def fake_get_case(case_id):
+    return {
+        "id": case_id,
+        "citation": "1 U.S. 1",
+        "vote": "5-4",
+        "opinions": ["http://example.com/opinion"],
+        "cites": [2],
+        "cited_by": [3],
+    }
+
+
 search.search_cases = fake_search_cases
+search.get_case = fake_get_case
 
 client = TestClient(app)
 
@@ -70,7 +86,10 @@ client = TestClient(app)
 def test_get_case():
     response = client.get("/api/cases/1")
     assert response.status_code == 200
-    assert response.json()["title"] == "Test Case"
+    body = response.json()
+    assert body["title"] == "Test Case"
+    assert body["citation"] == "1 U.S. 1"
+    assert body["vote"] == "5-4"
 
 
 def test_get_citations():
