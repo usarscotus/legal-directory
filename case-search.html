@@ -46,6 +46,9 @@ const resultsDiv = document.getElementById('results');
 const detailsDiv = document.getElementById('case-details');
 const categorySelect = document.getElementById('category');
 
+const API_BASE = 'https://www.courtlistener.com/api/rest/v3';
+const API_HEADERS = { Authorization: 'Token {{ site.COURTLISTENER_TOKEN }}' };
+
 // populate category select
 categories.forEach((cat) => {
   const opt = document.createElement('option');
@@ -108,10 +111,21 @@ async function runSearch(params) {
   resultsDiv.textContent = 'Searching...';
   detailsDiv.innerHTML = '';
   try {
-    const res = await fetch(`api/search?${params.toString()}`);
+    const q = params.get('q') || '';
+    const clParams = new URLSearchParams({ search: q, court: 'scotus' });
+    const res = await fetch(`${API_BASE}/opinions/?${clParams.toString()}`, {
+      headers: API_HEADERS,
+    });
     if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
     const data = await res.json();
-    renderResults(data);
+    const cases = (data.results || []).map((r) => ({
+      id: r.id,
+      title: r.case_name,
+      citation:
+        (r.citations && r.citations.length && r.citations[0].cite) || '',
+      date: r.date_filed,
+    }));
+    renderResults(cases);
   } catch (err) {
     console.error('Search failed', err);
     resultsDiv.textContent = `Unable to fetch results: ${err.message}`;
@@ -149,73 +163,31 @@ async function loadCase(id) {
   resultsDiv.innerHTML = '';
   detailsDiv.textContent = 'Loading case...';
   try {
-      const res = await fetch(`api/cases/${id}`);
+    const res = await fetch(`${API_BASE}/opinions/${id}/`, {
+      headers: API_HEADERS,
+    });
     if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
     const data = await res.json();
     detailsDiv.innerHTML = '';
+    const citation =
+      (data.citations && data.citations.find((c) => c.type === 'official')?.cite) ||
+      '';
     const header = document.createElement('h2');
-    header.textContent = `${data.title}${data.citation ? ' – ' + data.citation : ''}`;
+    header.textContent = `${data.case_name}${citation ? ' – ' + citation : ''}`;
     detailsDiv.appendChild(header);
     const meta = document.createElement('p');
-    const datePart = data.date ? `Decided: ${data.date}` : 'Decided: Unknown';
-    const votePart = data.vote ? ` | Vote: ${data.vote}` : '';
-    meta.textContent = `${datePart}${votePart}`;
+    const datePart = data.date_filed ? `Decided: ${data.date_filed}` : 'Decided: Unknown';
+    meta.textContent = datePart;
     detailsDiv.appendChild(meta);
-    if (data.opinions && data.opinions.length) {
+    if (data.plain_text) {
       const h3 = document.createElement('h3');
-      h3.textContent = 'Opinions';
+      h3.textContent = 'Opinion';
       detailsDiv.appendChild(h3);
-      const list = document.createElement('ul');
-      data.opinions.forEach((url) => {
-        const li = document.createElement('li');
-        const a = document.createElement('a');
-        a.href = url;
-        a.textContent = url;
-        a.target = '_blank';
-        li.appendChild(a);
-        list.appendChild(li);
-      });
-      detailsDiv.appendChild(list);
-    }
-    if (data.cites && data.cites.length) {
-      const h3 = document.createElement('h3');
-      h3.textContent = 'Cites To';
-      detailsDiv.appendChild(h3);
-      const list = document.createElement('ul');
-      data.cites.forEach((cid) => {
-        const li = document.createElement('li');
-        const btn = document.createElement('button');
-        btn.textContent = `Case ${cid}`;
-        btn.addEventListener('click', () => {
-          loadCase(cid);
-          const params = new URLSearchParams(window.location.search);
-          params.set('case', cid);
-          history.pushState(null, '', `${window.location.pathname}?${params.toString()}`);
-        });
-        li.appendChild(btn);
-        list.appendChild(li);
-      });
-      detailsDiv.appendChild(list);
-    }
-    if (data.cited_by && data.cited_by.length) {
-      const h3 = document.createElement('h3');
-      h3.textContent = 'Cited By';
-      detailsDiv.appendChild(h3);
-      const list = document.createElement('ul');
-      data.cited_by.forEach((cid) => {
-        const li = document.createElement('li');
-        const btn = document.createElement('button');
-        btn.textContent = `Case ${cid}`;
-        btn.addEventListener('click', () => {
-          loadCase(cid);
-          const params = new URLSearchParams(window.location.search);
-          params.set('case', cid);
-          history.pushState(null, '', `${window.location.pathname}?${params.toString()}`);
-        });
-        li.appendChild(btn);
-        list.appendChild(li);
-      });
-      detailsDiv.appendChild(list);
+      const a = document.createElement('a');
+      a.href = data.plain_text;
+      a.textContent = 'Plain Text';
+      a.target = '_blank';
+      detailsDiv.appendChild(a);
     }
   } catch (err) {
     console.error('Case load failed', err);
