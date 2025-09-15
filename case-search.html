@@ -108,7 +108,7 @@ async function runSearch(params) {
   resultsDiv.textContent = 'Searching...';
   detailsDiv.innerHTML = '';
   try {
-    const res = await fetch(`/api/search?${params.toString()}`);
+    const res = await fetch(`api/search?${params.toString()}`);
     if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
     const data = await res.json();
     renderResults(data);
@@ -149,7 +149,7 @@ async function loadCase(id) {
   resultsDiv.innerHTML = '';
   detailsDiv.textContent = 'Loading case...';
   try {
-    const res = await fetch(`/api/cases/${id}`);
+      const res = await fetch(`api/cases/${id}`);
     if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
     const data = await res.json();
     detailsDiv.innerHTML = '';
