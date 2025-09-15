@@ -3,6 +3,8 @@
   padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
 }
 
 .card h3 {
@@ -10,9 +12,9 @@
   color: #1d3557;
 }
 
-.card a {
-  color: #457b9d;
-  text-decoration: none;
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
 .meta {
