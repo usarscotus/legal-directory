@@ -992,3 +992,42 @@ li:hover .line-tools {
   background: var(--link-hover-color);
   color: var(--card-inner-bg);
 }
+
+/* Case profile cards */
+#case-cards {
+  margin-top: 1rem;
+}
+
+.case-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.case-card .close-card {
+  position: absolute;
+  top: 0.25rem;
+  right: 0.25rem;
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.case-link {
+  background: none;
+  border: none;
+  color: var(--link-color);
+  cursor: pointer;
+  text-decoration: underline;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0;
+}
+
+.case-link:hover {
+  color: var(--link-hover-color);
+}
