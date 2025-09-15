@@ -2,7 +2,6 @@
 
 import os
 from typing import Any, Dict, Iterable, List
-
 from elasticsearch import Elasticsearch, NotFoundError
 
 ELASTICSEARCH_URL = os.getenv("ELASTICSEARCH_URL", "http://localhost:9200")
