@@ -8,13 +8,15 @@ breadcrumb_parent_url: /
 
 <h1>SCOTUS Case Search</h1>
 
-<section id="category-section">
-  <h2>Browse by Topic</h2>
-  <div id="categories" class="category-buttons"></div>
-</section>
-
 <form id="search-form">
-  <input id="query" placeholder="Search case names or text…" required />
+  <input id="query" placeholder="Search case names or text…" />
+  <input id="litigant" placeholder="Litigant" />
+  <input id="term" placeholder="Term" />
+  <input id="year" type="number" placeholder="Year" min="1800" />
+  <input id="keywords" placeholder="Keywords (comma-separated)" />
+  <select id="category">
+    <option value="">Any Category</option>
+  </select>
   <button type="submit">Search</button>
 </form>
 
@@ -22,70 +24,94 @@ breadcrumb_parent_url: /
 <div id="case-details"></div>
 
 <script>
-
-const CL_TOKEN = '8671b4a853776a65c3d1393858c138e4951a246e';
-
 const categories = [
-  { code: 1, label: 'Criminal Procedure' },
-  { code: 2, label: 'Civil Rights' },
-  { code: 3, label: 'First Amendment' },
-  { code: 4, label: 'Due Process' },
-  { code: 5, label: 'Privacy' },
-  { code: 6, label: 'Attorneys' },
-  { code: 7, label: 'Unions' },
-  { code: 8, label: 'Economic Activity' },
-  { code: 9, label: 'Judicial Power' },
-  { code: 10, label: 'Federalism' },
-  { code: 11, label: 'Interstate Relations' },
-  { code: 12, label: 'Federal Taxation' },
-  { code: 13, label: 'Miscellaneous' },
-  { code: 14, label: 'Private Action' }
+  { code: '1', label: 'Criminal Procedure' },
+  { code: '2', label: 'Civil Rights' },
+  { code: '3', label: 'First Amendment' },
+  { code: '4', label: 'Due Process' },
+  { code: '5', label: 'Privacy' },
+  { code: '6', label: 'Attorneys' },
+  { code: '7', label: 'Unions' },
+  { code: '8', label: 'Economic Activity' },
+  { code: '9', label: 'Judicial Power' },
+  { code: '10', label: 'Federalism' },
+  { code: '11', label: 'Interstate Relations' },
+  { code: '12', label: 'Federal Taxation' },
+  { code: '13', label: 'Miscellaneous' },
+  { code: '14', label: 'Private Action' },
 ];
 
 const form = document.getElementById('search-form');
 const resultsDiv = document.getElementById('results');
 const detailsDiv = document.getElementById('case-details');
-const categoryDiv = document.getElementById('categories');
+const categorySelect = document.getElementById('category');
 
+// populate category select
 categories.forEach((cat) => {
-  const btn = document.createElement('button');
-  btn.type = 'button';
-  btn.className = 'category-btn';
-  btn.textContent = cat.label;
-  btn.addEventListener('click', () => {
-    runSearch(`scdb_issue_area=${cat.code}`);
-  });
-  categoryDiv.appendChild(btn);
+  const opt = document.createElement('option');
+  opt.value = cat.code;
+  opt.textContent = cat.label;
+  categorySelect.appendChild(opt);
 });
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
+  const params = new URLSearchParams();
   const q = document.getElementById('query').value.trim();
-  if (!q) return;
-  // CourtListener expects `search` for full-text queries
-  runSearch(`search=${encodeURIComponent(q)}`);
+  if (q) params.set('q', q);
+  const category = categorySelect.value;
+  if (category) params.set('category', category);
+  const term = document.getElementById('term').value.trim();
+  if (term) params.set('term', term);
+  const year = document.getElementById('year').value.trim();
+  if (year) params.set('year', year);
+  const litigant = document.getElementById('litigant').value.trim();
+  if (litigant) params.set('litigant', litigant);
+  const keywords = document.getElementById('keywords').value
+    .split(',')
+    .map((k) => k.trim())
+    .filter(Boolean);
+  keywords.forEach((kw) => params.append('keywords', kw));
+  runSearch(params);
+  history.pushState(null, '', `${window.location.pathname}?${params.toString()}`);
 });
 
-function buildHeaders() {
-  return {
-    'User-Agent': 'USARLegalDirectory/1.0 (+https://github.com/USARscotus/legal-directory)',
-    'Authorization': `Token ${CL_TOKEN}`,
-  };
+window.addEventListener('popstate', initFromUrl);
+
+function initFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  const caseId = params.get('case');
+  if (caseId) {
+    loadCase(caseId);
+    return;
+  }
+  ['q','category','term','year','litigant'].forEach((key) => {
+    const val = params.get(key);
+    if (val) {
+      const elemId = key === 'q' ? 'query' : key;
+      const el = document.getElementById(elemId);
+      if (el) el.value = val;
+    }
+  });
+  const kwVals = params.getAll('keywords');
+  if (kwVals.length) {
+    document.getElementById('keywords').value = kwVals.join(', ');
+  }
+  if (params.toString()) {
+    runSearch(params);
+  }
 }
 
-async function runSearch(queryString) {
+initFromUrl();
+
+async function runSearch(params) {
   resultsDiv.textContent = 'Searching...';
   detailsDiv.innerHTML = '';
   try {
-    const url = `https://www.courtlistener.com/api/rest/v3/opinions/?${queryString}&court=scotus&order_by=date_filed`;
-    const res = await fetch(url, { headers: buildHeaders() });
+    const res = await fetch(`/api/search?${params.toString()}`);
     if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
     const data = await res.json();
-    if (!data.results || !Array.isArray(data.results) || !data.results.length) {
-      resultsDiv.textContent = 'No cases found.';
-      return;
-    }
-    renderResults(data.results);
+    renderResults(data);
   } catch (err) {
     console.error('Search failed', err);
     resultsDiv.textContent = `Unable to fetch results: ${err.message}`;
@@ -94,22 +120,26 @@ async function runSearch(queryString) {
 
 function renderResults(cases) {
   resultsDiv.innerHTML = '';
-  if (!cases.length) {
+  if (!cases || !cases.length) {
     resultsDiv.textContent = 'No cases found.';
     return;
   }
   const ul = document.createElement('ul');
-  cases.forEach((op) => {
+  cases.forEach((c) => {
     const li = document.createElement('li');
-    const link = document.createElement('a');
-    const name = op.case_name || op.citation || `Case ${op.id}`;
-    link.href = '#';
-    link.textContent = `${name} (${op.date_filed || 'n.d.'})`;
-    link.addEventListener('click', (evt) => {
-      evt.preventDefault();
-      loadCase(op.id);
+    const btn = document.createElement('button');
+    btn.textContent = `${c.title}${c.citation ? ' – ' + c.citation : ''}`;
+    btn.addEventListener('click', () => {
+      loadCase(c.id);
+      const params = new URLSearchParams(window.location.search);
+      params.set('case', c.id);
+      history.pushState(null, '', `${window.location.pathname}?${params.toString()}`);
     });
-    li.appendChild(link);
+    li.appendChild(btn);
+    const meta = document.createElement('div');
+    const date = c.date || (c.year ? c.year.toString() : 'n.d.');
+    meta.textContent = `Decided: ${date}${c.vote ? ' | Vote: ' + c.vote : ''}`;
+    li.appendChild(meta);
     ul.appendChild(li);
   });
   resultsDiv.appendChild(ul);
@@ -119,36 +149,71 @@ async function loadCase(id) {
   resultsDiv.innerHTML = '';
   detailsDiv.textContent = 'Loading case...';
   try {
-    const res = await fetch(`https://www.courtlistener.com/api/rest/v3/opinions/${id}/`, { headers: buildHeaders() });
+    const res = await fetch(`/api/cases/${id}`);
     if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
     const data = await res.json();
     detailsDiv.innerHTML = '';
-    const title = data.case_name || data.citation || `Case ${id}`;
     const header = document.createElement('h2');
-    header.textContent = title;
+    header.textContent = `${data.title}${data.citation ? ' – ' + data.citation : ''}`;
     detailsDiv.appendChild(header);
     const meta = document.createElement('p');
-    meta.textContent = `Decided: ${data.date_filed || 'Unknown'}`;
+    const datePart = data.date ? `Decided: ${data.date}` : 'Decided: Unknown';
+    const votePart = data.vote ? ` | Vote: ${data.vote}` : '';
+    meta.textContent = `${datePart}${votePart}`;
     detailsDiv.appendChild(meta);
-    if (data.cites_to && data.cites_to.length) {
+    if (data.opinions && data.opinions.length) {
       const h3 = document.createElement('h3');
-      h3.textContent = 'Citations';
+      h3.textContent = 'Opinions';
       detailsDiv.appendChild(h3);
       const list = document.createElement('ul');
-      data.cites_to.forEach((cite) => {
-        if (cite.opinions && cite.opinions.length) {
-          const citedId = cite.opinions[0];
-          const li = document.createElement('li');
-          const a = document.createElement('a');
-          a.href = '#';
-          a.textContent = cite.cite;
-          a.addEventListener('click', (e) => {
-            e.preventDefault();
-            loadCase(citedId);
-          });
-          li.appendChild(a);
-          list.appendChild(li);
-        }
+      data.opinions.forEach((url) => {
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = url;
+        a.textContent = url;
+        a.target = '_blank';
+        li.appendChild(a);
+        list.appendChild(li);
+      });
+      detailsDiv.appendChild(list);
+    }
+    if (data.cites && data.cites.length) {
+      const h3 = document.createElement('h3');
+      h3.textContent = 'Cites To';
+      detailsDiv.appendChild(h3);
+      const list = document.createElement('ul');
+      data.cites.forEach((cid) => {
+        const li = document.createElement('li');
+        const btn = document.createElement('button');
+        btn.textContent = `Case ${cid}`;
+        btn.addEventListener('click', () => {
+          loadCase(cid);
+          const params = new URLSearchParams(window.location.search);
+          params.set('case', cid);
+          history.pushState(null, '', `${window.location.pathname}?${params.toString()}`);
+        });
+        li.appendChild(btn);
+        list.appendChild(li);
+      });
+      detailsDiv.appendChild(list);
+    }
+    if (data.cited_by && data.cited_by.length) {
+      const h3 = document.createElement('h3');
+      h3.textContent = 'Cited By';
+      detailsDiv.appendChild(h3);
+      const list = document.createElement('ul');
+      data.cited_by.forEach((cid) => {
+        const li = document.createElement('li');
+        const btn = document.createElement('button');
+        btn.textContent = `Case ${cid}`;
+        btn.addEventListener('click', () => {
+          loadCase(cid);
+          const params = new URLSearchParams(window.location.search);
+          params.set('case', cid);
+          history.pushState(null, '', `${window.location.pathname}?${params.toString()}`);
+        });
+        li.appendChild(btn);
+        list.appendChild(li);
       });
       detailsDiv.appendChild(list);
     }
