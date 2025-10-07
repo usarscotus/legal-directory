@@ -36,7 +36,6 @@ document.addEventListener('DOMContentLoaded', function() {
     navigator.clipboard.writeText(ruleCitationBase);
   });
   titleEl.appendChild(citeBtn);
-  });
 
   function extractCitationPart(el) {
     const parts = [];
