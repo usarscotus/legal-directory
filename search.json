@@ -3,14 +3,21 @@ layout: null
 permalink: /search.json
 ---
 [
-{% assign docs = site.html_pages %}
-{% assign valid_docs = "" | split: "" %}
-{% for doc in docs %}
-  {% unless doc.layout == "page" or doc.search_exclude == true %}
-    {% assign valid_docs = valid_docs | push: doc %}
+{% assign combined_docs = "" | split: "" %}
+{% for doc in site.html_pages %}
+  {% unless doc.search_exclude == true %}
+    {% assign combined_docs = combined_docs | push: doc %}
   {% endunless %}
 {% endfor %}
-{% for doc in valid_docs %}
+{% for collection in site.collections %}
+  {% for doc in collection.docs %}
+    {% unless doc.search_exclude == true %}
+      {% assign combined_docs = combined_docs | push: doc %}
+    {% endunless %}
+  {% endfor %}
+{% endfor %}
+{% assign unique_docs = combined_docs | uniq %}
+{% for doc in unique_docs %}
   {% assign parts = doc.url | downcase | split: '/' %}
   {% assign section = "" %}
   {% for p in parts %}

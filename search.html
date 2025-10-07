@@ -66,7 +66,9 @@ breadcrumb_parent_url: /
 
         const filtered = results.filter(r => {
             const match = docMap[r.ref];
-            return match && selected.includes(match.collection);
+            if (!match) return false;
+            if (!match.collection) return true;
+            return selected.includes(match.collection);
         });
 
         if (filtered.length > 0) {
