@@ -34,6 +34,42 @@ breadcrumb_parent_url: /
     align-items: center;
     gap: 0.25rem;
   }
+
+  .search-results-list {
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem 0 0;
+  }
+
+  .search-result {
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;
+  }
+
+  .search-result:first-child {
+    padding-top: 0;
+  }
+
+  .search-result:last-child {
+    border-bottom: 0;
+  }
+
+  .search-result a {
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 0.25rem;
+  }
+
+  .search-result-meta {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+
+  .search-result-snippet {
+    margin: 0;
+    color: #222;
+  }
   @media (max-width: 600px) {
     #search-filters {
       flex-direction: column;
@@ -53,6 +89,28 @@ breadcrumb_parent_url: /
     let docMap = {};
     let idx;
 
+    function createSnippet(content, term) {
+        if (!content || !term) return "";
+
+        const lowerContent = content.toLowerCase();
+        const lowerTerm = term.toLowerCase();
+        const index = lowerContent.indexOf(lowerTerm);
+        const snippetLength = 160;
+
+        if (index === -1) {
+            return content.length > snippetLength ? `${content.slice(0, snippetLength).trim()}…` : content;
+        }
+
+        const start = Math.max(0, index - Math.floor(snippetLength / 2));
+        const end = Math.min(content.length, start + snippetLength);
+        let snippet = content.slice(start, end).trim();
+
+        if (start > 0) snippet = `…${snippet}`;
+        if (end < content.length) snippet = `${snippet}…`;
+
+        return snippet;
+    }
+
     function performSearch() {
         if (!idx) return;
         const selected = filterInputs.filter(cb => cb.checked).map(cb => cb.value);
@@ -66,35 +124,55 @@ breadcrumb_parent_url: /
 
         const filtered = results.filter(r => {
             const match = docMap[r.ref];
-            return match && selected.includes(match.collection);
+            if (!match) return false;
+            if (!match.collection) return true;
+            return selected.includes(match.collection);
         });
 
-        if (filtered.length > 0) {
-            count.textContent = `${filtered.length} result${filtered.length !== 1 ? "s" : ""} found for “${query}”`;
-
-            const grouped = {};
-            filtered.forEach(result => {
-                const match = docMap[result.ref];
-                const parent = match.breadcrumb_parent || "Other";
-                if (!grouped[parent]) grouped[parent] = [];
-                grouped[parent].push(match);
+        const seen = new Set();
+        const uniqueMatches = filtered
+            .map(result => docMap[result.ref])
+            .filter(Boolean)
+            .filter(match => {
+                if (seen.has(match.url)) return false;
+                seen.add(match.url);
+                return true;
             });
 
-            for (const parent in grouped) {
-                const header = document.createElement("h2");
-                header.textContent = parent;
-                container.appendChild(header);
+        if (uniqueMatches.length > 0) {
+            count.textContent = `${uniqueMatches.length} result${uniqueMatches.length !== 1 ? "s" : ""} found for “${query}”`;
 
-                const list = document.createElement("ul");
-                grouped[parent].forEach(match => {
-                    const item = document.createElement("li");
-                    item.innerHTML = `<a href="${match.url}">${match.title}</a>`;
-                    list.appendChild(item);
-                });
+            const list = document.createElement("ul");
+            list.className = "search-results-list";
 
-                container.appendChild(list);
-            }
+            uniqueMatches.forEach(match => {
+                const item = document.createElement("li");
+                item.className = "search-result";
 
+                const titleLink = document.createElement("a");
+                titleLink.href = match.url;
+                titleLink.textContent = match.title || match.url;
+                item.appendChild(titleLink);
+
+                if (match.breadcrumb_parent) {
+                    const meta = document.createElement("div");
+                    meta.className = "search-result-meta";
+                    meta.textContent = match.breadcrumb_parent;
+                    item.appendChild(meta);
+                }
+
+                const snippetText = createSnippet(match.content, query);
+                if (snippetText) {
+                    const snippet = document.createElement("p");
+                    snippet.className = "search-result-snippet";
+                    snippet.textContent = snippetText;
+                    item.appendChild(snippet);
+                }
+
+                list.appendChild(item);
+            });
+
+            container.appendChild(list);
         } else {
             count.textContent = `No results found for “${query}”`;
         }
