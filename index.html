@@ -1,269 +1,36 @@
----
-layout: page
-title: Home
-show_breadcrumbs: false
----
-
-<section class="homepage-section">
-  <h1>Welcome to USAR's Legal Directory</h1>
-  <p>This directory provides access to essential legal resources, including federal rules, court procedures, and
-    educational materials. We also provide learning resources for those seeking to learn more about specific topics of
-    law in USAR and real life.</p>
-  <p>USAR primarily uses real life Federal Rules and other legal materials, but we have some caveats. So, we host a
-    fully modified version of the Federal Rules here on this website.</p>
-  <p>This website is created and maintained by the USAR Supreme Court.</p>
-  <p><a href="{{ site.baseurl }}/case-search.html" class="case-search-button">SCOTUS Case Search</a> – browse Supreme Court cases and explore citation relationships without running your own server.</p>
-
-
-  <section class="homepage-section docket-section">
-    <div class="docket-columns">
-
-      <!-- Supreme Court Column -->
-      <div class="docket-column">
-        <h3 class="docket-header">Supreme Court Docket</h3>
-        <div id="docket-cards-supreme" class="docket-scroll">
-          <!-- Supreme Court cards will load here -->
-        </div>
-        <p id="docket-error-supreme" class="docket-error hidden">Unable to load docket data. Please try again later.</p>
-      </div>
-
-      <!-- District Court Column -->
-      <div class="docket-column">
-        <h3 class="docket-header">District Court Docket</h3>
-        <div id="docket-cards-district" class="docket-scroll">
-          <!-- District Court cards will load here -->
-        </div>
-        <p id="docket-error-district" class="docket-error hidden">Unable to load docket data. Please try again later.</p>
-      </div>
-
-    </div>
-  </section>
-
-
-  <div class="resource-grid">
-    <div class="resource-column">
-      <h2>Legal Resources</h2>
-      <ul>
-        <li><a href="https://www.law.cornell.edu/uscode/text">U.S. Code</a></li>
-        <li><a href="{{ site.baseurl }}/frap/">Federal Rules of Appellate Procedure</a></li>
-        <li><a href="{{ site.baseurl }}/frcp/">Federal Rules of Civil Procedure</a></li>
-        <li><a href="{{ site.baseurl }}/frcmp/">Federal Rules of Criminal Procedure</a></li>
-        <li><a href="{{ site.baseurl }}/fre/">Federal Rules of Evidence</a></li>
-        <li><a href="{{ site.baseurl }}/supct/">U.S. Supreme Court Rules</a></li>
-        <li><a href="{{ site.baseurl }}/docs/">Document Library</a></li>
-      </ul>
-    </div>
-
-    <div class="resource-column">
-      <h2>Discord Servers</h2>
-      <ul>
-        <li><a href="https://discord.gg/J8qQA62KZK">United States Supreme Court</a></li>
-        <li><a href="https://discord.gg/yK7e8BAGSa">United States District Court</a></li>
-        <li><a href="https://discord.gg/fknPvcCfFp">Uniform Legal Practice Authority</a></li>
-        <li><a href="https://discord.gg/BDjwjUPHmx">Department of Justice</a></li>
-        <li><a href="https://discord.gg/NBSrA88yJ3">House of Representatives</a></li>
-        <li><a href="https://discord.gg/h2ukxdHFrJ">United States Senate</a></li>
-      </ul>
-    </div>
-
-    <div class="resource-column">
-      <h2>Learning Resources</h2>
-      <ul>
-        <li><a href="https://www.law.cornell.edu/wex/administrative_law">Administrative Law</a></li>
-        <li><a href="https://www.law.cornell.edu/wex/constitutional_law">Constitutional Law</a></li>
-        <li><a href="https://www.law.cornell.edu/wex/category/criminal-law-and-procedure">Criminal Law Dictionary</a>
-        </li>
-        <li><a href="https://www.law.cornell.edu/wex/category/courts_and_procedure">Courts and Procedure</a></li>
-        <li><a href="https://www.oyez.org/issues">Supreme Court Decisions by Topic</a></li>
-        <li><a href="https://www.law.cornell.edu/wex/legislation">Legislation</a></li>
-      </ul>
-    </div>
-
-  </div>
-</section>
-
-
-
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const supremeContainer = document.getElementById("docket-cards-supreme");
-    const districtContainer = document.getElementById("docket-cards-district");
-
-    const renderLabels = (labels = []) => {
-      return labels.map(label => {
-        const color = label.color || "gray";
-        return `<span class="docket-label label-${color}">${label.name}</span>`;
-      }).join(" ");
-    };
-
-    const formatDescription = (desc) => {
-      if (!desc || desc.trim() === "") return "";
-
-      let cleaned = desc;
-
-      // Remove escaped markdown characters like \* or \>
-      cleaned = cleaned.replace(/\\([*_`>])/g, "$1");
-
-      // Remove leading > symbols
-      cleaned = cleaned.replace(/^\s*>+\s?/gm, "");
-
-      // 🚫 Remove fully decorative lines or lines wrapped in decorations like:
-      // ----- No. CR-xxx -----
-      cleaned = cleaned.replace(/^[\s\-_*~`=]{0,5}[-_*~`=]{5,}.*[-_*~`=]{5,}[\s\-_*~`=]{0,5}$/gm, "");
-
-      // Convert markdown links
-      cleaned = cleaned.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>');
-
-      // Bold: **text**
-      cleaned = cleaned.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
-
-      // Italics: *text* or _text_
-      cleaned = cleaned.replace(/(^|[^\*])\*([^*]+)\*/g, '$1<em>$2</em>');
-      cleaned = cleaned.replace(/(^|[^_])_([^_]+)_/g, '$1<em>$2</em>');
-
-      // Remove markdown backticks
-      cleaned = cleaned.replace(/`([^`]+)`/g, "$1");
-
-      // Convert - or * bullets to •
-      cleaned = cleaned.replace(/^\s*[-*•]\s+/gm, "• ");
-
-      cleaned = cleaned.replace(/-/g, "");
-
-      // Final cleanup: remove extra lines
-      return cleaned
-        .split(/\n|\\n/)
-        .map(line => line.trim())
-        .filter(line => line.length > 0)
-        .map(line => `<p>${line}</p>`)
-        .join("");
-    };
-
-    const renderCard = (card, container) => {
-      if (!card.labels || card.labels.length === 0) return; // skip cards with no labels
-
-      const labelHTML = renderLabels(card.labels);
-      const fullDesc = formatDescription(card.desc || "");
-      const showShort = fullDesc.split("</p>")[0] + "</p>";
-      const descId = `desc-${card.id}`;
-
-      const div = document.createElement("div");
-      div.className = "docket-card";
-      div.innerHTML = `
-        <div class="docket-card-entry">
-          ${card.url
-          ? `<a href="${card.url}" class="resource-link" target="_blank">${card.name}</a>`
-          : `<span>${card.name}</span>`}
-        </div>
-        <div class="docket-labels">${labelHTML}</div>
-        <div id="${descId}" class="desc-container">${showShort}</div>
-        ${fullDesc !== showShort
-          ? `<button class="toggle-desc" data-id="${descId}" data-full='${encodeURIComponent(fullDesc)}' data-short='${encodeURIComponent(showShort)}'>Show More</button>`
-          : ""}
-      `;
-
-      container.appendChild(div);
-    };
-
-    const renderList = (container, cards) => {
-      const eligibleCards = cards.filter(c =>
-        c.labels && c.labels.length > 0 &&
-        c.name.trim() &&
-        !["____", "create template"].includes(c.name.trim().toLowerCase()) &&
-        !/^[-_—]+$/.test(c.name.trim())
-      );
-
-      if (eligibleCards.length === 0) {
-        container.innerHTML = `<p class="text-gray-500">No active cases at this time.</p>`;
-        return;
-      }
-
-      eligibleCards.forEach(card => renderCard(card, container));
-    };
-
-    const fetchAndRenderBoard = (boardId, container, errorId) => {
-      const errorEl = document.getElementById(errorId);
-      const placeholder = document.createElement("p");
-      placeholder.className = "docket-placeholder";
-      placeholder.textContent = "Loading docket...";
-      container.appendChild(placeholder);
-
-      const controller = new AbortController();
-
-      const slowTimer = setTimeout(() => {
-        placeholder.textContent = "Still loading..."; // delayed response notice
-      }, 3000);
-
-      const abortTimer = setTimeout(() => controller.abort(), 8000);
-
-      const showError = () => {
-        container.innerHTML = "";
-        if (errorEl) {
-          errorEl.textContent = "Unable to load docket data.";
-          errorEl.classList.remove("hidden");
-          if (!errorEl.querySelector("button")) {
-            const retryBtn = document.createElement("button");
-            retryBtn.textContent = "Retry";
-            retryBtn.className = "retry-button";
-            retryBtn.addEventListener("click", () => {
-              errorEl.classList.add("hidden");
-              container.innerHTML = "";
-              fetchAndRenderBoard(boardId, container, errorId);
-            });
-            errorEl.appendChild(retryBtn);
-          }
-        }
-      };
-
-      const loadFallback = () => {
-        fetch("assets/docket-fallback.json")
-          .then(res => res.json())
-          .then(data => {
-            const cards = data[boardId] || [];
-            if (cards.length > 0) {
-              renderList(container, cards);
-            } else {
-              showError();
-            }
-          })
-          .catch(showError);
-      };
-
-      fetch(`https://api.trello.com/1/boards/${boardId}/lists?cards=open&card_fields=name,desc,url,labels&fields=name`, { signal: controller.signal })
-        .then(res => res.json())
-        .then(lists => {
-          const matchingLists = lists.filter(list => list.name.toLowerCase().includes("docket"));
-          const cards = matchingLists.flatMap(list => list.cards || []);
-          if (cards.length > 0) {
-            renderList(container, cards);
-          } else {
-            loadFallback();
-          }
-        })
-        .catch(loadFallback)
-        .finally(() => {
-          clearTimeout(slowTimer);
-          clearTimeout(abortTimer);
-          placeholder.remove();
-        });
-    };
-
-    // Load both boards
-    fetchAndRenderBoard("MMA90mFH", supremeContainer, "docket-error-supreme");
-    fetchAndRenderBoard("rbISqlOt", districtContainer, "docket-error-district");
-
-    // Toggle expandable description
-    document.addEventListener("click", (e) => {
-      if (!e.target.classList.contains("toggle-desc")) return;
-      const btn = e.target;
-      const target = document.getElementById(btn.dataset.id);
-      const isExpanded = target.classList.contains("expanded");
-
-      target.innerHTML = isExpanded
-        ? decodeURIComponent(btn.dataset.short)
-        : decodeURIComponent(btn.dataset.full);
-
-      target.classList.toggle("expanded", !isExpanded);
-      btn.textContent = isExpanded ? "Show More" : "Show Less";
-    });
-  });
-</script>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>United States Courts — This site has moved</title>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="The USAR Legal Directory has moved to the United States Courts website.">
+  <link id="canonical-link" rel="canonical" href="https://nationalarchivesusar.github.io/courts/">
+  <meta http-equiv="refresh" content="3; url=https://nationalarchivesusar.github.io/courts/">
+  <style>
+    :root { color-scheme: light dark; font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    body { min-height: 100vh; display: grid; place-items: center; margin: 0; padding: 1rem; background: #f5f2eb; color: #20242a; }
+    main { width: min(38rem, 100%); padding: clamp(1.5rem, 5vw, 3rem); background: #fff; border: 1px solid #c9c1b4; border-top: 5px solid #122a49; }
+    p:first-child { margin: 0; color: #254b74; font-size: .76rem; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+    h1 { margin: .35rem 0 .75rem; color: #0a1c33; font-family: Georgia, "Times New Roman", serif; font-size: clamp(2rem, 7vw, 3.1rem); line-height: 1.1; }
+    a { color: #174f83; font-weight: 700; text-underline-offset: .18em; }
+    a:focus-visible { outline: 3px solid #d39425; outline-offset: 3px; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #111821; color: #f1eee7; }
+      main { background: #18222e; border-color: #536170; }
+      h1 { color: #fff; }
+      p:first-child, a { color: #9dcdf7; }
+    }
+  </style>
+  <script src="/legal-directory/redirect.js" defer></script>
+</head>
+<body>
+  <main>
+    <p>Site relocation</p>
+    <h1>This site has moved.</h1>
+    <p>The former USAR Legal Directory is now part of the <strong>United States Courts</strong> public website.</p>
+    <p>You will be redirected to the corresponding page. If the redirect does not begin, <a id="redirect-link" href="https://nationalarchivesusar.github.io/courts/">continue to United States Courts</a>.</p>
+  </main>
+</body>
+</html>
